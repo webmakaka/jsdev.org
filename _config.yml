@@ -1,0 +1,11 @@
+# Site settings
+title: jsdev.org
+description: Website about javascript development with Angular.js, Node.js, jQuery, Mongodb, Docker, Linux and etc.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://jsdev.org" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-sitemap

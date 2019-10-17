@@ -1,0 +1,21 @@
+[Unit]
+Description=jsdev.org
+
+Requires=docker.service
+After=docker.service
+
+[Service]
+
+Restart=always
+TimeoutStartSec=0
+ExecStartPre=-/usr/bin/docker kill jsdev.org
+ExecStartPre=-/usr/bin/docker rm jsdev.org
+ExecStartPre=-/usr/bin/docker pull marley/jsdev.org:latest
+ExecStart=/bin/sh -c '/usr/bin/docker run --name jsdev.org   \
+ -p 4007:80                        \
+ marley/jsdev.org'
+ExecStop=-/usr/bin/docker kill jsdev.org
+ExecStop=-/usr/bin/docker rm jsdev.org
+
+[Install]
+WantedBy=multi-user.target
