@@ -16,15 +16,6 @@ If you are interesting in JS and JS frameworks you can join to our <a href="/cha
 
 All materials about video courses and books for study javascript we collect <a href="//labs.jsdev.org">here</a>.
 
-<br/>
-
-### I have an issue with deployment node/react application in kubernetes cluster
-
-Information about issue:  
-https://t.me/justmeandopensourcegroup/35
-
-If you know how to solve issue, please assist.
-
 
 <br/>
 
