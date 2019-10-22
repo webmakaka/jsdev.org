@@ -1,10 +1,10 @@
 ---
 layout: page
-title: JavaScript Open Source Projects
-permalink: /src/
+title: JavaScript Code Examples
+permalink: /codes/
 ---
 
-# JavaScript Open Source Projects
+# JavaScript Code Examples
 
 <br/>
 
@@ -40,7 +40,7 @@ http://todomvc.com/
 
 ### [React.js]
 
-[here](/src/react/)
+[here](/codes/react/)
 
 <br/>
 

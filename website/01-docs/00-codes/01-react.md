@@ -1,10 +1,10 @@
 ---
 layout: page
-title: JavaScript Open Source Projects - react
-permalink: /src/react/
+title: JavaScript React Code Examples
+permalink: /codes/react/
 ---
 
-# React.js examples
+# JavaScript React Code Examples
 
 <br/>
 

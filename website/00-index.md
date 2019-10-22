@@ -8,22 +8,22 @@ permalink: /
 
 <br/>
 
-Hello, I am Marley (nicname)!<br/>
+Hello, I am Marley (nicname) and I am from Russia!<br/>
 Here I am planning collect materials, that can help me in my JS projects.<br/>
-If you are interesting in JS and JS frameworks you can add some useful samples.<br/>
-May be it can help someone in the future.<br/>
-
-<br/>
-
-OpenSource project with codes on bitbucket.
-
-<br/>
-
-Please correct my english grammar! My native language is russian! And unfortunately I studied german in the school.
+If you are interesting in JS and JS frameworks you can join to our <a href="/chat/">telegram group</a>.
 
 <br/>
 
 All materials about video courses and books for study javascript we collect <a href="//labs.jsdev.org">here</a>.
+
+<br/>
+
+### I have an issue with deployment node/react application in kubernetes cluster
+
+Information about issue:  
+https://t.me/justmeandopensourcegroup/35
+
+If you know how to solve issue, please assist.
 
 
 <br/>
@@ -46,31 +46,3 @@ All materials about video courses and books for study javascript we collect <a h
     <iframe width="853" height="480" src="https://www.youtube.com/embed/UnTQVlqmDQ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-
-<br/>
-
-### Introduction to Node.js (Free VideoCourse by Microsoft)
-
-<br/>
-
-The ultimate beginner guide to creating web applications using Node.js, Express and MongoDB.
-
-<br/>
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/h0xUMYgiiAA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-<a href="https://www.edx.org/course/introduction-to-nodejs-4" rel="nofollow">link</a>
-
-<br/>
-
-### [Traversy Media] Top 5 JavaScript Frameworks 2017
-
-<div align="center">
-
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/_vL8s5ayuFk" frameborder="0" allowfullscreen></iframe>
-
-</div>
