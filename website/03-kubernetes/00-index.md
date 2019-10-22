@@ -9,7 +9,7 @@ permalink: /kubernetes/
 
 <div align="center">
 
-    <iframe width="853" height="480 src="https://www.youtube.com/embed/videoseries?list=PL34sAs7_26wNBRWM6BDhnonoA5FMERax0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="853" height="480 src="https://www.youtube.com/embed/videoseries?list=PL34sAs7_26wNBRWM6BDhnonoA5FMERax0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
 
