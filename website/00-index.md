@@ -16,7 +16,6 @@ If you are interesting in JS and JS frameworks you can join to our <a href="/cha
 
 All materials about video courses and books for study javascript we collect <a href="//labs.jsdev.org">here</a>.
 
-
 <br/>
 
 <div align="center">
@@ -31,9 +30,16 @@ All materials about video courses and books for study javascript we collect <a h
 
 <br/>
 
+### [Traversy Media] 20+ Developer YouTube Channels To Follow
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/BZRLKDlSaAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ### [Traversy Media] Web Development In 2019 - A Practical Guide
 
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/UnTQVlqmDQ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
-

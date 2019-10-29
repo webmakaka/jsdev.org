@@ -6,6 +6,9 @@ permalink: /kubernetes/
 
 # Best Materials for Study Kubernetes on Local Host
 
+<br/>
+
+### Just me and open source
 
 <div align="center">
 
@@ -15,6 +18,18 @@ permalink: /kubernetes/
 
 <br/>
 
-**Telegram group for discussions kubernetes:**  
+**Telegram group for discussions kubernetes:**
 
 https://t.me/justmeandopensourcegroup
+
+<br/>
+
+### (Possible also can be interesting) Marcel Dempers - DevOpsGuy
+
+<br/>
+
+<div align="center">
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/8h4FoWK7tIA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
