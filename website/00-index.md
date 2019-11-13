@@ -30,6 +30,14 @@ All materials about video courses and books for study javascript we collect <a h
 
 <br/>
 
+### [Academind, Maximilian Schwarzmüller] JavaScript Tutorial for Beginners - Crash Course 2020
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/2qDywOS7VAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ### [Traversy Media] 20+ Developer YouTube Channels To Follow
 
 <div align="center">

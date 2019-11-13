@@ -8,7 +8,7 @@ permalink: /env/ide/vscode/
 
 code.visualstudio.com
 
-Add ESLint & Prettier to VS Code for a Create React App  
+**Add ESLint & Prettier to VS Code for a Create React App**  
 https://www.youtube.com/watch?v=bfyI9yl3qfE
 
 <br/>
@@ -63,8 +63,17 @@ Highlight Matching Tag
 
 **React:**
 
+<!--
+
 - Simple React Snippets
-- ES7 React/Redux/React-Native/JS snippets
+
+-->
+
+- Reactjs code snippets publisher:"charalampos karypidis"
+
+<!--
+ES7 React/Redux/GraphQL/React-Native snippets
+-->
 
 <br/>
 
