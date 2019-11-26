@@ -8,6 +8,43 @@ permalink: /codes/
 
 <br/>
 
+### [Udemy] The React practice course, learn by building projects [2018, ENG]
+
+**src:**
+
+https://github.com/marley-nodejs/The-React-Practice-Course-Learn-by-Building-Projects
+
+<br/>
+
+```
+// run project 1
+$ docker run -it \
+ -p 80:8080 \
+ techhead/react-practice-course-project1
+```
+
+<br/>
+
+```
+// run project 2
+$ docker run -it \
+ -p 80:8080 \
+ techhead/react-practice-course-project2
+```
+
+<br/>
+
+```
+// run project 3
+in develpment
+```
+
+<br/>
+
+[Other React apps](/codes/react/)
+
+<br/>
+
 ### Free opensource eshop React + NodeJs + MongoDB!
 
 https://github.com/cezerin2  
@@ -35,12 +72,6 @@ http://todomvc.com/
 <ul>
     <li><a href="https://github.com/marley-html" rel="nofollow">HTML Templates</a></li>
 </ul> -->
-
-<br/>
-
-### [React.js]
-
-[here](/codes/react/)
 
 <br/>
 

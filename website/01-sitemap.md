@@ -108,6 +108,12 @@ Grunt || <a href="/tasks-runner/gulp/">Gulp</a>
 <a href="/containers/">Containers</a>
 
 <br/>
+
+### Container Registry Services
+
+github container registry || hub.docker.com || quay.io
+
+<br/>
 <hr/>
 
 ## Clouds
@@ -125,7 +131,7 @@ Sonarqube
 
 ## Continious Integration
 
-gitlab-ci | travis-ci | circleci | jenkins | bamboo ci
+github actions | gitlab-ci | travis-ci | jenkins | bamboo ci | circleci
 
 <br/>
 
