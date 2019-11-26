@@ -24,7 +24,7 @@ All materials about video courses and books for study javascript we collect <a h
 
 ### [YouTube, The Net Ninja] React Native Tutorial
 
-**Hope this guy will teach me with react native**
+**Hope this guy will teach me react native**
 
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -37,12 +37,12 @@ All materials about video courses and books for study javascript we collect <a h
 **Looks like i should study it**
 
 <div align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <br/>
 
-### Programming Notes for Professionals (Free)
+### Programming Notes for Professionals (Free Materials)
 
 <table>
 <tr>
