@@ -63,17 +63,15 @@ Highlight Matching Tag
 
 **React:**
 
-<!--
+- Reactjs code snippets publisher:"charalampos karypidis" (My Favourite)
+
+or
 
 - Simple React Snippets
 
--->
+or
 
-- Reactjs code snippets publisher:"charalampos karypidis"
-
-<!--
-ES7 React/Redux/GraphQL/React-Native snippets
--->
+- ES7 React/Redux/GraphQL/React-Native snippets
 
 <br/>
 
