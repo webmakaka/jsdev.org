@@ -91,6 +91,13 @@ Grunt || <a href="/tasks-runner/gulp/">Gulp</a>
 <br/>
 <hr/>
 
+## Easy Dev & Deploy
+
+<a href="https://www.youtube.com/watch?v=FMhVXOA54x8">Netlify</a>
+
+<br/>
+<hr/>
+
 ### DataBases
 
 <a href="/databases/">DataBases</a>
@@ -138,6 +145,12 @@ github actions | gitlab-ci | travis-ci | jenkins | bamboo ci | circleci
 ## Email Service
 
 SendGrid (commercial)
+
+<br/>
+
+## Image storage
+
+cloudinary.com
 
 <br/>
 

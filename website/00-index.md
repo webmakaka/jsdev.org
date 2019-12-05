@@ -77,10 +77,10 @@ All materials about video courses and books for study javascript we collect <a h
 
 <br/>
 
-### [Traversy Media] Web Development In 2019 - A Practical Guide
+### [Traversy Media] Web Development In 2020 - A Practical Guide
 
 <div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/UnTQVlqmDQ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/0pThnRneDjw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <br/><br/>
