@@ -8,47 +8,9 @@ permalink: /backend/nodejs/
 
 <br/>
 
-### Node Version Manager (NVM) installation on Ubuntu 18.04
+### Node.JS installation
 
-    -- current version
-    https://github.com/creationix/nvm/releases
-
-    -- for node.js installation
-    # apt-get update && apt-get install -qq -y vim git curl net-tools
-    # apt-get install -y node.js
-
-    -- nvm
-
-    -- installation
-    $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-
-    $ export NVM_DIR="$HOME/.nvm"
-    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-    // install latest LTS
-    $ nvm install --lts
-
-or
-
-    -- show possible
-    $ nvm ls-remote
-    
-    // (Latest LTS: Dubnium)
-    $ nvm install v10.16.3
-
-    $ nvm use v10.16.3
-
-    -- set default
-    $ nvm alias default v10.16.3
-
-    $ node --version
-    v10.16.3
-
-    $ nvm install-latest-npm
-
-    $ npm --version
-    6.11.3
+<a href="/env/nodejs/">Node Version Manager (NVM) installation on Ubuntu 18.04</a>
 
 <br/>
 

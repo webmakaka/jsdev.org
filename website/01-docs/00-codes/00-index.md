@@ -36,7 +36,7 @@ $ docker run -it \
 
 ```
 // run project 3
-in develpment
+If you want, use minikube to run app. Instructions in readme.md
 ```
 
 <br/>

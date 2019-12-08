@@ -8,16 +8,6 @@ permalink: /codes/react/
 
 <br/>
 
-### [FrontendMasters] Complete Intro to React v4 && Intermediate React
-
-[Course Notes](https://btholt.github.io/complete-intro-to-react-v4/)
-
-[Code Repository v4](https://github.com/marley-nodejs/complete-intro-to-react-v4)
-
-[Code Repository v3](https://github.com/btholt/complete-intro-to-react)
-
-<br/>
-
 ### React & Webpack 4 From Scratch - No CLI
 
 [React & Webpack 4 From S cratch - No CLI](https://bitbucket.org/marley-react/react-webpack-4-from-scratch-no-cli/)

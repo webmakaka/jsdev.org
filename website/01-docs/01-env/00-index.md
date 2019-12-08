@@ -8,50 +8,32 @@ permalink: /env/
 
 <br/>
 
-### About My Environment
+### My Environment
 
-I'm working on ubuntu linux 14.04 LTS with Docker and my favorite IDE for development is Atom with some plugins. No more anything need for comfort development.
+I'm working on ubuntu linux 18.04 LTS
+My favorite IDE - <a href="/env/vscode/">VSCode</a>
+
+<a href="/env/nodejs/">Node.js</a>  
+<a href="/env/react/">React</a>
 
 <br/>
 
-<a href="/env/docker/">Docker</a> || <a href="/ide/">IDE</a> || <a href="/env/git/">Git</a> 
-
-<br/>
-
-### How to Disable caching in Chrome Developer Tools
+### Disable caching in Chrome Developer Tools
 
 Developer Tools (Ctrl + Shift + I) > Menu icon (the 3 vertical dots) > Settings > Preferences > scroll down the list to “Network section” and you’ll see the “Disable cache” while DevTools is open
 
 <br/>
 
-### Setting up a Minimal, Yet Useful JavaScript Dev Environment
+### Git Gui Tools
 
-https://dev.to/corgibytes/setting-up-a-minimal-yet-useful-javascript-dev-environment
+https://desktop.github.com/ [Mac, Windows]
 
-<br/>
+http://www.syntevo.com/smartgit/ [Linux, Mac, Windows] free for Non commecial
 
-### React and Flux: Migrating to ES6 with Babel and ESLint
-
-https://medium.com/front-end-developers/react-and-flux-migrating-to-es6-with-babel-and-eslint-6390cf4fd878#.kt4kkx7rb
-
+https://www.sourcetreeapp.com/ [Mac, Windows]
 
 <br/>
 
-## Linting
+### A collection of .gitignore templates
 
-<a href="/linting/">Linting</a>
-
-<br/>
-<hr/>
-
-## Browser Sync
-
-<a href="https://github.com/BrowserSync/browser-sync" rel="nofollow">BrowserSync</a> || LiveReload
-
-
-<br/>
-<hr/>
-
-## Useful browser plugins
-
-postman || firebug || Scratchpad
+https://github.com/github/gitignore

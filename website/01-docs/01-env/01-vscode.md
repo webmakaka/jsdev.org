@@ -1,7 +1,7 @@
 ---
 layout: page
 title: JavaScript IDE - Visual Studio Code (Microsoft)
-permalink: /env/ide/vscode/
+permalink: /env/vscode/
 ---
 
 # Visual Studio Code (Microsoft)
@@ -110,7 +110,3 @@ or
     # ls /usr/local/lib/node_modules/
     eslint                  eslint-plugin-import  eslint-plugin-promise   npx
     eslint-config-standard  eslint-plugin-node    eslint-plugin-standard
-
-<br/>
-
-### + JSon formatter plugin for chrom

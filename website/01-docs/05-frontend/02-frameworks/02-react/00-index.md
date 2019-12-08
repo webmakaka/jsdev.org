@@ -4,7 +4,7 @@ title: React.js
 permalink: /frontend/react/
 ---
 
-# React.js
+# React
 
 <br/>
 
@@ -14,9 +14,24 @@ https://facebook.github.io/react/blog/
 
 <br/>
 
+### Generate new react project
+
+    # npm install -g npx
+    $ npx create-react-app myapp
+
+<br/>
+
+### Override default port for react app
+
+```
+"start": "PORT=8080 react-scripts start",
+```
+
+<br/>
+
 ### React.js environment for development
 
-[React.js environment for development](/frontend/react/env/)
+[React.js environment for development](/env/react/)
 
 [Create simple react project manually](/frontend/react/create-simple-react-project-manually/)
 
@@ -34,56 +49,26 @@ https://facebook.github.io/react/blog/
 
 <br/>
 
-### New react app can be created by next command
-
-    $ npx create-react-app myapp
-
-if npx is not installed:
-
-    # npm i -g npx
-
-<br/>
-
-### Override default port for react app
-
-"start": "PORT=8080 react-scripts start",
-
-<br/>
-
-### Component life cycle
-
-    componentWillMount
-    componentDidMount
-
-    componentWillUnmount
-
-    componentWillReceiveProps(nextProps)
-    shouldComponentUpdate(nextProps, nextState)
-    componentWillUpdate(nextProps, nextState)
-    componentDidUpdate(prevProps, prevState)
-
-<br/>
-
 ### Possible SPA routing script
 
 ```javascript
-const express = require("express");
-const path = require("path");
+const express = require('express');
+const path = require('path');
 
 const server = express();
 
-server.use(express.static("public"));
+server.use(express.static('public'));
 
-server.get("*", (req, res) => {
+server.get('*', (req, res) => {
   fs.readFile(`${__dirname}/dist/index.html`, (err, html) => {
     if (error) throw error;
 
-    res.setHeader("Content-Type", "text/html");
+    res.setHeader('Content-Type', 'text/html');
     res.end(html);
   });
 });
 
-server.listen("8080", () => {
-  console.log("Express listening on port 8080");
+server.listen('8080', () => {
+  console.log('Express listening on port 8080');
 });
 ```

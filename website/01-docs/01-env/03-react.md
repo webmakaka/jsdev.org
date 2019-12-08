@@ -1,16 +1,13 @@
 ---
 layout: page
 title: React.js environment for development
-permalink: /frontend/react/env/
+permalink: /env/react/
 ---
 
 # React.js environment for development
 
-<br/>
-
-### Prepare docker container for development
-
-[Prepare docker container for development](/env/docker/run-container/linux/)
+Taken from:  
+https://btholt.github.io/complete-intro-to-react-v5/
 
 <br/>
 
@@ -62,10 +59,10 @@ NODE_PATH=src/
 
 <br/>
 
-# Prettier
+### Prettier
 
 ```
-$ npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
+$ npm install --save-dev prettier
 ```
 
 <br/>
@@ -73,13 +70,24 @@ $ npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
 **package.json**
 
 ```
-"format": "prettier --write src/**/*.{js,jsx,css,json}",
-"format:check": "prettier --list-different src/**/*.{js,jsx,css,json}"
+"format": "prettier --write src/**/*.{js,html}",
+"format:check": "prettier --list-different src/**/*.{js,html}"
 ```
 
 <br/>
 
-**.prettierrc**
+**Format on save document**
+
+VSCode --> Preverences --> Extensions --> install --> Prettier - Code formatter esbenp.prettier-vscode
+
+VSCode --> Preverences --> Settings:
+
+- Format on Save (checked)
+- Prettier Require Config --> require a prettier configuration file to foramt (checked)
+
+<br/>
+
+**<project_root> .prettierrc**
 
 ```js
 {
@@ -101,37 +109,127 @@ node_modules
 
 <br/>
 
-# Lint
+### ESLint
 
-```bash
-$ npm install --save-dev eslint-config-react-app eslint-plugin-react
-$ npm install --save-dev eslint-plugin-jsx-a11y
-$ npm install --save-dev eslint-plugin-flowtype
-$ npm install --save-dev babel-eslint
+
+VSCode --> Preverences --> Extensions --> ESLint dbaeumer.vscode-eslint
+
+<br/>
+
 ```
+$ npm install --save-dev eslint eslint-config-prettier 
+```
+<!--
+
+eslint-plugin-prettier
+
+-->
 
 <br/>
 
 **.eslintrc**
 
-<!-- ```js
+```js
 {
-  "extends": ["react-app", "plugin:prettier/recommended"],
+    "extends": [
+    "eslint:recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [],
+  "parserOptions": {
+    "ecmaVersion" : 2018,
+    "sourceType" : "module",
+    "ecmaFeatures": {
+      "jsx" : true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  }
+}
+
+```
+
+<!--
+
+,
   "rules": {
     "no-extra-semi": "error",
     "semi": [2, "always"],
     "arrow-parens": [2, "always"]
   }
-}
+  
+-->
 
-``` -->
 
-<!--
+<br/>
 
-react video course
-React for beginners
+**package.json**
+
+<br/>
+
+```
+"lint": "eslint src/**/*.{js,html} --quiet"
+```
+
+<!-- 
+
+,
+"lint:fix": "eslint --fix \"src/**/*.{js,jsx}\""
 
 -->
+
+
+<br/>
+
+**.eslintignore**
+
+<br/>
+
+```
+/node_modules/
+```
+
+
+
+### Parcel 
+
+
+    $ npm install --save-dev parcel-bundler
+
+<br/>
+
+```
+"dev": "parcel src/index.html"
+```
+
+<br/>
+
+### React
+
+
+    $ npm install --save react react-dom
+
+<br/>
+
+    $ npm install --save-dev \
+                  babel-eslint \
+                  eslint-plugin-import \
+                  eslint-plugin-jsx-a11y \
+                  eslint-plugin-react
+
+
+    $ npm install --save-dev \
+                  eslint-plugin-hooks
+
+
+
+<br/>
+
+**.eslintrc**
 
 ```js
 {
@@ -145,10 +243,11 @@ React for beginners
   ],
   "rules": {
     "react/prop-types": 0,
-    "jsx-a11y/label-has-for": 0,
-    "no-console": 1
+    "no-console": 1,
+    "react-hooks/rules-of-hooks": 2,
+    "react-hooks/exhaustive-deps": 1
   },
-  "plugins": ["react", "import", "jsx-a11y"],
+  "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",
@@ -160,37 +259,20 @@ React for beginners
     "es6": true,
     "browser": true,
     "node": true
+  },
+  "settings": {
+    "react": {
+      "version":"detect"
+    }
   }
 }
 
 ```
 
-<br/>
+<!--
+    "jsx-a11y/label-has-for": 0,
+-->
 
-    $ npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier
-
-    $ npm install --save-dev babel-eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
-
-<br/>
-
-**package.json**
-
-<br/>
-
-```
-"lint": "eslint \"src/**/*.{js,jsx}\"",
-"lint:fix": "eslint --fix \"src/**/*.{js,jsx}\""
-```
-
-<br/>
-
-**.eslintignore**
-
-<br/>
-
-```
-/node_modules/
-```
 
 <!-- <br/>
 
@@ -200,6 +282,30 @@ React for beginners
 "lint": "./node_modules/.bin/eslint **/*.js",
 "start": "npm run lint & nodemon server.js"
 ``` -->
+
+
+
+<!--
+
+<br/>
+
+# Lint
+
+```bash
+$ npm install --save-dev eslint-config-react-app eslint-plugin-react
+$ npm install --save-dev eslint-plugin-flowtype
+$ npm install --save-dev babel-eslint
+```
+
+
+<br/>
+
+    $ npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier
+
+
+
+
+
 
 <br/>
 
@@ -268,14 +374,6 @@ $ npm install --save-dev lint-staged husky
 
 <br/>
 
-taken it here:
-
-<br/>
-
-https://btholt.github.io/complete-intro-to-react-v4/async-and-events-in-react
-
-<br/>
-
 ### JSHINT (Possible not needed)
 
 **.jshintrc**
@@ -289,3 +387,33 @@ https://btholt.github.io/complete-intro-to-react-v4/async-and-events-in-react
 "strict" : true // Require `use strict` pragma in every file.
 
 ```
+-->
+
+<!--
+
+
+<br/>
+
+
+
+### Esling Standard
+
+    $ npm install --save-dev eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
+
+<br/>
+
+**.eslintrc**
+
+<br/>
+
+```js
+{
+  "extends": "standard",
+  "rules": {
+    "no-extra-semi": "error",
+    "semi": [2, "always"]
+  }
+}
+```
+
+-->

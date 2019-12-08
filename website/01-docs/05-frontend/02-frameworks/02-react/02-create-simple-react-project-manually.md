@@ -4,7 +4,6 @@ title: Create simple react project manually
 permalink: /frontend/react/create-simple-react-project-manually/
 ---
 
-
 # Create simple react project manually
 
     $ cd /project/
@@ -36,24 +35,19 @@ permalink: /frontend/react/create-simple-react-project-manually/
 
 <br/>
 
-{% highlight html linenos %}
-
+```html
 <html>
-    <head>
-        <title></title>
-    </head>
+  <head>
+    <title></title>
+  </head>
 
-    <body>
+  <body>
+    <div id="root"></div>
 
-        <div id="root"></div>
-
-        <script src="bundle.js"></script>
-
-    </body>
-
+    <script src="bundle.js"></script>
+  </body>
 </html>
-    
-{% endhighlight %}
+```
 
 <br/>
 
@@ -61,23 +55,20 @@ permalink: /frontend/react/create-simple-react-project-manually/
 
 <br/>
 
-{% highlight javascript linenos %}
-
+```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function App(){
-return (
-
-<div>
-<h1>React</h1>
-</div>
-);
+function App() {
+  return (
+    <div>
+      <h1>React</h1>
+    </div>
+  );
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
-{% endhighlight %}
+```
 
 <br/>
 
@@ -85,38 +76,34 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 <br/>
 
-{% highlight javascript linenos %}
-
+```javascript
 var webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
+  entry: './src/App.jsx',
+  output: {
+    path: path.resolve(__dirname, 'public'),
+    filename: 'bundle.js'
+  },
 
-    entry: './src/App.jsx',
-    output: {
-        path: path.resolve(__dirname, 'public'),
-        filename: 'bundle.js'
-    },
+  module: {
+    loaders: [
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
+      }
+    ]
+  },
 
-    module: {
-        loaders: [
-            {
-                test: /\.jsx?$/,
-                exclude: /node_modules/,
-                loader: 'babel-loader'
-            }
-        ]
-    },
+  devtool: 'eval-source-map',
 
-    devtool: 'eval-source-map',
-
-    resolve: {
-        EXTENSIONS: ['', '.js', '.jsx']
-    }
-
+  resolve: {
+    EXTENSIONS: ['', '.js', '.jsx']
+  }
 };
-
-{% endhighlight %}
+```
 
 <br/>
 
@@ -136,4 +123,6 @@ module.exports = {
 
     $ npm run start
 
-    http://localhost/
+<br/>
+
+http://localhost/
