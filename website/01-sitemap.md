@@ -8,12 +8,6 @@ permalink: /sitemap/
 
 <br/>
 
-## IDE:
-
-<a href="/ide/">IDE</a>
-
-<br/>
-
 ## Environment:
 
 <a href="/env/">Environment</a>
