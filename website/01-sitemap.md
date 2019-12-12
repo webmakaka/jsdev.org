@@ -168,4 +168,8 @@ cloudinary.com
 
 ## Libs:
 
+
+<a href="https://lodash.com/" rel="nofollow">lodash</a>
 <a href="http://markapp.io/" rel="nofollow">markapp</a>
+
+

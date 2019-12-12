@@ -9,43 +9,12 @@ permalink: /env/react/
 Taken from:  
 https://btholt.github.io/complete-intro-to-react-v5/
 
+
+
 <br/>
 
 ### React
 
-<!-- <br/>
-
-**vscode**
-
-```
-{
-  "editor.fontSize": 26,
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "terminal.integrated.fontSize": 26,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "editor.formatOnSave": true,
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 10000,
-  "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
-  },
-  "diffEditor.ignoreTrimWhitespace": false,
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
-  "eslint.autoFixOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  "prettier.requireConfig": true,
-  "prettier.disableLanguages": ["js"],
-  "prettier.singleQuote": true
-}
-``` -->
 
 <br/>
 
@@ -87,15 +56,24 @@ VSCode --> Preverences --> Settings:
 
 <br/>
 
-**<project_root> .prettierrc**
+**.prettierrc**
 
 ```js
 {
   "singleQuote": true,
-  "arrowParens": "always",
   "bracketSpacing": true
 }
 ```
+
+<!--
+
+always user brackets (x)
+
+  "arrowParens": "always",
+
+
+-->
+
 
 <br/>
 
@@ -133,8 +111,7 @@ eslint-plugin-prettier
 {
     "extends": [
     "eslint:recommended",
-    "prettier",
-    "prettier/react"
+    "prettier"
   ],
   "plugins": [],
   "parserOptions": {
@@ -153,16 +130,7 @@ eslint-plugin-prettier
 
 ```
 
-<!--
 
-,
-  "rules": {
-    "no-extra-semi": "error",
-    "semi": [2, "always"],
-    "arrow-parens": [2, "always"]
-  }
-  
--->
 
 
 <br/>
@@ -194,18 +162,6 @@ eslint-plugin-prettier
 ```
 
 
-
-### Parcel 
-
-
-    $ npm install --save-dev parcel-bundler
-
-<br/>
-
-```
-"dev": "parcel src/index.html"
-```
-
 <br/>
 
 ### React
@@ -223,7 +179,7 @@ eslint-plugin-prettier
 
 
     $ npm install --save-dev \
-                  eslint-plugin-hooks
+                  eslint-plugin-react-hooks
 
 
 
@@ -269,6 +225,45 @@ eslint-plugin-prettier
 
 ```
 
+
+<br/>
+
+# lint-staged husky
+
+```bash
+$ npm install --save-dev lint-staged husky
+```
+
+**package.json**
+ 
+```json
+
+  "scripts": {
+    ******
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    ********
+  },
+  "lint-staged": {
+    "*.{js, jsx}": ["node_modules/.bin/eslint --max-warnings=0", "prettier --write", "git add"]
+  }
+}
+```
+
+
+
+<!--
+
+,
+  "rules": {
+    "no-extra-semi": "error",
+    "semi": [2, "always"],
+    "arrow-parens": [2, "always"]
+  }
+  
+-->
+
 <!--
     "jsx-a11y/label-has-for": 0,
 -->
@@ -307,30 +302,7 @@ $ npm install --save-dev babel-eslint
 
 
 
-<br/>
 
-# lint-staged husky
-
-```bash
-$ npm install --save-dev lint-staged husky
-```
-
-**package.json**
-
-```json
-
-  "scripts": {
-    ******
-    "precommit": "lint-staged"
-  },
-  "devDependencies": {
-    ********
-  },
-  "lint-staged": {
-    "*.{js, jsx}": ["node_modules/.bin/eslint --max-warnings=0", "prettier --write", "git add"]
-  }
-}
-```
 
 <br/>
 
@@ -414,6 +386,22 @@ $ npm install --save-dev lint-staged husky
     "semi": [2, "always"]
   }
 }
+```
+
+-->
+
+
+<!-- 
+
+### Parcel 
+
+
+    $ npm install --save-dev parcel-bundler
+
+<br/>
+
+```
+"dev": "parcel src/index.html"
 ```
 
 -->

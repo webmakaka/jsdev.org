@@ -89,19 +89,11 @@ http://todomvc.com/
     <li><a href="https://bitbucket.org/marley-nodejs/restful-angular-nodejs-mongodb" rel="nofollow" target="_blank">Integrating Angular with Node.js RESTful Services</a></li>
 </ul>
 
+
 <br/>
 
-### Websites:
+### GraphQL
 
-webpack.js.org  
-https://github.com/webpack/webpack.js.org
-
-<!-- <ul>
-    <li><a href="https://bitbucket.org/marley-nodejs/" rel="nofollow">Node.js</a></li>
-    <li><a href="https://github.com/marley-angular" rel="nofollow">Angular.js</a></li>
-    <li><a href="https://github.com/marley-react" rel="nofollow">React.js</a></li>
-    <li><a href="https://github.com/marley-knockout" rel="nofollow">Knockout.js</a></li>
-    <li><a href="https://github.com/marley-meteor" rel="nofollow">Meteor.js</a></li>
-    <li><a href="https://github.com/oracle-jet" rel="nofollow">Oracle Jet</a></li>
-    <li><a href="https://github.com/marley-js" rel="nofollow">JavaScript + jQuery</a></li>
-</ul> -->
+<ul>
+    <li><a href="https://github.com/marley-nodejs/Full-Stack-React-with-GraphQL-and-Apollo-Boost" rel="nofollow" target="_blank">[Udemy, Reed Barger] Full-Stack React with GraphQL and Apollo Boost [2018, ENG]</a></li>
+</ul>

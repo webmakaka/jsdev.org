@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=bfyI9yl3qfE
 
 **Visual Studio Code Settings:**
 
-minimal
+<!-- minimal
 
 ```
 {
@@ -42,7 +42,7 @@ minimal
             "javascript": "jsx",
             "javascript": "html"
         }
-    }
+    } -->
 
 <br/>
 
@@ -93,7 +93,7 @@ or
 
 <br/>
 
-### Eslint
+<!-- ### Eslint
 
     # npm install -g eslint \
     eslint-plugin-standard \
@@ -109,4 +109,4 @@ or
 
     # ls /usr/local/lib/node_modules/
     eslint                  eslint-plugin-import  eslint-plugin-promise   npx
-    eslint-config-standard  eslint-plugin-node    eslint-plugin-standard
+    eslint-config-standard  eslint-plugin-node    eslint-plugin-standard -->
