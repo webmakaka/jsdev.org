@@ -20,25 +20,7 @@ All materials about video courses and books for study javascript we collect <a h
 
 ![development-process](/img/development-process.jpg 'development-process'){: .center-image }
 
-<br/>
 
-### [YouTube, The Net Ninja] React Native Tutorial
-
-**Hope this guy will teach me react native**
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-### [YouTube, The Net Ninja] React Context & Hooks Tutorial
-
-**Looks like i should study it**
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 <br/>
 
@@ -67,21 +49,7 @@ All materials about video courses and books for study javascript we collect <a h
 
 </table>
 
-<br/>
 
-### [Traversy Media] 20+ Developer YouTube Channels To Follow
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/BZRLKDlSaAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-### [Traversy Media] Web Development In 2020 - A Practical Guide
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/0pThnRneDjw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 <br/><br/>
 <br/>

@@ -10,21 +10,11 @@ Taken from:
 https://btholt.github.io/complete-intro-to-react-v5/
 
 
+Possible can be interesting:  
+https://www.youtube.com/watch?v=SydnKbGc7W8
 
 <br/>
 
-### React
-
-
-<br/>
-
-# .ENV
-
-**.env**
-
-```
-NODE_PATH=src/
-```
 
 <br/>
 
@@ -65,14 +55,14 @@ VSCode --> Preverences --> Settings:
 }
 ```
 
-<!--
-
-always user brackets (x)
-
-  "arrowParens": "always",
+<br>
 
 
--->
+**If needed to everywhere use brackets (x) **
+
+```
+"arrowParens": "always",
+```
 
 
 <br/>
@@ -97,6 +87,7 @@ VSCode --> Preverences --> Extensions --> ESLint dbaeumer.vscode-eslint
 ```
 $ npm install --save-dev eslint eslint-config-prettier 
 ```
+
 <!--
 
 eslint-plugin-prettier
@@ -131,8 +122,6 @@ eslint-plugin-prettier
 ```
 
 
-
-
 <br/>
 
 **package.json**
@@ -140,15 +129,9 @@ eslint-plugin-prettier
 <br/>
 
 ```
-"lint": "eslint src/**/*.{js,html} --quiet"
+"lint": "eslint src/**/*.{js,html} --quiet",
+"lint:fix": "eslint --fix src/**/*.{js,html}",
 ```
-
-<!-- 
-
-,
-"lint:fix": "eslint --fix \"src/**/*.{js,jsx}\""
-
--->
 
 
 <br/>
@@ -166,6 +149,8 @@ eslint-plugin-prettier
 
 ### React
 
+
+<br/>
 
     $ npm install --save react react-dom
 
@@ -228,7 +213,36 @@ eslint-plugin-prettier
 
 <br/>
 
-# lint-staged husky
+** .ENV file (for absolute path) **
+
+**.env**
+
+```
+NODE_PATH=src/
+```
+
+<br/>
+
+### Resolve src/ 
+
+**.eslintrc**
+
+```
+{
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  }
+}
+```
+
+
+<br/>
+
+### Run checks before commit (lint-staged husky)
 
 ```bash
 $ npm install --save-dev lint-staged husky
@@ -252,149 +266,25 @@ $ npm install --save-dev lint-staged husky
 ```
 
 
-
-<!--
-
-,
-  "rules": {
-    "no-extra-semi": "error",
-    "semi": [2, "always"],
-    "arrow-parens": [2, "always"]
-  }
-  
--->
-
-<!--
-    "jsx-a11y/label-has-for": 0,
--->
-
-
-<!-- <br/>
-
-**package.json**
-
-```js
-"lint": "./node_modules/.bin/eslint **/*.js",
-"start": "npm run lint & nodemon server.js"
-``` -->
-
-
-
-<!--
-
 <br/>
 
-# Lint
+### Babel
 
-```bash
-$ npm install --save-dev eslint-config-react-app eslint-plugin-react
-$ npm install --save-dev eslint-plugin-flowtype
-$ npm install --save-dev babel-eslint
-```
-
-
-<br/>
-
-    $ npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier
-
-
-
-
-
-
-
-
-<br/>
-
-# Babel
-
-    $ npm install --save-dev babel-eslint babel-core babel-preset-env babel-plugin-transform-class-properties
-
-<br/>
-
-**.babelrc**
-
-<br/>
-
-```js
-{
-  "presets": [
-    [
-      "env",
-      {
-        "targets": {
-          "browsers": ["last 2 versions"]
-        }
-      }
-    ]
-  ],
-  "plugins": ["transform-class-properties"]
-}
-```
+    $ npm install --save-dev babel-eslint
 
 <br/>
 
 **.eslintrc**
 
-```js
-{
-  …
-  "parser": "babel-eslint",
-  …
-}
+```
+"parser": "babel-eslint",
 ```
 
-<br/>
-
-### JSHINT (Possible not needed)
-
-**.jshintrc**
-
-```js
-{
-  "predef": ["angular"]
-}
-
-"undef" : true, // Require all non-global variables be declared before they are used.
-"strict" : true // Require `use strict` pragma in every file.
-
-```
--->
-
-<!--
 
 
 <br/>
-
-
-
-### Esling Standard
-
-    $ npm install --save-dev eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
-
-<br/>
-
-**.eslintrc**
-
-<br/>
-
-```js
-{
-  "extends": "standard",
-  "rules": {
-    "no-extra-semi": "error",
-    "semi": [2, "always"]
-  }
-}
-```
-
--->
-
-
-<!-- 
 
 ### Parcel 
-
 
     $ npm install --save-dev parcel-bundler
 
@@ -403,5 +293,3 @@ $ npm install --save-dev babel-eslint
 ```
 "dev": "parcel src/index.html"
 ```
-
--->

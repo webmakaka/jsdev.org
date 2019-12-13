@@ -12,6 +12,13 @@ permalink: /frontend/react/
 
 https://facebook.github.io/react/blog/
 
+
+<br/>
+
+### React Lifecycle Methods diagram
+
+http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
 <br/>
 
 ### Generate new react project

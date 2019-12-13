@@ -68,3 +68,142 @@ or
 
     $ npm --version
     6.13.2
+
+
+
+<!--
+
+,
+  "rules": {
+    "no-extra-semi": "error",
+    "semi": [2, "always"],
+    "arrow-parens": [2, "always"]
+  }
+  
+-->
+
+<!--
+    "jsx-a11y/label-has-for": 0,
+-->
+
+
+<!-- <br/>
+
+**package.json**
+
+```js
+"lint": "./node_modules/.bin/eslint **/*.js",
+"start": "npm run lint & nodemon server.js"
+``` -->
+
+
+
+<!--
+
+<br/>
+
+# Lint
+
+```bash
+$ npm install --save-dev eslint-config-react-app eslint-plugin-react
+$ npm install --save-dev eslint-plugin-flowtype
+$ npm install --save-dev babel-eslint
+```
+
+
+<br/>
+
+    $ npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier
+
+
+
+
+
+
+
+
+<br/>
+
+# Babel
+
+    $ npm install --save-dev babel-eslint babel-core babel-preset-env babel-plugin-transform-class-properties
+
+<br/>
+
+**.babelrc**
+
+<br/>
+
+```js
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": ["last 2 versions"]
+        }
+      }
+    ]
+  ],
+  "plugins": ["transform-class-properties"]
+}
+```
+
+<br/>
+
+**.eslintrc**
+
+```js
+{
+  …
+  "parser": "babel-eslint",
+  …
+}
+```
+
+<br/>
+
+### JSHINT (Possible not needed)
+
+**.jshintrc**
+
+```js
+{
+  "predef": ["angular"]
+}
+
+"undef" : true, // Require all non-global variables be declared before they are used.
+"strict" : true // Require `use strict` pragma in every file.
+
+```
+-->
+
+<!--
+
+
+<br/>
+
+
+
+### Esling Standard
+
+    $ npm install --save-dev eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
+
+<br/>
+
+**.eslintrc**
+
+<br/>
+
+```js
+{
+  "extends": "standard",
+  "rules": {
+    "no-extra-semi": "error",
+    "semi": [2, "always"]
+  }
+}
+```
+
+-->
