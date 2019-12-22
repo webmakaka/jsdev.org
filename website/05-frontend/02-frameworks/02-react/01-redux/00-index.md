@@ -6,10 +6,31 @@ permalink: /frontend/react/redux/
 
 # Redux
 
+    $ npm install --save redux react-redux redux-thunk 
 
-    $ npm install --save redux redux-thunk react-redux
+
+<br/>
+
+###  Redux thunk
+
+    $ npm install --save redux-thunk 
 
 
+https://github.com/marley-nodejs/Complete-React-Developer-In-2020-Redux-Hooks-GraphQL
+
+
+<br/>
+
+### Redux Saga
+
+    $ npm install --save redux-saga 
+
+[Redux-saga take/takeLatest/takeEvery](https://github.com/ZhangMYihua/redux-saga-take-takelatest-takeevery)
+
+https://github.com/marley-nodejs/Complete-React-Developer-In-2020-Redux-Hooks-GraphQL
+
+
+<br/>
 
 ### Redux Crash Course With React
 
@@ -21,6 +42,6 @@ permalink: /frontend/react/redux/
 
 <br/>
 
-src:<br/>
+**src:**<br/>
 
 https://github.com/bradtraversy/redux_crash_course

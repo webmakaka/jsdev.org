@@ -54,6 +54,27 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 [Spinners for react apps](http://www.davidhu.io/react-spinners/)
 
+[Higher order components explained (HOC)](https://github.com/ZhangMYihua/higher-order-components-explained)
+
+[Redux](/frontend/react/redux/)
+
+<br/>
+
+### Hooks (Since react 16)
+
+[UseState](https://github.com/ZhangMYihua/use-state-example)
+
+[UseEffect](https://github.com/ZhangMYihua/use-effect-example)
+
+[useReducer](https://github.com/ZhangMYihua/useReducer-example)
+
+[Custom hook example](https://github.com/ZhangMYihua/custom-hook-example)
+
+<br/>
+
+https://github.com/marley-nodejs/React-Context-Hooks-Tutorial
+
+
 <br/>
 
 ### Possible SPA routing script
@@ -79,3 +100,8 @@ server.listen('8080', () => {
   console.log('Express listening on port 8080');
 });
 ```
+
+<br/>
+
+But for production i recommend to use nginx.  
+Ask me in the chat if interesting.
