@@ -70,6 +70,108 @@ or
     6.13.2
 
 
+<br/>
+
+### Possible additional configs
+
+
+ECMAScript Modules In Node
+
+https://www.youtube.com/watch?v=orp2Fnvzrgw
+
+
+<br/>
+
+$ npm install --save-dev \
+    @babel/core \
+    @babel/node \
+    @babel/preset-env
+
+
+<br/>
+
+**.babelrc**
+
+```
+{
+  "presets": ["@babel/preset-env"]
+}
+
+```
+
+
+
+<br/>
+
+**packages.json**
+
+```
+"engines": {
+    "node": "12.13.1",
+    "npm": "6.13.4"
+  },
+
+***
+
+"start": "nodemon --exec babel-node server.js",
+
+```
+
+<!--
+
+
+
+$ npm install -g babel-node
+
+<br/>
+
+$ npm install --save dev \
+        babel-cli \
+        babel-eslint \
+        babel-loader \
+        babel-preset-es2015 \
+        babel-preset-stage-2 \
+        eslint \
+        babel-eslint
+
+
+
+
+
+
+<br/>
+
+**.eslintrc.js**
+
+```
+module.exports = {
+  parser: 'babel-eslint',
+  env: {
+    browser: true,
+    commonjs: true,
+    es6: true,
+    node: true
+  },
+  extends: ['eslint:recommended'],
+  parserOptions: {
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true,
+      jsx: true
+    },
+    sourceType: 'module'
+  },
+  rules: {
+    indent: ['error', 2],
+    'linebreak-style': ['error', 'unix'],
+    quotes: ['error', 'single'],
+    semi: ['error', 'always'],
+    'no-console': ['warn', { allow: ['info', 'error'] }]
+  }
+};
+```
+
+
+
 
 <!--
 
@@ -114,12 +216,6 @@ $ npm install --save-dev babel-eslint
 <br/>
 
     $ npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier
-
-
-
-
-
-
 
 
 <br/>
@@ -183,8 +279,6 @@ $ npm install --save-dev babel-eslint
 
 
 <br/>
-
-
 
 ### Esling Standard
 
