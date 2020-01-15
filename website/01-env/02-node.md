@@ -79,14 +79,16 @@ ECMAScript Modules In Node
 
 https://www.youtube.com/watch?v=orp2Fnvzrgw
 
-
 <br/>
+
+    $ npm install --save babel-cli babel-preset-env
+
+<!-- <br/>
 
 $ npm install --save-dev \
     @babel/core \
     @babel/node \
-    @babel/preset-env
-
+    @babel/preset-env -->
 
 <br/>
 
@@ -94,10 +96,17 @@ $ npm install --save-dev \
 
 ```
 {
+  "presets": ["env"]
+}
+```
+
+
+<!-- ```
+{
   "presets": ["@babel/preset-env"]
 }
 
-```
+``` -->
 
 
 

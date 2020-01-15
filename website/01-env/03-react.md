@@ -13,8 +13,9 @@ https://btholt.github.io/complete-intro-to-react-v5/
 Possible can be interesting:  
 https://www.youtube.com/watch?v=SydnKbGc7W8
 
-<br/>
 
+Possible can be helpful: 
+https://glebbahmutov.com/blog/configure-prettier-in-vscode/
 
 <br/>
 
@@ -58,7 +59,7 @@ VSCode --> Preverences --> Settings:
 <br>
 
 
-**If needed to everywhere use brackets (x) **
+**If needed to always use brackets for function with single argument (x) **
 
 ```
 "arrowParens": "always",
@@ -89,9 +90,7 @@ $ npm install --save-dev eslint eslint-config-prettier
 ```
 
 <!--
-
 eslint-plugin-prettier
-
 -->
 
 <br/>
@@ -280,8 +279,7 @@ $ npm install --save-dev lint-staged husky
 "parser": "babel-eslint",
 ```
 
-
-
+<!-- 
 <br/>
 
 ### Parcel 
@@ -292,4 +290,4 @@ $ npm install --save-dev lint-staged husky
 
 ```
 "dev": "parcel src/index.html"
-```
+``` -->
