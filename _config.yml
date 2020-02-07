@@ -1,6 +1,11 @@
 # Site settings
 title: jsdev.org
-description: Website about javascript development with Angular.js, Node.js, jQuery, Mongodb, Docker, Linux and etc.
+
+description: Opensource project with notes for development modern javascript projects
+
+keywords: javascript, js, node.js, react, vue.js, angular, typescript, docker, linux, kubernetes
+
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jsdev.org" # the base hostname & protocol for your site
 
