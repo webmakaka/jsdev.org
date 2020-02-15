@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Node Version Manager (NVM) installation on Ubuntu 18.04
+description: Node Version Manager installation and usage
+keywords: node.js, Node Version Manager
 permalink: /env/nodejs/
 ---
 
@@ -44,21 +46,24 @@ permalink: /env/nodejs/
     // install latest LTS
     $ nvm install --lts
 
+    $ node --version
+    v12.16.0
+
 or
 
     -- show possible
     $ nvm ls-remote
 
-    // (Latest LTS: Dubnium)
-    $ nvm install v12.13.1
+    // (Latest LTS: Erbium)
+    $ nvm install v12.16.0
 
-    $ nvm use v12.13.1
+    $ nvm use v12.16.0
 
     -- set default
-    $ nvm alias default v12.13.1
+    $ nvm alias default v12.16.0
 
     $ node --version
-    v12.13.1
+    v12.16.0
 
 <br/>
 
@@ -67,13 +72,12 @@ or
     $ nvm install-latest-npm
 
     $ npm --version
-    6.13.2
+    6.13.7
 
 
 <br/>
 
 ### Possible additional configs
-
 
 ECMAScript Modules In Node
 

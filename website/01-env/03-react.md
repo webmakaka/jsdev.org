@@ -1,6 +1,8 @@
 ---
 layout: page
 title: React.js environment for development
+description: Prepare environment for development react.js applications
+keywords: react, environment, development
 permalink: /env/react/
 ---
 
