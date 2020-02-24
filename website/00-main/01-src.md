@@ -95,7 +95,7 @@ https://github.com/MoonHighway/learning-react/blob/master/chapter-06/03-componen
 ### Node.js
 
 <ul>
-    <li><a href="https://github.com/marley-nodejs/Learn-Nodejs-by-building-10-projects" rel="nofollow" target="_blank">Learn Nodejs by building 10 projects [2015, ENG]</a></li>
+    <li><a href="https://github.com/webmakaka/Learn-Nodejs-by-building-10-projects" rel="nofollow" target="_blank">Learn Nodejs by building 10 projects [2015, ENG]</a></li>
 </ul>
 
 <br/>

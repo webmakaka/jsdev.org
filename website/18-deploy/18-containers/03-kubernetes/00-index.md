@@ -52,4 +52,4 @@ Kubernetes cluster in Digital Ocean
 
 ### Some examples with minikube
 
-- <a href="https://github.com/marley-nodejs/The-React-Practice-Course-Learn-by-Building-Projects" rel="nofollow">[Udemy] The React practice course, learn by building projects [2018, ENG]</a>
+- <a href="https://github.com/webmakaka/The-React-Practice-Course-Learn-by-Building-Projects" rel="nofollow">[Udemy] The React practice course, learn by building projects [2018, ENG]</a>

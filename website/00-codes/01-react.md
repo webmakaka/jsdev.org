@@ -10,7 +10,7 @@ permalink: /codes/react/
 
 ### React & Webpack 4 From Scratch - No CLI
 
-[React & Webpack 4 From S cratch - No CLI](https://github.com/marley-nodejs/react-webpack-4-from-scratch-no-cli/)
+[React & Webpack 4 From S cratch - No CLI](https://github.com/webmakaka/react-webpack-4-from-scratch-no-cli/)
 
 <br/>
 

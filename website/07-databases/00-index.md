@@ -13,7 +13,7 @@ permalink: /databases/
 
 ### Object-relational mapping (ORM)
 
-- Sequelize - https://github.com/marley-nodejs/Introduction-to-Sequelize-ORM-for-Node.js
+- Sequelize - https://github.com/webmakaka/Introduction-to-Sequelize-ORM-for-Node.js
 
 
 + https://sqlitebrowser.org/ 

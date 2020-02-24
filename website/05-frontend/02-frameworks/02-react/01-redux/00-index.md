@@ -16,7 +16,7 @@ permalink: /frontend/react/redux/
     $ npm install --save redux-thunk 
 
 
-https://github.com/marley-nodejs/Complete-React-Developer-In-2020-Redux-Hooks-GraphQL
+https://github.com/webmakaka/Complete-React-Developer-In-2020-Redux-Hooks-GraphQL
 
 
 <br/>
@@ -27,7 +27,7 @@ https://github.com/marley-nodejs/Complete-React-Developer-In-2020-Redux-Hooks-Gr
 
 [Redux-saga take/takeLatest/takeEvery](https://github.com/ZhangMYihua/redux-saga-take-takelatest-takeevery)
 
-https://github.com/marley-nodejs/Complete-React-Developer-In-2020-Redux-Hooks-GraphQL
+https://github.com/webmakaka/Complete-React-Developer-In-2020-Redux-Hooks-GraphQL
 
 
 <br/>

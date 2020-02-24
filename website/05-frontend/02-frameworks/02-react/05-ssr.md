@@ -8,6 +8,6 @@ permalink: /frontend/react/ssr/
 
 **Examples:**
 
-https://github.com/marley-nodejs/Server-Side-Rendering-with-React-and-Redux
+https://github.com/webmakaka/Server-Side-Rendering-with-React-and-Redux
 
-https://github.com/marley-nodejs/learning-full-stack-javascript-development-mongodb-node-and-react
+https://github.com/webmakaka/learning-full-stack-javascript-development-mongodb-node-and-react

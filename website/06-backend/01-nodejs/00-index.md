@@ -52,7 +52,7 @@ permalink: /backend/nodejs/
 [Nodejs Authentication Using JWT and Refresh Token](https://codeforgeek.com/2018/03/refresh-token-jwt-nodejs-authentication/)
 
 src:  
-https://github.com/marley-nodejs/node-refresh-token
+https://github.com/webmakaka/node-refresh-token
 
 <br/>
 
@@ -70,7 +70,7 @@ https://github.com/marley-nodejs/node-refresh-token
 
 ### Authentication-API-in-node-express-jwt-bcrypt
 
-[Authentication-API-in-node-express-jwt-bcrypt](https://github.com/marley-nodejs/Authentication-API-in-node-express-jwt-bcrypt)
+[Authentication-API-in-node-express-jwt-bcrypt](https://github.com/webmakaka/Authentication-API-in-node-express-jwt-bcrypt)
 
 <br/>
 

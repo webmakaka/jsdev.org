@@ -111,7 +111,7 @@ module.exports = function(grunt) {
 
 <br/>
     
-https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blob/master/Sec2/code/video3/product.ts
+https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec2/code/video3/product.ts
 
 <br/>
 
@@ -147,7 +147,7 @@ export class Product {
 
     $ vi spec/product-spec.js
 
-https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blob/master/Sec2/code/video3/spec/product-spec.js
+https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec2/code/video3/spec/product-spec.js
 
 
 <br/>
@@ -208,7 +208,7 @@ describe('Product Unit test', () => {
     
     $ vi product-test.ts
 
-    https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blob/master/Sec2/code/video4/product-test.ts
+    https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec2/code/video4/product-test.ts
     
 
 {% highlight js linenos %}
@@ -305,14 +305,14 @@ https://github.com/saurabhranjansingh/UnitTestingKarmaMocha
 
     $ vi Gruntfile.js
 
-https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video01/Gruntfile.js
+https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video01/Gruntfile.js
 
 
 <br/>
 
     $ vi tsconfig.json
 
-https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video01/tsconfig.json
+https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video01/tsconfig.json
 
 
 
@@ -320,7 +320,7 @@ https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blo
 
     $ vi product-class.ts 
     
-https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video01/product-class.ts 
+https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video01/product-class.ts 
 
 
 
@@ -348,7 +348,7 @@ https://raw.githubusercontent.com/marley-js/Mastering-TypeScript-Programming-Tec
     
     $ vi app.ts
     
-https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video02/app.ts
+https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video02/app.ts
     
     $ tsc
 
@@ -370,7 +370,7 @@ https://raw.githubusercontent.com/marley-js/Mastering-TypeScript-Programming-Tec
     $ mkdir -p spec
     $ vi spec/product-spec.js
 
-https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video03/spec/product-spec.js
+https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video03/spec/product-spec.js
 
 
     $ jasmine spec/product-spec.js
@@ -383,7 +383,7 @@ https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blo
     
     $ vi Gruntfile.js
 
-https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video03/Gruntfile.js   
+https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video03/Gruntfile.js   
 
 
 <br/>
@@ -404,7 +404,7 @@ jre/jdk (java) shoudl be installed.
 
 <br/>
 
-https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video04/tsconfig.json
+https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video04/tsconfig.json
 
 
 
@@ -414,7 +414,7 @@ https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blo
 
 <br/>
 
-https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video04/conf.ts
+https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video04/conf.ts
 
 
 <br/>
@@ -427,7 +427,7 @@ https://raw.githubusercontent.com/marley-js/Mastering-TypeScript-Programming-Tec
 
 site:
 
-https://github.com/marley-nodejs/Mastering-TypeScript-Programming-Techniques/tree/master/Sec3/code/video04/site
+https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/tree/master/Sec3/code/video04/site
 
     $ cd site
     $ python -m SimpleHTTPServer 8080

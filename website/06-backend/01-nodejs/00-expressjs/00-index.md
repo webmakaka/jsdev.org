@@ -43,10 +43,10 @@ permalink: /backend/nodejs/expressjs/
 <br/>
 
 <div align="center">
-    <img src="//github.com/marley-nodejs/Getting-MEAN-with-Mongo-Express-Angular-and-Node/raw/master/img/step1-pic1.png?raw=true" alt="Modifying Express for MVC">
+    <img src="//github.com/webmakaka/Getting-MEAN-with-Mongo-Express-Angular-and-Node/raw/master/img/step1-pic1.png?raw=true" alt="Modifying Express for MVC">
 </div>
 
-https://github.com/marley-nodejs/Getting-MEAN-with-Mongo-Express-Angular-and-Node
+https://github.com/webmakaka/Getting-MEAN-with-Mongo-Express-Angular-and-Node
 
 <br/>
 <br/>

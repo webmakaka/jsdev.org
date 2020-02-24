@@ -27,7 +27,7 @@ permalink: /lang/
 
 ### JavaScript Patterns
 
-<a href="https://github.com/marley-nodejs/javascript-patterns">here</a>
+<a href="https://github.com/webmakaka/javascript-patterns">here</a>
 
 
 

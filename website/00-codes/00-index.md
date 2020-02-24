@@ -27,7 +27,7 @@ You can select frontend and backend what you need.
 
 **src:**
 
-https://github.com/marley-nodejs/The-React-Practice-Course-Learn-by-Building-Projects
+https://github.com/webmakaka/The-React-Practice-Course-Learn-by-Building-Projects
 
 <br/>
 
@@ -110,5 +110,5 @@ http://todomvc.com/
 ### GraphQL
 
 <ul>
-    <li><a href="https://github.com/marley-nodejs/Full-Stack-React-with-GraphQL-and-Apollo-Boost" rel="nofollow" target="_blank">[Udemy, Reed Barger] Full-Stack React with GraphQL and Apollo Boost [2018, ENG]</a></li>
+    <li><a href="https://github.com/webmakaka/Full-Stack-React-with-GraphQL-and-Apollo-Boost" rel="nofollow" target="_blank">[Udemy, Reed Barger] Full-Stack React with GraphQL and Apollo Boost [2018, ENG]</a></li>
 </ul>

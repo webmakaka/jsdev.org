@@ -29,7 +29,7 @@ I will use my own application
 
 <br/>
 
-    $ git clone https://github.com/marley-nodejs/cats-app
+    $ git clone https://github.com/webmakaka/cats-app
     $ cd cats-app
 
     $ docker build -t gcr.io/${PROJECT_ID}/hello-node:v1 .

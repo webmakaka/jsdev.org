@@ -6,5 +6,5 @@ permalink: /databases/elastic-search/
 
 ### Elastic Search
 
-https://github.com/marley-nodejs/elasticsearch-tutorial
+https://github.com/webmakaka/elasticsearch-tutorial
 
