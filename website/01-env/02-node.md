@@ -26,7 +26,7 @@ permalink: /env/nodejs/
 <br/>
 
     -- installation
-    $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.1/install.sh | bash
+    $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.2/install.sh | bash
 
 <br/>
 
@@ -37,7 +37,7 @@ permalink: /env/nodejs/
 <br/>
 
     $ nvm --version
-    0.35.1
+    0.35.2
 
 <br/>
 
@@ -47,7 +47,7 @@ permalink: /env/nodejs/
     $ nvm install --lts
 
     $ node --version
-    v12.16.0
+    v12.16.1
 
 or
 

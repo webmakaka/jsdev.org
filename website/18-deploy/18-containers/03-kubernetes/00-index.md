@@ -26,11 +26,7 @@ permalink: /kubernetes/
 
 </div>
 
-<br/>
 
-**Telegram group for discussions kubernetes:**
-
-https://t.me/justmeandopensourcegroup
 
 <br/>
 
@@ -47,6 +43,12 @@ Kubernetes cluster in Digital Ocean
 <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLHq1uqvAteVvt4HcEEXBYZp6hOS0ViOvT" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
+
+<br/>
+
+### Dockerize a React App and an Express API With MongoDB
+
+https://medium.com/better-programming/dockerizing-react-app-and-express-api-with-mongodb-f3a06bebf570
 
 <br/>
 

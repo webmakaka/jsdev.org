@@ -19,6 +19,16 @@ https://facebook.github.io/react/blog/
 
 http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
+
+<br/>
+
+### Components library 
+
+<ul>
+  <li>https://react.semantic-ui.com/</li>
+  <li>https://material-ui.com/</li>
+</ul>
+
 <br/>
 
 ### Generate new react project
