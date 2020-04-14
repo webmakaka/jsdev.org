@@ -105,12 +105,14 @@ $ npm install --save-dev \
 ```
 
 
-<!-- ```
+<!-- 
+```
 {
   "presets": ["@babel/preset-env"]
 }
 
-``` -->
+``` 
+-->
 
 
 
@@ -184,7 +186,7 @@ module.exports = {
 ```
 
 
-
+-->
 
 <!--
 
@@ -209,7 +211,9 @@ module.exports = {
 ```js
 "lint": "./node_modules/.bin/eslint **/*.js",
 "start": "npm run lint & nodemon server.js"
-``` -->
+``` 
+
+-->
 
 
 
