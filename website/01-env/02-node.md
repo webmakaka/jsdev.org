@@ -14,7 +14,7 @@ permalink: /env/nodejs/
 
     -- for node.js installation
     # apt-get update && apt-get install -qq -y vim git curl net-tools
-    # apt-get install -y node.js
+    $ sudo apt-get install -y node.js
 
 <br/>
 
@@ -55,9 +55,9 @@ or
     $ nvm ls-remote
 
     // (Latest LTS: Erbium)
-    $ nvm install v12.16.0
+    $ nvm install v12.16.1
 
-    $ nvm use v12.16.0
+    $ nvm use v12.16.1
 
     -- set default
     $ nvm alias default v12.16.0
