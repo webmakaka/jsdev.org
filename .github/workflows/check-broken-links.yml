@@ -1,17 +1,12 @@
 name: check-broken-links
 
-on:
-  schedule:
-    - cron: '8 8 * * 0'
+on: 
   pull_request:
-    types: [opened, synchronize]
-    paths:
-      - .github/workflows/check-broken-links.yml
+    branches:
+    - gh-pages
   push:
     branches:
-      - master
-    paths:
-      - .github/workflows/check-broken-links.yml
+    - gh-pages
 
 jobs:
   my-broken-link-checker:
