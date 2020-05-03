@@ -36,16 +36,6 @@ $ npm install --save-dev prettier
 "format:check": "prettier --list-different src/**/*.{js,html}"
 ```
 
-<br/>
-
-**Format on save document**
-
-VSCode --> Preverences --> Extensions --> install --> Prettier - Code formatter esbenp.prettier-vscode
-
-VSCode --> Preverences --> Settings:
-
-- Format on Save (checked)
-- Prettier Require Config --> require a prettier configuration file to foramt (checked)
 
 <br/>
 
@@ -81,9 +71,6 @@ node_modules
 <br/>
 
 ### ESLint
-
-
-VSCode --> Preverences --> Extensions --> ESLint dbaeumer.vscode-eslint
 
 <br/>
 

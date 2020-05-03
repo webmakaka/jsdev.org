@@ -48,7 +48,7 @@ https://www.youtube.com/watch?v=bfyI9yl3qfE
 
 **Visual Studio Code Plugins:**
 
-- ESLint
+- ESLint (Dirk Baeumer)
 - Prettier - Code formatter
 - GitLens
 - Bracket Pair Colorizer
@@ -63,7 +63,7 @@ Highlight Matching Tag
 
 **React:**
 
-- Reactjs code snippets publisher:"charalampos karypidis" (My Favourite)
+- Reactjs code snippets (publisher:"charalampos karypidis" (My Favourite))
 
 or
 
@@ -93,6 +93,43 @@ or
 
 <br/>
 
+
+
+
+<br/>
+
+**Format on save document**
+
+VSCode --> Preverences --> Extensions --> install --> Prettier - Code formatter esbenp.prettier-vscode
+
+VSCode --> File --> Preverences --> Settings:
+
+- Format on Save (checked)
+- Prettier Require Config --> require a prettier configuration file to foramt (checked)
+
+<br/>
+
+**.prettierrc**
+
+```js
+{
+  "singleQuote": true,
+  "bracketSpacing": true
+}
+```
+
+
+<br/>
+
+**.prettierignore**
+
+```
+node_modules
+*.test.js
+*.spec.js
+```
+
+
 <!-- ### Eslint
 
     # npm install -g eslint \
@@ -110,3 +147,5 @@ or
     # ls /usr/local/lib/node_modules/
     eslint                  eslint-plugin-import  eslint-plugin-promise   npx
     eslint-config-standard  eslint-plugin-node    eslint-plugin-standard -->
+
+
