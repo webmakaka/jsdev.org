@@ -8,6 +8,9 @@ permalink: /dummy/
 
 # Dummy
 
+**faker.js:**  
+https://www.npmjs.com/package/faker
+
 <br/>
 
 ### Dummy Text Generator
@@ -23,7 +26,6 @@ permalink: /dummy/
 <a href="http://via.placeholder.com/100x100?text=avatar" rel="nofollow">placeholder</a>
 <a href="https://robohash.org" rel="nofollow">robohash.org/</a>
 
-
 <br/>
 
 ### Dummy Data Generator
@@ -34,8 +36,8 @@ permalink: /dummy/
 
 ### Working REST service
 
-<a href="https://restcountries.eu/rest/v2/all" rel="nofollow">REST Countries</a>
-<a href="https://jsonplaceholder.typicode.com/" rel="nofollow">jsonplaceholder</a>
+- <a href="https://jsonplaceholder.typicode.com/" rel="nofollow">jsonplaceholder</a>
+- <a href="https://restcountries.eu/rest/v2/all" rel="nofollow">REST Countries</a>
 
 <br/>
 
