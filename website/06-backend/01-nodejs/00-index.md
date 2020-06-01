@@ -24,7 +24,6 @@ permalink: /backend/nodejs/
 
 <a href="/backend/nodejs/static-server/">Static Server</a>
 
-
 <br/>
 
 ### Check updates for node packages
@@ -68,12 +67,6 @@ https://github.com/webmakaka/node-refresh-token
 
 <br/>
 
-### Authentication-API-in-node-express-jwt-bcrypt
-
-[Authentication-API-in-node-express-jwt-bcrypt](https://github.com/webmakaka/Authentication-API-in-node-express-jwt-bcrypt)
-
-<br/>
-
 ### REST nodejs
 
 [REST nodejs](https://github.com/hengkiardo/restcountries)
@@ -82,7 +75,7 @@ https://github.com/webmakaka/node-refresh-token
 
 ### Node.JS Articles
 
-- <a href="https://codeforgeek.com/2016/08/token-based-authentication-using-nodejs-rethinkdb/" rel="nofollow">[YouTube, Brad Traversy] Building token based authentication using NodeJs and RethinkDB</a>  
+- <a href="https://codeforgeek.com/2016/08/token-based-authentication-using-nodejs-rethinkdb/" rel="nofollow">[YouTube, Brad Traversy] Building token based authentication using NodeJs and RethinkDB</a>
 
 - <a href="https://codeforgeek.com/2016/09/10-things-running-node-js-production/" rel="nofollow">10 things you should do while running Node.js in production</a>
 
@@ -160,33 +153,33 @@ In this email, we wanted to list down popular node.js post which is considered t
 
 Here is the list.
 
-- <a href="https://codeforgeek.com/2015/01/nodejs-mysql-tutorial/" rel="nofollow">Node.js and MySQL tutorial</a>. 
+- <a href="https://codeforgeek.com/2015/01/nodejs-mysql-tutorial/" rel="nofollow">Node.js and MySQL tutorial</a>.
 
-- <a href="https://codeforgeek.com/2014/11/file-uploads-using-node-js/" rel="nofollow">File uploads using Node.js</a>.  
+- <a href="https://codeforgeek.com/2014/11/file-uploads-using-node-js/" rel="nofollow">File uploads using Node.js</a>.
 
-- <a href="https://codeforgeek.com/2014/09/handle-get-post-request-express-4/" rel="nofollow">Handle get and post request in Express</a>.  
+- <a href="https://codeforgeek.com/2014/09/handle-get-post-request-express-4/" rel="nofollow">Handle get and post request in Express</a>.
 
-- <a href="https://codeforgeek.com/2015/01/render-html-file-expressjs/" rel="nofollow">Render HTML in ExpressJS</a>.  
+- <a href="https://codeforgeek.com/2015/01/render-html-file-expressjs/" rel="nofollow">Render HTML in ExpressJS</a>.
 
-- <a href="https://codeforgeek.com/2014/09/manage-session-using-node-js-express-4/" rel="nofollow">Manage Session using Node.js and Express</a>. 
+- <a href="https://codeforgeek.com/2014/09/manage-session-using-node-js-express-4/" rel="nofollow">Manage Session using Node.js and Express</a>.
 
-- <a href="https://codeforgeek.com/2016/04/continuous-integration-deployment-jenkins-node-js/" rel="nofollow">Continuous integration and deployment using Jenkins and Node.js</a>.  
+- <a href="https://codeforgeek.com/2016/04/continuous-integration-deployment-jenkins-node-js/" rel="nofollow">Continuous integration and deployment using Jenkins and Node.js</a>.
 
 - <a href="https://codeforgeek.com/2015/09/real-time-notification-system-using-socket-io/" rel="nofollow">Real-time notification system using Socket.io and Node.js</a>.
 
-- <a href="https://codeforgeek.com/2014/07/node-sqlite-tutorial/" rel="nofollow">Node and SQLite tutorial</a>.  
+- <a href="https://codeforgeek.com/2014/07/node-sqlite-tutorial/" rel="nofollow">Node and SQLite tutorial</a>.
 
-- <a href="https://codeforgeek.com/2015/07/using-redis-to-handle-session-in-node-js/" rel="nofollow">Using Redis to handle Session in Node.js</a>. 
+- <a href="https://codeforgeek.com/2015/07/using-redis-to-handle-session-in-node-js/" rel="nofollow">Using Redis to handle Session in Node.js</a>.
 
-- <a href="https://codeforgeek.com/2014/07/send-e-mail-node-js/" rel="nofollow">How to send Email using Node.js</a>.  
+- <a href="https://codeforgeek.com/2014/07/send-e-mail-node-js/" rel="nofollow">How to send Email using Node.js</a>.
 
-- <a href="https://codeforgeek.com/2015/03/restful-api-node-and-express-4/" rel="nofollow">Building REST API using Nodejs</a>.  
+- <a href="https://codeforgeek.com/2015/03/restful-api-node-and-express-4/" rel="nofollow">Building REST API using Nodejs</a>.
 
-- <a href="https://codeforgeek.com/2015/03/real-time-app-socket-io/" rel="nofollow">Real-time newsfeed using Node and Socket</a>.  
+- <a href="https://codeforgeek.com/2015/03/real-time-app-socket-io/" rel="nofollow">Real-time newsfeed using Node and Socket</a>.
 
-- <a href="https://codeforgeek.com/2016/01/multiple-file-upload-node-js/" rel="nofollow">Multiple file upload using Nodejs</a>.  
+- <a href="https://codeforgeek.com/2016/01/multiple-file-upload-node-js/" rel="nofollow">Multiple file upload using Nodejs</a>.
 
-- <a href="https://codeforgeek.com/2015/07/unit-testing-nodejs-application-using-mocha/" rel="nofollow">Test API using Nodejs</a>.  
+- <a href="https://codeforgeek.com/2015/07/unit-testing-nodejs-application-using-mocha/" rel="nofollow">Test API using Nodejs</a>.
 
 - <a href="https://codeforgeek.com/2014/06/express-nodejs-tutorial/" rel="nofollow">Express and Nodejs tutorial for beginners</a>.
 
