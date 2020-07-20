@@ -37,6 +37,7 @@ permalink: /html/templates/
 # Styles
 
     http://getbootstrap.com/
+    http://tachyons.io/
     http://foundation.zurb.com/
     http://www.blueprintcss.org/
     http://firezenk.github.io/zimit/

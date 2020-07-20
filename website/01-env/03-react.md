@@ -11,12 +11,10 @@ permalink: /env/react/
 Taken from:  
 https://btholt.github.io/complete-intro-to-react-v5/
 
-
 Possible can be interesting:  
 https://www.youtube.com/watch?v=SydnKbGc7W8
 
-
-Possible can be helpful: 
+Possible can be helpful:
 https://glebbahmutov.com/blog/configure-prettier-in-vscode/
 
 <br/>
@@ -36,37 +34,9 @@ $ npm install --save-dev prettier
 "format:check": "prettier --list-different src/**/*.{js,html}"
 ```
 
-
 <br/>
 
-**.prettierrc**
-
-```js
-{
-  "singleQuote": true,
-  "bracketSpacing": true
-}
-```
-
-<br>
-
-
-**If needed to always use brackets for function with single argument (x) **
-
-```
-"arrowParens": "always",
-```
-
-
-<br/>
-
-**.prettierignore**
-
-```
-node_modules
-*.test.js
-*.spec.js
-```
+<a href="/env/vscode/">prettier configs</a>
 
 <br/>
 
@@ -75,7 +45,7 @@ node_modules
 <br/>
 
 ```
-$ npm install --save-dev eslint eslint-config-prettier 
+$ npm install --save-dev eslint eslint-config-prettier
 ```
 
 <!--
@@ -109,7 +79,6 @@ eslint-plugin-prettier
 
 ```
 
-
 <br/>
 
 **package.json**
@@ -121,7 +90,6 @@ eslint-plugin-prettier
 "lint:fix": "eslint --fix src/**/*.{js,html}",
 ```
 
-
 <br/>
 
 **.eslintignore**
@@ -132,11 +100,9 @@ eslint-plugin-prettier
 /node_modules/
 ```
 
-
 <br/>
 
 ### React
-
 
 <br/>
 
@@ -153,8 +119,6 @@ eslint-plugin-prettier
 
     $ npm install --save-dev \
                   eslint-plugin-react-hooks
-
-
 
 <br/>
 
@@ -198,7 +162,6 @@ eslint-plugin-prettier
 
 ```
 
-
 <br/>
 
 ** .ENV file (for absolute path) **
@@ -211,7 +174,7 @@ NODE_PATH=src/
 
 <br/>
 
-### Resolve src/ 
+### Resolve src/
 
 **.eslintrc**
 
@@ -227,7 +190,6 @@ NODE_PATH=src/
 }
 ```
 
-
 <br/>
 
 ### Run checks before commit (lint-staged husky)
@@ -237,7 +199,7 @@ $ npm install --save-dev lint-staged husky
 ```
 
 **package.json**
- 
+
 ```json
 
   "scripts": {
@@ -253,7 +215,6 @@ $ npm install --save-dev lint-staged husky
 }
 ```
 
-
 <br/>
 
 ### Babel
@@ -268,10 +229,10 @@ $ npm install --save-dev lint-staged husky
 "parser": "babel-eslint",
 ```
 
-<!-- 
+<!--
 <br/>
 
-### Parcel 
+### Parcel
 
     $ npm install --save-dev parcel-bundler
 

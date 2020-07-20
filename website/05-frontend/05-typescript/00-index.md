@@ -1,19 +1,18 @@
 ---
 layout: page
 title: TypeScript (Microsoft)
+description: TypeScript
+keywords: TypeScript
 permalink: /frontend/typescript/
 ---
 
 # TypeScript (Microsoft)
 
-
 Linter documenttion
 https://palantir.github.io/tslint/
 
-
 VisualStudoCode plugin for typescript:  
 https://marketplace.visualstudio.com/items?itemName=eg2.tslint
-
 
 <br/>
 
@@ -26,21 +25,18 @@ https://marketplace.visualstudio.com/items?itemName=eg2.tslint
 <br/>
 
     $ vi app.ts
-    
+
 <br/>
     
     [0,1,2].map((num) => num);
 
-
 <br/>
 
-
     # npm install -g grunt-cli
-    
+
     $ npm init -y
     $ npm install --save-dev grunt grunt-ts grunt-tslint tslint typescript
-    
-    
+
 <br/>
 
     $ vi tslint.json
@@ -65,34 +61,32 @@ https://marketplace.visualstudio.com/items?itemName=eg2.tslint
 {% highlight js linenos %}
 
 module.exports = function(grunt) {
-  grunt.initConfig({
-    ts: {
-      default : {
-        src: ['*.ts', '!node_modules/**']
-      }
-    },
-    tslint: {
-      options: {
-        configuration: 'tslint.json'
-      },
-      files: {
-        src: ["*.ts"]
-      }
-    }
-  });
-  
-  grunt.loadNpmTasks('grunt-ts');
-  grunt.loadNpmTasks('grunt-tslint');
-  grunt.registerTask('default', ['ts', 'tslint']);
+grunt.initConfig({
+ts: {
+default : {
+src: ['*.ts', '!node_modules/**']
+}
+},
+tslint: {
+options: {
+configuration: 'tslint.json'
+},
+files: {
+src: ["*.ts"]
+}
+}
+});
+
+grunt.loadNpmTasks('grunt-ts');
+grunt.loadNpmTasks('grunt-tslint');
+grunt.registerTask('default', ['ts', 'tslint']);
 };
 
 {% endhighlight %}
 
-
 <br/>
 
     $ grunt
-
 
 <br/>
     
@@ -101,9 +95,8 @@ module.exports = function(grunt) {
     $ npm install --save jasmine
 
     $ jasmine init
-    
-    $ vi spec/support/jasmine.json
 
+    $ vi spec/support/jasmine.json
 
 <br/>
 
@@ -118,27 +111,27 @@ https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/ma
 {% highlight js linenos %}
 
 export class Product {
-  private name: string;
-  private price: number;
-  constructor(name, price) {
-    this.name = name;
-    this.price = price;
-  }
+private name: string;
+private price: number;
+constructor(name, price) {
+this.name = name;
+this.price = price;
+}
 
-  getName(): string {
-    return this.name;
-  }
+getName(): string {
+return this.name;
+}
 
-  getPrice(): number {
-    return this.price;
-  }
+getPrice(): number {
+return this.price;
+}
 
-  getDiscountedPrice(discount): number {
-    return this.price - (this.price * discount / 100);
-  }
+getDiscountedPrice(discount): number {
+return this.price - (this.price \* discount / 100);
+}
 }
 {% endhighlight %}
-    
+  
 <br/>
 
     $ tsc product.ts
@@ -149,7 +142,6 @@ export class Product {
 
 https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec2/code/video3/spec/product-spec.js
 
-
 <br/>
 
 {% highlight js linenos %}
@@ -157,26 +149,26 @@ https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/ma
 const productModule = require('./../product.js');
 
 describe('Product Unit test', () => {
-  let product;
-  beforeEach(() => {
-    product = new productModule.Product('football', 100);
-  })
+let product;
+beforeEach(() => {
+product = new productModule.Product('football', 100);
+})
 
-  it('should return the product name', () => {
-    expect(product.getName()).toBe('football');
-  });
-  it('should return the product price', () => {
-    expect(product.getPrice()).toBe(100);
-  });
-  it('should return the exact product price', () => {
-    expect(product.getPrice()).not.toBe(110);
-  });
-  it('should return 10% discount price', () => {
-    expect(product.getDiscountedPrice(10)).toBe(90);
-  });
-  it('should return 50% discount price', () => {
-    expect(product.getDiscountedPrice(50)).toBe(50);
-  });
+it('should return the product name', () => {
+expect(product.getName()).toBe('football');
+});
+it('should return the product price', () => {
+expect(product.getPrice()).toBe(100);
+});
+it('should return the exact product price', () => {
+expect(product.getPrice()).not.toBe(110);
+});
+it('should return 10% discount price', () => {
+expect(product.getDiscountedPrice(10)).toBe(90);
+});
+it('should return 50% discount price', () => {
+expect(product.getDiscountedPrice(50)).toBe(50);
+});
 });
 {% endhighlight %}
 
@@ -190,72 +182,70 @@ describe('Product Unit test', () => {
 
     $ npm install jasmine-core karma-chrome-launcher karma-typescript karma
 
-    $ karma init 
-    
+    $ karma init
+
     $ vi karma.conf.js
-    
-    
+
+
     ***
-    
+
     frameworks: ['jasmine', 'karma-typescript'],
-    
+
     ***
-    
+
     preprocessors: {
     '*.ts': ['karma-typescript']
     },
 
-    
+
     $ vi product-test.ts
 
     https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec2/code/video4/product-test.ts
-    
 
 {% highlight js linenos %}
-    
+  
 import { Product } from './product';
 
 describe('Product Unit test', () => {
-  let product;
-  beforeEach(() => {
-    product = new Product('football', 100);
-  })
+let product;
+beforeEach(() => {
+product = new Product('football', 100);
+})
 
-  it('should return the product name', () => {
-    expect(product.getName()).toBe('football');
-  });
-  it('should return the product price', () => {
-    expect(product.getPrice()).toBe(100);
-  });
-  it('should return the exact product price', () => {
-    expect(product.getPrice()).not.toBe(110);
-  });
-  it('should return 10% discount price', () => {
-    expect(product.getDiscountedPrice(10)).toBe(90);
-  });
-  it('should return 50% discount price', () => {
-    expect(product.getDiscountedPrice(50)).toBe(50);
-  });
-});    
-{% endhighlight %}    
-    
-    $ karma start --single-run
-    
+it('should return the product name', () => {
+expect(product.getName()).toBe('football');
+});
+it('should return the product price', () => {
+expect(product.getPrice()).toBe(100);
+});
+it('should return the exact product price', () => {
+expect(product.getPrice()).not.toBe(110);
+});
+it('should return 10% discount price', () => {
+expect(product.getDiscountedPrice(10)).toBe(90);
+});
+it('should return 50% discount price', () => {
+expect(product.getDiscountedPrice(50)).toBe(50);
+});
+});  
+{% endhighlight %}  
+  
+ \$ karma start --single-run
 
-<!-- 
+<!--
 
 =====================
-    
+
     NOT WORKING
-    
-    $ npm install --save-dev phantomjs phantomjs-prebuilt karma-phantomjs-launcher  
-    
-    
-    $ npm install --save-dev karma-coverage karma-jasmine        
-    
+
+    $ npm install --save-dev phantomjs phantomjs-prebuilt karma-phantomjs-launcher
+
+
+    $ npm install --save-dev karma-coverage karma-jasmine
+
     $ vi karma.conf.js
-    
-    
+
+
     plugins: [
     'karma-typescript',
     'karma-coverage',
@@ -264,20 +254,18 @@ describe('Product Unit test', () => {
     'karma-chrome-launcher'
     ],
 
-    
+
     browsers: ['PhantomJS'],
-    
-    ============================ 
-    
+
+    ============================
+
 -->
-    
 
 **PhantomJS**
 
 https://stackoverflow.com/questions/45369418/karma-typescript-cant-find-variable-exports
 
 https://github.com/saurabhranjansingh/UnitTestingKarmaMocha
-    
 
     $ npm install --save-dev karma-spec-reporter
 
@@ -285,13 +273,11 @@ https://github.com/saurabhranjansingh/UnitTestingKarmaMocha
 
 
     reporters: ['spec', 'coverage'],
-    
+
     $ karma start --single-run --log-level debug
     $ karma start
-    
-    
-=======================================
-=======================================
+
+# =======================================
 
 <br/>
 
@@ -307,32 +293,26 @@ https://github.com/saurabhranjansingh/UnitTestingKarmaMocha
 
 https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video01/Gruntfile.js
 
-
 <br/>
 
     $ vi tsconfig.json
 
 https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video01/tsconfig.json
 
+<br/>
 
+    $ vi product-class.ts
+
+https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video01/product-class.ts
 
 <br/>
 
-    $ vi product-class.ts 
-    
-https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video01/product-class.ts 
+    $ vi product-class.ts
 
-
-
-<br/>
-
-    $ vi product-class.ts 
-    
 https://raw.githubusercontent.com/marley-js/Mastering-TypeScript-Programming-Techniques/master/Sec3/code/video01/product.ts
 
-
     $ npm install --save-dev grunt-contrib-watch
-    
+
     $ grunt
 
 <br/>
@@ -342,11 +322,11 @@ https://raw.githubusercontent.com/marley-js/Mastering-TypeScript-Programming-Tec
 <br/>
 
     $ vi tsconfig.json
-    
+
 https://raw.githubusercontent.com/marley-js/Mastering-TypeScript-Programming-Techniques/master/Sec3/code/video02/tsconfig.json
-    
-    
-    $ vi app.ts
+  
+  
+ $ vi app.ts
     
 https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video02/app.ts
     
@@ -355,7 +335,6 @@ https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/ma
 <br/>
 
 ### 11-Auto-Unit Testing Your TypeScript Application
-
 
 <br/>
 
@@ -372,19 +351,17 @@ https://raw.githubusercontent.com/marley-js/Mastering-TypeScript-Programming-Tec
 
 https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video03/spec/product-spec.js
 
-
     $ jasmine spec/product-spec.js
-    
+
 <br/>
 
     $ npm install --save grunt-exec
-    
+
 <br/>
     
     $ vi Gruntfile.js
 
-https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video03/Gruntfile.js   
-
+https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video03/Gruntfile.js
 
 <br/>
 
@@ -397,7 +374,6 @@ jre/jdk (java) shoudl be installed.
 
     $ webdriver-manager start
 
-
 <br/>
 
     $ vi tsconfig.json
@@ -406,8 +382,6 @@ jre/jdk (java) shoudl be installed.
 
 https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video04/tsconfig.json
 
-
-
 <br/>
 
     $ vi conf.ts
@@ -415,7 +389,6 @@ https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/ma
 <br/>
 
 https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video04/conf.ts
-
 
 <br/>
 

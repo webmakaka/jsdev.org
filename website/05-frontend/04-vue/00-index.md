@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Angular
+title: Vue.js
+description: Vue.js
+keywords: Vue.js
 permalink: /frontend/vue/
 ---
 

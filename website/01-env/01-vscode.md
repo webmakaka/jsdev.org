@@ -1,6 +1,8 @@
 ---
 layout: page
-title: JavaScript IDE - Visual Studio Code (Microsoft)
+title: JavaScript IDE - Visual Studio Code, VSCODE (Microsoft)
+description: JavaScript IDE - Visual Studio Code (Microsoft)
+keywords: JavaScript IDE, vscode
 permalink: /env/vscode/
 ---
 
@@ -54,6 +56,7 @@ https://www.youtube.com/watch?v=bfyI9yl3qfE
 - Bracket Pair Colorizer
 - Live Server
 - Node.js Modules Intellisense
+- Auto Import
 
 <!--
 Highlight Matching Tag
@@ -93,9 +96,6 @@ or
 
 <br/>
 
-
-
-
 <br/>
 
 **Format on save document**
@@ -118,6 +118,13 @@ VSCode --> File --> Preverences --> Settings:
 }
 ```
 
+<br>
+
+**If needed to always use brackets for function with single argument (x) **
+
+```
+"arrowParens": "always",
+```
 
 <br/>
 
@@ -128,7 +135,6 @@ node_modules
 *.test.js
 *.spec.js
 ```
-
 
 <!-- ### Eslint
 
@@ -147,5 +153,3 @@ node_modules
     # ls /usr/local/lib/node_modules/
     eslint                  eslint-plugin-import  eslint-plugin-promise   npx
     eslint-config-standard  eslint-plugin-node    eslint-plugin-standard -->
-
-

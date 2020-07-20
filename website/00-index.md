@@ -20,8 +20,6 @@ All materials about video courses and books for study javascript we collect <a h
 
 ![development-process](/img/development-process.jpg 'development-process'){: .center-image }
 
-
-
 <br/>
 
 ### Programming Notes for Professionals (Free Materials)
@@ -48,8 +46,6 @@ All materials about video courses and books for study javascript we collect <a h
 </tr>
 
 </table>
-
-
 
 <br/><br/>
 <br/>
