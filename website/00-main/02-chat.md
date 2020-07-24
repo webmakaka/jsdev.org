@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Chat
+description: Chat
+keywords: Chat
 permalink: /chat/
 ---
 

@@ -19,7 +19,6 @@ permalink: /sitemap/
 <a href="/html/">HTML CSS Fonts etc...</a>
 
 <a href="http://getbem.com/" rel="nofollow">BEM (CSS)</a>
- 
 
 <br/>
 <hr/>
@@ -103,7 +102,7 @@ Grunt || <a href="/tasks-runner/gulp/">Gulp</a>
 
 ### GraphQL
 
-<a href="/graphql/">GraphQL</a>
+<a href="/api/graphql/">GraphQL</a>
 
 <br/>
 
@@ -171,8 +170,5 @@ cloudinary.com
 
 ## Libs:
 
-
 <a href="https://lodash.com/" rel="nofollow">lodash</a>
 <a href="http://markapp.io/" rel="nofollow">markapp</a>
-
-
