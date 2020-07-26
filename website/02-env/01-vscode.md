@@ -112,6 +112,8 @@ or
 
 **GraphQL:**
 
+- Apollo GraphQL
+
 - GraphQL for VSCode (Kumar)
 
 <br/>

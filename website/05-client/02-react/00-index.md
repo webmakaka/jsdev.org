@@ -1,10 +1,12 @@
 ---
 layout: page
 title: React.js
+description: React.js
+keywords: React.js
 permalink: /client/react/
 ---
 
-# React
+# React.js
 
 <br/>
 
@@ -20,19 +22,13 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 <br/>
 
-### Components library
-
-<ul>
-  <li>https://react.semantic-ui.com/</li>
-  <li>https://material-ui.com/</li>
-</ul>
-
-<br/>
-
 ### Generate new react project
 
     # npm install -g npx
     $ npx create-react-app myapp
+
+    // If typescript support is needed
+    $ npx create-react-app myapp --typescript
 
 <br/>
 
@@ -41,6 +37,18 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 ```
 "start": "PORT=8080 react-scripts start",
 ```
+
+<br/>
+
+### Themes library
+
+<ul>
+  <li>Material UI - https://material-ui.com/</li>
+  <li>Semantic UI React - https://react.semantic-ui.com/</li>
+  <li>React + Foundation</li>
+  <li>React Bootstrap</li>
+  <li>Ant Design - ant.design</li>
+</ul>
 
 <br/>
 
@@ -80,9 +88,7 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 [React context](https://github.com/ZhangMYihua/react-context-lesson)
 
-<br/>
-
-https://github.com/webmakaka/React-Context-Hooks-Tutorial
+\
 
 <br/>
 

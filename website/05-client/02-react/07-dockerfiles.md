@@ -129,4 +129,4 @@ COPY --from=builder /project/build /usr/share/nginx/html
 
 From video course
 
-[Stephen Grider] Docker and Kubernetes: The Complete Guide [2018, ENG]
+[Stephen Grider] Docker and Kubernetes: The Complete Guide [ENG, 2018]
