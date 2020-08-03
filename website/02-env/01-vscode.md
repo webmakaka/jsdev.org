@@ -21,11 +21,8 @@ https://www.youtube.com/watch?v=bfyI9yl3qfE
 
 ```
 {
-  "editor.fontSize": 26,
-  "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "terminal.integrated.fontSize": 26,
-  "editor.formatOnSave": true,
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 10000,
   "eslint.enable": true
@@ -74,6 +71,7 @@ CTRL + P
 
 ```
 {
+    "explorer.compactFolders": false,
     "editor.fontSize": 22,
     "files.autoSave": "afterDelay",
     "editor.formatOnSave": true,
