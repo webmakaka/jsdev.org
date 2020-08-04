@@ -1,11 +1,10 @@
 ---
 layout: page
 title: JavaScript Run Function by Click on button
-permalink: /frontend/js/run-function-by-click-on-button/
+permalink: /client/js/run-function-by-click-on-button/
 ---
 
 # JavaScript Run Function by Click on button
-
 
 {% highlight html linenos %}
 
@@ -15,18 +14,18 @@ permalink: /frontend/js/run-function-by-click-on-button/
 	<title>Test</title>
 	<meta charset="UTF-8">
 
-	<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </head>
 <body>
 	<h1>Hello!</h1>
 
-	<input id="clickMe" type="button" value="Загрузить PDF" onclick="myFunc();" />
+    <input id="clickMe" type="button" value="Загрузить PDF" onclick="myFunc();" />
+
 </body>
 </html>
 
 {% endhighlight %}
-
 
 <br/>
 
@@ -37,7 +36,7 @@ permalink: /frontend/js/run-function-by-click-on-button/
 {% highlight html linenos %}
 
 var myFunc = function(){
-    console.log('Click');
+console.log('Click');
 }
 
 {% endhighlight %}

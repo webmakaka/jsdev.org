@@ -32,14 +32,14 @@ permalink: /sitemap/
 
 ## Client Side JavaScript
 
-<a href="/frontend/">Frontend</a>
+<a href="/client/">Frontend</a>
 
 <br/>
 <hr/>
 
 ## Server Side JavaScript
 
-<a href="/backend/">Backend</a>
+<a href="/server/">Backend</a>
 
 <br/>
 

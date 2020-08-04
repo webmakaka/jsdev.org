@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Backend
-permalink: /backend/
+permalink: /server/
 ---
 
 # Backend

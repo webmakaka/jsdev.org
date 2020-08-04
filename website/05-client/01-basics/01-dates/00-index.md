@@ -1,16 +1,14 @@
 ---
 layout: page
 title: Working with dates in JavaScript
-permalink: /frontend/js/dates/
+permalink: /client/js/dates/
 ---
 
 # Working with dates in JavaScript
 
-
     var d = new Date("2015-03-25");
 
 <br/>
-
 
     function dateFormat(date){
 
@@ -50,7 +48,6 @@ permalink: /frontend/js/dates/
     console.log(dateFormat(day_8));
     console.log(dateFormat(day_14));
 
-
 **Result:**
 
     25.11.2016
@@ -59,7 +56,6 @@ permalink: /frontend/js/dates/
     10.11.2016
 
 <br/>
-
 
 ### Convert String to JavaScript date
 
@@ -82,7 +78,6 @@ permalink: /frontend/js/dates/
     function dateToSQLDate(data){
         return data.substring(0, 10);
     }
-
 
 <br/>
 

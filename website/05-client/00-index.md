@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Frontend
-permalink: /frontend/
+permalink: /client/
 ---
 
 <br/>
@@ -12,7 +12,7 @@ permalink: /frontend/
 
 ### Basics exampless
 
-[Basics examples](/frontend/js/basics/)
+[Basics examples](/client/js/basics/)
 
 <br/>
 

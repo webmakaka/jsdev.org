@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Jquery
-permalink: /frontend/jquery/
+permalink: /client/jquery/
 ---
 
 # Jquery
-
 
 ### Creating An Image Slider Project With JQuery | Eduonix
 

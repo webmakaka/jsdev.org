@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Basics examples
-permalink: /frontend/js/basics/
+permalink: /client/js/basics/
 ---
-
 
 # Basics examples
 
@@ -16,6 +15,6 @@ https://www.youtube.com/watch?v=u3rylF3y3og
 <br/>
 <br/>
 
-<a href="/frontend/js/run-function-by-click-on-button/">Run Function by Click on button</a>
+<a href="/client/js/run-function-by-click-on-button/">Run Function by Click on button</a>
 
-<a href="/frontend/js/dates/">Working with dates</a>
+<a href="/client/js/dates/">Working with dates</a>
