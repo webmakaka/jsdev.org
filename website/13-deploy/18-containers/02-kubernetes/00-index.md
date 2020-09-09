@@ -52,6 +52,12 @@ https://medium.com/better-programming/dockerizing-react-app-and-express-api-with
 
 <br/>
 
+### Redis on Kubernetes for beginners
+
+https://www.youtube.com/watch?v=JmCn7k0PlV4
+
+<br/>
+
 ### Some examples with minikube
 
 - <a href="https://github.com/webmakaka/The-React-Practice-Course-Learn-by-Building-Projects" rel="nofollow">[Udemy] The React practice course, learn by building projects [ENG, 2018]</a>

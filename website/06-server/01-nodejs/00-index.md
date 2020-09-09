@@ -16,6 +16,12 @@ permalink: /server/nodejs/
 
 <br/>
 
+### Node Auth Tutorial
+
+<a href="https://www.youtube.com/watch?v=SnoAwLP1a-0&list=PL4cUxeGkcC9iqqESP8335DA5cRFp8loyp">Node Auth Tutorial </a>
+
+<br/>
+
 ### Node.JS and Docker
 
 <a href="/env/docker/run-container/linux/">Run Docker Container (with node.js)</a>

@@ -26,7 +26,10 @@ permalink: /env/nodejs/
 <br/>
 
     -- installation
-    $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.2/install.sh | bash
+
+    $ LATEST_VERSION=$(curl --silent "https://api.github.com/repos/nvm-sh/nvm/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/')
+
+    $ curl -o- https://raw.githubusercontent.com/creationix/nvm/${LATEST_VERSION}/install.sh | bash
 
 <br/>
 
@@ -47,7 +50,7 @@ permalink: /env/nodejs/
     $ nvm install --lts
 
     $ node --version
-    v12.16.1
+    v12.18.3
 
 or
 
@@ -55,15 +58,33 @@ or
     $ nvm ls-remote
 
     // (Latest LTS: Erbium)
-    $ nvm install v12.16.1
+    $ nvm install v12.18.3
 
-    $ nvm use v12.16.1
+    $ nvm use v12.18.3
 
     -- set default
-    $ nvm alias default v12.16.0
+    $ nvm alias default v12.18.3
 
     $ node --version
-    v12.16.0
+    v12.18.3
+
+<br/>
+
+### For fast switching
+
+    $ {
+      nvm install v12.18.3
+      nvm use v12.18.3
+      nvm alias default v12.18.3
+    }
+
+<br/>
+
+    $ {
+      nvm install v8.17.0
+      nvm use v8.17.0
+      nvm alias default v8.17.0
+    }
 
 <br/>
 

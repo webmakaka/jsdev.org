@@ -19,10 +19,15 @@ permalink: /env/chrome/
 ### Extensions for Github
 
 - GitHub dark theme
-- Octotree
 - Enchanced GitHub
 - File icon for Github and Gitlab
 - Octolinker
 - Sourcegraph
+
+<!--
+
+- Octotree
+
+-->
 
 https://www.youtube.com/watch?v=0r2JwANUZwo

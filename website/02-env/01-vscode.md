@@ -59,7 +59,7 @@ https://www.youtube.com/watch?v=bfyI9yl3qfE
 
 **Visual Studio Themes:**
 
-- Monokai Pro
+- Monokai Pro (Will ask money!)
 
 <br/>
 
