@@ -93,7 +93,7 @@ or
     $ nvm install-latest-npm
 
     $ npm --version
-    6.13.7
+    6.14.8
 
 <br/>
 
