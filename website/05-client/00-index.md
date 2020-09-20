@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Frontend
+description: Frontend
+keywords: Frontend
 permalink: /client/
 ---
-
-<br/>
 
 # Frontend
 

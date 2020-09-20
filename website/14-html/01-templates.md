@@ -1,6 +1,8 @@
 ---
 layout: page
 title: HTML Templates
+description: HTML Templates
+keywords: HTML Templates
 permalink: /html/templates/
 ---
 

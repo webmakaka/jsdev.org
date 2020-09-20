@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Angular
+description: Angular
+keywords: Angular
 permalink: /client/angular/
 ---
 

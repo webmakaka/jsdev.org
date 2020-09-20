@@ -1,11 +1,12 @@
 ---
 layout: page
 title: JavaScript Async
+description: JavaScript Async
+keywords: JavaScript Async
 permalink: /lang/async/
 ---
 
 # JavaScript Async
-
 
 <br/>
 

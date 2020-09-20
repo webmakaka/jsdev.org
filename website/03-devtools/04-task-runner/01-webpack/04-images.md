@@ -1,10 +1,10 @@
 ---
 layout: page
 title: WebPack - Images
+description: WebPack - Images
+keywords: WebPack - Images
 permalink: /tasks-runner/webpack/images/
 ---
-
-<br/>
 
 # WebPack - Images
 

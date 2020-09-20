@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Qlik Sense 3.0 Working Examples with selections
+description: Qlik Sense 3.0 Working Examples with selections
+keywords: Qlik Sense 3.0 Working Examples with selections
 permalink: /commercial/qlik/3.x/working-with-selections-programmatically/
 ---
-
 
 # [Qlik Sense 3.0] Working Examples with selections:
 

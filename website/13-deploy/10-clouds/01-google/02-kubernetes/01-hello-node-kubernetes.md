@@ -1,17 +1,18 @@
 ---
 layout: page
 title: Hello Node Kubernetes
+description: Hello Node Kubernetes
+keywords: Hello Node Kubernetes
 permalink: /clouds/google/kubernetes/hello-node-kubernetes/
 ---
 
 # [GSP005] Hello Node Kubernetes
 
-
 https://google.qwiklabs.com/focuses/564?catalog_rank=%7B%22rank%22%3A5%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=2790370
 
 <br/>
 
-You can find coupons for labs  <a href="https://medium.com/@sathishvj/qwiklabs-free-codes-gcp-and-aws-e40f3855ffdb" rel="nofollow">here</a>. I didn't pay money for this. Because i am poor. 
+You can find coupons for labs <a href="https://medium.com/@sathishvj/qwiklabs-free-codes-gcp-and-aws-e40f3855ffdb" rel="nofollow">here</a>. I didn't pay money for this. Because i am poor.
 
 <br/>
 
@@ -66,7 +67,7 @@ OK
 A node.js Voting Game
 ```
 
-replace to 
+replace to
 
 ```
 A node.js Voting Game in GKE

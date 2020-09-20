@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Example Promise
+description: Example Promise
+keywords: Example Promise
 permalink: /lang/async/promises/example/
 ---
 

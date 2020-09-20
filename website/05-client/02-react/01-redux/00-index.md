@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Redux
+description: Redux
+keywords: Redux
 permalink: /client/react/redux/
 ---
 

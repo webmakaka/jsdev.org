@@ -1,6 +1,8 @@
 ---
 layout: page
 title: JavaScript Development Environment
+description: JavaScript Development Environment
+keywords: JavaScript Development Environment
 permalink: /env/
 ---
 

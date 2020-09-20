@@ -1,6 +1,8 @@
 ---
 layout: page
 title: ECMAScript 6 Promises
+description: ECMAScript 6 Promises
+keywords: ECMAScript 6 Promises
 permalink: /lang/async/promises/
 ---
 
@@ -8,11 +10,9 @@ permalink: /lang/async/promises/
 
 <br/>
 
-
 [From Video Course](/lang/async/promises/from-video/)
 
 [Example Promise](/lang/async/promises/example/)
-
 
 <br/>
 

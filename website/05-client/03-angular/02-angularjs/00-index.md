@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Angular.js
+description: Angular.js
+keywords: Angular.js
 permalink: /client/angular/angularjs/
 ---
-
-<br/>
 
 # angular-styleguide
 

@@ -18,11 +18,21 @@ permalink: /env/chrome/
 
 ### Extensions for Github
 
-- GitHub dark theme
+* GitHub dark theme
+* Quick JavaScript Switcher
+* EditThisCookie
+* SetupVPN
+* LanguageTool
+* Nimbus Screenshoot & Screen Video Recorder
+
+<!--
+
 - Enchanced GitHub
 - File icon for Github and Gitlab
 - Octolinker
 - Sourcegraph
+
+-->
 
 <!--
 

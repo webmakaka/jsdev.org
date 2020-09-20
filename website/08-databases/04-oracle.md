@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Oracle DataBase
+description: Oracle DataBase
+keywords: Oracle DataBase
 permalink: /databases/oracle/
 ---
-
-<br/>
 
 # Oracle DataBase
 

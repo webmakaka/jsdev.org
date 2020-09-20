@@ -1,10 +1,10 @@
 ---
 layout: page
-title: WebPack - Basics
+title: WebPack - Babel
+description: WebPack - Babel
+keywords: WebPack - Babel
 permalink: /tasks-runner/webpack/babel/
 ---
-
-<br/>
 
 # WebPack - Babel
 

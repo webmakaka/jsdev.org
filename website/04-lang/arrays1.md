@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Arrays
+description: Arrays
+keywords: Arrays
 permalink: /lang/arrays/1/
 ---
 
-
 # Arrays
-
 
 Array.pop - not pure. Do not recommend to use.
 Array.splice - not pure. Do not recommend to use.
@@ -24,7 +24,6 @@ Array.splice - not pure. Do not recommend to use.
     console.log( schools.join(", ") )
     // "Yorktown, Washington & Lee, Wakefield"
 
-
 ### Filter
 
 <br/>
@@ -35,15 +34,14 @@ sample 1
     console.log( wSchools )
     // ["Washington & Lee", "Wakefield"]
 
-
 <br/>
 
 sample 2
 
     const cutSchool = (cut, list) =>
             list.filter(school => school !== cut)
-            
-            
+
+
     console.log(cutSchool("Washington & Lee", schools).join(" * "))
     // "Yorktown * Wakefield"
 
@@ -77,7 +75,6 @@ sample 1
 
 sample 2
 
-
     const highSchools = schools.map(school => ({ name: school }))
     console.log( highSchools )
     // [
@@ -86,11 +83,9 @@ sample 2
     // { name: "Wakefield" }
     // ]
 
-
 <br/>
 
 sample 3
-
 
     let schools = [
         { name: "Yorktown"},
@@ -122,7 +117,6 @@ sample 3
             item
         )
 
-
 <br/>
 
 sample 4
@@ -139,7 +133,6 @@ sample 4
         })
     )
     console.log(schoolArray)
-
 
 <br/>
 
@@ -160,12 +153,9 @@ sample 1
     }, 0)
     console.log('maxAge', maxAge)
 
-
 <br/>
 
 sample 2
-
-
 
     const ages = [21,18,42,40,64,63,34];
     // less syntax
@@ -174,7 +164,6 @@ sample 2
         0
     )
     console.log('max', max)
-
 
 <br/>
 
@@ -211,7 +200,6 @@ sample 3
     )
     console.log(hashColors)
 
-
 <br/>
 
 sample 4
@@ -226,19 +214,15 @@ sample 4
     )
     console.log(distinctColors)
 
-
 <br/>
 
-**Links:** 
+**Links:**
 
 https://github.com/MoonHighway/learning-react/tree/master/chapter-03
-
-
 
 <br/>
 
 ### Convert comma separated string to array
-
 
     var selections = [];
     selections.push({"field":"Year", "selected":"2000, 2002, 2004, 2006, 2008"});
@@ -259,11 +243,9 @@ https://github.com/MoonHighway/learning-react/tree/master/chapter-03
 
     // res [2000, 2002, 2004, 2006, 2008]
 
-
 <br/>
 
-### Example 2    
-
+### Example 2
 
     var selections = [];
     selections.push({"field":"Territory code", "selected":"ABW, AFG, AGO, AIA, ALB"});
@@ -307,13 +289,9 @@ https://github.com/MoonHighway/learning-react/tree/master/chapter-03
           }
      ]
 
-
-
 <br/>
 
-
 ### Create an Array of Object programmatically
-
 
     self.processLocationData = function (data) {
 
@@ -333,4 +311,4 @@ https://github.com/MoonHighway/learning-react/tree/master/chapter-03
         self.observableDatasource(res);
         document.getElementById('ring-container').style.display = 'none';
         document.getElementById('chart-container').style.display = 'inline';
-    }  
+    }

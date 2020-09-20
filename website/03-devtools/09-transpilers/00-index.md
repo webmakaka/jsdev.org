@@ -1,16 +1,14 @@
 ---
 layout: page
 title: Transpilers
+description: Transpilers
+keywords: Transpilers
 permalink: /transpilers/
 ---
 
-<br/>
-
-
 # Transpilers
 
-
-<a href="/transpilers/babel/">Babel</a>  ||
+<a href="/transpilers/babel/">Babel</a> ||
 TypeScript (by Microsoft) ||
 Elm ||
 CoffeScpipt ||

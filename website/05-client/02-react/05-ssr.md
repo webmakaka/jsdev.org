@@ -1,6 +1,8 @@
 ---
 layout: page
 title: React.js Server Side Rendering
+description: React.js Server Side Rendering
+keywords: React.js Server Side Rendering
 permalink: /client/react/ssr/
 ---
 

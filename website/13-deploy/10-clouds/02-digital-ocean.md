@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Digital Ocean
+description: Digital Ocean
+keywords: Digital Ocean
 permalink: /clouds/digital-ocean/
 ---
 

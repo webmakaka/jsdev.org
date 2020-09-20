@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Express.JS - Projects
+description: Express.JS - Projects
+keywords: Express.JS - Projects
 permalink: /server/nodejs/expressjs/projects/
 ---
-
-<br/>
 
 # Express.JS - Projects
 

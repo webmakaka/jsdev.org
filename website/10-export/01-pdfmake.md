@@ -1,11 +1,10 @@
 ---
 layout: page
 title: pdfmake
+description: pdfmake
+keywords: pdfmake
 permalink: /export/pdf/pdfmake/
 ---
-
-<br/>
-
 
 # pdfmake
 
@@ -15,7 +14,7 @@ pdfmake - can make export on client and server side. For sever side needs node.j
 
 <br/>
 
-Need to copy pdfmake.min.js  (or pdfmake.js),  vfs_fonts.js
+Need to copy pdfmake.min.js (or pdfmake.js), vfs_fonts.js
 
 <br/>
 
@@ -27,20 +26,20 @@ Need to copy pdfmake.min.js  (or pdfmake.js),  vfs_fonts.js
 	<title>Test</title>
 	<meta charset="UTF-8">
 
-	<script src="pdfmake.js"></script>
-	<script src="vfs_fonts.js"></script>
-	<script src="script.js"></script>
+    <script src="pdfmake.js"></script>
+    <script src="vfs_fonts.js"></script>
+    <script src="script.js"></script>
 
 </head>
 <body>
 	<h1>Hello!</h1>
 
-	<input id="clickMe" type="button" value="Download PDF" onclick="myFunc();" />
+    <input id="clickMe" type="button" value="Download PDF" onclick="myFunc();" />
+
 </body>
 </html>
 
 {% endhighlight %}
-
 
 <br/>
 
@@ -88,10 +87,8 @@ var docInfo = {
 
 }
 
-
 var myFunc = function(){
-    pdfMake.createPdf(docInfo).download('PdfFileName.pdf');
+pdfMake.createPdf(docInfo).download('PdfFileName.pdf');
 }
-
 
 {% endhighlight %}

@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Cors
+description: Cors
+keywords: Cors
 permalink: /cors/
 ---
 
-<br/>
-
 # No 'Access-Control-Allow-Origin' header is present on the requested resource.
+
 Origin 'http://localhost:8080' Is therefore not allowed access.
 
 <br/>

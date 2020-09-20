@@ -1,17 +1,18 @@
 ---
 layout: page
 title: Running a Node.js Container on Google Kubernetes Engine
+description: Running a Node.js Container on Google Kubernetes Engine
+keywords: Running a Node.js Container on Google Kubernetes Engine
 permalink: /clouds/google/kubernetes/running-nodejs-container-on-gke/
 ---
 
 # [GSP015] Running a Node.js Container on Google Kubernetes Engine
 
-
 https://www.qwiklabs.com/focuses/5982?catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=2790268
 
 <br/>
 
-You can find coupons for labs  <a href="https://medium.com/@sathishvj/qwiklabs-free-codes-gcp-and-aws-e40f3855ffdb" rel="nofollow">here</a>. I didn't pay money for this. Because i am poor. 
+You can find coupons for labs <a href="https://medium.com/@sathishvj/qwiklabs-free-codes-gcp-and-aws-e40f3855ffdb" rel="nofollow">here</a>. I didn't pay money for this. Because i am poor.
 
 <br/>
 
@@ -54,7 +55,6 @@ CMD node server.js
     // Publish the container
     $ gcloud docker -- push gcr.io/$DEVSHELL_PROJECT_ID/hello-node:1.0
 
-
 <br/>
 
 ### Deploying the Node.js App
@@ -71,7 +71,6 @@ CMD node server.js
     $ kubectl get svc hello-node
     NAME         TYPE           CLUSTER-IP    EXTERNAL-IP      PORT(S)        AGE
     hello-node   LoadBalancer   10.0.10.239   35.192.224.241   80:30099/TCP   88s
-
 
 http://35.192.224.241/
 OK

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Stylus
+description: Stylus
+keywords: Stylus
 permalink: /css/preprocessors/stylus/
 ---
 

@@ -40,7 +40,7 @@ permalink: /env/nodejs/
 <br/>
 
     $ nvm --version
-    0.35.2
+    0.35.3
 
 <br/>
 

@@ -1,11 +1,10 @@
 ---
 layout: page
 title: WebPack
+description: WebPack
+keywords: WebPack
 permalink: /tasks-runner/webpack/
 ---
-
-<br/>
-
 
 # WebPack
 
@@ -17,7 +16,6 @@ permalink: /tasks-runner/webpack/
     <li><a href="/tasks-runner/webpack/css/">CSS</a></li>
     <li><a href="/tasks-runner/webpack/images/">Images</a></li>
 </ul>
-
 
 <br/>
 <br/>

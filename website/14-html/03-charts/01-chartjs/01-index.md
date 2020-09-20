@@ -1,6 +1,8 @@
 ---
 layout: page
 title: ChartJS
+description: ChartJS
+keywords: ChartJS
 permalink: /charts/chartjs/
 ---
 

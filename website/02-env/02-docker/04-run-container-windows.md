@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Run Docker Container (with node.js) in Windows 10
+description: Run Docker Container (with node.js) in Windows 10
+keywords: Run Docker Container (with node.js) in Windows 10
 permalink: /env/docker/run-container/windows/
 ---
 

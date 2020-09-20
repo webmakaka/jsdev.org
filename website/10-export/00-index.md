@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Export to Excel, Word, Pdf
+description: Export to Excel, Word, Pdf
+keywords: Export to Excel, Word, Pdf
 permalink: /export/
 ---
-
-<br/>
-
 
 # Export to Excel, Word, Pdf
 
@@ -18,7 +17,6 @@ permalink: /export/
     <li><a href="https://github.com/MrRio/jsPDF">jsPDF</a></li>
     <li>pdfjs</li>
 </ul>
-
 
 <br/>
 

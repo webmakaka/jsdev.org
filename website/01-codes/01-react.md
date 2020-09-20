@@ -1,6 +1,8 @@
 ---
 layout: page
 title: JavaScript React Code Examples
+description: JavaScript React Code Examples
+keywords: JavaScript React Code Examples
 permalink: /codes/react/
 ---
 

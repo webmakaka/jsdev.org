@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Dummy
+description: Dummy
+keywords: Dummy
 permalink: /dummy/
 ---
 

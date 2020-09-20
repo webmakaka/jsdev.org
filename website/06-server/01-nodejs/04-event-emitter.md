@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Node.JS EventEmitter
+description: Node.JS EventEmitter
+keywords: Node.JS EventEmitter
 permalink: /server/nodejs/event-emitter/
 ---
 

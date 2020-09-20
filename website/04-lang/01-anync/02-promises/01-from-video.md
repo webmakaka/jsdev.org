@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Example Promise From Video
+description: Example Promise From Video
+keywords: Example Promise From Video
 permalink: /lang/async/promises/from-video/
 ---
-
-<br/>
-
 
 # Example Promise From Video
 
@@ -43,7 +42,6 @@ https://www.wintellectnow.com/Videos/Watch?videoId=promises-in-javascript
 
 {% endhighlight %}
 
-
 <br/>
 
 ### reject
@@ -75,8 +73,6 @@ https://www.wintellectnow.com/Videos/Watch?videoId=promises-in-javascript
 </html>
 
 {% endhighlight %}
-
-
 
 <br/>
 
@@ -113,10 +109,7 @@ https://www.wintellectnow.com/Videos/Watch?videoId=promises-in-javascript
 
 {% endhighlight %}
 
-
-
 <br/>
-
 
 {% highlight javascript linenos %}
 
@@ -127,8 +120,6 @@ Promise.reject('some value').catch(results => console.log(results));
 
 <br/>
 
-
-
 <br/>
 
 ### Chaining
@@ -136,7 +127,7 @@ Promise.reject('some value').catch(results => console.log(results));
 {% highlight javascript linenos %}
 
 setTimeout(() => {
-    console.log('a');
+console.log('a');
 
     setTimeout(() => {
         console.log('b');
@@ -147,7 +138,6 @@ setTimeout(() => {
 {% endhighlight %}
 
 <br/>
-
 
 <br/>
 
@@ -180,7 +170,6 @@ const p = new Promise( resolve => {
 
 {% endhighlight %}
 
-
 <br/>
 
 Results:
@@ -196,11 +185,9 @@ Results:
 
 <br/>
 
-
 <br/>
 
 ### Try Catch Finnaly Async
-
 
 <br/>
 
@@ -232,8 +219,6 @@ Results:
 </script>
 
 {% endhighlight %}
-
-
 
 <br/>
 
@@ -275,8 +260,6 @@ Results:
 
 {% endhighlight %}
 
-
-
 <br/>
 
 {% highlight javascript linenos %}
@@ -314,7 +297,6 @@ Results:
 </script>
 
 {% endhighlight %}
-
 
 <br/>
 
@@ -355,7 +337,6 @@ Results:
 </script>
 
 {% endhighlight %}
-
 
 <br/>
 
@@ -409,7 +390,6 @@ Results:
 
 {% endhighlight %}
 
-
 <br/>
 
 {% highlight javascript linenos %}
@@ -452,7 +432,6 @@ Results:
 </script>
 
 {% endhighlight %}
-
 
 <br/>
 

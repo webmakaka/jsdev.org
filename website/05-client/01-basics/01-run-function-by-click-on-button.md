@@ -1,6 +1,8 @@
 ---
 layout: page
 title: JavaScript Run Function by Click on button
+description: JavaScript Run Function by Click on button
+keywords: JavaScript Run Function by Click on button
 permalink: /client/js/run-function-by-click-on-button/
 ---
 

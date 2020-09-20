@@ -1,13 +1,12 @@
 ---
 layout: page
 title: Qlik Sense 3.0 My startup template for extensions development
+description: Qlik Sense 3.0 My startup template for extensions development
+keywords: Qlik Sense 3.0 My startup template for extensions development
 permalink: /commercial/qlik/3.x/my-statup-template-for-extensions-development/
 ---
 
-
-
 # [Qlik Sense 3.0] My startup template for extensions development
-
 
     define( [
       'qlik'

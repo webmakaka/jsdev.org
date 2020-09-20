@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Dockerfiles for React.js apps
+description: Dockerfiles for React.js apps
+keywords: Dockerfiles for React.js apps
 permalink: /client/react/dockerfiles/
 ---
 

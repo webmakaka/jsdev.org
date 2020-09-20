@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Jquery
+description: Jquery
+keywords: Jquery
 permalink: /client/jquery/
 ---
 

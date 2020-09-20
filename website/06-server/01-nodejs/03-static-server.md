@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Node.JS Static Server
+description: Node.JS Static Server
+keywords: Node.JS Static Server
 permalink: /server/nodejs/static-server/
 ---
 

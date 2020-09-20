@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Deploy Node.js Express Application in App Engine
+description: Deploy Node.js Express Application in App Engine
+keywords: Deploy Node.js Express Application in App Engine
 permalink: /clouds/google/gae/
 ---
 
@@ -10,7 +12,7 @@ https://google.qwiklabs.com/focuses/3340?parent=catalog&qlcampaign=1q-clouddev-0
 
 <br/>
 
-You can find coupons for labs  <a href="https://medium.com/@sathishvj/qwiklabs-free-codes-gcp-and-aws-e40f3855ffdb" rel="nofollow">here</a>. I didn't pay money for this. Because i am poor. 
+You can find coupons for labs <a href="https://medium.com/@sathishvj/qwiklabs-free-codes-gcp-and-aws-e40f3855ffdb" rel="nofollow">here</a>. I didn't pay money for this. Because i am poor.
 
 <br/>
 
@@ -26,8 +28,8 @@ This tutorial uses the sample code from the Google Cloud Node.js Getting Started
 
 What you'll learn
 
-* How to create a Node.js Express application on Google App Engine.
-* How to update the code without taking the server down.
+- How to create a Node.js Express application on Google App Engine.
+- How to update the code without taking the server down.
 
 <br/>
 

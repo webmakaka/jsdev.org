@@ -1,10 +1,10 @@
 ---
 layout: page
 title: MongoDB
+description: MongoDB
+keywords: MongoDB
 permalink: /databases/mongodb/
 ---
-
-<br/>
 
 # MongoDB
 

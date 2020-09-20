@@ -1,10 +1,10 @@
 ---
 layout: page
 title: PostgreSQL
+description: PostgreSQL
+keywords: PostgreSQL
 permalink: /databases/postgresql/
 ---
-
-<br/>
 
 # PostgreSQL
 
@@ -14,7 +14,6 @@ permalink: /databases/postgresql/
 
 - heroku
 - elephantsql.com (20 MB database)
-
 
 <br/>
 

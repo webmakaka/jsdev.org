@@ -1,14 +1,12 @@
 ---
 layout: page
 title: WebPack - Basics
+description: WebPack - Basics
+keywords: WebPack - Basics
 permalink: /tasks-runner/webpack/basics/
 ---
 
-<br/>
-
-
 # WebPack - Basics
-
 
     # cd project
     # mkdir js_modules
@@ -45,7 +43,6 @@ or
 
     module.exports = config;
 
-
 <br/>
 
     # vi package.json
@@ -53,7 +50,6 @@ or
     "scripts": {
       "build": "webpack"
     },
-
 
 <br/>
 
@@ -66,7 +62,6 @@ or
     const total = sum(10, 5);
 
     console.log(total);
-
 
 <br/>
 
@@ -88,7 +83,6 @@ or
         <script src="build/bundle.js"></script>
     </body>
     </html>
-
 
 <br/>
 

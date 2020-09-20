@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Express.JS
+description: Express.JS
+keywords: Express.JS
 permalink: /server/nodejs/expressjs/
 ---
 

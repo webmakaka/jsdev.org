@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Create simple react project manually
+description: Create simple react project manually
+keywords: Create simple react project manually
 permalink: /client/react/create-simple-react-project-manually/
 ---
 

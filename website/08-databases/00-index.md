@@ -1,13 +1,12 @@
 ---
 layout: page
 title: DataBases
+description: DataBases
+keywords: DataBases
 permalink: /databases/
 ---
 
-<br/>
-
 # DataBases
-
 
 <br/>
 
@@ -15,8 +14,7 @@ permalink: /databases/
 
 - Sequelize - https://github.com/webmakaka/Introduction-to-Sequelize-ORM-for-Node.js
 
-
-+ https://sqlitebrowser.org/ 
+* https://sqlitebrowser.org/
 
 <br/>
 
@@ -47,7 +45,6 @@ permalink: /databases/
 ### Elastic Search
 
 [Elastic Search](/databases/elastic-search/)
-
 
 <br/>
 

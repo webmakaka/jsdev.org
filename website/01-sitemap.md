@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Site Map
+description: Site Map
+keywords: Site Map
 permalink: /sitemap/
 ---
 
@@ -51,7 +53,7 @@ Electron
 
 ## Mobile Development
 
-Ionic || React Native
+Ionic | React Native
 
 <br/>
 
@@ -62,7 +64,7 @@ Grunt || <a href="/tasks-runner/gulp/">Gulp</a>
 
 ## Transpiling
 
-<a href="/transpilers/babel/">Babel</a> || TypeScript (by Microsoft) || Elm || CoffeScpipt || Dart (by Google)
+<a href="/transpilers/babel/">Babel</a> | TypeScript (by Microsoft) | Elm | CoffeScpipt | Dart (by Google)
 
 <br/>
 <hr/>
@@ -114,7 +116,7 @@ Grunt || <a href="/tasks-runner/gulp/">Gulp</a>
 
 ### Container Registry Services
 
-github container registry || hub.docker.com || quay.io
+github container registry | hub.docker.com | quay.io
 
 <br/>
 <hr/>
@@ -134,7 +136,7 @@ Sonarqube
 
 ## Continious Integration
 
-github actions | gitlab-ci | travis-ci | jenkins | bamboo ci | circleci
+github actions | tekton | gitlab-ci | travis-ci | jenkins | bamboo ci | circleci
 
 <br/>
 
@@ -153,6 +155,12 @@ cloudinary.com
 ## Export to Excel, Word, Pdf:
 
 <a href="/export/">Export</a>
+
+<br/>
+
+### javascript algorithms:
+
+https://github.com/trekhleb/javascript-algorithms
 
 <br/>
 

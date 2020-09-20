@@ -1,10 +1,10 @@
 ---
 layout: page
 title: MySQL
+description: MySQL
+keywords: MySQL
 permalink: /databases/mysql/
 ---
-
-<br/>
 
 # MySQL
 

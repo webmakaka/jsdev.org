@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Graphs, Charts, Diagrams
+description: Graphs, Charts, Diagrams
+keywords: Graphs, Charts, Diagrams
 permalink: /charts/
 ---
 
-<br/><br/>
-
-### Graphs, Charts, Diagrams
+# Graphs, Charts, Diagrams
 
 <ul>
  <a href="/charts/chartjs/">chart.js</a>

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Containers
+description: Containers
+keywords: Containers
 permalink: /containers/
 ---
 
@@ -9,4 +11,3 @@ permalink: /containers/
 ### [Docker](/containers/docker/)
 
 ### [Kubernetes](/containers/kubernetes/)
-

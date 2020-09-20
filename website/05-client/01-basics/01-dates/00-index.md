@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Working with dates in JavaScript
+description: Working with dates in JavaScript
+keywords: Working with dates in JavaScript
 permalink: /client/js/dates/
 ---
 

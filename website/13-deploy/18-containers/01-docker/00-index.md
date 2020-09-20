@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Docker
+description: Docker
+keywords: Docker
 permalink: /containers/docker/
 ---
 
@@ -15,7 +17,6 @@ permalink: /containers/docker/
 ### Projects in Docker [Video]
 
 <a href="https://github.com/webmakaka/Projects-in-Docker">here</a>
-
 
 <br/>
 

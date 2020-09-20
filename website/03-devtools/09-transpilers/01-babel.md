@@ -1,17 +1,15 @@
 ---
 layout: page
 title: Babel
+description: Babel
+keywords: Babel
 permalink: /transpilers/babel/
 ---
-
-<br/>
-
 
 # Babel
 
     # npm init -y
     # npm install --save-dev babel-cli babel-core babel-preset-es2015
-
 
 <br/>
 
@@ -24,7 +22,6 @@ permalink: /transpilers/babel/
             "latest"
         ]
     }
-
 
 <br/>
 

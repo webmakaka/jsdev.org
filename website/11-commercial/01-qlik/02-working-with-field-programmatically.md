@@ -1,94 +1,88 @@
 ---
 layout: page
-title: Qlik Sense 3.0
+title: Qlik Sense 3.0 - Working with field programmatically
+description: Qlik Sense 3.0 - Working with field programmatically
+keywords: Qlik Sense 3.0 - Working with field programmatically
 permalink: /commercial/qlik/3.x/working-with-field-programmatically/
 ---
-
 
 # [Qlik Sense 3.0] Working with field programmatically
 
 <br/>
 
-	var myApp = qlik.currApp();
+    var myApp = qlik.currApp();
 
 <br/>
 
-	var fieldName = "Месяц";
-	var myField = myApp.field(fieldName);
+    var fieldName = "Месяц";
+    var myField = myApp.field(fieldName);
 
 <br/>
 
-	var myFieldData = myField.getData();
+    var myFieldData = myField.getData();
 
 <br/>
 
-	console.log(myFieldData);
+    console.log(myFieldData);
 
 <br/>
 
-	$.each(myFieldData, function(key, value) {
-		console.log(key, value);
-	});
+    $.each(myFieldData, function(key, value) {
+    	console.log(key, value);
+    });
 
-
-I have trouble with receiving data.  
+I have trouble with receiving data.
 
 http://stackoverflow.com/questions/39768658/how-to-receive-data-from-field-in-qlik-sense-3-0
 
-
-
-
-
 <br/>
 
+     // Without "app.getList" it not works
 
-	 // Without "app.getList" it not works
-
-	  $.each(myField.getData().rows, function(key, value) {
-		 console.log(value.qText);
-	  });
-
+      $.each(myField.getData().rows, function(key, value) {
+    	 console.log(value.qText);
+      });
 
 
-	 // It Works
 
-	function getArrayWithMonth(promise, fieldName){
+     // It Works
 
-		 console.log("getArrayWithMonth");
+    function getArrayWithMonth(promise, fieldName){
 
-		 var loc_selections = [];
+    	 console.log("getArrayWithMonth");
 
-		  app.getList("SelectionObject", function(reply){
+    	 var loc_selections = [];
 
-			 console.log("APP.GETLIST");
+    	  app.getList("SelectionObject", function(reply){
 
-			 loc_selections = [];
+    		 console.log("APP.GETLIST");
 
-			  $.each(app.field(fieldName).getData().rows, function(key, value) {
+    		 loc_selections = [];
 
-				   // console.log(value.qText);
-				   // console.log(value.qElemNumber);
+    		  $.each(app.field(fieldName).getData().rows, function(key, value) {
 
-				   loc_selections.push({'monthName':value.qText, 'monthValue':value.qElemNumber});
-			  });
+    			   // console.log(value.qText);
+    			   // console.log(value.qElemNumber);
 
-			   console.log("END");
-			   promise.resolve(loc_selections);
+    			   loc_selections.push({'monthName':value.qText, 'monthValue':value.qElemNumber});
+    		  });
 
-			   console.log("resFUNCTION");
-			   console.log(loc_selections);
-			   return loc_selections;
-		  });
+    		   console.log("END");
+    		   promise.resolve(loc_selections);
 
-	}
+    		   console.log("resFUNCTION");
+    		   console.log(loc_selections);
+    		   return loc_selections;
+    	  });
 
+    }
 
 <br/>
 
       var field = app.field('Year');
 
-	  $.each(field.getData().rows, function(key, value) {
-		 // console.log(value.qText);
-		 console.log(value.qNum);
+      $.each(field.getData().rows, function(key, value) {
+    	 // console.log(value.qText);
+    	 console.log(value.qNum);
 
-	  });
+      });

@@ -1,16 +1,14 @@
 ---
 layout: page
-title: Export By FileSaver.js
+title: Export to Excel By FileSaver.js
+description: Export to Excel By FileSaver.js
+keywords: Export to Excel By FileSaver.js
 permalink: /export/filesaver/
 ---
-
-<br/>
-
 
 # Export to Excel By FileSaver.js
 
 <a href="https://github.com/eligrey/FileSaver.js" rel="nofollow">FileSaver</a>
-
 
 <br/>
 
@@ -33,7 +31,6 @@ My Example:
      });
 
      saveAs(Qlik, "XXX.xls");
-
 
 <br/>
 

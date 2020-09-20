@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Angular
+title: Angular cli
+description: Angular cli
+keywords: Angular cli
 permalink: /client/angular/
 ---
 

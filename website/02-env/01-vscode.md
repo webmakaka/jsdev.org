@@ -51,15 +51,43 @@ https://www.youtube.com/watch?v=bfyI9yl3qfE
 - Prettier - Code formatter
 - GitLens
 - Bracket Pair Colorizer
+- Auto Import
+
+<!--
+
 - Live Server
 - Node.js Modules Intellisense
-- Auto Import
+
+-->
 
 <br/>
 
 **Visual Studio Themes:**
 
 - Monokai Pro (Will ask money!)
+
+<br/>
+
+<!--
+
+    $ cd ~/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.17/
+    $ code /js/app.js
+
+Find key: "isValidLicense",
+
+Change return statement
+
+```
+return !(!e || !t) && t === (0, n.default)("" + a.default.APP.UUID + e).match(/.{1,5}/g).slice(0, 5).join("-")
+```
+
+to
+
+```
+return true
+```
+
+-->
 
 <br/>
 
@@ -110,21 +138,18 @@ or
 
 **GraphQL:**
 
-- Apollo GraphQL
-
 - GraphQL for VSCode (Kumar)
+- Apollo GraphQL
 
 <br/>
 
 **Docker:**
 
-- docker
+- docker (MicroSoft)
 
 <br/>
 
-<br/>
-
-**Format on save document**
+**Format on save document (same in the JSON config file)**
 
 VSCode --> Preverences --> Extensions --> install --> Prettier - Code formatter esbenp.prettier-vscode
 

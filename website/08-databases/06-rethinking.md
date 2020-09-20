@@ -1,6 +1,8 @@
 ---
 layout: page
 title: RethinkingDB
+description: RethinkingDB
+keywords: RethinkingDB
 permalink: /databases/rethinkdb/
 ---
 

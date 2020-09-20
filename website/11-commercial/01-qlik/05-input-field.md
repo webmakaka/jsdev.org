@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Qlik Sense 3.0 Input field Example
+description: Qlik Sense 3.0 Input field Example
+keywords: Qlik Sense 3.0 Input field Example
 permalink: /commercial/qlik/3.x/input-field/
 ---
 
-
 # [Qlik Sense 3.0] Input field Example
-
 
     define(["qlik"], function(qlik) {
 

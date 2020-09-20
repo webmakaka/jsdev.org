@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Basics examples
+description: Basics examples
+keywords: Basics examples
 permalink: /client/js/basics/
 ---
 

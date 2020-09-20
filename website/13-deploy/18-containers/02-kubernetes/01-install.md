@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Run local kubernetes cluster
+description: Run local kubernetes cluster
+keywords: Run local kubernetes cluster
 permalink: /containers/kubernetes/install/
 ---
 
 # Run local kubernetes cluster
 
 VirtualBox, Vagrant should be installed. It is simple.
-
 
 <br/>
 
@@ -25,7 +26,6 @@ $ echo $(curl -sS https://storage.googleapis.com/kubernetes-release/release/stab
 $ curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && chmod +x kubectl && sudo mv kubectl /usr/local/bin/
 
 ```
-
 
 <br/>
 
@@ -87,4 +87,3 @@ $ curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s h
     master.k8s   Ready    master   14m     v1.14.1
     node1.k8s    Ready    <none>   11m     v1.14.1
     node2.k8s    Ready    <none>   9m34s   v1.14.1
-

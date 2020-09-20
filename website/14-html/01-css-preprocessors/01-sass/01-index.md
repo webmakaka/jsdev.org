@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Sass
+description: Sass
+keywords: Sass
 permalink: /css/preprocessors/sass/
 ---
 
