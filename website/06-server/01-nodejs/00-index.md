@@ -2,7 +2,7 @@
 layout: page
 title: Node.JS
 description: Node.JS
-keywords: Node.JS
+keywords: Node.JS, server side javascript runtime
 permalink: /server/nodejs/
 ---
 
@@ -10,9 +10,15 @@ permalink: /server/nodejs/
 
 <br/>
 
+### Node.JS Releases info
+
+https://github.com/nodejs/release
+
+<br/>
+
 ### Node.JS installation
 
-<a href="/env/nodejs/">Node Version Manager (NVM) installation on Ubuntu 18.04</a>
+<a href="/env/nodejs/">Node Version Manager (NVM) installation in Ubuntu 20.04</a>
 
 <br/>
 
@@ -31,14 +37,6 @@ permalink: /server/nodejs/
 ### Node.JS Static Server
 
 <a href="/server/nodejs/static-server/">Static Server</a>
-
-<br/>
-
-### Check updates for node packages
-
-    $ npm install -g npm-check-updates
-    $ ncu -u
-    $ npm install
 
 <br/>
 

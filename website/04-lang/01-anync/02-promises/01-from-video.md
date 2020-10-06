@@ -78,7 +78,7 @@ https://www.wintellectnow.com/Videos/Watch?videoId=promises-in-javascript
 
 ### resolve / reject with data
 
-{% highlight javascript linenos %}
+```javascript
 
 <!DOCTYPE html>
 
@@ -107,7 +107,7 @@ https://www.wintellectnow.com/Videos/Watch?videoId=promises-in-javascript
 
 </html>
 
-{% endhighlight %}
+```
 
 <br/>
 

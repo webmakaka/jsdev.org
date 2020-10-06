@@ -12,7 +12,7 @@ permalink: /env/
 
 ### My Environment
 
-I'm working on ubuntu linux 18.04 LTS
+I'm working on ubuntu linux 20.04 LTS
 My favorite IDE - <a href="/env/vscode/">VSCode</a>
 
 <a href="/env/nodejs/">Node.js</a>  

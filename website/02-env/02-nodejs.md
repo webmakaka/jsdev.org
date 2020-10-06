@@ -1,20 +1,24 @@
 ---
 layout: page
-title: Node Version Manager (NVM) installation on Ubuntu 18.04
+title: Node Version Manager (NVM) installation in Ubuntu 20.04
 description: Node Version Manager installation and usage
 keywords: node.js, Node Version Manager
 permalink: /env/nodejs/
 ---
 
-# Node Version Manager (NVM) installation on Ubuntu 18.04
+# Node Version Manager (NVM) installation in Ubuntu 20.04
 
 <br/>
 
 ### Install packages
 
-    -- for node.js installation
-    # apt-get update && apt-get install -qq -y vim git curl net-tools
+    $ sudo apt-get update && sudo apt-get install -qq -y vim git curl net-tools
+
+<!--
+
     $ sudo apt-get install -y node.js
+
+-->
 
 <br/>
 
@@ -40,7 +44,7 @@ permalink: /env/nodejs/
 <br/>
 
     $ nvm --version
-    0.35.3
+    0.36.0
 
 <br/>
 
@@ -50,7 +54,7 @@ permalink: /env/nodejs/
     $ nvm install --lts
 
     $ node --version
-    v12.18.3
+    v12.18.4
 
 or
 
@@ -58,24 +62,24 @@ or
     $ nvm ls-remote
 
     // (Latest LTS: Erbium)
-    $ nvm install v12.18.3
+    $ nvm install v12.18.4
 
-    $ nvm use v12.18.3
+    $ nvm use v12.18.4
 
     -- set default
-    $ nvm alias default v12.18.3
+    $ nvm alias default v12.18.4
 
     $ node --version
-    v12.18.3
+    v12.18.4
 
 <br/>
 
 ### For fast switching
 
     $ {
-      nvm install v12.18.3
-      nvm use v12.18.3
-      nvm alias default v12.18.3
+      nvm install v12.18.4
+      nvm use v12.18.4
+      nvm alias default v12.18.4
     }
 
 <br/>
@@ -117,3 +121,11 @@ or
 ```
 engine-strict=true
 ```
+
+<br/>
+
+### Check updates for node packages
+
+    $ npm install -g npm-check-updates
+    $ ncu -u
+    $ npm install
