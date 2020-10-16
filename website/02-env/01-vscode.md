@@ -54,6 +54,10 @@ https://www.youtube.com/watch?v=bfyI9yl3qfE
 - Auto Import
 
 <!--
+    $ ext install esbenp.prettier-vscode
+-->
+
+<!--
 
 - Live Server
 - Node.js Modules Intellisense
@@ -106,7 +110,8 @@ CTRL + P
     "prettier.requireConfig": true,
     "editor.tabSize": 2,
     "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)"
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 ```
 

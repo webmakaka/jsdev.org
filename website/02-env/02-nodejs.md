@@ -54,7 +54,7 @@ permalink: /env/nodejs/
     $ nvm install --lts
 
     $ node --version
-    v12.18.4
+    v12.19.0
 
 or
 
@@ -62,24 +62,24 @@ or
     $ nvm ls-remote
 
     // (Latest LTS: Erbium)
-    $ nvm install v12.18.4
+    $ nvm install v12.19.0
 
-    $ nvm use v12.18.4
+    $ nvm use v12.19.0
 
     -- set default
-    $ nvm alias default v12.18.4
+    $ nvm alias default v12.19.0
 
     $ node --version
-    v12.18.4
+    v12.19.0
 
 <br/>
 
 ### For fast switching
 
     $ {
-      nvm install v12.18.4
-      nvm use v12.18.4
-      nvm alias default v12.18.4
+      nvm install v12.19.0
+      nvm use v12.19.0
+      nvm alias default v12.19.0
     }
 
 <br/>
