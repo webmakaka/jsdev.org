@@ -2,7 +2,7 @@
 layout: page
 title: Node Version Manager (NVM) installation in Ubuntu 20.04
 description: Node Version Manager installation and usage
-keywords: node.js, Node Version Manager
+keywords: node.js, Node Version Manager, nvm, install
 permalink: /env/nodejs/
 ---
 
