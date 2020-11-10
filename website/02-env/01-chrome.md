@@ -18,12 +18,12 @@ permalink: /env/chrome/
 
 ### Extensions for Github
 
-* GitHub dark theme
-* Quick JavaScript Switcher
-* EditThisCookie
-* SetupVPN
-* LanguageTool
-* Nimbus Screenshoot & Screen Video Recorder
+- GitHub dark theme
+- Quick JavaScript Switcher
+- EditThisCookie
+- SetupVPN
+- LanguageTool
+- Nimbus Screenshoot & Screen Video Recorder
 
 <!--
 

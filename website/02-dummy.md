@@ -48,3 +48,11 @@ https://www.npmjs.com/package/faker
 faker.js - generate massive amounts of fake data in the browser and node.js
 
 https://www.npmjs.com/package/faker
+
+<br/>
+
+### Mockaroo
+
+https://mockaroo.com/
+
+Generate realistic test data in CSV, JSON, SQL, and Excel formats.

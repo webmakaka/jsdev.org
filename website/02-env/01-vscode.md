@@ -51,7 +51,12 @@ https://www.youtube.com/watch?v=bfyI9yl3qfE
 - Prettier - Code formatter
 - GitLens
 - Bracket Pair Colorizer
+
+<!--
+
+// No need anymore
 - Auto Import
+>
 
 <!--
     $ ext install esbenp.prettier-vscode
@@ -101,17 +106,22 @@ CTRL + P
 
 > Preferences: Open Settings (JSON)
 
-```
+```js
 {
     "explorer.compactFolders": false,
     "editor.fontSize": 22,
     "files.autoSave": "afterDelay",
     "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
     "prettier.requireConfig": true,
     "editor.tabSize": 2,
     "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
     "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.importModuleSpecifier": "non-relative"
 }
 ```
 
@@ -169,9 +179,13 @@ VSCode --> File --> Preverences --> Settings:
 
 ```js
 {
+  "tabWidth": 2,
+  "printWidth": 80,
+  "semi": true,
   "singleQuote": true,
   "bracketSpacing": true
 }
+
 ```
 
 <br>
