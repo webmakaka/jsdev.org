@@ -17,7 +17,9 @@ https://www.youtube.com/watch?v=bfyI9yl3qfE
 
 **Visual Studio Code Settings:**
 
-<!-- minimal
+<!--
+
+minimal
 
 ```
 {
@@ -41,7 +43,9 @@ https://www.youtube.com/watch?v=bfyI9yl3qfE
             "javascript": "jsx",
             "javascript": "html"
         }
-    } -->
+    }
+
+-->
 
 <br/>
 
@@ -56,7 +60,8 @@ https://www.youtube.com/watch?v=bfyI9yl3qfE
 
 // No need anymore
 - Auto Import
->
+
+-->
 
 <!--
     $ ext install esbenp.prettier-vscode
@@ -206,7 +211,9 @@ node_modules
 *.spec.js
 ```
 
-<!-- ### Eslint
+<!--
+
+### Eslint
 
     # npm install -g eslint \
     eslint-plugin-standard \
@@ -222,4 +229,6 @@ node_modules
 
     # ls /usr/local/lib/node_modules/
     eslint                  eslint-plugin-import  eslint-plugin-promise   npx
-    eslint-config-standard  eslint-plugin-node    eslint-plugin-standard -->
+    eslint-config-standard  eslint-plugin-node    eslint-plugin-standard
+
+-->

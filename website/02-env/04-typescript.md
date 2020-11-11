@@ -15,16 +15,16 @@ permalink: /env/typescipt/
 
     $ npm install --save-dev typescript @types/node
 
-    $ touch tsconfig.json
-
     // It is possible to generate default tsconfig.json
     // $ ./node_modules/.bin/tsc --init
-
-    $ vi tsconfig.json
 
 <br/>
 
 **tsconfig.json**
+
+<br/>
+
+    $ vi tsconfig.json
 
 ```json
 {
@@ -47,21 +47,24 @@ https://www.typescriptlang.org/docs/handbook/compiler-options.html
 
 <br/>
 
-<br/>
+### TSLINT is dead, we will use ESLINT
 
-### Linting
+https://medium.com/palantir/tslint-in-2019-1a144c2317a9
+
+<!--
 
     $ npm install --save-dev tslint
     $ ./node_modules/.bin/tslint --init
 
 **tslint.json**
 
+-->
+
 <br/>
 
 ### Run
 
     $ mkdir src
-    $ touch src/index.ts
 
     $ vi src/index.ts
 
@@ -98,8 +101,7 @@ console.log('Hello TypeScript!')
 
 <br/>
 
-    $ npm run ts-node index.ts
-    $ npm run build
+    $ npm run ts-node
 
 <!--
 https://github.com/bcherny/programming-typescript-answers
@@ -123,22 +125,27 @@ https://github.com/bcherny/programming-typescript-answers
 ```
 
 -->
-<!--
+
 <br/>
 
 ### ESlint for typescript
 
-    $ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/elslint-plugin
+    $ npm install --save-dev \
+        eslint \
+        @typescript-eslint/parser \
+        @typescript-eslint/eslint-plugin
 
 <br/>
 
 **.eslintrc.json**
 
+    $ vi .eslintrc.json
+
 ```js
 {
     "parser": "@typescript-eslint/parser",
     "parserOptions" : {
-        "ecmaVersion" : 2018,
+        "ecmaVersion" : 2015,
         "sourceType" : "module"
     },
     "extends" : ["plugin:@typescript-eslint/recommended"],
@@ -149,25 +156,6 @@ https://github.com/bcherny/programming-typescript-answers
     }
 }
 ```
-
-<br/>
-
-**Visual Studio Themes:**
-
-CTRL + P
-
-> Preferences: Open Settings (JSON)
-
-```
-***
-// eslint
-"eslint.validate": [
-    "javascript",
-    "javascriptreact"
-],
-***
-```
--->
 
 <br/>
 
