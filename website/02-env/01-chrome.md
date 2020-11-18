@@ -1,18 +1,24 @@
 ---
 layout: page
-title: Chrome Extensions for Development
-description: Chrome Extensions for Development
+title: Chrome for Development
+description: Chrome for Development
 keywords: Chrome, extensions, development
 permalink: /env/chrome/
 ---
 
-# Chrome Extensions for Development
+<br/>
+
+# Chrome for Development
 
 <br/>
 
-### GraphQL
+### Disable caching in Chrome Developer Tools
 
-- Apollo Client Developer Tools
+Developer Tools (Ctrl + Shift + I) > Menu icon (the 3 vertical dots) > Settings > Preferences > scroll down the list to “Network section” and you’ll see the “Disable cache” while DevTools is open
+
+<br/>
+
+### Chrome Extensions for Development
 
 <br/>
 
@@ -24,6 +30,12 @@ permalink: /env/chrome/
 - SetupVPN
 - LanguageTool
 - Nimbus Screenshoot & Screen Video Recorder
+
+<br/>
+
+### GraphQL
+
+- Apollo Client Developer Tools
 
 <!--
 

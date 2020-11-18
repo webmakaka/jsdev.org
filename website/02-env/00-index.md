@@ -10,19 +10,21 @@ permalink: /env/
 
 <br/>
 
-### My Environment
+### Environment for Development
 
-I'm working on ubuntu linux 20.04 LTS
-My favorite IDE - <a href="/env/vscode/">VSCode</a>
+I'm working in ubuntu linux 20.04 LTS
 
+**Browser:**  
+<a href="/env/chrome/">Chrome</a>
+
+**IDE:**  
+<a href="/env/vscode/">VSCode</a>
+<a href="/env/neovim/">NeoVim</a>
+
+**Lang's:**  
 <a href="/env/nodejs/">Node.js</a>  
 <a href="/env/react/">React</a>
-
-<br/>
-
-### Disable caching in Chrome Developer Tools
-
-Developer Tools (Ctrl + Shift + I) > Menu icon (the 3 vertical dots) > Settings > Preferences > scroll down the list to “Network section” and you’ll see the “Disable cache” while DevTools is open
+<a href="/env/typescipt/">TypeScript</a>
 
 <br/>
 

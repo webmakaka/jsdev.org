@@ -142,7 +142,7 @@ github actions | tekton | gitlab-ci | travis-ci | jenkins | bamboo ci | circleci
 
 ## Email Service
 
-SendGrid (commercial)
+MailGun | SendGrid (commercial)
 
 <br/>
 
