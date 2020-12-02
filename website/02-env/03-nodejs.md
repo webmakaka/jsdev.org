@@ -2,23 +2,39 @@
 layout: page
 title: Node Version Manager (NVM) installation in Ubuntu 20.04
 description: Node Version Manager installation and usage
-keywords: node.js, Node Version Manager, nvm, install
+keywords: node.js, volta, Node Version Manager, nvm, install
 permalink: /env/nodejs/
 ---
 
-# Node Version Manager (NVM) installation in Ubuntu 20.04
+<br/>
+
+# [Variatn 1]: Volta (Node Version Manager) ( Mike North - Tech Head Guy from LinkedIn recommend it)
+
+    $ curl https://get.volta.sh | bash
+
+    // Volta will choose the latest LTS
+    $ volta install node
+    $ volta install npm
+
+    // $ volta install node@12
+
+    $ node --version
+    v14.15.1
 
 <br/>
 
-### Install packages
+**package.json**
 
-    $ sudo apt-get update && sudo apt-get install -qq -y vim git curl net-tools
+```
+  "volta": {
+    "node": "14.15.1",
+    "npm": "6.14.9"
+  },
+```
 
-<!--
+<br/>
 
-    $ sudo apt-get install -y node.js
-
--->
+# [Variatn 2]: Node Version Manager (NVM) installation in Ubuntu 20.04
 
 <br/>
 

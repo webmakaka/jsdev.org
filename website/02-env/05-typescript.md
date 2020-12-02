@@ -26,7 +26,7 @@ permalink: /env/typescipt/
 
     $ vi tsconfig.json
 
-```json
+<!-- ```json
 {
   "compilerOptions": {
     "lib": ["es2015"],
@@ -35,6 +35,22 @@ permalink: /env/typescipt/
     "sourceMap": true,
     "strict": true,
     "target": "es2015"
+  },
+  "include": ["src"]
+}
+``` -->
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "commonjs",
+    "target": "es5",
+    "outDir": "dist",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"]
 }
@@ -162,3 +178,11 @@ https://github.com/bcherny/programming-typescript-answers
 ### Webpack & TypeScript Setup
 
 https://www.youtube.com/watch?v=sOUhEJeJ-kI
+
+<br/>
+
+### Production-Grade TypeScript
+
+https://github.com/mike-north/professional-ts
+
+<br/>

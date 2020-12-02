@@ -55,6 +55,7 @@ minimal
 - Prettier - Code formatter
 - GitLens
 - Bracket Pair Colorizer
+- Rest Client (Huachao Mao)
 
 <!--
 
