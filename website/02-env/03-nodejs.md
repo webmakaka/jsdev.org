@@ -23,6 +23,11 @@ permalink: /env/nodejs/
 
 <br/>
 
+    // Add current packages in package.json
+    $ volta pin node npm
+
+<br/>
+
 **package.json**
 
 ```

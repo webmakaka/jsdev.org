@@ -10,6 +10,19 @@ permalink: /env/typescipt/
 
 <br/>
 
+**Based on video course [FrontendMasters] Production-Grade TypeScript**
+
+<br/>
+
+https://github.com/mike-north/professional-ts
+
+<br/>
+
+**Configured project:**  
+https://github.com/mike-north/professional-ts-my-lib
+
+<br/>
+
     $ mkdir -p ~/projects/dev/ts/my-new-ts-project && cd ~/projects/dev/ts/my-new-ts-project
     $ npm init -y
 
@@ -40,17 +53,24 @@ permalink: /env/typescipt/
 }
 ``` -->
 
-```json
+```js
 {
   "compilerOptions": {
+    "composite": true,
     "strict": true,
     "module": "commonjs",
-    "target": "es5",
+    "target": "es2018",
     "outDir": "dist",
+    "rootDir": "src",
+    "declaration": true,
     "sourceMap": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "stripInternal": true,
+    "types": [],
+    //"esModuleInterop": true,
+    //"skipLibCheck": true
   },
   "include": ["src"]
 }
@@ -146,10 +166,19 @@ https://github.com/bcherny/programming-typescript-answers
 
 ### ESlint for typescript
 
+<br/>
+
     $ npm install --save-dev \
-        eslint \
-        @typescript-eslint/parser \
-        @typescript-eslint/eslint-plugin
+        eslint@latest \
+        @typescript-eslint/parser@latest \
+        @typescript-eslint/eslint-plugin@latest
+
+<br/>
+
+    // Generate config if needed
+    // $ ./node_modules/.bin/eslint --init
+
+<br/>
 
 <br/>
 
@@ -157,7 +186,42 @@ https://github.com/bcherny/programming-typescript-answers
 
     $ vi .eslintrc.json
 
+<br/>
+
 ```js
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "project": "tsconfig.eslint.json"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "prefer-const": "error",
+        "@typescript-eslint/no-unused-vars": "off",
+        "@typescript-eslint/no-unused-params": "off"
+    },
+    "overrides": [{
+        "files" : ["tests/**/*.ts"],
+        "env": {"jest": true, "node": true}
+    }]
+}
+
+
+```
+
+<!-- ```js
 {
     "parser": "@typescript-eslint/parser",
     "parserOptions" : {
@@ -171,6 +235,82 @@ https://github.com/bcherny/programming-typescript-answers
         "@typescript-eslint/indent" : "off"
     }
 }
+``` -->
+
+<br/>
+
+**tsconfig.eslint.json**
+
+```
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "types": ["jest"]
+    },
+    "include": ["src", "tests"]
+}
+
+```
+
+<br/>
+
+**package.json**
+
+```
+  "lint": "eslint src server tests --ext .js,.ts,.jsx,.tsx",
+```
+
+<br/>
+
+    $ npm lint
+
+<br/>
+
+### Jest
+
+    $ npm install --save-dev jest @types/jest \
+        @babel/preset-env @babel/preset-typescript
+
+<br/>
+
+    $ mkdir tests
+
+<br/>
+
+    $ vi tests/intex.test.ts
+
+<br/>
+
+    $ vi tests/tsconfig.json
+
+```js
+{
+    "extends": "../tsconfig.json",
+    "references": [{
+        "name": "my-lib",
+        "path": ".."
+    }],
+    "compilerOptions": {
+        "types": ["test"],
+        "rootDir": "..",
+        "noEmit": true
+    },
+    "include" : ["."]
+}
+
+```
+
+<br/>
+
+**.babelrc**
+
+```js
+{
+    "presets": [
+        ["@babel/preset-env", {"targets": {"node": 10}}],
+        "@babel/preset-typescript"
+    ]
+}
 ```
 
 <br/>
@@ -178,11 +318,3 @@ https://github.com/bcherny/programming-typescript-answers
 ### Webpack & TypeScript Setup
 
 https://www.youtube.com/watch?v=sOUhEJeJ-kI
-
-<br/>
-
-### Production-Grade TypeScript
-
-https://github.com/mike-north/professional-ts
-
-<br/>

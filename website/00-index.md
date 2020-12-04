@@ -47,36 +47,6 @@ All materials about video courses and books for study javascript we collect <a h
 
 </table>
 
-<br/>
-
-### React Hooks
-
-<div align="center">
-
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</div>
-
-<br/>
-
-### React/Node.js Microservices App With Docker and GraphQL (Hope this course is full)
-
-<div align="center">
-
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLnTRniWXnjf8YC9qJFLSVCrXfS6cyj6x6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</div>
-
-<br/>
-
-### [Harry Wolff] My Tech Stack (2020 Edition with Next.js, Tailwind, MongoDB, Jest, and more!)
-
-<div align="center">
-
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/9plIzok5LCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</div>
-
 <br/><br/>
 <br/>
 
