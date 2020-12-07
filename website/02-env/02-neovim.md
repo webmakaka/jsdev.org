@@ -228,6 +228,10 @@ noremap <Right> <Nop>
 "block mouse coursor
 set mouse=
 
+"Insert a newline without entering in insert mode, vim
+nmap oo o<Esc>k
+nmap OO O<Esc>j
+
 " prettier command for coc
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
@@ -337,7 +341,7 @@ https://gist.github.com/benawad/e187dd887f256a6a002905ec7f22ad76
 
     $ cd ~/.config/nvim
     $ rm -rf *
-    $ git clone https://github.com/webmakaka/nvim-config .
+    $ git clone https://github.com/webmak1/nvim-config .
 
 <br/>
 
