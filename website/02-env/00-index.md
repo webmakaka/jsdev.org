@@ -15,11 +15,11 @@ permalink: /env/
 I'm working in ubuntu linux 20.04 LTS
 
 **Browser:**  
-<a href="/env/chrome/">Chrome</a>
+<a href="/env/browser/chrome/">Chrome</a>
 
 **IDE:**  
-<a href="/env/vscode/">VSCode</a>
-<a href="/env/neovim/">NeoVim</a>
+<a href="/env/ide/vscode/">VSCode</a>
+<a href="/env/ide/neovim/">NeoVim</a>
 
 **Lang's:**  
 <a href="/env/nodejs/">Node.js</a>  

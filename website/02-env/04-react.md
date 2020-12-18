@@ -36,7 +36,7 @@ $ npm install --save-dev prettier
 
 <br/>
 
-<a href="/env/vscode/">prettier configs</a>
+<a href="/env/ide/vscode/">prettier configs</a>
 
 <br/>
 

@@ -2,8 +2,8 @@
 layout: page
 title: JavaScript IDE - NeoVim - Installation in Ubunu 20
 description: JavaScript IDE - NeoVim - Installation in Ubunu 20
-keywords: env, neovim, installation, plugins
-permalink: /env/neovim/
+keywords: env, ide, neovim, installation, plugins
+permalink: /env/ide/neovim/
 ---
 
 # JavaScript IDE - NeoVim
@@ -257,8 +257,12 @@ autocmd BufWritePre *.go :OR
 
 ```
 
+<br/>
+
+```
 :source ~/.config/nvim/init.vim
 :PlugInstall
+```
 
 <br/>
 

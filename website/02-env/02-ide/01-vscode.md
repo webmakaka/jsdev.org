@@ -2,8 +2,8 @@
 layout: page
 title: JavaScript IDE - Visual Studio Code, VSCODE (Microsoft)
 description: JavaScript IDE - Visual Studio Code (Microsoft)
-keywords: JavaScript IDE, vscode, Microsoft
-permalink: /env/vscode/
+keywords: env, ide, vscode, Microsoft, JavaScript
+permalink: /env/ide/vscode/
 ---
 
 # Visual Studio Code (Microsoft)

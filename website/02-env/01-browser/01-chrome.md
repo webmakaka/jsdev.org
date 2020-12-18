@@ -2,8 +2,8 @@
 layout: page
 title: Chrome for Development
 description: Chrome for Development
-keywords: Chrome, extensions, development
-permalink: /env/chrome/
+keywords: env, browser, chrome, extensions, development, javascript
+permalink: /env/browser/chrome/
 ---
 
 <br/>
