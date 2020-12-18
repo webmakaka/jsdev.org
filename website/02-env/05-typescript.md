@@ -62,7 +62,7 @@ https://github.com/mike-north/professional-ts-my-lib
     "target": "es2018",
     "outDir": "dist",
     "rootDir": "src",
-    "declaration": true,
+    // "declaration": true,
     "sourceMap": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,

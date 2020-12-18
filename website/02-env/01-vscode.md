@@ -2,7 +2,7 @@
 layout: page
 title: JavaScript IDE - Visual Studio Code, VSCODE (Microsoft)
 description: JavaScript IDE - Visual Studio Code (Microsoft)
-keywords: JavaScript IDE, vscode
+keywords: JavaScript IDE, vscode, Microsoft
 permalink: /env/vscode/
 ---
 
@@ -52,28 +52,10 @@ minimal
 **Visual Studio Code Plugins:**
 
 - ESLint (Dirk Baeumer)
-- Prettier - Code formatter
+- Prettier - Code formatter (ext install esbenp.prettier-vscode)
 - GitLens
 - Bracket Pair Colorizer
 - Rest Client (Huachao Mao)
-
-<!--
-
-// No need anymore
-- Auto Import
-
--->
-
-<!--
-    $ ext install esbenp.prettier-vscode
--->
-
-<!--
-
-- Live Server
-- Node.js Modules Intellisense
-
--->
 
 <br/>
 
@@ -132,7 +114,14 @@ CTRL + P
 ```
 
 <!--
-Highlight Matching Tag
+
+<br/>
+
+**Possible can be interesting :**
+
+- TypeScript Hero
+- TypeScript Importer
+
 -->
 
 <br/>

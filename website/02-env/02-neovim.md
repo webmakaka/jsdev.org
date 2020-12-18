@@ -14,6 +14,14 @@ https://neovim.io/
 
 vimawesome.com
 
+<!--
+
+:CocList
+
+call CocAction('runCommand', 'tsserver.organizeImports')
+
+-->
+
 <br/>
 
 ## NeoVim installation in Ubuntu 20
@@ -82,26 +90,6 @@ alias vim='nvim'
 
     $ vi --version
     NVIM v0.4.4
-
-<!--
-
-<br/>
-
-### Step 2. Config
-
-<br/>
-
-    // configs file for nvim
-
-    $ vi ~/.config/nvim/init.vim
-
-<br/>
-
-```
-set number
-```
-
--->
 
 <br/>
 
@@ -194,6 +182,8 @@ set expandtab
 let g:NERDTreeWinPos = "right"
 let g:NERDTreeIgnore = ['^node_modules$']
 
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,package-lock.json
+
 let g:ctrlp_custom_ignore = '\v[\/]\.(git)$'
 let g:ctrlp_custom_ignore = 'node_modules\|dist\'
 
@@ -210,7 +200,6 @@ let g:coc_global_extensions = [
   \ 'coc-css',
   \ 'coc-vetur',
   \ ]
-
 
 
 "mappings
@@ -241,28 +230,30 @@ command! -nargs=0 Format :call CocAction('format')
 " Use `:OR` for organize import of current buffer
 command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
 
+
+nmap <c-s> :w<CR>
+vmap <c-s> <Esc><c-s>gv
+imap <c-s> <Esc><c-s>
+
+nmap <F2> :update<CR>
+vmap <F2> <Esc><F2>gv
+imap <F2> <c-o><F2>
+
+noremap <F3> :set invnumber<CR>
+inoremap <F3> <C-O>:set invnumber<CR>
+
+:set list
+:set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
+
+
+nmap <silent> gd <Plug>(coc-definition)
+
+
+" use `:OR` for organize import of current buffer
+command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
+autocmd BufWritePre *.go :OR
+
 ```
-
-<!--
-
-Plug 'neoclide/coc-tsserver', {'branch': 'release'}
-Plug 'neoclide/coc-prettier', {'branch': 'release'}
-Plug 'neoclide/coc-pairs', {'branch': 'release'}
-Plug 'neoclide/coc-eslint', {'branch': 'release'}
-Plug 'neoclide/coc-json'
-
-Plug 'neoclide/coc-vetur'
-Plug 'neoclide/coc-css'
-Plug 'neoclide/coc-html'
-
--->
-
-<!--
-
-"autocmd that sets the filetype to html for .vue files
-autocmd BufRead,BufNewFile *.vue setfiletype html
-
--->
 
 :source ~/.config/nvim/init.vim
 :PlugInstall
@@ -275,18 +266,22 @@ autocmd BufRead,BufNewFile *.vue setfiletype html
 
 ```json
 {
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.quoteStyle": "single",
   "suggest.noselect": false,
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",
     "typescriptreact",
-    "json",
     "javascriptreact",
     "typescript.tsx",
     "graphql",
     "vue",
     "css",
-    "html"
+    "html",
+    "json"
   ],
   "eslint.enable": true,
   "eslint.autoFixOnSave": true,
