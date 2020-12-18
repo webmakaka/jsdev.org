@@ -8,10 +8,12 @@ permalink: /env/neovim/
 
 # JavaScript IDE - NeoVim
 
+**Official website:**  
 https://neovim.io/
 
 <br/>
 
+**Plugins:**  
 vimawesome.com
 
 <!--
