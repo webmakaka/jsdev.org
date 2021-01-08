@@ -10,11 +10,12 @@ permalink: /env/nodejs/
 
 # [Variatn 1]: Volta (Node Version Manager) ( Mike North - Tech Head Guy from LinkedIn recommend it)
 
+<br/>
+
     $ curl https://get.volta.sh | bash
 
     // Volta will choose the latest LTS
-    $ volta install node
-    $ volta install npm
+    $ volta install node npm
 
     // $ volta install node@12
 

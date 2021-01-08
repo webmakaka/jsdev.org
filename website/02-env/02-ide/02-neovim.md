@@ -44,7 +44,7 @@ https://golang.org/doc/install
 
 <br/>
 
-    $ mkidr ~/apps && cd ~/apps
+    $ mkdir ~/apps && cd ~/apps
     $ curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 
     $ sudo mkdir /opt/nvim
@@ -259,10 +259,24 @@ autocmd BufWritePre *.go :OR
 
 <br/>
 
+    $ vi ~/.config/nvim/init.vim
+
+https://gist.github.com/benawad/b768f5a5bbd92c8baabd363b7e79786f
+
+<br/>
+
+```
+:PlugInstall
+```
+
+<!--
+
+
 ```
 :source ~/.config/nvim/init.vim
 :PlugInstall
 ```
+-->
 
 <br/>
 
@@ -297,7 +311,27 @@ autocmd BufWritePre *.go :OR
 
 <br/>
 
-### Prepared configs
+### Some issues on start
+
+<br/>
+
+### vim-hexokinase needs updating. Run `make hexokinase` in project root.
+
+**On message in vim console:**
+
+vim-hexokinase needs updating. Run `make hexokinase` in project root. See `:h he xokinase-v1-migration` for more info.
+
+<br/>
+
+    $ cd ~/.config/nvim/plugged/vim-hexokinase/
+    $ git pull
+    $ make hexokinase
+
+
+
+<br/>
+
+### Possible can be helpful
 
 **[Ben Awad] How to Configure Vim like VSCode [ENG, 2019]**  
 https://www.youtube.com/watch?v=gnupOrSEikQ
@@ -322,9 +356,7 @@ https://gist.github.com/benawad/b768f5a5bbd92c8baabd363b7e79786f
 
 https://gist.github.com/benawad/e187dd887f256a6a002905ec7f22ad76
 
-<br/>
-
-### Some issues on start
+<!--
 
     $ npm install -g neovim
     $ npm install -g eslint
@@ -333,6 +365,8 @@ https://gist.github.com/benawad/e187dd887f256a6a002905ec7f22ad76
 
     $ sudo apt install -y python3-pip
     $ pip3 install neovim
+
+-->
 
 <br/>
 
@@ -359,17 +393,3 @@ https://gist.github.com/benawad/e187dd887f256a6a002905ec7f22ad76
 ```
 :PlugInstall
 ```
-
-<br/>
-
-### vim-hexokinase needs updating. Run `make hexokinase` in project root.
-
-**On message in vim console:**
-
-vim-hexokinase needs updating. Run `make hexokinase` in project root. See `:h he xokinase-v1-migration` for more info.
-
-<br/>
-
-    $ cd .config/nvim/plugged/vim-hexokinase
-    $ git pull
-    $ make hexokinase
