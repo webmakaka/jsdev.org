@@ -184,8 +184,11 @@ set expandtab
 let g:NERDTreeWinPos = "right"
 let g:NERDTreeIgnore = ['^node_modules$']
 
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,package-lock.json
+set wildignore+=*/tmp/*,*/dist/*,*/node_modules/*,*.so,*.swp,*.zip,package-lock.json
 
+
+let g:ctrlp_use_caching = 0
+let g:ctrlp_working_path_mode = 0
 let g:ctrlp_custom_ignore = '\v[\/]\.(git)$'
 let g:ctrlp_custom_ignore = 'node_modules\|dist\'
 
@@ -223,16 +226,6 @@ set mouse=
 nmap oo o<Esc>k
 nmap OO O<Esc>j
 
-" prettier command for coc
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-
-" Use `:Format` to format current buffer
-command! -nargs=0 Format :call CocAction('format')
-
-" Use `:OR` for organize import of current buffer
-command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
-
-
 nmap <c-s> :w<CR>
 vmap <c-s> <Esc><c-s>gv
 imap <c-s> <Esc><c-s>
@@ -247,21 +240,21 @@ inoremap <F3> <C-O>:set invnumber<CR>
 :set list
 :set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
 
-
 nmap <silent> gd <Plug>(coc-definition)
-
 
 " use `:OR` for organize import of current buffer
 command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
-autocmd BufWritePre *.go :OR
+autocmd BufWritePre *.js :OR
+autocmd BufWritePre *.ts :OR
+
+
+" prettier command for coc
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
+" Use `:Format` to format current buffer
+command! -nargs=0 Format :call CocAction('format')
 
 ```
-
-<br/>
-
-    $ vi ~/.config/nvim/init.vim
-
-https://gist.github.com/benawad/b768f5a5bbd92c8baabd363b7e79786f
 
 <br/>
 
@@ -270,7 +263,6 @@ https://gist.github.com/benawad/b768f5a5bbd92c8baabd363b7e79786f
 ```
 
 <!--
-
 
 ```
 :source ~/.config/nvim/init.vim
@@ -309,6 +301,15 @@ https://gist.github.com/benawad/b768f5a5bbd92c8baabd363b7e79786f
 }
 ```
 
+<!--
+
+:CtrlPClearAllCaches
+
+or
+
+$ rm -rf ~/.cache/ctrlp/
+-->
+
 <br/>
 
 ### Some issues on start
@@ -327,7 +328,14 @@ vim-hexokinase needs updating. Run `make hexokinase` in project root. See `:h he
     $ git pull
     $ make hexokinase
 
+<br/>
 
+    $ sudo apt install -y xclip
+
+    $ sudo apt install -y python3-pip
+    $ pip3 install --upgrade neovim
+
+    $ npm install -g neovim
 
 <br/>
 

@@ -164,12 +164,16 @@ eslint-plugin-prettier
 
 <br/>
 
-** .ENV file (for absolute path) **
+### Absolute path src/
 
-**.env**
+**jsconfig.json**
 
 ```
-NODE_PATH=src/
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  }
+}
 ```
 
 <br/>

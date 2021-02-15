@@ -6,8 +6,6 @@ keywords: node.js, volta, Node Version Manager, nvm, install
 permalink: /env/nodejs/
 ---
 
-<br/>
-
 # [Variatn 1]: Volta (Node Version Manager) ( Mike North - Tech Head Guy from LinkedIn recommend it)
 
 <br/>
