@@ -164,8 +164,10 @@ Plug 'ianks/vim-tsx', { 'for': 'typescript.tsx' }
 Plug 'posva/vim-vue'
 
 "Plug 'iamcco/coc-angular', {'branch': 'release'}
-
 Plug 'airblade/vim-gitgutter'
+
+" Syntax hightlight for .jsx
+Plug 'mxw/vim-jsx'
 
 
 call plug#end()

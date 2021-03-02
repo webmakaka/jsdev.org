@@ -110,15 +110,16 @@ eslint-plugin-prettier
 
 <br/>
 
-    $ npm install --save-dev \
-                  babel-eslint \
-                  eslint-plugin-import \
-                  eslint-plugin-jsx-a11y \
-                  eslint-plugin-react
+```
+$ npm install --save-dev \
+              babel-eslint \
+              eslint-plugin-import \
+              eslint-plugin-jsx-a11y \
+              eslint-plugin-react
 
-
-    $ npm install --save-dev \
-                  eslint-plugin-react-hooks
+$ npm install --save-dev \
+              eslint-plugin-react-hooks
+```
 
 <br/>
 
@@ -190,31 +191,6 @@ eslint-plugin-prettier
         "paths": ["src"]
       }
     }
-  }
-}
-```
-
-<br/>
-
-### Run checks before commit (lint-staged husky)
-
-```bash
-$ npm install --save-dev lint-staged husky
-```
-
-**package.json**
-
-```json
-
-  "scripts": {
-    ******
-    "precommit": "lint-staged"
-  },
-  "devDependencies": {
-    ********
-  },
-  "lint-staged": {
-    "*.{js, jsx}": ["node_modules/.bin/eslint --max-warnings=0", "prettier --write", "git add"]
   }
 }
 ```

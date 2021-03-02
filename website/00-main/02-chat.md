@@ -19,7 +19,13 @@ https://t.me/jsdev_org
 
 <br/>
 
-### Slack
+### Discord
+
+https://discord.gg/sNPY6dY8
+
+<br/>
+
+### Slack (I think we won't use slack and remove this link soon)
 
 https://jsdev-org.slack.com/
 
