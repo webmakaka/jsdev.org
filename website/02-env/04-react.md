@@ -165,16 +165,21 @@ $ npm install --save-dev \
 
 <br/>
 
-### Absolute path src/
+### Absolute path imports for react apps
+
+<br/>
 
 **jsconfig.json**
 
 ```
 {
   "compilerOptions": {
+    "target": "es6",
     "baseUrl": "src"
-  }
+  },
+  "exclude": ["node_modules"]
 }
+
 ```
 
 <br/>

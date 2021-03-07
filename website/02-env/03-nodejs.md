@@ -154,9 +154,27 @@ engine-strict=true
 
 ### Absolute path imports in Node.js projects
 
+<br/>
+
+```
+$ npm install --save-dev \
+    @babel/core \
+    @babel/node \
+    @babel/cli \
+    @babel/preset-env \
+    babel-plugin-module-resolver \
+    nodemon
+```
+
+<br/>
+
+**package.json**
+
+<br/>
+
 ```js
   "scripts": {
-    "start": "NODE_PATH=./src nodemon server.js"
+    "start": "NODE_PATH=./src nodemon --exec babel-node ./src/index.js"
   },
 ```
 
@@ -180,12 +198,6 @@ engine-strict=true
 
 <br/>
 
-```
-$ npm install --save-dev @babel/core @babel/node  @babel/cli @babel/preset-env babel-plugin-module-resolver nodemon
-```
-
-<br/>
-
 **.babelrc.js (I am not sure that this file is needed!)**
 
 <br/>
@@ -205,18 +217,6 @@ module.exports = {
     ],
   ],
 };
-```
-
-<br/>
-
-**package.json**
-
-<br/>
-
-```js
-  "scripts": {
-    "start": "NODE_PATH=./src nodemon --exec babel-node ./src/index.js"
-  },
 ```
 
 <br/>
