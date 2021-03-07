@@ -121,7 +121,7 @@ or
 
 <br/>
 
-### Possible additional configs
+### Possible additional configs (Deprecated use volta)
 
 <br/>
 
@@ -149,3 +149,80 @@ engine-strict=true
     $ npm install -g npm-check-updates
     $ ncu -u
     $ npm install
+
+<br/>
+
+### Absolute path imports in Node.js projects
+
+```js
+  "scripts": {
+    "start": "NODE_PATH=./src nodemon server.js"
+  },
+```
+
+<br/>
+
+**jsconfig.json (I am not sure that this file is needed!)**
+
+<br/>
+
+```js
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2016",
+    "baseUrl": "./src"
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
+
+```
+
+<br/>
+
+```
+$ npm install --save-dev @babel/core @babel/node  @babel/cli @babel/preset-env babel-plugin-module-resolver nodemon
+```
+
+<br/>
+
+**.babelrc.js (I am not sure that this file is needed!)**
+
+<br/>
+
+```js
+const path = require('path');
+const jsConfig = require('./jsconfig.json');
+
+module.exports = {
+  presets: ['@babel/preset-env'],
+  plugins: [
+    [
+      'module-resolver',
+      {
+        root: [path.resolve(jsConfig.compilerOptions.baseUrl)],
+      },
+    ],
+  ],
+};
+```
+
+<br/>
+
+**package.json**
+
+<br/>
+
+```js
+  "scripts": {
+    "start": "NODE_PATH=./src nodemon --exec babel-node ./src/index.js"
+  },
+```
+
+<br/>
+
+**Helped me:**
+
+https://dev.to/thatanjan/set-up-nodejs-project-with-babel-198p
+
+https://medium.com/weekly-webtips/say-good-bye-relative-imports-in-nodejs-projects-65513bcdae6c
