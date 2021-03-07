@@ -1,34 +1,29 @@
 ---
 layout: page
-title: JavaScript Code Examples
-description: JavaScript Code Examples
-keywords: JavaScript Code Examples
+title: JS application examples
+description: JS application examples
+keywords: JS application examples
 permalink: /codes/
 ---
 
-# JavaScript Code Examples
+# JS application examples
 
 <br/>
 
-### realworld
+### Same application on React, Angular and Vue
 
-https://react-redux.realworld.io/
+<a href="https://github.com/webmakaka/React-hooks-writing-real-project">Ract + Hooks</a> :: <a href="https://github.com/webmakaka/Angular-and-NgRx-Building-Real-Project-From-Scratch">Angular 11</a> :: <a href="https://github.com/webmakaka/Vue-and-Vuex-Building-Real-Project-From-Scratch">Vue + Vuex</a>
 
 <br/>
 
-**src:**
-
-https://github.com/gothinkster/realworld
-
-You can select frontend and backend what you need.
+**Backend from Oleksandr:**  
+https://github.com/EJIqpEP/koa-knex-realworld-example
 
 <br/>
 
 ### [Udemy] The React practice course, learn by building projects [ENG, 2018]
 
-**src:**
-
-https://github.com/webmakaka/The-React-Practice-Course-Learn-by-Building-Projects
+<a href="https://github.com/webmakaka/The-React-Practice-Course-Learn-by-Building-Projects">Application</a>
 
 <br/>
 
@@ -57,10 +52,6 @@ If you want, use minikube to run app. Instructions in readme.md
 
 <br/>
 
-[Other React apps](/codes/react/)
-
-<br/>
-
 ### Free opensource eshop React + NodeJs + MongoDB!
 
 https://github.com/cezerin2  
@@ -72,29 +63,12 @@ https://cezerin.ru
 // admin
 https://cezerin.ru/admin
 
-<!-- // discussion (on russian)
-https://searchengines.guru/showthread.php?t=1010199 -->
-
-<br/>
-
-### Interesting code samples
-
-http://todomvc.com/
-
-<!-- <br/>
-
-### Public repos with HTML Templates:
-
-<ul>
-    <li><a href="https://github.com/marley-html" rel="nofollow">HTML Templates</a></li>
-</ul> -->
-
 <br/>
 
 ### Node.js
 
 <ul>
-    <li><a href="https://bitbucket.org/marley-nodejs/learn-nodejs-by-building-10-projects" rel="nofollow" target="_blank">Learn Nodejs by building 10 projects [2015, ENG]</a></li>
+    <li><a href="https://github.com/webmakaka/Build-Ecommerce-Website-Like-Amazon-React-Node-MongoDB">[Bassir Jafarzadeh] Build Ecommerce Website Like Amazon [React & Node & MongoDB] [ENG, 2021]</a></li>
 </ul>
 
 <br/>

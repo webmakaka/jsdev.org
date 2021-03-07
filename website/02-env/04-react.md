@@ -184,7 +184,7 @@ $ npm install --save-dev \
 
 <br/>
 
-### Resolve src/
+### Resolve src/ for Eslint
 
 **.eslintrc**
 
