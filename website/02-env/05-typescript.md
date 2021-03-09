@@ -26,101 +26,23 @@ https://github.com/mike-north/professional-ts-my-lib
     $ mkdir -p ~/projects/dev/ts/my-new-ts-project && cd ~/projects/dev/ts/my-new-ts-project
     $ npm init -y
 
-    $ npm install --save-dev typescript @types/node
-
-    // It is possible to generate default tsconfig.json
-    // $ ./node_modules/.bin/tsc --init
-
 <br/>
 
-**tsconfig.json**
-
-<br/>
-
-    $ vi tsconfig.json
-
-<!-- ```json
-{
-  "compilerOptions": {
-    "lib": ["es2015"],
-    "module": "commonjs",
-    "outDir": "dist",
-    "sourceMap": true,
-    "strict": true,
-    "target": "es2015"
-  },
-  "include": ["src"]
-}
-``` -->
-
-```js
-{
-  "compilerOptions": {
-    "composite": true,
-    "strict": true,
-    "module": "commonjs",
-    "target": "es2018",
-    "outDir": "dist",
-    "rootDir": "src",
-    // "declaration": true,
-    "sourceMap": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "stripInternal": true,
-    "types": [],
-    //"esModuleInterop": true,
-    //"skipLibCheck": true
-  },
-  "include": ["src"]
-}
+```
+$ npm install --save-dev \
+    @babel/preset-env \
+    @babel/preset-typescript \
+    @microsoft/api-documenter \
+    @microsoft/api-extractor \
+    @types/jest \
+    @typescript-eslint/eslint-plugin \
+    @typescript-eslint/parser \
+    eslint \
+    jest \
+    typescript
 ```
 
 <br/>
-
-**tsc CLI Options**  
-https://www.typescriptlang.org/docs/handbook/compiler-options.html
-
-<br/>
-
-### TSLINT is dead, we will use ESLINT
-
-https://medium.com/palantir/tslint-in-2019-1a144c2317a9
-
-<!--
-
-    $ npm install --save-dev tslint
-    $ ./node_modules/.bin/tslint --init
-
-**tslint.json**
-
--->
-
-<br/>
-
-### Run
-
-    $ mkdir src
-
-    $ vi src/index.ts
-
-```
-console.log('Hello TypeScript!')
-```
-
-    $ ./node_modules/.bin/tsc
-    $ node ./dist/index.js
-
-<br/>
-
-### ts-node
-
-    $ npm install --save-dev ts-node
-    $ ./node_modules/.bin/ts-node ./src/index.ts
-
-<br/>
-
-### Run, Build
 
     $ vi package.json
 
@@ -130,8 +52,69 @@ console.log('Hello TypeScript!')
 
 ```
 ***
-"ts-node": "ts-node ./src/index.ts",
-"build": "tsc",
+"scripts": {
+    "build": "tsc",
+    "dev": "yarn build --watch --preserveWatchOutput",
+    "lint": "eslint src --ext js,ts,jsx,tsx",
+    "test": "jest"
+  },
+***
+```
+
+<br/>
+
+**tsconfig.json**
+
+<br/>
+
+    // You can generate default tsconfig.json
+    // $ ./node_modules/.bin/tsc --init
+
+<br/>
+
+    $ vi tsconfig.json
+
+```js
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES2018",
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "baseUrl": "./src",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true ,
+    "noImplicitReturns": true,
+    "stripInternal": true,
+    "types": [],
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
+}
+```
+
+<br/>
+
+**Compiler Options**  
+https://www.typescriptlang.org/docs/handbook/compiler-options.html
+
+### ts-node useful for Node.js projects
+
+    $ npm install --save-dev ts-node
+
+<br/>
+
+    $ vi package.json
+
+<br/>
+
+**package.json**
+
+```
+***
+    "ts-node": "ts-node ./src/index.ts",
 ***
 ```
 
@@ -139,77 +122,10 @@ console.log('Hello TypeScript!')
 
     $ npm run ts-node
 
-<!--
-https://github.com/bcherny/programming-typescript-answers
--->
-
-<!--
-
-
-
--->
-<!--
 <br/>
 
-**tsconfig.json**
-
-```
-***
-"rootDir": "./src",
-"outDir": "./build"
-***
-```
-
--->
-
-<br/>
-
-### Jest
-
-    $ npm install --save-dev jest @types/jest \
-        @babel/preset-env @babel/preset-typescript
-
-<br/>
-
-    $ mkdir tests
-
-<br/>
-
-    $ vi tests/intex.test.ts
-
-<br/>
-
-    $ vi tests/tsconfig.json
-
-```js
-{
-    "extends": "../tsconfig.json",
-    "references": [{
-        "name": "my-lib",
-        "path": ".."
-    }],
-    "compilerOptions": {
-        "types": ["test"],
-        "rootDir": "..",
-        "noEmit": true
-    },
-    "include" : ["."]
-}
-
-```
-
-<br/>
-
-**.babelrc**
-
-```js
-{
-    "presets": [
-        ["@babel/preset-env", {"targets": {"node": 10}}],
-        "@babel/preset-typescript"
-    ]
-}
-```
+<a href="/env/eslint/">Eslint</a>
+<a href="/env/jest/">Jest for TypeScript</a>
 
 <br/>
 
