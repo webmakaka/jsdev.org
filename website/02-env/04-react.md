@@ -17,4 +17,4 @@ https://github.com/webmakaka/complete-intro-to-react-v6
 
 ### <a href="/env/eslint/react/">ESLint</a>
 
-### <a href="/env/eslint/babel/">Babel</a>
+### <a href="/env/babel/">Babel</a>
