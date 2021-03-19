@@ -52,19 +52,6 @@ If you want, use minikube to run app. Instructions in readme.md
 
 <br/>
 
-### Free opensource eshop React + NodeJs + MongoDB!
-
-https://github.com/cezerin2  
-https://cezerin.org
-
-// shop
-https://cezerin.ru
-
-// admin
-https://cezerin.ru/admin
-
-<br/>
-
 ### Node.js
 
 <ul>
@@ -86,3 +73,32 @@ https://cezerin.ru/admin
 <ul>
     <li><a href="https://github.com/webmakaka/Full-Stack-React-with-GraphQL-and-Apollo-Boost" rel="nofollow" target="_blank">[Udemy, Reed Barger] Full-Stack React with GraphQL and Apollo Boost [ENG, 2018]</a></li>
 </ul>
+
+<br/>
+
+### HyperLedger Fabric
+
+<ul>
+    <li><a href="https://github.com/webmakaka/Blockchain-for-Business-with-Hyperledger-Fabric" rel="nofollow" target="_blank">[Book, Nakul Shah] Blockchain for Business with Hyperledger Fabric: A complete guide to enterprise Blockchain implementation using Hyperledger Fabric [ENG, 2019]</a></li>
+</ul>
+
+<br/>
+
+### React Native
+
+<ul>
+    <li><a href="https://github.com/webmakaka/Build-a-Restaurant-App-with-React-Native" rel="nofollow" target="_blank">Build a Restaurant App with React Native</a></li>
+</ul>
+
+<br/>
+
+### Free opensource eshop React + NodeJs + MongoDB!
+
+https://github.com/cezerin2  
+https://cezerin.org
+
+// shop
+https://cezerin.ru
+
+// admin
+https://cezerin.ru/admin

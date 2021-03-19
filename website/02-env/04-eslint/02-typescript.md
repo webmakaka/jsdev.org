@@ -3,12 +3,12 @@ layout: page
 title: Eslint
 description: Eslint
 keywords: eslint
-permalink: /env/eslint/
+permalink: /env/eslint/typescript/
 ---
 
 <br/>
 
-# Eslint
+# ESlint for TypeScript
 
 <br/>
 
@@ -18,10 +18,6 @@ permalink: /env/eslint/
 
 **Configured project :**  
 https://github.com/mike-north/professional-ts-my-lib
-
-<br/>
-
-### ESlint for TypeScript
 
 <br/>
 

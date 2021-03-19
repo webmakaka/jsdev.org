@@ -17,7 +17,8 @@ I'm working in ubuntu linux 20.04 LTS
 **Browser:**  
 <a href="/env/browser/chrome/">Chrome</a>
 
-**IDE:**  
+**IDE:**
+
 <a href="/env/ide/vscode/">VSCode</a>
 <a href="/env/ide/neovim/">NeoVim</a>
 
@@ -26,7 +27,7 @@ I'm working in ubuntu linux 20.04 LTS
 - <a href="/env/nodejs/">Node.js</a>
 - <a href="/env/react/">React</a>
 - <a href="/env/typescipt/">TypeScript</a>
-- <a href="/env/eslint/">Eslint (Test)</a>
+- <a href="/env/eslint/typescript/">Eslint (Test)</a>
 - <a href="/env/husky/">Husky (Test)</a>
 - <a href="/env/docker-databases/">Docker DataBases</a>
 

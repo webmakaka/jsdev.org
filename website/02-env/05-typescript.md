@@ -120,11 +120,13 @@ https://www.typescriptlang.org/docs/handbook/compiler-options.html
 
 <br/>
 
-    $ npm run ts-node
+```
+$ npm run ts-node
+```
 
 <br/>
 
-<a href="/env/eslint/">Eslint</a>
+<a href="/env/eslint/typescript/">Eslint</a>
 <a href="/env/jest/">Jest for TypeScript</a>
 
 <br/>

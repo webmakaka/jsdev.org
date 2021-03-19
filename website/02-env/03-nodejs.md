@@ -152,7 +152,7 @@ engine-strict=true
 
 <br/>
 
-### Absolute path imports in Node.js projects
+### Absolute path imports for Node.js projects
 
 <br/>
 
