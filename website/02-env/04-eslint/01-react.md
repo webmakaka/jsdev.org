@@ -116,7 +116,7 @@ eslint-plugin-prettier
 
 <br/>
 
-### ESLint + React
+### ESLint + React + Hooks
 
 https://btholt.github.io/complete-intro-to-react-v6/jsx
 
@@ -124,12 +124,10 @@ https://btholt.github.io/complete-intro-to-react-v6/jsx
 
 ```
 $ npm install --save-dev \
-              eslint-plugin-import@2.22.1 \
-              eslint-plugin-jsx-a11y@6.4.1 \
-              eslint-plugin-react@7.22.0 \
+              eslint-plugin-import \
+              eslint-plugin-jsx-a11y \
+              eslint-plugin-react \
               eslint-plugin-react-hooks
-
-
 ```
 
 <br/>
@@ -143,9 +141,9 @@ $ npm install --save-dev \
     "plugin:import/errors",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
-    "prettier",
+    "plugin:react-hooks/recommended",
     "prettier/react",
-    "plugin:react-hooks/recommended"
+    "prettier"
   ],
   "rules": {
     "react/prop-types": 0,
@@ -169,35 +167,5 @@ $ npm install --save-dev \
       "version": "detect"
     }
   }
-}
-
-```
-
-<br/>
-
-### ESLint + React + Hooks
-
-https://btholt.github.io/complete-intro-to-react-v6/hooks
-
-<!--
-    babel-eslint
--->
-
-<br/>
-
-```
-$ npm install --save-dev \
-              eslint-plugin-react-hooks
-```
-
-<br/>
-
-```
-{
-  "extends": [
-    …
-    "plugin:react-hooks/recommended",
-    …
-  ]
 }
 ```
