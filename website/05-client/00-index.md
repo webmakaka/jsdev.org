@@ -16,6 +16,24 @@ permalink: /client/
 
 <br/>
 
-### JavaScript frameworks and libs
+### React.js
 
-[JavaScript frameworks and libs](/client/frameworks/)
+[React](/client/react/)
+
+<br/>
+
+### Angular
+
+[Angular](/client/angular/)
+
+<br/>
+
+### Vue.js
+
+[Vue.js](/client/vue/)
+
+<br/>
+
+### TypeScript (Microsoft)
+
+[Angular](/client/typescript/)

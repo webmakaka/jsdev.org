@@ -8,6 +8,8 @@ permalink: /client/react/create-simple-react-project-manually/
 
 # Create simple react project manually
 
+<br/>
+
     $ cd /project/
     $ npm init -y
 
