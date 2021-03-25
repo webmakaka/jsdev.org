@@ -10,6 +10,12 @@ permalink: /client/react/ssr/
 
 **Examples:**
 
+https://github.com/webmakaka/react-lectures/tree/master/ssr
+
+https://github.com/webmakaka/citr-v6-project/tree/master/server-side-rendering-1
+
+https://github.com/webmakaka/citr-v6-project/tree/master/server-side-rendering-2
+
 https://github.com/webmakaka/Server-Side-Rendering-with-React-and-Redux
 
 https://github.com/webmakaka/learning-full-stack-javascript-development-mongodb-node-and-react

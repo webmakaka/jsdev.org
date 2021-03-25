@@ -56,17 +56,6 @@ Electron
 Ionic | React Native
 
 <br/>
-
-## Tasks Runner | Preprocessors
-
-<a href="/tasks-runner/webpack/">Webpack</a> ||
-Grunt || <a href="/tasks-runner/gulp/">Gulp</a>
-
-## Transpiling
-
-<a href="/transpilers/babel/">Babel</a> | TypeScript (by Microsoft) | Elm | CoffeScpipt | Dart (by Google)
-
-<br/>
 <hr/>
 
 ## Testing
