@@ -40,9 +40,10 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 <br/>
 
-### Themes library
+### CSS / Themes
 
 <ul>
+  <li><a href="/client/react/tailwind/">Tailwind</a></li>
   <li>Material UI - https://material-ui.com/</li>
   <li>Semantic UI React - https://react.semantic-ui.com/</li>
   <li>React + Foundation</li>

@@ -50,6 +50,8 @@ permalink: /html/templates/
 
 ## Icons:
 
+    Iconfinder — https://www.iconfinder.com/
+
     useiconic.com/open
 
     loading.io/icon/
@@ -62,4 +64,9 @@ permalink: /html/templates/
     Toicon — www.toicon.com/series
     TheNounProject — https://thenounproject.com
     Fontisto — https://www.fontisto.com/icons
-    Iconfinder — https://www.iconfinder.com/
+
+<br/>
+
+## Images:
+
+https://unsplash.com/

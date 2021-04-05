@@ -8,13 +8,15 @@ permalink: /client/react/redux/
 
 # Redux
 
-    $ npm install --save redux react-redux redux-thunk
+https://btholt.github.io/complete-intro-to-react-v6/
+
+https://github.com/webmakaka/citr-v6-project/tree/master/redux
 
 <br/>
 
 ### Redux thunk
 
-    $ npm install --save redux-thunk
+    $ npm install --save redux react-redux redux-thunk
 
 https://github.com/webmakaka/Complete-React-Developer-In-2020-Redux-Hooks-GraphQL
 
