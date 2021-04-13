@@ -28,12 +28,6 @@ https://github.com/nodejs/release
 
 <br/>
 
-### Node.JS and Docker
-
-<a href="/env/docker/run-container/linux/">Run Docker Container (with node.js)</a>
-
-<br/>
-
 ### Node.JS Static Server
 
 <a href="/server/nodejs/static-server/">Static Server</a>

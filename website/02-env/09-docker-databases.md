@@ -46,6 +46,25 @@ https://github.com/webmakaka/Uber-Eats-Clone
 
 <br/>
 
+<br/>
+
+Run pgadmin in docker container:
+
+```
+$ docker run -e PGADMIN_DEFAULT_EMAIL='postgres@test.com' -e PGADMIN_DEFAULT_PASSWORD='password1234' -p 5555:80 --name pgadmin dpage/pgadmin4
+```
+
+<br/>
+
+http://localhost:5555/
+
+```
+login: postgres@test.com
+pass: password1234
+```
+
+<br/>
+
 ### MongoDB
 
 ```yaml
@@ -64,3 +83,9 @@ services:
 
 **Example:**
 https://github.com/webmakaka/NestJS-Fundamentals-Course/
+
+<br/>
+
+### docker-db-templates
+
+https://github.com/dalisoft/dev-env/tree/master/packages/docker-db-templates
