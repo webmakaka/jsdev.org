@@ -12,18 +12,24 @@ permalink: /env/nodejs/
 
     $ curl https://get.volta.sh | bash
 
+new terminal window
+
     // Volta will choose the latest LTS
-    $ volta install node npm
+    $ volta install node npm yarn
 
     // $ volta install node@12
 
     $ node --version
-    v14.15.1
+    v14.16.1
 
 <br/>
 
     // Add current packages in package.json
     $ volta pin node npm
+
+or yarn
+
+    $ volta pin node yarn
 
 <br/>
 

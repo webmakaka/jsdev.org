@@ -169,25 +169,3 @@ VSCode --> File --> Preverences --> Settings:
 - Prettier Require Config --> require a prettier configuration file to foramt (checked)
 
 ### <a href="/env/prettier/">Prettier</a>
-
-<!--
-
-### Eslint
-
-    # npm install -g eslint \
-    eslint-plugin-standard \
-    eslint-plugin-import \
-    eslint-plugin-node \
-    eslint-plugin-promise
-
-<br/>
-
-    # npm install -g eslint-config-standard
-
-<br/>
-
-    # ls /usr/local/lib/node_modules/
-    eslint                  eslint-plugin-import  eslint-plugin-promise   npx
-    eslint-config-standard  eslint-plugin-node    eslint-plugin-standard
-
--->

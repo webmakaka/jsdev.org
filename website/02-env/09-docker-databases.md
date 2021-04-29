@@ -70,7 +70,7 @@ pass: password1234
 ```yaml
 version: '3'
 services:
-  db:
+  mongodb-dev:
     image: mongo
     restart: always
     ports:

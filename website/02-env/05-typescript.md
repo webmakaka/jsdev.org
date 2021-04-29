@@ -77,13 +77,13 @@ $ npm install --save-dev \
 ```js
 {
   "compilerOptions": {
-    "composite": true,
     "target": "ES2018",
-    "module": "commonjs",
-    "outDir": "dist",
-    "rootDir": "src",
-    "strict": true,
     "baseUrl": "./src",
+    "strict": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "composite": true,
+    "module": "commonjs",
     "noUnusedLocals": true,
     "noUnusedParameters": true ,
     "noImplicitReturns": true,

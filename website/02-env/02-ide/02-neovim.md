@@ -97,9 +97,11 @@ alias vim='nvim'
 
 ### Install Additional fonts and icons
 
-'ryanoasis/vim-devicons'
+**ryanoasis/vim-devicons**
 
 https://github.com/ryanoasis/vim-devicons
+
+<br/>
 
     $ cd ~/tmp
     $ git clone --depth 1 https://github.com/ryanoasis/nerd-fonts
@@ -228,9 +230,14 @@ set mouse=
 nmap oo o<Esc>k
 nmap OO O<Esc>j
 
+"CTRL + S to save
 nmap <c-s> :w<CR>
 vmap <c-s> <Esc><c-s>gv
 imap <c-s> <Esc><c-s>
+
+"CTRL + Z to undo
+nnoremap <c-z> :u<CR>      " Avoid using this**
+inoremap <c-z> <c-o>:u<CR>
 
 nmap <F2> :update<CR>
 vmap <F2> <Esc><F2>gv
@@ -239,7 +246,7 @@ imap <F2> <c-o><F2>
 noremap <F3> :set invnumber<CR>
 inoremap <F3> <C-O>:set invnumber<CR>
 
-:set list
+:set list 
 :set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
 
 nmap <silent> gd <Plug>(coc-definition)
@@ -303,6 +310,10 @@ command! -nargs=0 Format :call CocAction('format')
 }
 ```
 
+<br/>
+
+Need to install nodejs
+
 <!--
 
 :CtrlPClearAllCaches
@@ -365,18 +376,6 @@ https://gist.github.com/benawad/b768f5a5bbd92c8baabd363b7e79786f
     $ vi ~/.config/nvim/coc-settings.json
 
 https://gist.github.com/benawad/e187dd887f256a6a002905ec7f22ad76
-
-<!--
-
-    $ npm install -g neovim
-    $ npm install -g eslint
-
-<br/>
-
-    $ sudo apt install -y python3-pip
-    $ pip3 install neovim
-
--->
 
 <br/>
 

@@ -18,6 +18,12 @@ Developer Tools (Ctrl + Shift + I) > Menu icon (the 3 vertical dots) > Settings 
 
 <br/>
 
+### Dark theme for Chrome console
+
+Settings > Preferences > Appearance > Theme > Dark.
+
+<br/>
+
 ### Chrome Extensions for Development
 
 <br/>
@@ -36,6 +42,8 @@ Developer Tools (Ctrl + Shift + I) > Menu icon (the 3 vertical dots) > Settings 
 ### GraphQL
 
 - Apollo Client Developer Tools
+
+https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapilgoeccciglkfbmbnfm/related?hl=en
 
 <!--
 
