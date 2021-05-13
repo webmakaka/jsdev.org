@@ -171,6 +171,16 @@ Plug 'airblade/vim-gitgutter'
 " Syntax hightlight for .jsx
 Plug 'mxw/vim-jsx'
 
+"Commenting
+Plug 'preservim/nerdcommenter'
+
+
+"Airline
+Plug 'vim-airline/vim-airline'
+
+"Tailwindcss
+Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'}
+
 
 call plug#end()
 
@@ -189,7 +199,6 @@ let g:NERDTreeWinPos = "right"
 let g:NERDTreeIgnore = ['^node_modules$']
 
 set wildignore+=*/tmp/*,*/dist/*,*/node_modules/*,*.so,*.swp,*.zip,package-lock.json
-
 
 let g:ctrlp_use_caching = 0
 let g:ctrlp_working_path_mode = 0
@@ -246,7 +255,7 @@ imap <F2> <c-o><F2>
 noremap <F3> :set invnumber<CR>
 inoremap <F3> <C-O>:set invnumber<CR>
 
-:set list 
+:set list
 :set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
 
 nmap <silent> gd <Plug>(coc-definition)
@@ -270,6 +279,18 @@ command! -nargs=0 Format :call CocAction('format')
 ```
 :PlugInstall
 ```
+
+<br/>
+
+**Commenter settings:**
+
+https://vimawesome.com/plugin/the-nerd-commenter
+
+<br/>
+
+**Tailwind:**
+
+https://github.com/iamcco/coc-tailwindcss
 
 <!--
 

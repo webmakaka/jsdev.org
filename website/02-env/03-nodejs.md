@@ -12,7 +12,7 @@ permalink: /env/nodejs/
 
     $ curl https://get.volta.sh | bash
 
-new terminal window
+new terminal window || logout / login
 
     // Volta will choose the latest LTS
     $ volta install node npm yarn

@@ -78,44 +78,6 @@ eslint-plugin-prettier
 
 <br/>
 
-### Absolute path imports for react apps
-
-<br/>
-
-**jsconfig.json**
-
-<br/>
-
-```json
-{
-  "compilerOptions": {
-    "target": "es6",
-    "baseUrl": "src"
-  },
-  "exclude": ["node_modules"]
-}
-```
-
-<br/>
-
-### Resolve src/ for Eslint
-
-**.eslintrc**
-
-```
-{
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "paths": ["src"]
-      }
-    }
-  }
-}
-```
-
-<br/>
-
 ### ESLint + React + Hooks
 
 https://btholt.github.io/complete-intro-to-react-v6/jsx

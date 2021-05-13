@@ -18,3 +18,48 @@ https://github.com/webmakaka/complete-intro-to-react-v6
 ### <a href="/env/eslint/react/">ESLint</a>
 
 ### <a href="/env/babel/">Babel</a>
+
+<br/>
+
+<br/>
+
+### Absolute path imports for react apps
+
+<br/>
+
+**jsconfig.json**
+
+<br/>
+
+```json
+{
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": "src"
+  },
+  "exclude": ["node_modules"]
+}
+```
+
+<br/>
+
+### Resolve src/ for Eslint
+
+**.eslintrc**
+
+```
+{
+  "parser": "babel-eslint",
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  }
+}
+```
+
+<br/>
+
+    $ yarn add -D babel-eslint
