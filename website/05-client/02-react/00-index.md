@@ -43,13 +43,14 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 ### CSS / Themes
 
 <ul>
-  <li><a href="/client/react/tailwind/">Tailwind</a></li>
-  <li>Material UI - https://material-ui.com/</li>
-  <li>Semantic UI React - https://react.semantic-ui.com/</li>
+  <li><a href="/client/react/tailwind/">Tailwind</a> (https://tailwindcss.com/)</li>
+  <li>Material UI (https://material-ui.com)</li>
+  <li>Semantic UI React (https://react.semantic-ui.com)</li>
   <li>React + Foundation</li>
   <li>React Bootstrap</li>
   <li>Ant Design - ant.design</li>
   <li>Twitter Bootstrap</li>
+  <li>Styled Components (https://styled-components.com/)</li>
 </ul>
 
 <br/>
