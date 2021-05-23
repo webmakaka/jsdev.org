@@ -10,7 +10,12 @@ permalink: /dummy/
 
 # Dummy
 
-**faker.js:**  
+<br/>
+
+### Faker
+
+faker.js - generate massive amounts of fake data in the browser and node.js
+
 https://www.npmjs.com/package/faker
 
 <br/>
@@ -40,14 +45,6 @@ https://www.npmjs.com/package/faker
 
 - <a href="https://jsonplaceholder.typicode.com/" rel="nofollow">jsonplaceholder</a>
 - <a href="https://restcountries.eu/rest/v2/all" rel="nofollow">REST Countries</a>
-
-<br/>
-
-### Faker
-
-faker.js - generate massive amounts of fake data in the browser and node.js
-
-https://www.npmjs.com/package/faker
 
 <br/>
 

@@ -53,7 +53,8 @@ https://github.com/webmakaka/complete-intro-to-react-v6
   "settings": {
     "import/resolver": {
       "node": {
-        "paths": ["src"]
+        "paths": ["src"],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
     }
   }

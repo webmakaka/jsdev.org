@@ -8,6 +8,11 @@ permalink: /client/typescript/
 
 # TypeScript (Microsoft)
 
+**MakeTypes from JSON samples:**  
+https://jvilk.com/MakeTypes/
+
+<br/>
+
 Linter documenttion
 https://palantir.github.io/tslint/
 
@@ -326,9 +331,9 @@ https://raw.githubusercontent.com/marley-js/Mastering-TypeScript-Programming-Tec
 https://raw.githubusercontent.com/marley-js/Mastering-TypeScript-Programming-Techniques/master/Sec3/code/video02/tsconfig.json
 
 $ vi app.ts
-    
+
 https://github.com/webmakaka/Mastering-TypeScript-Programming-Techniques/blob/master/Sec3/code/video02/app.ts
-    
+
     $ tsc
 
 <br/>

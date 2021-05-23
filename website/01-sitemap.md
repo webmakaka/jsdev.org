@@ -69,21 +69,6 @@ Ionic | React Native
 <a href="/dummy/">Dummy</a>
 
 <br/>
-<hr/>
-
-## Secure Tunnels to localhost
-
-<a href="/tunnels/ngrok/">ngrok</a>
-
-<br/>
-<hr/>
-
-## Easy Dev & Deploy
-
-<a href="https://www.youtube.com/watch?v=FMhVXOA54x8">Netlify</a>
-
-<br/>
-<hr/>
 
 ### DataBases
 
@@ -131,7 +116,15 @@ github actions | tekton | gitlab-ci | travis-ci | jenkins | bamboo ci | circleci
 
 ## Email Service
 
-MailGun | SendGrid (commercial)
+MailGun | SendGrid (commercial) | mailtrap.io | ethereal.email | postmarkapp.com
+
+<br/>
+
+<a href="https://github.com/webmakaka/Uber-Eats-Clone">[MailGun] usage sample</a>
+
+<br/>
+
+<a href="https://github.com/webmakaka/Advanced-React-and-GraphQL">[ethereal] usage sample</a>
 
 <br/>
 

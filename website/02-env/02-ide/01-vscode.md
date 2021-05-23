@@ -55,7 +55,23 @@ minimal
 - Prettier - Code formatter (ext install esbenp.prettier-vscode)
 - GitLens
 - Bracket Pair Colorizer
+- Auto Rename Tag
+- CSS Peek
+- Code Spell Checker
+- Visual Studio IntelliCode
+- Inline Parameters for VSCode
+
+**Snippets:**
+
+- ES7 React/Redux/GraphQL/React-Native snippets - dsznajder
+
+- JavaScript (ES6) code snippets
+
+<!--
+
 - Rest Client (Huachao Mao)
+
+-->
 
 <br/>
 
