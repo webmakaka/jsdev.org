@@ -34,6 +34,7 @@ https://github.com/webmakaka/complete-intro-to-react-v6
 ```json
 {
   "compilerOptions": {
+    "checkJs": true,
     "target": "es6",
     "baseUrl": "src"
   },

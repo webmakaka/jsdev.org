@@ -12,7 +12,7 @@ permalink: /deployment/
 
 ## Secure Tunnels to localhost
 
-<a href="/tunnels/ngrok/">ngrok</a>
+<a href="/env/ngrok/">ngrok</a>
 
 <br/>
 

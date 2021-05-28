@@ -28,9 +28,8 @@ Settings > Preferences > Appearance > Theme > Dark.
 
 <br/>
 
-### Extensions for Github
+### Extensions for Chrome
 
-- GitHub dark theme
 - Quick JavaScript Switcher
 - EditThisCookie
 - SetupVPN
@@ -44,20 +43,3 @@ Settings > Preferences > Appearance > Theme > Dark.
 - Apollo Client Developer Tools
 
 https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapilgoeccciglkfbmbnfm/related?hl=en
-
-<!--
-
-- Enchanced GitHub
-- File icon for Github and Gitlab
-- Octolinker
-- Sourcegraph
-
--->
-
-<!--
-
-- Octotree
-
--->
-
-https://www.youtube.com/watch?v=0r2JwANUZwo

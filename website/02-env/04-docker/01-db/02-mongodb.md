@@ -35,4 +35,4 @@ services:
 <br/>
 
 **Example:**
-https://github.com/webmakaka/NestJS-Fundamentals-Course/
+https://github.com/webmakaka/NestJS-Fundamentals-Course/blob/main/app/api-mongodb/docker-compose.yml

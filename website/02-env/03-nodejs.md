@@ -193,6 +193,7 @@ $ npm install --save-dev \
 ```js
 {
   "compilerOptions": {
+    "checkJs": true,
     "module": "commonjs",
     "target": "es2016",
     "baseUrl": "./src"

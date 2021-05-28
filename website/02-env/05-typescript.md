@@ -10,56 +10,31 @@ permalink: /env/typescipt/
 
 <br/>
 
-**Based on video course [FrontendMasters] Production-Grade TypeScript**
-
-<br/>
-
-https://github.com/mike-north/professional-ts
-
-<br/>
-
-**Configured project:**  
-https://github.com/mike-north/professional-ts-my-lib
-
-<br/>
-
     $ mkdir -p ~/projects/dev/ts/my-new-ts-project && cd ~/projects/dev/ts/my-new-ts-project
     $ npm init -y
+    $ npm install --save-dev typescript ts-node
 
 <br/>
+
+<!--
+
+    @microsoft/api-documenter \
+    @microsoft/api-extractor \
+
+
 
 ```
 $ npm install --save-dev \
     @babel/preset-env \
     @babel/preset-typescript \
-    @microsoft/api-documenter \
-    @microsoft/api-extractor \
     @types/jest \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \
     eslint \
-    jest \
-    typescript
+    jest
 ```
 
-<br/>
-
-    $ vi package.json
-
-<br/>
-
-**package.json**
-
-```
-***
-"scripts": {
-    "build": "tsc",
-    "dev": "yarn build --watch --preserveWatchOutput",
-    "lint": "eslint src --ext js,ts,jsx,tsx",
-    "test": "jest"
-  },
-***
-```
+-->
 
 <br/>
 
@@ -77,15 +52,18 @@ $ npm install --save-dev \
 ```js
 {
   "compilerOptions": {
-    "target": "ES2018",
+    "target": "esnext",
     "baseUrl": "./src",
+    "rootDir": "./src",
+    "outDir": "./build",
     "strict": true,
-    "rootDir": "src",
+    "rootDir": "./src",
     "outDir": "dist",
     "composite": true,
     "module": "commonjs",
     "noUnusedLocals": true,
-    "noUnusedParameters": true ,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
     "noImplicitReturns": true,
     "stripInternal": true,
     "types": [],
@@ -100,10 +78,6 @@ $ npm install --save-dev \
 **Compiler Options**  
 https://www.typescriptlang.org/docs/handbook/compiler-options.html
 
-### ts-node useful for Node.js projects
-
-    $ npm install --save-dev ts-node
-
 <br/>
 
     $ vi package.json
@@ -114,14 +88,13 @@ https://www.typescriptlang.org/docs/handbook/compiler-options.html
 
 ```
 ***
+"scripts": {
+    "build": "NODE_PATH=./src tsc",
     "ts-node": "ts-node ./src/index.ts",
+    "lint": "eslint src --ext js,ts,jsx,tsx",
+    "test": "jest"
+  },
 ***
-```
-
-<br/>
-
-```
-$ npm run ts-node
 ```
 
 <br/>
@@ -134,3 +107,18 @@ $ npm run ts-node
 ### Webpack & TypeScript Setup
 
 https://www.youtube.com/watch?v=sOUhEJeJ-kI
+
+<br/>
+
+### Example
+
+**Example from video course [FrontendMasters] Production-Grade TypeScript**
+
+<br/>
+Possible
+https://github.com/mike-north/professional-ts
+
+<br/>
+
+**Configured project:**  
+https://github.com/mike-north/professional-ts-my-lib
