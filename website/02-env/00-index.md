@@ -26,8 +26,8 @@ I'm working in ubuntu linux 20.04 LTS
 
 - <a href="/env/nodejs/">Node.js</a>
 - <a href="/env/react/">React</a>
-- <a href="/env/typescipt/">TypeScript</a>
-- <a href="/env/eslint/typescript/">Eslint (Test)</a>
+- <a href="/env/nodejs/typescript/">TypeScript</a>
+- <a href="/env/nodejs/typescript/eslint/">Eslint (Test)</a>
 - <a href="/env/husky/">Husky (Test)</a>
 - <a href="/env/docker/db/">Docker DataBases</a>
 

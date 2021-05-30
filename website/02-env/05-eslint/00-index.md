@@ -10,6 +10,6 @@ permalink: /env/eslint/
 
 # Eslint
 
-### <a href="/env/eslint/react/">React</a>
+### <a href="/env/react/eslint/">React</a>
 
-### <a href="/env/eslint/typescript/">TypeScript</a>
+### <a href="/env/nodejs/typescript/eslint/">TypeScript</a>

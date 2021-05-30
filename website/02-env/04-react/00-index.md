@@ -15,7 +15,7 @@ https://github.com/webmakaka/complete-intro-to-react-v6
 
 ### <a href="/env/prettier/">Prettier</a>
 
-### <a href="/env/eslint/react/">ESLint</a>
+### <a href="/env/react/eslint/">ESLint</a>
 
 ### <a href="/env/babel/">Babel</a>
 

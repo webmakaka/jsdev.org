@@ -2,8 +2,8 @@
 layout: page
 title: Nodemon
 description: Nodemon
-keywords: Nodemon
-permalink: /env/nodemon/
+keywords: env, nodejs, nodemon
+permalink: /env/nodejs/typescript/nodemon/
 ---
 
 # Nodemon

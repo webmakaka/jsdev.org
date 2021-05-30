@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Eslint
-description: Eslint
-keywords: eslint
-permalink: /env/eslint/typescript/
+title: ESlint for TypeScript
+description: ESlint for TypeScript
+keywords: env, eslint, typescipt, ESlint for TypeScript
+permalink: /env/nodejs/typescript/eslint/
 ---
 
 <br/>
@@ -23,7 +23,6 @@ https://github.com/mike-north/professional-ts-my-lib
 
 ```
 $ npm install --save-dev \
-
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \
     eslint
@@ -47,8 +46,7 @@ $ npm install --save-dev \
 ```json
 {
   "env": {
-    "browser": true,
-    "es2021": true
+    "es6": true
   },
   "extends": [
     "eslint:recommended",

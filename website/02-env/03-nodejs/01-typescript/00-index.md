@@ -3,7 +3,7 @@ layout: page
 title: Typescipt environment for development
 description: Prepare environment for development typescript applications
 keywords: typescript, ts, environment, development
-permalink: /env/typescipt/
+permalink: /env/nodejs/typescript/
 ---
 
 # Typescipt environment for development
@@ -49,27 +49,35 @@ $ npm install --save-dev \
 
     $ vi tsconfig.json
 
+<br/>
+
 ```js
 {
   "compilerOptions": {
+    "strict": true,
     "target": "esnext",
+    "module": "commonjs",
     "baseUrl": "./src",
     "rootDir": "./src",
     "outDir": "./build",
-    "strict": true,
-    "rootDir": "./src",
-    "outDir": "dist",
-    "composite": true,
-    "module": "commonjs",
+    "allowJs": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "downlevelIteration": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
-    "stripInternal": true,
-    "types": [],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"]
+  "exclude": ["node_modules/"],
+  "include": ["./src/**/*.ts"]
 }
 ```
 
@@ -99,7 +107,7 @@ https://www.typescriptlang.org/docs/handbook/compiler-options.html
 
 <br/>
 
-<a href="/env/eslint/typescript/">Eslint</a>
+<a href="/env/nodejs/typescript/eslint/">Eslint</a>
 <a href="/env/jest/">Jest for TypeScript</a>
 
 <br/>

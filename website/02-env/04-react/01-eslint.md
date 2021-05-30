@@ -3,7 +3,7 @@ layout: page
 title: ESlint for React
 description: ESlint for React
 keywords: env, eslint, react
-permalink: /env/eslint/react/
+permalink: /env/react/eslint/
 ---
 
 <br/>
