@@ -45,19 +45,17 @@ $ npm install --save-dev \
 
 ```json
 {
-  "env": {
-    "es6": true
+  "env": { "node": true },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "project": "tsconfig.eslint.json"
   },
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking"
   ],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaVersion": 12,
-    "project": "tsconfig.eslint.json"
-  },
   "plugins": ["@typescript-eslint"],
   "rules": {
     "prefer-const": "error",
@@ -101,4 +99,5 @@ no-unused-vars, no-unused-params - are specified in tsconfig already
 
 ```
 /node_modules/
+/build/
 ```

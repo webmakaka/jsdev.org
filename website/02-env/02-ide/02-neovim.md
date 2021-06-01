@@ -181,6 +181,8 @@ Plug 'vim-airline/vim-airline'
 "Tailwindcss
 Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'}
 
+"Grahql
+Plug 'jparise/vim-graphql'
 
 call plug#end()
 

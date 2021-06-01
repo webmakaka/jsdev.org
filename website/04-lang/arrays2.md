@@ -8,7 +8,9 @@ permalink: /lang/arrays/2/
 
 # Arrays
 
-// FOREACH
+<br/>
+
+### FOREACH
 
 ```js
 const fruits = ['Apples', 'Oranges', 'Grapes'];
@@ -18,14 +20,18 @@ fuits.forEach((fruit, index) => {
 });
 ```
 
-// MAP
+<br/>
+
+### MAP
 
 ```js
 const singleFruit = fruits.map((fruit) => fruit.slice(0, -1));
 console.log(singleFruit);
 ```
 
-// FILTER
+<br/>
+
+### FILTER
 
 ```js
 const people = [
@@ -40,7 +46,9 @@ const people2 = people.filter((person) => person.id !== 2);
 confole.log(people2);
 ```
 
-// SPREAD
+<br/>
+
+### SPREAD
 
 ```js
 
@@ -71,7 +79,9 @@ console.log(arr3);
 
 ```
 
-// DESTRUCTURING
+<br/>
+
+### DESTRUCTURING
 
 ```js
 const profile = {
@@ -90,7 +100,9 @@ console.log(name, address.street, hobbies[0]);
 console.log(street, city);
 ```
 
-// CLASSES
+<br/>
+
+### CLASSES
 
 ```js
 class Person {
@@ -112,7 +124,9 @@ console.log(person1.age);
 console.log(person1.greet());
 ```
 
-// SUBCLASSES
+<br/>
+
+### SUBCLASSES
 
 ```js
 class Customer extends Person {
@@ -132,7 +146,9 @@ const customer1 = new Customer('Kevin', 32, 300);
 console.log(customer1.info());
 ```
 
-// MODULES
+<br/>
+
+### MODULES
 
 ```js
 // file1.js

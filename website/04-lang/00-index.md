@@ -33,7 +33,7 @@ permalink: /lang/
 
 ## <a href="/module-system/">Module System</a>
 
-RequireJS || CommonJS || AMD || ES2015
+CommonJS || RequireJS || AMD || ES2015
 
 <br/>
 
