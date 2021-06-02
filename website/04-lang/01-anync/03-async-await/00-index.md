@@ -22,8 +22,6 @@ Nodejs app
 
 <br/>
 
-**func.js**
-
 ```js
 const sureThing = (promise) =>
   promise
@@ -34,7 +32,7 @@ const maybeCow = (animal) =>
   new Promise((success, failure) =>
     animal === 'cat'
       ? success('it is a cat')
-      : failure(new Error(`it's not a cat, it is a: ${animal}`))
+      : failure(new Error(`it's not a cat, it is a ${animal}`))
   );
 
 const go = async (animal) => {
@@ -46,13 +44,7 @@ const go = async (animal) => {
   }
 };
 
-export const result = go('cow');
-```
-
-<br/>
-
-```js
-import { result } from './func.js';
+const result = go('dog');
 
 const res = await result;
 console.log(res);
@@ -61,6 +53,8 @@ console.log(res);
 <br/>
 
 **package.json**
+
+type should be specified in package.json
 
 ```json
 {...
@@ -71,18 +65,18 @@ console.log(res);
 
 <br/>
 
-Resolve false
+**Resolve false**
 
 ```
 $ node index.js
-{ ok: false, error: "it's not a cat, it is a: cow" }
+{ ok: false, error: "it's not a cat, it is a dog" }
 ```
 
 <br/>
 
 or
 
-Resolve ok
+**Resolve ok**
 
 ```
 $ node index.js
@@ -91,46 +85,57 @@ $ node index.js
 
 <br/>
 
-### Less interesting examples
+### Less interesting example 1
 
 <br/>
 
 ```js
-const maybeCow = (cow) =>
+const maybeCow = (animal) =>
   new Promise((success, failure) =>
-    cow === 'cow'
-      ? success('it is a cow')
-      : failure(`it's not a cow, it is: ${cow}`)
+    animal === 'cat'
+      ? success('it is a cat')
+      : failure(`it's not a cat, it is: ${animal}`)
   );
 
-const go = async () => {
-  const result = await maybeCow('cow');
-  console.log('result: ', result);
+const go = async (animal) => {
+  return await maybeCow(animal);
 };
 
-go();
+const result = go('cat');
+const res = await result;
+console.log(res);
 ```
 
 <br/>
 
+### Less interesting example 2
+
 ```js
-const maybeCow = (cow) =>
+const maybeCow = (animal) =>
   new Promise((success, failure) =>
-    cow === 'cow'
-      ? success('it is a cow')
-      : failure(`it's not a cow, it is: ${cow}`)
+    animal === 'cat'
+      ? success('it is a cat')
+      : failure(new Error(`it's not a cat, it is a ${animal}`))
   );
 
-const go = async () => {
+const go = async (animal) => {
   try {
-    const result = await maybeCow('cow1');
-    console.log('result: ', result);
+    return await maybeCow(animal);
   } catch (error) {
-    console.log('error', error);
+    // console.log('error', error);
+    return null;
   }
 };
 
-go();
+const result = go('dog');
+const res = await result;
+
+if (!res) {
+  console.log('Something bad happened!');
+  process.exit(1);
+}
+
+console.log(res);
 ```
 
 <br/>
