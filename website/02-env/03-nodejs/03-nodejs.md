@@ -15,20 +15,16 @@ permalink: /env/nodejs/
 new terminal window || logout / login
 
     // Volta will choose the latest LTS
-    $ volta install node npm yarn
+    $ volta install node yarn
 
     // $ volta install node@12
 
     $ node --version
-    v14.16.1
+    v14.17.0
 
 <br/>
 
-    // Add current packages in package.json
-    $ volta pin node npm
-
-or yarn
-
+    // Add current in package.json infor about node and yarn
     $ volta pin node yarn
 
 <br/>

@@ -1,0 +1,53 @@
+---
+layout: page
+title: TypeScript language - filter example
+description: TypeScript language  - filter example
+keywords: TypeScript language - filter example
+permalink: /lang/typescript/filter/
+---
+
+<br/>
+
+# TypeScript filter example
+
+<br/>
+
+```ts
+import { useState } from 'react';
+
+const users = [
+  { name: 'Sarah', age: 20 },
+  { name: 'Alex', age: 20 },
+  { name: 'Michael', age: 20 },
+];
+
+const UserSearch: React.FC = () => {
+  const [name, setName] = useState('');
+  const [user, setUser] = useState<{ name: string; age: number } | undefined>();
+
+  const onClick = () => {
+    const foundUser = users.find((user) => {
+      return user.name === name;
+    });
+
+    setUser(foundUser);
+  };
+
+  return (
+    <div>
+      User Search
+      <input value={name} onChange={(e) => setName(e.target.value)} />
+      <button onClick={onClick}>Find User</button>
+      <div>
+        {user?.name} - {user?.age}
+      </div>
+    </div>
+  );
+};
+
+export default UserSearch;
+```
+
+<br/>
+
+https://github.com/webmakaka/React-and-Typescript-Build-a-Portfolio-Project/tree/master/apps/app1

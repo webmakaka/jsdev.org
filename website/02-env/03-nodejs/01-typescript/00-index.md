@@ -16,28 +16,6 @@ permalink: /env/nodejs/typescript/
 
 <br/>
 
-<!--
-
-    @microsoft/api-documenter \
-    @microsoft/api-extractor \
-
-
-
-```
-$ npm install --save-dev \
-    @babel/preset-env \
-    @babel/preset-typescript \
-    @types/jest \
-    @typescript-eslint/eslint-plugin \
-    @typescript-eslint/parser \
-    eslint \
-    jest
-```
-
--->
-
-<br/>
-
 **tsconfig.json**
 
 <br/>
@@ -62,24 +40,44 @@ $ npm install --save-dev \
     "outDir": "./build",
     "allowJs": false,
     "moduleResolution": "node",
-    "esModuleInterop": true,
-    "downlevelIteration": false,
+    "sourceMap": true,
+    "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "downlevelIteration": false,
     "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "skipLibCheck": true,
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "forceConsistentCasingInFileNames": true
   },
-  "exclude": ["node_modules/"],
-  "include": ["./src/**/*.ts"]
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*.ts", "./test/**/*.ts"]
 }
 ```
+
+<br/>
+
+Can be helpful if tests not needed.
+
+```
+"exclude": ["node_modules", "**/*.spec.ts"],
+```
+
+<br/>
+
+<!--
+
+```
+// with strict enable
+auto enable
+"noImplicitAny": true,
+```
+-->
 
 <br/>
 
@@ -98,9 +96,9 @@ https://www.typescriptlang.org/docs/handbook/compiler-options.html
 ***
 "scripts": {
     "build": "NODE_PATH=./src tsc",
-    "ts-node": "ts-node ./src/index.ts",
-    "lint": "eslint src --ext js,ts,jsx,tsx",
-    "test": "jest"
+    "ts-node": "NODE_PATH=./src ts-node ./src/index.ts",
+    "lint": "NODE_PATH=./src eslint src --ext js,ts,jsx,tsx",
+    "test": "NODE_PATH=./src jest"
   },
 ***
 ```
@@ -123,10 +121,32 @@ https://www.youtube.com/watch?v=sOUhEJeJ-kI
 **Example from video course [FrontendMasters] Production-Grade TypeScript**
 
 <br/>
-Possible
+
 https://github.com/mike-north/professional-ts
 
 <br/>
 
 **Configured project:**  
 https://github.com/mike-north/professional-ts-my-lib
+
+<br/>
+
+<!--
+
+    @microsoft/api-documenter \
+    @microsoft/api-extractor \
+
+
+
+```
+$ npm install --save-dev \
+    @babel/preset-env \
+    @babel/preset-typescript \
+    @types/jest \
+    @typescript-eslint/eslint-plugin \
+    @typescript-eslint/parser \
+    eslint \
+    jest
+```
+
+-->

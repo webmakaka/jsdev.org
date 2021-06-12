@@ -101,3 +101,8 @@ no-unused-vars, no-unused-params - are specified in tsconfig already
 /node_modules/
 /build/
 ```
+
+<br/>
+
+**ESLint Plugin TypeScript**  
+https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/README.md

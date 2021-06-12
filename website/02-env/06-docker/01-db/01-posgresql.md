@@ -12,6 +12,18 @@ permalink: /env/docker/db/postgresql/
 
 <br/>
 
+**.env**
+
+```
+DATABASE_HOST=localhost
+DATABASE_NAME=db
+DATABASE_PORT=5432
+DATABASE_USER=user
+DATABASE_PASSWORD=pass123
+```
+
+<br/>
+
     $ vi docker-compose.yml
 
 <br/>
@@ -19,26 +31,20 @@ permalink: /env/docker/db/postgresql/
 ```yaml
 version: '3'
 services:
-  db:
-    image: postgres
+  postgres:
+    image: postgres:13-alpine
     restart: always
+    container_name: postgres
+    hostname: postgres
     ports:
-      - '5432:5432'
+      - ${DATABASE_PORT}:${DATABASE_PORT}
     environment:
-      POSTGRES_PASSWORD: pass123
-```
-
-<br/>
-
-**.env**
-
-```
-DATABASE_HOST=localhost
-DATABASE_NAME=postgres
-DATABASE_PORT=5432
-DATABASE_USER=postgres
-DATABASE_PASSWORD=pass123
-SECRET_KEY=1HyftmH8tPzutU46s2MXM87QuF844WKm
+      POSTGRES_DB: ${DATABASE_NAME}
+      POSTGRES_USER: ${DATABASE_USER}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+      DATABASE_PORT: ${DATABASE_PORT}
+    volumes:
+      - ./PGDATA:/var/lib/postgresql/data
 ```
 
 <br/>

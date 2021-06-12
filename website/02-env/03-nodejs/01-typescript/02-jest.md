@@ -12,6 +12,48 @@ permalink: /env/nodejs/typescript/jest/
 
 <br/>
 
+**Configuring Jest**
+https://jestjs.io/docs/configuration
+
+<br/>
+
+I think need to exclude jest config from package.json
+
+<br/>
+
+And run tests command like:
+
+```
+"test": "NODE_PATH=./src jest --config ./test/jest-e2e.json"
+```
+
+<!--
+
+```
+,
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  }
+```
+
+-->
+
+<br/>
+
 **Based on video course [FrontendMasters] Production-Grade TypeScript**
 
 <br/>
@@ -34,7 +76,7 @@ $ npm install --save-dev \
 
 <br/>
 
-    $ vi tests/intex.test.ts
+    $ vi tests/index.test.ts
 
 <br/>
 

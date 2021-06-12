@@ -425,3 +425,8 @@ https://gist.github.com/benawad/e187dd887f256a6a002905ec7f22ad76
 ```
 :PlugInstall
 ```
+
+<br/>
+
+**Frontend Masters repo from course about vim**  
+https://theprimeagen.github.io/vim-fundamentals/
