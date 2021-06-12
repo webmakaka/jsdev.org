@@ -2,8 +2,8 @@
 layout: page
 title: Dockerfiles for React.js apps
 description: Dockerfiles for React.js apps
-keywords: Dockerfiles for React.js apps
-permalink: /client/react/dockerfiles/
+keywords: docker, react, dockerfiles
+permalink: /env/docker/react/
 ---
 
 # Dockerfiles for React.js apps
@@ -124,8 +124,12 @@ FROM nginx
 COPY --from=builder /project/build /usr/share/nginx/html
 ```
 
-    $ docker build .
-    $ docker run -p 8080:80 <image_id>
+<br/>
+
+```
+$ docker build .
+$ docker run -p 8080:80 <image_id>
+```
 
 <br/>
 

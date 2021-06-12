@@ -24,7 +24,9 @@ DATABASE_PASSWORD=pass123
 
 <br/>
 
-    $ vi docker-compose.yml
+```
+$ vi docker-compose.yml
+```
 
 <br/>
 

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: TypeScript language - filter example
-description: TypeScript language  - filter example
-keywords: TypeScript language - filter example
-permalink: /lang/typescript/filter/
+title: TypeScript Hooks Example
+description: TypeScript Hooks Example
+keywords: TypeScript, filter, example
+permalink: /client/react/typescript/filter/
 ---
 
 <br/>
@@ -13,7 +13,7 @@ permalink: /lang/typescript/filter/
 <br/>
 
 ```ts
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const users = [
   { name: 'Sarah', age: 20 },
@@ -22,21 +22,32 @@ const users = [
 ];
 
 const UserSearch: React.FC = () => {
+  const inputRef = useRef<HTMLInputElement | null>(null);
   const [name, setName] = useState('');
   const [user, setUser] = useState<{ name: string; age: number } | undefined>();
+
+  useEffect(() => {
+    if (!inputRef.current) {
+      return;
+    }
+    inputRef.current.focus();
+  }, []);
 
   const onClick = () => {
     const foundUser = users.find((user) => {
       return user.name === name;
     });
-
     setUser(foundUser);
   };
 
   return (
     <div>
       User Search
-      <input value={name} onChange={(e) => setName(e.target.value)} />
+      <input
+        ref={inputRef}
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
       <button onClick={onClick}>Find User</button>
       <div>
         {user?.name} - {user?.age}
@@ -47,7 +58,3 @@ const UserSearch: React.FC = () => {
 
 export default UserSearch;
 ```
-
-<br/>
-
-https://github.com/webmakaka/React-and-Typescript-Build-a-Portfolio-Project/tree/master/apps/app1
