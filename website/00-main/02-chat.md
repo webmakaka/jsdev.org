@@ -21,16 +21,4 @@ https://t.me/jsdev_org
 
 ### Discord
 
-https://discord.gg/sNPY6dY8
-
-<br/>
-
-### Slack (I think we won't use slack and remove this link soon)
-
-https://jsdev-org.slack.com/
-
-<br/>
-
-**Join Link:**
-
-https://join.slack.com/t/jsdev-org/shared_invite/enQtODUzNjk2MDIyNzQwLTgzMjJkMzViNDc2ZjkwYmZjOWRlMmFhMTRjY2QyMjI0NGYwYzg2ZGViNzc2ZGIzZWY2MzY3ZWIxYzU0OTg1YWQ
+https://discord.gg/qy5M4xVgDV

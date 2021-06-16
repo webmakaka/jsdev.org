@@ -47,7 +47,7 @@ https://github.com/webmakaka/NestJS-Fundamentals-Course/blob/main/app/api-mongod
 version: '3'
 services:
   mongo:
-    image: mongo:4.4.4
+    image: mongo:4.4.6
     container_name: mongo
     restart: always
     environment:

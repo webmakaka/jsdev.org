@@ -129,6 +129,10 @@ https://github.com/junegunn/vim-plug
 
 ```js
 set number
+set scrolloff=8
+set list
+set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
+set wildignore+=*/tmp/*,*/dist/*,*/node_modules/*,*.so,*.swp,*.zip,package-lock.json
 
 call plug#begin('~/.config/nvim/plugged')
 
@@ -200,13 +204,10 @@ set expandtab
 let g:NERDTreeWinPos = "right"
 let g:NERDTreeIgnore = ['^node_modules$']
 
-set wildignore+=*/tmp/*,*/dist/*,*/node_modules/*,*.so,*.swp,*.zip,package-lock.json
-
 let g:ctrlp_use_caching = 0
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_custom_ignore = '\v[\/]\.(git)$'
 let g:ctrlp_custom_ignore = 'node_modules\|dist\'
-
 
 " coc config
 let g:coc_global_extensions = [
@@ -220,7 +221,6 @@ let g:coc_global_extensions = [
   \ 'coc-css',
   \ 'coc-vetur',
   \ ]
-
 
 "mappings
 map <C-n> :NERDTreeToggle<CR>
@@ -256,9 +256,6 @@ imap <F2> <c-o><F2>
 
 noremap <F3> :set invnumber<CR>
 inoremap <F3> <C-O>:set invnumber<CR>
-
-:set list
-:set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
 
 nmap <silent> gd <Plug>(coc-definition)
 
