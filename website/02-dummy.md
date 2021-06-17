@@ -22,6 +22,8 @@ https://www.npmjs.com/package/faker
 
 ### Dummy Text Generator
 
+<a href="https://cupcakeipsum.com/" rel="nofollow">CupCake Ipsum</a>
+
 <a href="http://www.lipsum.com" rel="nofollow">Lorem Ipsum</a>
 
 <br/>

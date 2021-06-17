@@ -1,12 +1,12 @@
 ---
 layout: page
-title: PostgreSQL, ORM
-description: PostgreSQL, ORM
-keywords: PostgreSQL, ORM, Sequelize
-permalink: /databases/postgresql/orm/
+title: PostgreSQL, ORM, Sequelize
+description: PostgreSQL, ORM, Sequelize
+keywords: databases, PostgreSQL, ORM, Sequelize
+permalink: /databases/postgresql/orm/sequelize/
 ---
 
-# Object-relational mapping (ORM)
+# Sequelize ORM
 
 <br/>
 

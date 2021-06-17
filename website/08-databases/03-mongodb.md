@@ -15,6 +15,14 @@ permalink: /databases/mongodb/
 
 <br/>
 
+### [App example with MongoDB](https://github.com/webmakaka/TinyHouse-A-Fullstack-React-Masterclass-with-TypeScript-and-GraphQL)
+
+<br/>
+
+### [Some Other Examples](https://github.com/webmakaka/build-a-real-time-web-app-in-node.js-angular.js-mongodb/)
+
+<br/>
+
 ### Connect Example
 
 ```js
@@ -39,20 +47,6 @@ db.once('open', () => {
   });
 });
 ```
-
-<br/>
-
-### Projects in MongoDB Learn MongoDB Building Ten Projects
-
-Only 1 good course for study, how to programming on JavaScript For MongoDB
-
-https://www.eduonix.com/courses/Web-Development/Projects-in-MongoDB-Learn-MongoDB-Building-Ten-Projects
-
-<br/><br/>
-
-Some Other Examples:
-
-https://bitbucket.org/marley-nodejs/Build-a-Real-Time-web-app-in-node.js-Angular.js-mongoDB
 
 <br/>
 
