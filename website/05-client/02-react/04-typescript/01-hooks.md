@@ -3,12 +3,12 @@ layout: page
 title: TypeScript Hooks Example
 description: TypeScript Hooks Example
 keywords: TypeScript, filter, example
-permalink: /client/react/typescript/filter/
+permalink: /client/react/typescript/hooks/
 ---
 
 <br/>
 
-# TypeScript filter example
+# TypeScript hooks example
 
 <br/>
 
