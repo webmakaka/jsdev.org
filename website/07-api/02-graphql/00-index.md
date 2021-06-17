@@ -10,6 +10,12 @@ permalink: /api/graphql/
 
 <br/>
 
+### Check Project 1. Here is simple example without any DB
+
+[link](https://github.com/webmakaka/The-Modern-GraphQL-Bootcamp-2019)
+
+<br/>
+
 ### Installing Apollo Server and Graphql
 
     $ npm install apollo-server-express graphql
@@ -43,9 +49,3 @@ permalink: /api/graphql/
 ### [Udemy, Reed Barger] Full-Stack React with GraphQL and Apollo Boost [ENG, 2018]
 
 https://github.com/webmakaka/Full-Stack-React-with-GraphQL-and-Apollo-Boost
-
-<br/>
-
-### [Udemy, Andrew Mead] The Modern GraphQL Bootcamp (Advanced Node.js) [ENG, 2018]
-
-https://github.com/webmakaka/The-Modern-GraphQL-Bootcamp

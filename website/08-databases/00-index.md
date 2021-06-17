@@ -10,11 +10,9 @@ permalink: /databases/
 
 <br/>
 
-### Object-relational mapping (ORM)
+### PostgreSQL
 
-- Sequelize - https://github.com/webmakaka/Introduction-to-Sequelize-ORM-for-Node.js
-
-* https://sqlitebrowser.org/
+[PostgreSQL](/databases/postgresql/)
 
 <br/>
 
@@ -27,12 +25,6 @@ permalink: /databases/
 ### MySQL
 
 [MySQL](/databases/mysql/)
-
-<br/>
-
-### PostgreSQL
-
-[PostgreSQL](/databases/postgresql/)
 
 <br/>
 
@@ -57,6 +49,12 @@ permalink: /databases/
 ### RethinkDB
 
 [RethinkDB](/databases/rethinkdb/)
+
+<br/>
+
+### SQLite
+
+https://sqlitebrowser.org/
 
 <br/>
 

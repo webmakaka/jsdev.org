@@ -64,14 +64,7 @@ minimal
 **Snippets:**
 
 - ES7 React/Redux/GraphQL/React-Native snippets - dsznajder
-
 - JavaScript (ES6) code snippets
-
-<!--
-
-- Rest Client (Huachao Mao)
-
--->
 
 <br/>
 
@@ -183,5 +176,7 @@ VSCode --> File --> Preverences --> Settings:
 
 - Format on Save (checked)
 - Prettier Require Config --> require a prettier configuration file to foramt (checked)
+
+<br/>
 
 ### <a href="/env/prettier/">Prettier</a>

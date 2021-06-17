@@ -10,7 +10,9 @@ permalink: /
 
 Hello, I am Marley (nicname) and I am from Russia!<br/>
 Here I am planning collect materials, that can help me in my JS projects.<br/>
-If you are interesting in JS and JS frameworks you can join to our <a href="/chat/">telegram group</a>.
+If you are interesting in JS and JS frameworks you can join to our <a href="/chat/">telegram group</a> and share good code examples that can be helpful for everyone.
+
+I think it is much convenient to work with [downloaded](https://github.com/webmakaka/jsdev.org) version of website. I know, that for now it is looks like garbage, but i am working to clean it.
 
 <br/>
 

@@ -3,7 +3,7 @@ layout: page
 title: WebPack - Basics
 description: WebPack - Basics
 keywords: WebPack - Basics
-permalink: /tasks-runner/webpack/basics/
+permalink: /env/webpack/basics/
 ---
 
 # WebPack - Basics

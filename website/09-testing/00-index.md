@@ -12,6 +12,10 @@ Mocha, Expect, Should, Supertest, Chai, Sinon, Karma, Jasmine etc.
 
 <br/>
 
+### [Jest for Nodejs](/server/nodejs/testing/jest/)
+
+<br/>
+
 ### Selenium and Selenium Grid
 
 <br/>

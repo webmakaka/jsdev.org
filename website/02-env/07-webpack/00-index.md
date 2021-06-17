@@ -3,7 +3,7 @@ layout: page
 title: WebPack
 description: WebPack
 keywords: WebPack
-permalink: /tasks-runner/webpack/
+permalink: /env/webpack/
 ---
 
 # WebPack
@@ -11,10 +11,10 @@ permalink: /tasks-runner/webpack/
 <br/>
 
 <ul>
-    <li><a href="/tasks-runner/webpack/basics/">WebPack - Basics</a></li>
-    <li><a href="/tasks-runner/webpack/babel/">Babel</a></li>
-    <li><a href="/tasks-runner/webpack/css/">CSS</a></li>
-    <li><a href="/tasks-runner/webpack/images/">Images</a></li>
+    <li><a href="/env/webpack/basics/">WebPack - Basics</a></li>
+    <li><a href="/env/webpack/babel/">Babel</a></li>
+    <li><a href="/env/webpack/css/">CSS</a></li>
+    <li><a href="/env/webpack/images/">Images</a></li>
 </ul>
 
 <br/>
@@ -74,7 +74,7 @@ or
     $ webpack
 
     // if webpack installed as module
-    $  ./node_modules/webpack/bin/webpack.js
+    $  ./node_modules/env/webpack/bin/webpack.js
 
 <br/>
 

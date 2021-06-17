@@ -3,7 +3,7 @@ layout: page
 title: WebPack - Babel
 description: WebPack - Babel
 keywords: WebPack - Babel
-permalink: /tasks-runner/webpack/babel/
+permalink: /env/webpack/babel/
 ---
 
 # WebPack - Babel
@@ -11,14 +11,14 @@ permalink: /tasks-runner/webpack/babel/
 <br/>
 
 <div align="center">
-    <img src="/img/webpack/babel-01.png" alt="babel webpack">
+    <img src="/img/env/webpack/babel-01.png" alt="babel webpack">
 </div>
 
 <br/>
 <br/>
 
 <div align="center">
-    <img src="/img/webpack/babel-01.png" alt="babel webpack">
+    <img src="/img/env/webpack/babel-01.png" alt="babel webpack">
 </div>
 
 <br/>

@@ -3,7 +3,7 @@ layout: page
 title: WebPack - Images
 description: WebPack - Images
 keywords: WebPack - Images
-permalink: /tasks-runner/webpack/images/
+permalink: /env/webpack/images/
 ---
 
 # WebPack - Images
@@ -11,13 +11,13 @@ permalink: /tasks-runner/webpack/images/
 <br/>
 
 <div align="center">
-    <img src="/img/webpack/images-01.png" alt="css webpack">
+    <img src="/img/env/webpack/images-01.png" alt="css webpack">
 </div>
 
 <br/><br/>
 
 <div align="center">
-    <img src="/img/webpack/images-02.png" alt="css webpack">
+    <img src="/img/env/webpack/images-02.png" alt="css webpack">
 </div>
 
 <br/>

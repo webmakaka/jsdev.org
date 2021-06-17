@@ -28,3 +28,7 @@ permalink: /databases/postgresql/
 ### Basic example
 
 https://github.com/webmakaka/ReactJS-and-PostgreSQL-Full-Stack-Application
+
+<br/>
+
+### [Object-relational mapping (ORM)](/databases/postgresql/orm/)

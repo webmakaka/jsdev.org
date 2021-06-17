@@ -151,6 +151,9 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'morhetz/gruvbox'
 Plug 'crusoexia/vim-monokai'
 
+" Emmet
+Plug 'mattn/emmet-vim'
+
 " highlight colors
 Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 
@@ -281,14 +284,17 @@ command! -nargs=0 Format :call CocAction('format')
 
 <br/>
 
-**Commenter settings:**
+**Emmet cheat sheet**  
+https://docs.emmet.io/cheat-sheet/
 
+<br/>
+
+**Commenter settings:**  
 https://vimawesome.com/plugin/the-nerd-commenter
 
 <br/>
 
-**Tailwind:**
-
+**Tailwind:**  
 https://github.com/iamcco/coc-tailwindcss
 
 <!--

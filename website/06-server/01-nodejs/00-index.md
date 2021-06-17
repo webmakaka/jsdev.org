@@ -18,7 +18,7 @@ https://github.com/nodejs/release
 
 ### Node.JS installation
 
-<a href="/env/nodejs/">Node Version Manager (NVM) installation in Ubuntu 20.04</a>
+<a href="/env/nodejs/">Volta and NVM (Node Version Manager)</a>
 
 <br/>
 

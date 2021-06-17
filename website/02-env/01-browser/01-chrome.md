@@ -14,7 +14,7 @@ permalink: /env/browser/chrome/
 
 ### Disable caching in Chrome Developer Tools
 
-Developer Tools (Ctrl + Shift + I) > Menu icon (the 3 vertical dots) > Settings > Preferences > scroll down the list to “Network section” and you’ll see the “Disable cache” while DevTools is open
+Developer Tools (Ctrl + Shift + I) > Menu icon (3 vertical dots) > Settings > Preferences > scroll down the list to “Network section” and you’ll see the “Disable cache” while DevTools is open
 
 <br/>
 
