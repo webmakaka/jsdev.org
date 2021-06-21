@@ -2,11 +2,9 @@
 layout: page
 title: ESlint for React
 description: ESlint for React
-keywords: env, eslint, react
+keywords: env, react, eslint
 permalink: /env/react/eslint/
 ---
-
-<br/>
 
 # ESlint for React
 

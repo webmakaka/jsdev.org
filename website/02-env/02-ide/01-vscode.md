@@ -52,6 +52,7 @@ minimal
 **Visual Studio Code Plugins:**
 
 - ESLint (Dirk Baeumer)
+- stylelint (vscode-stylelint)
 - Prettier - Code formatter (ext install esbenp.prettier-vscode)
 - GitLens
 - Bracket Pair Colorizer

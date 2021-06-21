@@ -74,3 +74,7 @@ http://localhost:5555/
 login: postgres@test.com
 pass: password1234
 ```
+
+<br/>
+
+To connect, use host ip address

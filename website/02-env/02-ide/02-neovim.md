@@ -134,6 +134,13 @@ set list
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
 set wildignore+=*/tmp/*,*/dist/*,*/node_modules/*,*.so,*.swp,*.zip,package-lock.json
 
+" show existing tab with 2 spaces width
+set tabstop=2
+" when indenting with '>', use 2 spaces width
+set shiftwidth=2
+" On pressing tab, insert 2 spaces
+set expandtab
+
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'scrooloose/nerdtree'
@@ -181,7 +188,6 @@ Plug 'mxw/vim-jsx'
 "Commenting
 Plug 'preservim/nerdcommenter'
 
-
 "Airline
 Plug 'vim-airline/vim-airline'
 
@@ -197,12 +203,6 @@ syntax on
 colorscheme gruvbox
 
 filetype plugin indent on
-" show existing tab with 2 spaces width
-set tabstop=2
-" when indenting with '>', use 2 spaces width
-set shiftwidth=2
-" On pressing tab, insert 2 spaces
-set expandtab
 
 let g:NERDTreeWinPos = "right"
 let g:NERDTreeIgnore = ['^node_modules$']

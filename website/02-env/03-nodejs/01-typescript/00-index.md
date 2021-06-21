@@ -70,14 +70,11 @@ Can be helpful if tests not needed.
 
 <br/>
 
-<!--
+Sometime need to disable strict and enable:
 
 ```
-// with strict enable
-auto enable
-"noImplicitAny": true,
+"noImplicitAny": false,
 ```
--->
 
 <br/>
 

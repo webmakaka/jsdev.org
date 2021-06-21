@@ -3,7 +3,7 @@ layout: page
 title: React.js Typescript environment for development
 description: Prepare environment for development react.js with TypeScript applications
 keywords: react, typescript, environment, development
-permalink: /env/react-typescript/
+permalink: /env/react/typescript/
 ---
 
 # Prepare environment for development react.js with TypeScript applications
@@ -13,8 +13,7 @@ permalink: /env/react-typescript/
 Based on course https://btholt.github.io/complete-intro-to-react-v6/eslint
 
 <!--
-[UI Dev] React with TypeScript and
-
+  [UI Dev] React with TypeScript and
 -->
 
 <br/>
