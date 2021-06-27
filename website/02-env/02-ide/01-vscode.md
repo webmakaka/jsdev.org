@@ -61,6 +61,9 @@ minimal
 - Code Spell Checker
 - Visual Studio IntelliCode
 - Inline Parameters for VSCode
+- Color Highlight (Sergii Naumov)
+- Highlight Matching Tag
+- Headwind (Ryan Heybourn)
 
 **Snippets:**
 
@@ -72,6 +75,12 @@ minimal
 **Visual Studio Themes:**
 
 - Monokai Pro (Will ask money!)
+
+<br/>
+
+**Tailwind**
+
+- Tailwind CSS IntelliSense
 
 <br/>
 

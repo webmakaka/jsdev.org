@@ -20,7 +20,7 @@ new terminal window || logout / login
     // $ volta install node@12
 
     $ node --version
-    v14.17.0
+    v14.17.1
 
 <br/>
 

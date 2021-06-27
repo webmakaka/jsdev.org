@@ -6,8 +6,6 @@ keywords: env, docker, database, postgresql
 permalink: /env/docker/db/postgresql/
 ---
 
-<br/>
-
 # Docker PostgreSQL DataBase
 
 <br/>

@@ -11,7 +11,8 @@ permalink: /env/next/typescript/eslint/
 <br/>
 
 ```
-$ yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+$ yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin  
+eslint-plugin-react-hooks
 ```
 
 <br/>
@@ -38,7 +39,8 @@ $ yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended"
   ]
 }
 ```
