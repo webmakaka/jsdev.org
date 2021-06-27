@@ -31,12 +31,6 @@ permalink: /lang/
 
 <br/>
 
-## <a href="/module-system/">Module System</a>
-
-CommonJS || RequireJS || AMD || ES2015
-
-<br/>
-
 ### Call apply and bind
 
 https://www.youtube.com/watch?v=c0mLRpw-9rI
