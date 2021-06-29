@@ -33,6 +33,7 @@ permalink: /env/nodejs/typescript/
 {
   "compilerOptions": {
     "strict": true,
+    "noImplicitAny": true,
     "target": "esnext",
     "module": "commonjs",
     "baseUrl": "./src",
@@ -66,14 +67,6 @@ Can be helpful if tests not needed.
 
 ```
 "exclude": ["node_modules", "**/*.spec.ts"],
-```
-
-<br/>
-
-Sometime need to disable strict and enable:
-
-```
-"noImplicitAny": false,
 ```
 
 <br/>
