@@ -16,14 +16,6 @@ https://neovim.io/
 **Plugins:**  
 vimawesome.com
 
-<!--
-
-:CocList
-
-call CocAction('runCommand', 'tsserver.organizeImports')
-
--->
-
 <br/>
 
 ## NeoVim installation in Ubuntu 20
@@ -35,7 +27,11 @@ https://www.youtube.com/watch?v=ZEFXeRIFvN0
 
 <br/>
 
-### Step 1. Setup
+### Step 0. Install Packages
+
+<br/>
+
+**Nodejs should be installed**
 
 <br/>
 
@@ -43,6 +39,10 @@ https://www.youtube.com/watch?v=ZEFXeRIFvN0
 https://golang.org/doc/install
 
 <br/>
+
+<br/>
+
+### Step 1. Setup
 
     $ mkdir ~/apps && cd ~/apps
     $ curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
@@ -124,6 +124,20 @@ https://github.com/junegunn/vim-plug
 
     $ mkdir -p ~/.config/nvim/plugged
     $ vi ~/.config/nvim/init.vim
+
+<!--
+
+:CocList
+
+call CocAction('runCommand', 'tsserver.organizeImports')
+
+-->
+
+<!--
+
+command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
+
+-->
 
 <br/>
 
@@ -262,17 +276,18 @@ inoremap <F3> <C-O>:set invnumber<CR>
 
 nmap <silent> gd <Plug>(coc-definition)
 
-" use `:OR` for organize import of current buffer
-command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
-autocmd BufWritePre *.js :OR
-autocmd BufWritePre *.ts :OR
+" Use `:ORGANIZE` for organize import of current buffer
+command! -nargs=0 ORGANIZE :call CocAction('runCommand', 'tsserver.organizeImports')
 
-
-" prettier command for coc
+" Use `:Prettier` command for coc
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " Use `:Format` to format current buffer
 command! -nargs=0 Format :call CocAction('format')
+
+" Pre Save
+autocmd BufWritePre *.js :ORGANIZE
+autocmd BufWritePre *.ts :ORGANIZE
 
 ```
 
@@ -307,7 +322,12 @@ https://github.com/iamcco/coc-tailwindcss
 
 <br/>
 
-**coc-settings.json:**
+### coc-settings.json:
+
+**configuration-options**  
+https://github.com/neoclide/coc-tsserver#configuration-options
+
+<br/>
 
     $ vi ~/.config/nvim/coc-settings.json
 
@@ -330,15 +350,9 @@ https://github.com/iamcco/coc-tailwindcss
     "html",
     "json"
   ],
-  "eslint.enable": true,
-  "eslint.autoFixOnSave": true,
-  "eslint.filetypes": ["javascript", "vue"]
+  "eslint.autoFixOnSave": true
 }
 ```
-
-<br/>
-
-Need to install nodejs
 
 <!--
 

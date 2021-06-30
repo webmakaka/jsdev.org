@@ -2,7 +2,7 @@
 layout: page
 title: Prettier
 description: Prettier
-keywords: Prettier
+keywords: env, prettier, eslint
 permalink: /env/prettier/
 ---
 
@@ -11,29 +11,26 @@ permalink: /env/prettier/
 <br/>
 
 ```
-$ npm install --save-dev prettier
+$ yarn add -D eslint
+$ yarn add -D prettier eslint-config-prettier eslint-plugin-prettier
 ```
 
 **.prettierrc**
 
 ```js
 {
+  "printWidth": 120,
   "tabWidth": 2,
-  "printWidth": 80,
   "semi": true,
   "singleQuote": true,
-  "bracketSpacing": true
+  "bracketSpacing": true,
+  "arrowParens": "always"
 }
-
 ```
 
 <br>
 
-**If needed to always use brackets for function with single argument (x) **
-
-```
-"arrowParens": "always",
-```
+**"arrowParens": "always" If you need to always use brackets for function with single argument (x) **
 
 <br/>
 
@@ -49,7 +46,37 @@ node_modules
 
 **package.json**
 
+```json
+
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "extends": [
+      "eslint:recommented",
+      "plugin:prettier/recommended"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "env": {
+      "node": true,
+      "es6": true,
+      "jest": true
+    },
+    "rules": {
+      "eqeqeq": "warn",
+      "prettier/prettier": "warn"
+    }
+  }
 ```
-"format": "prettier --write src/**/*.{js,html}",
-"format:check": "prettier --list-different src/**/*.{js,html}"
+
+<br/>
+
+```json
+"scripts": {
+    "format": "prettier --write src/**/*.{js,html}",
+    "format:check": "prettier --list-different src/**/*.{js,html}",
+    "lint": "eslint . --fix"
+  }
 ```
