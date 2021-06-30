@@ -31,7 +31,7 @@ https://www.youtube.com/watch?v=ZEFXeRIFvN0
 
 <br/>
 
-**Nodejs should be installed**
+**<a href="/env/nodejs/">Nodejs should be installed</>**
 
 <br/>
 
