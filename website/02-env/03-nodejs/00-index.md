@@ -8,9 +8,11 @@ permalink: /env/nodejs/
 
 # Node.js
 
-### [Node version Management](/env/nodejs/versions/)
+### [Node version Management](/env/nodejs/nvm/)
 
 ### [Jest](/env/nodejs/jest/)
+
+### [Absolute path imports for Node.js projects](/env/nodejs/jest/)
 
 <br/>
 
@@ -22,47 +24,7 @@ permalink: /env/nodejs/
 
 <br/>
 
-### Absolute path imports for Node.js projects
-
-<br/>
-
-**jsconfig.json**
-
-<br/>
-
-```js
-{
-  "compilerOptions": {
-    "checkJs": true,
-    "module": "commonjs",
-    "target": "esnext",
-    "baseUrl": "./src"
-  },
-  "exclude": ["node_modules", "**/node_modules/*"]
-}
-```
-
-<br/>
-
-**package.json**
-
-<br/>
-
-```js
-"type": "module",
-```
-
-<br/>
-
-```js
-"scripts": {
-  "start": "NODE_PATH=./src nodemon ./src/index.js"
-},
-```
-
-<br/>
-
-### Possible additional configs
+### Possible additional strong config
 
 <br/>
 
