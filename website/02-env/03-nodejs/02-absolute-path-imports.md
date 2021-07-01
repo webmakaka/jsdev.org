@@ -8,7 +8,11 @@ permalink: /env/nodejs/absolute-path-imports/
 
 <br/>
 
-# Absolute path imports for Node.js projects
+# Jest with absolute path imports for Node.js projects
+
+<br/>
+
+[Node.js prepared as here](/env/nodejs/absolute-path-imports/)
 
 <br/>
 

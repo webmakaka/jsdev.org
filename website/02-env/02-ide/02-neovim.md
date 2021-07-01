@@ -8,6 +8,8 @@ permalink: /env/ide/neovim/
 
 # JavaScript IDE - NeoVim
 
+<br/>
+
 **Official website:**  
 https://neovim.io/
 
@@ -22,20 +24,15 @@ vimawesome.com
 
 <br/>
 
-**[Snowfoundry Media] Command Line: Neovim Installation and Configuration [ENG, 2020]**  
-https://www.youtube.com/watch?v=ZEFXeRIFvN0
-
-<br/>
-
 ### Step 0. Install Packages
 
 <br/>
 
-**<a href="/env/nodejs/">Nodejs should be installed</>**
+**<a href="/env/nodejs/">Nodejs should be installed</a>**
 
 <br/>
 
-**(Optional) Install Golang (some plugins need golang)**  
+**Install Golang (some plugins need golang) (Optional)**  
 https://golang.org/doc/install
 
 <br/>
@@ -403,7 +400,11 @@ https://www.youtube.com/watch?v=gnupOrSEikQ
 
     $ vi ~/.config/nvim/init.vim
 
+<br/>
+
 https://gist.github.com/benawad/b768f5a5bbd92c8baabd363b7e79786f
+
+<br/>
 
 ```
 :PlugInstall
@@ -414,6 +415,8 @@ https://gist.github.com/benawad/b768f5a5bbd92c8baabd363b7e79786f
 **coc-settings.json:**
 
     $ vi ~/.config/nvim/coc-settings.json
+
+<br/>
 
 https://gist.github.com/benawad/e187dd887f256a6a002905ec7f22ad76
 
@@ -447,3 +450,10 @@ https://gist.github.com/benawad/e187dd887f256a6a002905ec7f22ad76
 
 **Frontend Masters repo from course about vim**  
 https://theprimeagen.github.io/vim-fundamentals/
+
+<br/>
+
+### Additional Materials
+
+**[Snowfoundry Media] Command Line: Neovim Installation and Configuration [ENG, 2020]**  
+https://www.youtube.com/watch?v=ZEFXeRIFvN0

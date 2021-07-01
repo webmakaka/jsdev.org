@@ -8,6 +8,8 @@ permalink: /env/nodejs/nvm/
 
 # Node Version Management
 
+<br/>
+
 ## [Variatn 1]: Volta (Node Version Manager)
 
 ( Mike North - Tech Head Guy from LinkedIn recommend it)
@@ -16,7 +18,7 @@ permalink: /env/nodejs/nvm/
 
     $ curl https://get.volta.sh | bash
 
-new terminal window || logout / login
+open new terminal window || logout / login
 
     // Volta will choose the latest LTS
     $ volta install node yarn
