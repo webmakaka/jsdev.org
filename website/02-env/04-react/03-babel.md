@@ -3,7 +3,7 @@ layout: page
 title: Babel
 description: Babel
 keywords: env, babel
-permalink: /env/babel/
+permalink: /env/react/babel/
 ---
 
 <br/>
