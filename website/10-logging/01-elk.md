@@ -48,7 +48,6 @@ $ docker-compose up
 **Should works**
 
 ```
-
 http://localhost:3000/
 
 F5 F5 F5 F5 F5
@@ -70,7 +69,6 @@ $ docker stop expressjs && docker start expressjs
 ```
 // Check indices
 http://localhost:9200/_cat/indices
-
 ```
 
 **Kibana**  
