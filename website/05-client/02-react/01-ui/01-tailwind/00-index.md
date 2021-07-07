@@ -3,7 +3,7 @@ layout: page
 title: React.js Tailwind
 description: React.js Tailwind
 keywords: React, Tailwind
-permalink: /client/react/tailwind/
+permalink: /client/react/ui/tailwind/
 ---
 
 # React.js Tailwind

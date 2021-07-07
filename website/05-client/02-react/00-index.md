@@ -40,18 +40,7 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 <br/>
 
-### CSS / Themes
-
-<ul>
-  <li><a href="/client/react/tailwind/">Tailwind</a> (https://tailwindcss.com/)</li>
-   <li><a href="//ant.design">Ant Design</a></li>
-  <li><a href="//material-ui.com">Material UI</a></li>
-  <li>Semantic UI React (https://react.semantic-ui.com)</li>
-  <li>React + Foundation</li>
-  <li>React Bootstrap</li>
-  <li>Twitter Bootstrap</li>
-  <li>Styled Components (https://styled-components.com/)</li>
-</ul>
+### UI / CSS / Themes (/client/react/ui/)
 
 <br/>
 
@@ -62,8 +51,6 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 [Create simple react project manually](/client/react/create-simple-react-project-manually/)
 
 [React.js testing](/client/react/testing/)
-
-[React.js Material UI](/client/react/material-ui/)
 
 [React.js And Bootstrap](https://www.youtube.com/watch?v=DyNADv8RZPs&list=PL_edDyMvX8wUK6BEeFPXdvfEgWl8RJnR_)
 
@@ -116,8 +103,3 @@ server.listen('8080', () => {
   console.log('Express listening on port 8080');
 });
 ```
-
-<br/>
-
-But for production i recommend to use nginx.  
-Ask me in the chat if interesting.
