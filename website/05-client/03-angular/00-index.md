@@ -12,7 +12,7 @@ permalink: /client/angular/
 
 ### Angular (>= 2.x)
 
-[Angular](/client/angular/)
+[Angular](/client/angular/v2/)
 
 <br/>
 

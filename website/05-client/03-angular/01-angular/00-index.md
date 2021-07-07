@@ -1,12 +1,20 @@
 ---
 layout: page
-title: Angular cli
-description: Angular cli
-keywords: Angular cli
-permalink: /client/angular/
+title: Angular
+description: Angular
+keywords: Angular
+permalink: /client/angular/v2/
 ---
 
-# Angular cli
+# Angular
+
+<br/>
+
+### [Simple angular 11 project](https://github.com/webmakaka/Angular-and-NgRx-Building-Real-Project-From-Scratch)
+
+<br/>
+
+### Angular cli
 
     $ npm init -y
 
@@ -23,24 +31,3 @@ permalink: /client/angular/
 ### Making a Component
 
     $ ng generate component hello-world
-
-<br/>
-
-# Angular from github
-
-Start new angular project
-
-    $ cd ~
-    $ mkdir myAngular2Project
-    $ cd myAngular2Project/
-    $ git clone --depth=1 https://github.com/angular/quickstart .
-    $ npm install
-    $ npm start
-
-http://localhost:3000/
-
-<br/>
-
-### A curated list of helpful material to get started with education on Angular 2
-
-https://bitbucket.org/marley-angular/angular2-education

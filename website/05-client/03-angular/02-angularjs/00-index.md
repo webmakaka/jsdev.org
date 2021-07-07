@@ -6,6 +6,8 @@ keywords: Angular.js
 permalink: /client/angular/angularjs/
 ---
 
-# angular-styleguide
+# Angular.js
+
+### angular-styleguide
 
 https://bitbucket.org/marley-angular/angular-styleguide
