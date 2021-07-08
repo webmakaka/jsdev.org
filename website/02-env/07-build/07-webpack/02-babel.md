@@ -23,8 +23,7 @@ permalink: /env/build/webpack/babel/
 
 <br/>
 
-    $ yarn add -D webpack@2
-    $ yarn add -D webpack-cli
+    $ yarn add -D webpack webpack-cli
 
 <br/>
 
@@ -32,7 +31,7 @@ permalink: /env/build/webpack/babel/
 
 <br/>
 
-    $ vi .babelrc
+    $ vi babel.config.json
 
 <br/>
 
@@ -62,20 +61,6 @@ const config = {
 module.exports = config;
 ```
 
-<!-- <br/>
-
-```js
-const path import 'path';
-
-export const config = {
-    entry: './src/index.js',
-    output: {
-        path: path.resolve(__dirname, 'build'),
-        filename: 'bundle.js'
-    }
-};
-``` -->
-
 <br/>
 
 **package.json**
@@ -83,9 +68,13 @@ export const config = {
 <br/>
 
 ```
-"build:webpack":·"webpack"
+"webpack": "webpack"
 ```
 
 <br/>
 
-    $ yarn build:webpack
+    $ yarn webpack
+
+<br/>
+
+[Config for node.js project](/env/nodejs/absolute-path-imports/)

@@ -6,19 +6,21 @@ keywords: env, node.js, Absolute path imports
 permalink: /env/nodejs/absolute-path-imports/
 ---
 
-<br/>
-
-# Jest with absolute path imports for Node.js projects
-
-https://www.npmjs.com/package/babel-plugin-module-resolver
-
-Something wrong and not working as i want. Looking for a solution. If you know how to fix, please download project example and make PR to fix.
+# Absolute path imports for Node.js projects
 
 [Project Example](https://github.com/webmakaka/Test-Driven-Development-with-Nodejs)
 
 <br/>
 
-[Node.js prepared as here](/env/nodejs/absolute-path-imports/)
+```
+$ yarn add -D \
+    @babel/core \
+    @babel/node \
+    @babel/cli \
+    @babel/preset-env \
+    babel-plugin-module-resolver \
+    nodemon
+```
 
 <br/>
 
@@ -30,12 +32,17 @@ Something wrong and not working as i want. Looking for a solution. If you know h
 {
   "compilerOptions": {
     "checkJs": true,
-    "module": "commonjs",
+    "module": "esnext",
     "target": "esnext",
-    "baseUrl": "./src"
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
   },
-  "exclude": ["node_modules", "**/node_modules/*"]
+  "exclude": ["node_modules", "**/node_modules/*"],
+  "include": ["./src/**/*.js"]
 }
+
 ```
 
 <br/>
@@ -44,22 +51,96 @@ Something wrong and not working as i want. Looking for a solution. If you know h
 
 <br/>
 
-```js
-"type": "module",
-```
+Remove "type": "module" if it exists.
+
+I did not find a good babel plugin for convert from common.js to esmodules.
 
 <br/>
 
 ```js
 "scripts": {
-  "start": "NODE_PATH=./src nodemon ./src/index.js"
+  "dev": "nodemon --exec babel-node --config-file ./babel.config.json src/index.js",
 },
 ```
 
 <br/>
 
-### Need to Check
+**babel.config.json**
 
-https://www.npmjs.com/package/babel-plugin-root-import
+```js
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": true,
+          "node": true
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "~": "./src"
+        }
+      }
+    ]
+  ]
+}
 
-https://koprowski.it/import-alias-in-react-native-and-vscode/
+```
+
+<br/>
+
+### Additional webpack config for esModules
+
+<br/>
+
+**webpack.config.js**
+
+```js
+import path from 'path';
+import nodeExternals from 'webpack-node-externals';
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
+
+export default {
+  entry: path.resolve(__dirname, './src/index.js'),
+  target: 'node',
+  mode: 'development',
+  externals: [nodeExternals()],
+  module: {
+    rules: [
+      {
+        test: /\.(js)$/,
+        use: ['babel-loader'],
+        resolve: {
+          fullySpecified: false,
+        },
+      },
+    ],
+  },
+  resolve: {
+    extensions: ['*', '.js'],
+  },
+  output: {
+    path: path.resolve(__dirname, './dist'),
+    filename: 'bundle.js',
+  },
+  devServer: {
+    contentBase: path.resolve(__dirname, './dist'),
+  },
+};
+```
+
+<br/>
+
+To work in package.json should be present
+
+```
+"type": "module",
+```
