@@ -2,12 +2,14 @@
 layout: page
 title: Kafka
 description: Kafka
-keywords: Kafka
-permalink: /kafka/
+keywords: messaging, Kafka
+permalink: /messaging/kafka/
 ---
 
 # Kafka
 
-### [What is Kafka | Tutorial | Beginners Guide](https://www.youtube.com/watch?v=heR3I3Wxgro)
-
 ### [Running Kafka on Docker with Compose](https://www.youtube.com/watch?v=ncTosfaZ5cQ)
+
+<br/>
+
+https://github.com/js-code-ua/nest-kafka-example

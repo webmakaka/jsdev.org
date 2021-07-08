@@ -8,7 +8,9 @@ permalink: /messaging/
 
 # Messaging
 
-### Kafka
+### [NATS Streaming Server](/messaging/nats/)
+
+### [Kafka](/messaging/kafka/)
 
 ### RabbitMQ
 
