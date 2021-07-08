@@ -3,7 +3,7 @@ layout: page
 title: WebPack - Images
 description: WebPack - Images
 keywords: WebPack - Images
-permalink: /env/webpack/images/
+permalink: /env/build/webpack/images/
 ---
 
 # WebPack - Images
@@ -11,13 +11,13 @@ permalink: /env/webpack/images/
 <br/>
 
 <div align="center">
-    <img src="/img/env/webpack/images-01.png" alt="css webpack">
+    <img src="/img/env/build/webpack/images-01.png" alt="css webpack">
 </div>
 
 <br/><br/>
 
 <div align="center">
-    <img src="/img/env/webpack/images-02.png" alt="css webpack">
+    <img src="/img/env/build/webpack/images-02.png" alt="css webpack">
 </div>
 
 <br/>

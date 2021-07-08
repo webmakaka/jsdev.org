@@ -3,7 +3,7 @@ layout: page
 title: WebPack - CSS
 description: WebPack - CSS
 keywords: WebPack - CSS
-permalink: /env/webpack/css/
+permalink: /env/build/webpack/css/
 ---
 
 # WebPack - CSS
@@ -11,13 +11,13 @@ permalink: /env/webpack/css/
 <br/>
 
 <div align="center">
-    <img src="/img/env/webpack/css-01.png" alt="css webpack">
+    <img src="/img/env/build/webpack/css-01.png" alt="css webpack">
 </div>
 
 <br/>
 
 <div align="center">
-    <img src="/img/env/webpack/css-02.png" alt="css webpack">
+    <img src="/img/env/build/webpack/css-02.png" alt="css webpack">
 </div>
 
 <br/>

@@ -3,7 +3,7 @@ layout: page
 title: WebPack
 description: WebPack
 keywords: WebPack
-permalink: /env/webpack/
+permalink: /env/build/webpack/
 ---
 
 # WebPack
@@ -11,10 +11,10 @@ permalink: /env/webpack/
 <br/>
 
 <ul>
-    <li><a href="/env/webpack/basics/">WebPack - Basics</a></li>
-    <li><a href="/env/webpack/babel/">Babel</a></li>
-    <li><a href="/env/webpack/css/">CSS</a></li>
-    <li><a href="/env/webpack/images/">Images</a></li>
+    <li><a href="/env/build/webpack/basics/">WebPack - Basics</a></li>
+    <li><a href="/env/build/webpack/babel/">Babel</a></li>
+    <li><a href="/env/build/webpack/css/">CSS</a></li>
+    <li><a href="/env/build/webpack/images/">Images</a></li>
 </ul>
 
 <br/>
@@ -74,7 +74,7 @@ or
     $ webpack
 
     // if webpack installed as module
-    $  ./node_modules/env/webpack/bin/webpack.js
+    $  ./node_modules/env/build/webpack/bin/webpack.js
 
 <br/>
 

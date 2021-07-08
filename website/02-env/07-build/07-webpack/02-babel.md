@@ -62,6 +62,20 @@ const config = {
 module.exports = config;
 ```
 
+<!-- <br/>
+
+```js
+const path import 'path';
+
+export const config = {
+    entry: './src/index.js',
+    output: {
+        path: path.resolve(__dirname, 'build'),
+        filename: 'bundle.js'
+    }
+};
+``` -->
+
 <br/>
 
 **package.json**
