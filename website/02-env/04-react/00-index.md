@@ -21,47 +21,4 @@ https://github.com/webmakaka/complete-intro-to-react-v6
 
 <br/>
 
-<br/>
-
-### Absolute path imports for react apps
-
-<br/>
-
-**jsconfig.json**
-
-<br/>
-
-```json
-{
-  "compilerOptions": {
-    "checkJs": true,
-    "target": "es6",
-    "baseUrl": "src"
-  },
-  "exclude": ["node_modules"]
-}
-```
-
-<br/>
-
-### Resolve src/ for Eslint
-
-**.eslintrc**
-
-```
-{
-  "parser": "babel-eslint",
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "paths": ["src"],
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
-      }
-    }
-  }
-}
-```
-
-<br/>
-
-    $ yarn add -D babel-eslint
+### [Absolute path imports for react apps](/env/react/absolute-path-imports/)
