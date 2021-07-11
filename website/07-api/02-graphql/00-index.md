@@ -46,6 +46,10 @@ permalink: /api/graphql/
 
 <br/>
 
-### [Udemy, Reed Barger] Full-Stack React with GraphQL and Apollo Boost [ENG, 2018]
+### [[OpenJS Foundation] Type-safe GraphQL with TypeScript - Aaron Powell, Microsoft](https://www.youtube.com/watch?v=G2HUgV30EG4)
 
-https://github.com/webmakaka/Full-Stack-React-with-GraphQL-and-Apollo-Boost
+https://github.com/aaronpowell/graphql-typescript-workshop
+
+<br/>
+
+### [[Udemy, Reed Barger] Full-Stack React with GraphQL and Apollo Boost [ENG, 2018]](https://github.com/webmakaka/Full-Stack-React-with-GraphQL-and-Apollo-Boost)
