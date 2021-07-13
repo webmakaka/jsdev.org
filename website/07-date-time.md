@@ -18,12 +18,28 @@ permalink: /date-time/
 
 <br/>
 
+**Example 1**
+
 ```js
 import { format } from 'date-fns';
 
 ***
 
 MyWebsite 2020 - {format(new Date(), 'yyyy')} All rights reserved.
+
+```
+
+<br/>
+
+**Example 2**
+
+```js
+import { format } from 'date-fns';
+import { ru } from 'date-fns/locale';
+
+***
+
+{format(new Date(createdAt), 'dd MMMM yyyy', { locale: ru })}
 
 ```
 

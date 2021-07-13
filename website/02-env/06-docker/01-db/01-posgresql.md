@@ -49,12 +49,11 @@ services:
     container_name: postgres
     hostname: ${DATABASE_HOST}
     ports:
-      - ${DATABASE_PORT}:${DATABASE_PORT}
+      - ${DATABASE_PORT}:5432
     environment:
       POSTGRES_DB: ${DATABASE_NAME}
       POSTGRES_USER: ${DATABASE_USER}
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
-      DATABASE_PORT: ${DATABASE_PORT}
     volumes:
       - ./PGDATA:/var/lib/postgresql/data
 ```

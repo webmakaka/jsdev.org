@@ -6,9 +6,7 @@ keywords: env, react, Absolute path imports
 permalink: /env/react/absolute-path-imports/
 ---
 
-<br/>
-
-### Absolute path imports for react apps
+# Absolute path imports for react apps
 
 <br/>
 
@@ -26,7 +24,7 @@ permalink: /env/react/absolute-path-imports/
     "target": "esnext",
     "baseUrl": "./src",
     "paths": {
-      "~/*": ["src/*"]
+      "~/*": ["./src/*"]
     }
   },
   "exclude": ["node_modules", "**/node_modules/*"],
