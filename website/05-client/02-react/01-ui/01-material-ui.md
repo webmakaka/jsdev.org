@@ -15,4 +15,4 @@ https://materializecss.com/
 
 <br/>
 
-### [Sample](https://github.com/webmakaka/react-material-ui)
+### [[Samer Buna] Learning Full-Stack JavaScript Development: MongoDB, Node and React [2016, ENG]](https://github.com/webmakaka/learning-full-stack-javascript-development-mongodb-node-and-react)
