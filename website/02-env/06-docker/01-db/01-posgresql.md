@@ -10,18 +10,6 @@ permalink: /env/docker/db/postgresql/
 
 <br/>
 
-**.env**
-
-```
-DATABASE_HOST=postgres
-DATABASE_NAME=postgres-db
-DATABASE_PORT=5432
-DATABASE_USER=user
-DATABASE_PASSWORD=pass123
-```
-
-<br/>
-
 ```
 $ sudo vi /etc/hosts
 ```
@@ -30,6 +18,18 @@ $ sudo vi /etc/hosts
 
 ```
 127.0.0.1 postgres
+```
+
+<br/>
+
+**.env**
+
+```
+DATABASE_HOST=postgres
+DATABASE_NAME=postgres-db
+DATABASE_PORT=5432
+DATABASE_USER=user
+DATABASE_PASSWORD=pass123
 ```
 
 <br/>
@@ -44,9 +44,9 @@ $ vi docker-compose.yml
 version: '3'
 services:
   postgres:
+    container_name: postgres
     image: postgres:13-alpine
     restart: always
-    container_name: postgres
     hostname: ${DATABASE_HOST}
     ports:
       - ${DATABASE_PORT}:5432

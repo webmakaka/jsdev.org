@@ -34,6 +34,12 @@ permalink: /env/react/absolute-path-imports/
 
 <br/>
 
+Actually ~/\* is not working for now in the box. Need to make eject or install additional packages like craco.
+
+https://stackoverflow.com/questions/63067555/how-to-make-an-import-shortcut-alias-in-create-react-app
+
+<br/>
+
 ### Resolve src/ for Eslint
 
 <br/>
@@ -57,42 +63,3 @@ permalink: /env/react/absolute-path-imports/
   }
 }
 ```
-
-<!--
-
-<br/>
-
-### Babel (possible babel is not needed)
-
-```
-$ yarn add -D \
-    @babel/core \
-    @babel/node \
-    @babel/cli \
-    @babel/preset-env \
-    babel-plugin-module-resolver
-```
-
-<br/>
-
-**babel.config.json**
-
-```js
-{
-  "presets": [["@babel/preset-env"]],
-  "plugins": [
-    [
-      "module-resolver",
-      {
-        "root": ["./src"],
-        "alias": {
-          "~": "./src"
-        }
-      }
-    ]
-  ]
-}
-```
-
-
--->

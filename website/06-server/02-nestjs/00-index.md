@@ -12,4 +12,6 @@ permalink: /server/nestjs/
 
 ### [Simple NestJS Project](https://github.com/webmakaka/NestJS-Building-Real-Project-API-From-Scratch)
 
+### [NestJS + TypeORM](https://github.com/webmak1/Task-9-NestJS)
+
 ### [Passport Authorization example](https://github.com/webmakaka/WebProject)

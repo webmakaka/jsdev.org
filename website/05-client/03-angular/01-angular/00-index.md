@@ -10,6 +10,8 @@ permalink: /client/angular/v2/
 
 <br/>
 
+### [[frontendmasters.com] Production-Grade Angular [2021, ENG]](https://github.com/onehungrymind/fem-production-angular)
+
 ### [Simple angular 11 project](https://github.com/webmakaka/Angular-and-NgRx-Building-Real-Project-From-Scratch)
 
 <br/>

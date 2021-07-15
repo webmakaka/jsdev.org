@@ -2,13 +2,17 @@
 layout: page
 title: HTML Templates
 description: HTML Templates
-keywords: HTML Templates
+keywords: HTML Templates, css, js
 permalink: /html/templates/
 ---
 
 <br/>
 
 # HTML Templates
+
+[[Traversy] Hulu Website Clone](https://github.com/bradtraversy/hulu-webpage-clone)
+
+<br/>
 
     https://html5boilerplate.com/
     https://html5up.net/
@@ -19,7 +23,7 @@ permalink: /html/templates/
 
 <br/>
 
-# Fonts
+## Fonts
 
     https://github.com/FortAwesome/Font-Awesome
     https://github.com/ryanoasis/nerd-fonts
@@ -36,7 +40,7 @@ permalink: /html/templates/
 
 <br/>
 
-# Styles
+## Styles
 
     http://getbootstrap.com/
     http://tachyons.io/

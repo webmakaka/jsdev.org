@@ -12,7 +12,7 @@ permalink: /client/react/ui/
   <li><a href="/client/react/ui/tailwind/">Tailwind</a> (https://tailwindcss.com/)</li>
    <li><a href="//ant.design">Ant Design</a></li>
   <li><a href="/client/react/ui/material-ui/">Material UI</a></li>
-  <li>Semantic UI React (https://react.semantic-ui.com)</li>
+  <li><a href="/client/react/ui/semantic-ui/">Semantic UI React</a></li>
   <li>React + Foundation</li>
   <li>React Bootstrap</li>
   <li>Twitter Bootstrap</li>
