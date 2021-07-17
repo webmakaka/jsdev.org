@@ -15,9 +15,9 @@ permalink: /databases/mongodb/
 
 <br/>
 
-### [App example with MongoDB](https://github.com/webmakaka/TinyHouse-A-Fullstack-React-Masterclass-with-TypeScript-and-GraphQL)
+### [Simple Project with MongoDB](https://github.com/webmak1/Rolling-Scopes-School-Nodejs-Course-Task-4-Database-MongoDB-2020)
 
-<br/>
+### [App example with MongoDB](https://github.com/webmakaka/TinyHouse-A-Fullstack-React-Masterclass-with-TypeScript-and-GraphQL)
 
 ### [Some Other Examples](https://github.com/webmakaka/build-a-real-time-web-app-in-node.js-angular.js-mongodb/)
 
