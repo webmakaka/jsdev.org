@@ -22,3 +22,5 @@ https://github.com/webmakaka/complete-intro-to-react-v6
 <br/>
 
 ### [Absolute path imports for react apps](/env/react/absolute-path-imports/)
+
+### [React App with Webpack & Babel (ES6+, source maps, hot reload, and more)](https://www.youtube.com/watch?v=dOU4FBNVnl8)

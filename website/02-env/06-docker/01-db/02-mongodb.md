@@ -41,20 +41,21 @@ https://github.com/webmakaka/NestJS-Fundamentals-Course/blob/main/app/api-mongod
 
 <br/>
 
-### Another one version
+### Another version with authentication
 
 ```yaml
 version: '3'
 services:
-  mongo:
+  mongodb:
     image: mongo:4.4.6
     container_name: mongo
     restart: always
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=admin
-      - MONGO_INITDB_ROOT_PASSWORD=admin
     ports:
-      - 27017:27017
+      - ${MONGO_PORT}:27017
+    environment:
+      - MONGODB_DATABASE=${MONGO_DATABASE}
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_LOGIN}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD}
     volumes:
       - ./mongo-data-4.4:/data/db
     command: --wiredTigerCacheSizeGB 1.5
@@ -65,9 +66,59 @@ services:
 **.env**
 
 ```
-MONGO_DATABASE_NAME=admin
+MONGO_HOST=localhost
+MONGO_DATABASE=mongo-database
+
 MONGO_LOGIN=admin
 MONGO_PASSWORD=admin
-MONGO_HOST=localhost
 MONGO_PORT=27017
+```
+
+<br/>
+
+    $ docker-compose up mongodb
+
+<br/>
+
+```sh
+ | Successfully added user: {
+ | 	"user" : "admin",
+ | 	"roles" : [
+ | 		{
+ | 			"role" : "root",
+ | 			"db" : "admin"
+ | 		}
+ | 	]
+ | }
+```
+
+<br/>
+
+### Another one version
+
+[MERN-Stack-Front-To-Back-v2.0](https://github.com/webmakaka/MERN-Stack-Front-To-Back-v2.0)
+
+<br/>
+
+### Connect MongoDB from Ubuntu
+
+    $ sudo apt install mongodb-clients
+
+<br/>
+
+    $ mongo "mongodb://localhost:27017/mongo-database"
+
+<br/>
+
+https://stackoverflow.com/questions/34559557/how-to-enable-authentication-on-mongodb-through-docker
+
+<br/>
+
+### Alpine add telnet package
+
+```
+$ docker exec -it mern-stack-front-to-back-api sh
+
+# apk add busybox-extras
+# telnet mongodb 27017
 ```

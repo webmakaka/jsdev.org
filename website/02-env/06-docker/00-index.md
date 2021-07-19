@@ -10,6 +10,20 @@ permalink: /env/docker/
 
 <br/>
 
+### Clean everything
+
+```sh
+$ {
+  docker system prune -a -f
+  docker container prune -f
+  docker image prune -a -f
+  docker volume prune -f
+  docker network prune -f
+}
+```
+
+<br/>
+
 ### [Environment example for development JS Apps Inside Docker](https://github.com/webmak1/Rolling-Scopes-School-Nodejs-Course-Task-6-Docker-basics)
 
 ### [React](/env/docker/react/)

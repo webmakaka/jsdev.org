@@ -11,7 +11,7 @@ permalink: /env/husky/
 # Run checks before commit (lint-staged husky)
 
 ```bash
-$ npm install --save-dev lint-staged husky
+$ yarn add -D lint-staged husky
 ```
 
 <br/>
