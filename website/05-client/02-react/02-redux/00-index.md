@@ -2,11 +2,17 @@
 layout: page
 title: Redux
 description: Redux
-keywords: Redux
+keywords: react, redux
 permalink: /client/react/redux/
 ---
 
 # Redux
+
+<br/>
+
+[Sample](https://github.com/webmakaka/React-React-Redux-and-Redux-Saga-Master-React-State-Hooks/tree/master/app/client/redux)
+
+<br/>
 
 https://btholt.github.io/complete-intro-to-react-v6/
 
@@ -16,19 +22,25 @@ https://github.com/webmakaka/citr-v6-project/tree/master/redux
 
 ### Redux thunk
 
-    $ npm install --save redux react-redux redux-thunk
+<br/>
 
-https://github.com/webmakaka/Complete-React-Developer-In-2020-Redux-Hooks-GraphQL
+[Sample](https://github.com/webmakaka/Complete-React-Developer-In-2020-Redux-Hooks-GraphQL)
 
 <br/>
 
 ### Redux Saga
 
-    $ npm install --save redux-saga
+<br/>
+
+[Sample](https://github.com/webmakaka/React-React-Redux-and-Redux-Saga-Master-React-State-Hooks/tree/master/app/client/saga)
+
+<br/>
 
 [Redux-saga take/takeLatest/takeEvery](https://github.com/ZhangMYihua/redux-saga-take-takelatest-takeevery)
 
-https://github.com/webmakaka/Complete-React-Developer-In-2020-Redux-Hooks-GraphQL
+<br/>
+
+[Sample](https://github.com/webmakaka/Complete-React-Developer-In-2020-Redux-Hooks-GraphQL)
 
 <br/>
 
@@ -42,6 +54,4 @@ https://github.com/webmakaka/Complete-React-Developer-In-2020-Redux-Hooks-GraphQ
 
 <br/>
 
-**src:**<br/>
-
-https://github.com/bradtraversy/redux_crash_course
+[src](https://github.com/bradtraversy/redux_crash_course)
