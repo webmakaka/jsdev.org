@@ -10,6 +10,12 @@ permalink: /env/react/typescript/
 
 <br/>
 
+### [Prepare react project with typescript without CRA](/env/react/typescript/build/webpack/)
+
+<br/>
+
+### Add TypeScript in React app
+
 Based on course https://btholt.github.io/complete-intro-to-react-v6/eslint
 
 <!--

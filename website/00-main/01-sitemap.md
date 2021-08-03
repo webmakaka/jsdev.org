@@ -110,21 +110,13 @@ Sonarqube
 
 ## Continious Integration
 
-github actions | tekton | gitlab-ci | travis-ci | jenkins | bamboo ci | circleci
+github actions | gitlab-ci | tekton | jenkins | travis-ci | bamboo ci | circleci
 
 <br/>
 
-## Email Service
+## Email Services
 
-MailGun | SendGrid (commercial) | mailtrap.io | ethereal.email | postmarkapp.com
-
-<br/>
-
-<a href="https://github.com/webmakaka/Uber-Eats-Clone">[MailGun] usage sample</a>
-
-<br/>
-
-<a href="https://github.com/webmakaka/Advanced-React-and-GraphQL">[ethereal] usage sample</a>
+[MailGun | SendGrid (commercial) | mailtrap.io | ethereal.email | postmarkapp.com | nodemailer](/server/nodejs/email/)
 
 <br/>
 

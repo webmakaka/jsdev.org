@@ -3,7 +3,7 @@ layout: page
 title: Next.js environment for development
 description: Prepare environment for development next.js applications
 keywords: nest.js, environment, development, eslint
-permalink: /env/next/typescript/eslint/
+permalink: /env/react/typescript/eslint/
 ---
 
 # Eslint config for Next.js + TypeScript applications
@@ -11,8 +11,10 @@ permalink: /env/next/typescript/eslint/
 <br/>
 
 ```
-$ yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin  
-eslint-plugin-react-hooks
+$ yarn add -D \
+  eslint @typescript-eslint/parser \
+  @typescript-eslint/eslint-plugin \
+  eslint-plugin-react-hooks
 ```
 
 <br/>
@@ -40,6 +42,7 @@ eslint-plugin-react-hooks
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
     "plugin:react-hooks/recommended"
   ]
 }
