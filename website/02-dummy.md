@@ -50,10 +50,10 @@ https://www.npmjs.com/package/faker
 - <a href="https://swapi.dev/documentation" rel="nofollow">The Star Wars API</a>
 - <a href="https://pokeapi.co/" rel="nofollow">Pokemons</a>
 - <a href="https://www.flickr.com/services/api/flickr.photos.search.html" rel="nofollow">Flickr</a>
-- <a href="https://newsapi.org/docs/endpoints/everything" rel="nofollow">News API</a>
 - <a href="https://spaceflightnewsapi.net" rel="nofollow">Spaceflightnewsapi</a>
 - <a href="https://jsonplaceholder.typicode.com/" rel="nofollow">jsonplaceholder</a>
 - <a href="https://restcountries.eu/rest/v2/all" rel="nofollow">REST Countries</a>
+- <a href="https://newsapi.org/docs/endpoints/everything" rel="nofollow">News API (Only 100 requests per day for free)</a>
 
 <br/>
 

@@ -40,33 +40,37 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 <br/>
 
-### UI / CSS / Themes (/client/react/ui/)
+### [React validation example](https://codesandbox.io/s/reactjs-form-validation-v30cl?file=/src/ValidationInReact.js:3656-3662)
 
 <br/>
 
-### React.js environment for development
-
-[React.js environment for development](/env/react/)
-
-[Create simple react project manually](/client/react/create-simple-react-project-manually/)
-
-[React.js testing](/client/react/testing/)
-
-[React.js And Bootstrap](https://www.youtube.com/watch?v=DyNADv8RZPs&list=PL_edDyMvX8wUK6BEeFPXdvfEgWl8RJnR_)
-
-[Sass styles in create-react-app](https://www.youtube.com/watch?v=B_zZDa80FVo)
-
-[Server Side Rendering](/client/react/ssr/)
-
-[Spinners for react apps](http://www.davidhu.io/react-spinners/)
-
-[Higher order components explained (HOC)](https://github.com/ZhangMYihua/higher-order-components-explained)
-
-[Redux](/client/react/redux/)
+### [React + TypeScript working with API example](https://github.com/webmak1/react-2021-q3-api)
 
 <br/>
 
-### Hooks (Since react 16)
+### [UI / CSS / Themes](/client/react/ui/)
+
+<br/>
+
+### [React.js environment for development](/env/react/)
+
+### [Create simple react project manually](/client/react/create-simple-react-project-manually/)
+
+### [React.js testing](/client/react/testing/)
+
+### [React.js And Bootstrap](https://www.youtube.com/watch?v=DyNADv8RZPs&list=PL_edDyMvX8wUK6BEeFPXdvfEgWl8RJnR_)
+
+### [Sass styles in create-react-app](https://www.youtube.com/watch?v=B_zZDa80FVo)
+
+### [Server Side Rendering](/client/react/ssr/)
+
+### [Spinners for react apps](http://www.davidhu.io/react-spinners/)
+
+### [Higher order components explained (HOC)](https://github.com/ZhangMYihua/higher-order-components-explained)
+
+<br/>
+
+### React Hooks
 
 [UseState](https://github.com/ZhangMYihua/use-state-example)
 
@@ -77,6 +81,10 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 [Custom hook example](https://github.com/ZhangMYihua/custom-hook-example)
 
 [React context](https://github.com/ZhangMYihua/react-context-lesson)
+
+<br/>
+
+### [Redux](/client/react/redux/)
 
 <br/>
 

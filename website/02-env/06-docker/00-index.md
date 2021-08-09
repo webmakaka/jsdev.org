@@ -47,3 +47,5 @@ $ docker scan webmakaka/rsschool-postgres
 <br/>
 
 https://snyk.io/
+
+https://www.youtube.com/watch?v=1N6VBHMoPsw
