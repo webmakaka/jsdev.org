@@ -10,7 +10,7 @@ permalink: /devops/containers/docker/
 
 <br/>
 
-### [Docker installation in Ubuntu 18](/containers/docker/install/)
+### [Docker installation in Ubuntu 18](/devops/containers/docker/setup/)
 
 <br/>
 
