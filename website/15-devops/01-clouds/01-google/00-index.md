@@ -12,15 +12,15 @@ permalink: /devops/clouds/google/
 
 ### Google App Engine (GAE)
 
-[Deploy Node.js Express Application in App Engine](/clouds/google/gae/)
+[Deploy Node.js Express Application in App Engine](/devops/clouds/google/gae/)
 
 <br/>
 
 ### Kubernetes (GKE)
 
-[Running a Node.js Container on Google Kubernetes Engine](/clouds/google/kubernetes/running-nodejs-container-on-gke/)
+[Running a Node.js Container on Google Kubernetes Engine](/devops/clouds/google/kubernetes/running-nodejs-container-on-gke/)
 
-[Hello Node Kubernetes](/clouds/google/kubernetes/hello-node-kubernetes/)
+[Hello Node Kubernetes](/devops/clouds/google/kubernetes/hello-node-kubernetes/)
 
 <br/>
 

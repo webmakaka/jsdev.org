@@ -64,7 +64,7 @@ https://www.youtube.com/watch?v=JmCn7k0PlV4
 
 <br/>
 
-### [Run local kubernetes cluster](/containers/kubernetes/install/)
+### [Run local kubernetes cluster](/devops/containers/kubernetes/setup/)
 
 <br/>
 

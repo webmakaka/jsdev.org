@@ -84,7 +84,7 @@ Ionic | React Native
 
 ### Containers (Docker and Kubernetes)
 
-<a href="/containers/">Containers</a>
+<a href="/devops/containers/">Containers</a>
 
 <br/>
 
@@ -97,7 +97,7 @@ github container registry | hub.docker.com | quay.io
 
 ## Clouds
 
-<a href="/clouds/">Clouds</a>
+<a href="/devops/clouds/">Clouds</a>
 
 <br/>
 <hr/>
