@@ -23,7 +23,7 @@ permalink: /api/graphql/
 
 <br/>
 
-### Installing Apollo Client
+### Install Apollo Client
 
     $ npm install apollo-boost react-apollo graphql
     $ npm install @types/graphql
@@ -31,6 +31,8 @@ permalink: /api/graphql/
 <br/>
 
 **package.json**
+
+<br/>
 
 ```js
 {
