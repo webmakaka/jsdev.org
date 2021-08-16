@@ -3,10 +3,12 @@ layout: page
 title: Docker installation in Ubuntu
 description: Docker installation in Ubuntu
 keywords: Docker installation in Ubuntu
-permalink: /containers/docker/install/
+permalink: /devops/containers/docker/setup/
 ---
 
 # Docker installation in Ubuntu
+
+<br/>
 
 works in 18, 20
 

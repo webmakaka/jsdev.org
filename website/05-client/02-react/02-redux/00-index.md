@@ -44,6 +44,12 @@ https://github.com/webmakaka/citr-v6-project/tree/master/redux
 
 <br/>
 
+### Redux For Beginners | Redux Tutorial with Redux Toolkit
+
+https://www.youtube.com/watch?v=DYtYyFOfpBY&t=1297s
+
+<br/>
+
 ### Redux Crash Course With React
 
 <div align="center">

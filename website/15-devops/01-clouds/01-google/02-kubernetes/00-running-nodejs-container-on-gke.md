@@ -3,7 +3,7 @@ layout: page
 title: Running a Node.js Container on Google Kubernetes Engine
 description: Running a Node.js Container on Google Kubernetes Engine
 keywords: Running a Node.js Container on Google Kubernetes Engine
-permalink: /clouds/google/kubernetes/running-nodejs-container-on-gke/
+permalink: /devops/clouds/google/kubernetes/running-nodejs-container-on-gke/
 ---
 
 # [GSP015] Running a Node.js Container on Google Kubernetes Engine

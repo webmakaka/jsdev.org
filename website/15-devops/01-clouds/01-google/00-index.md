@@ -3,7 +3,7 @@ layout: page
 title: Google Clouds
 description: Google Clouds
 keywords: Google Clouds
-permalink: /clouds/google/
+permalink: /devops/clouds/google/
 ---
 
 # Google Clouds

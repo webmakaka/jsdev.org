@@ -30,7 +30,7 @@ open new terminal window || logout / login
 
 <br/>
 
-    // Add current in package.json infor about node and yarn
+    // Add current version info inside package.json
     $ volta pin node yarn
 
 <br/>

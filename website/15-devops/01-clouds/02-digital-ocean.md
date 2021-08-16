@@ -2,11 +2,13 @@
 layout: page
 title: Digital Ocean
 description: Digital Ocean
-keywords: Digital Ocean
-permalink: /clouds/digital-ocean/
+keywords: devops, clouds, digital ocean
+permalink: /devops/clouds/digital-ocean/
 ---
 
 # Digital Ocean
+
+<br/>
 
 ### Deploy Node.js App To Digital Ocean Server
 

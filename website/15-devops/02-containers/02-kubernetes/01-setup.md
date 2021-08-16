@@ -3,7 +3,7 @@ layout: page
 title: Run local kubernetes cluster
 description: Run local kubernetes cluster
 keywords: Run local kubernetes cluster
-permalink: /containers/kubernetes/install/
+permalink: /devops/containers/kubernetes/setup/
 ---
 
 # Run local kubernetes cluster

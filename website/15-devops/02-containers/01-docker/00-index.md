@@ -3,7 +3,7 @@ layout: page
 title: Docker
 description: Docker
 keywords: Docker
-permalink: /containers/docker/
+permalink: /devops/containers/docker/
 ---
 
 # Docker

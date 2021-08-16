@@ -3,7 +3,7 @@ layout: page
 title: Deployment
 description: Deployment
 keywords: Deployment
-permalink: /deployment/
+permalink: /devops/
 ---
 
 # Deployment

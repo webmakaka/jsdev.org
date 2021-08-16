@@ -3,7 +3,7 @@ layout: page
 title: Hello Node Kubernetes
 description: Hello Node Kubernetes
 keywords: Hello Node Kubernetes
-permalink: /clouds/google/kubernetes/hello-node-kubernetes/
+permalink: /devops/clouds/google/kubernetes/hello-node-kubernetes/
 ---
 
 # [GSP005] Hello Node Kubernetes

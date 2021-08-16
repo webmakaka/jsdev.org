@@ -3,7 +3,7 @@ layout: page
 title: Best Materials for Study Kubernetes
 description: Best Materials for Study Kubernetes
 keywords: Kubernetes, Clouds, LocalHost
-permalink: /containers/kubernetes/
+permalink: /devops/containers/kubernetes/
 ---
 
 # Best Materials for Study Kubernetes

@@ -88,26 +88,4 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 <br/>
 
-### Possible SPA routing script
-
-```js
-const express = require('express');
-const path = require('path');
-
-const server = express();
-
-server.use(express.static('public'));
-
-server.get('*', (req, res) => {
-  fs.readFile(`${__dirname}/dist/index.html`, (err, html) => {
-    if (error) throw error;
-
-    res.setHeader('Content-Type', 'text/html');
-    res.end(html);
-  });
-});
-
-server.listen('8080', () => {
-  console.log('Express listening on port 8080');
-});
-```
+### [Deploy](/client/react/deploy/)

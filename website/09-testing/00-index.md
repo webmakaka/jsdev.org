@@ -22,6 +22,12 @@ permalink: /testing/
 
 <br/>
 
+### Jasmine (https://jasmine.github.io)
+
+[Example](https://github.com/webmakaka/Serverless-Applications-with-Node.js)
+
+<br/>
+
 ### Test Coverage
 
 Istanbul:  

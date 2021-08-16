@@ -3,7 +3,7 @@ layout: page
 title: Deploy Node.js Express Application in App Engine
 description: Deploy Node.js Express Application in App Engine
 keywords: Deploy Node.js Express Application in App Engine
-permalink: /clouds/google/gae/
+permalink: /devops/clouds/google/gae/
 ---
 
 # [GSP028] Deploy Node.js Express Application in App Engine

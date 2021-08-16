@@ -3,7 +3,7 @@ layout: page
 title: Clouds
 description: Clouds
 keywords: Clouds
-permalink: /clouds/
+permalink: /devops/clouds/
 ---
 
 # Clouds
@@ -12,19 +12,19 @@ permalink: /clouds/
 
 ### Digital Ocean
 
-<a href="/clouds/digital-ocean/">Digital Ocean</a>
+<a href="/devops/clouds/digital-ocean/">Digital Ocean</a>
 
 <br/>
 
-### [Google Clouds](/clouds/google/)
+### [Google Clouds](/devops/clouds/google/)
 
 <br/>
 
-### Amazon
+### [Amazon AWS](/devops/clouds/aws/)
 
 <br/>
 
-### Microsoft Azuere
+### Microsoft Azure
 
 <br/>
 
