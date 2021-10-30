@@ -28,6 +28,8 @@ vimawesome.com
 
 <br/>
 
+**Install NodeJS**
+
 **<a href="/env/nodejs/">Nodejs should be installed</a>**
 
 <br/>
@@ -36,6 +38,42 @@ vimawesome.com
 https://golang.org/doc/install
 
 <br/>
+
+    $ cd ~/tmp/
+    $ wget --no-check-certificate https://golang.org/dl/go1.17.2.linux-amd64.tar.gz
+
+<br/>
+
+    $ tar -xvzpf go1.17.2.linux-amd64.tar.gz
+    $ sudo mkdir -p /opt/go.1.17
+    $ sudo mv go/* /opt/go.1.17/
+    $ sudo ln -s /opt/go.1.17/ /opt/go
+
+<br/>
+
+    $ sudo vi /etc/profile.d/golang.sh
+
+<br/>
+
+```
+#### GO 1.17 ########################
+
+    export GO_HOME=/opt/go
+    export PATH=${GO_HOME}/bin:$PATH
+
+#### GO 1.17 ########################
+```
+
+<br/>
+
+    $ sudo chmod +x /etc/profile.d/golang.sh
+
+    $ source /etc/profile.d/golang.sh
+
+<br/>
+
+    $ go version
+    go version go1.17.2 linux/amd64
 
 <br/>
 
@@ -58,7 +96,7 @@ https://golang.org/doc/install
 <br/>
 
 ```
-#### NVIM #######################
+#### NeoVIM #######################
 
 export NVIM_HOME=/opt/nvim
 export PATH=${NVIM_HOME}/:$PATH
@@ -67,7 +105,7 @@ alias vi='nvim'
 alias vim='nvim'
 export EDITOR='nvim'
 
-#### NVIM #######################
+#### NeoVIM #######################
 ```
 
 <br/>
@@ -88,7 +126,7 @@ alias vim='nvim'
 <br/>
 
     $ vi --version
-    NVIM v0.4.4
+    NVIM v0.5.1
 
 <br/>
 

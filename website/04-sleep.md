@@ -10,13 +10,13 @@ permalink: /sleep/
 
 # Sleep
 
-```
+```js
 await this.sleep();
 ```
 
 <br/>
 
-```
+```js
   sleep() {
     return new Promise<void>((resolve, reject) => {
       setTimeout(() => {

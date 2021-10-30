@@ -16,6 +16,12 @@ permalink: /env/nodejs/
 
 <br/>
 
+### Global node_modules path
+
+    $ npm root -g
+
+<br/>
+
 ### Check updates for node packages
 
     $ npm install -g npm-check-updates

@@ -79,15 +79,43 @@ minimal
 
 <!--
 
-    $ cd ~/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.17/
+    $ cd ~/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.19/
     $ code /js/app.js
+
+    beatify
 
 Find key: "isValidLicense",
 
 Change return statement
 
+Было в старых
+
 ```
 return !(!e || !t) && t === (0, n.default)("" + a.default.APP.UUID + e).match(/.{1,5}/g).slice(0, 5).join("-")
+```
+
+Стало
+
+```
+            {
+              key: 'isValidLicense',
+              value: function () {
+                var e =
+                    arguments.length > 0 && void 0 !== arguments[0]
+                      ? arguments[0]
+                      : '',
+                  t =
+                    arguments.length > 1 && void 0 !== arguments[1]
+                      ? arguments[1]
+                      : '';
+                if (!e || !t) return !1;
+                var o = s()(''.concat(i.APP.UUID).concat(e)),
+                  r = o.match(/.{1,5}/g),
+                  n = r.slice(0, 5).join('-');
+                return t === n;
+              },
+            },
+
 ```
 
 to

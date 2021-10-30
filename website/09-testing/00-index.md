@@ -30,14 +30,14 @@ permalink: /testing/
 
 ### Test Coverage
 
-Istanbul:  
+**Istanbul:**  
 https://github.com/gotwarlost/istanbul
 
 <br/>
 
 ### Testing for AngularJS
 
-protractor (functional):  
+**protractor (functional):**  
 http://www.protractortest.org/#/
 
 <br/>

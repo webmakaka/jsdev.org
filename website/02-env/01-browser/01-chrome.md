@@ -30,10 +30,11 @@ Developer Tools (Ctrl + Shift + I) > Menu icon (3 vertical dots) > Settings > Pr
 
 - Quick JavaScript Switcher
 - EditThisCookie
-- LanguageTool
 - Nimbus Screenshoot & Screen Video Recorder
 - SponsorBlock for YouTube
 - SetupVPN
+- LanguageTool
+- grammarly
 
 <br/>
 
