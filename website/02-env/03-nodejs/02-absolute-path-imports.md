@@ -42,7 +42,6 @@ $ yarn add -D \
   "exclude": ["node_modules", "**/node_modules/*"],
   "include": ["./src/**/*.js"]
 }
-
 ```
 
 <br/>
@@ -92,7 +91,6 @@ I did not find a good babel plugin for convert from common.js to esmodules.
     ]
   ]
 }
-
 ```
 
 <br/>

@@ -10,7 +10,7 @@ permalink: /env/nodejs/
 
 ### [Node version Management](/env/nodejs/nvm/)
 
-### [Absolute path imports for Node.js projects](/env/nodejs/jest/)
+### [Absolute path imports for Node.js projects](/env/nodejs/absolute-path-imports/)
 
 ### [Jest with absolute path imports for Node.js projects](/env/nodejs/jest/)
 
