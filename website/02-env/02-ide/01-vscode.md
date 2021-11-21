@@ -128,7 +128,7 @@ return true
 
 <br/>
 
-**Visual Studio Themes:**
+**Visual Studio:**
 
 CTRL + P
 

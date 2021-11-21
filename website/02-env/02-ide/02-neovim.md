@@ -10,6 +10,19 @@ permalink: /env/ide/neovim/
 
 <br/>
 
+**CheckIt:**
+
+**coc is not needed anymore**
+
+**How to set up Neovim 0.5 + Modern plugins (LSP, Treesitter, Fuzzy finder, etc)**  
+https://blog.inkdrop.app/how-to-set-up-neovim-0-5-modern-plugins-lsp-treesitter-etc-542c3d9c9887
+
+https://www.youtube.com/watch?v=FW2X1CXrU1w
+
+https://github.com/craftzdog/dotfiles-public
+
+<br/>
+
 **Official website:**  
 https://neovim.io/
 
@@ -66,32 +79,39 @@ https://golang.org/doc/install
 
 <br/>
 
-    $ sudo chmod +x /etc/profile.d/golang.sh
-
-    $ source /etc/profile.d/golang.sh
+```
+$ sudo chmod +x /etc/profile.d/golang.sh
+$ source /etc/profile.d/golang.sh
+```
 
 <br/>
 
-    $ go version
-    go version go1.17.2 linux/amd64
+```
+$ go version
+go version go1.17.2 linux/amd64
+```
 
 <br/>
 
 ### Step 1. Setup
 
-    $ mkdir ~/apps && cd ~/apps
-    $ curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+```
+$ mkdir ~/apps && cd ~/apps
+$ curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 
-    $ sudo mkdir /opt/nvim
+$ sudo mkdir /opt/nvim
 
-    $ mv nvim.appimage nvim
-    $ chmod u+x nvim
+$ mv nvim.appimage nvim
+$ chmod u+x nvim
 
-    $ sudo mv nvim /opt/nvim
+$ sudo mv nvim /opt/nvim
+```
 
 <br/>
 
-    $ sudo vi /etc/profile.d/nvim.sh
+```
+$ sudo vi /etc/profile.d/nvim.sh
+```
 
 <br/>
 
@@ -110,13 +130,17 @@ export EDITOR='nvim'
 
 <br/>
 
-    $ sudo chmod +x /etc/profile.d/nvim.sh
-    $ source /etc/profile.d/nvim.sh
+```
+$ sudo chmod +x /etc/profile.d/nvim.sh
+$ source /etc/profile.d/nvim.sh
+```
 
 <br/>
 
-    // I also decided to add aliases in the bottom of file
-    $ sudo vi /etc/bash.bashrc
+```
+// I also decided to add aliases in the bottom of file
+$ sudo vi /etc/bash.bashrc
+```
 
 ```
 alias vi='nvim'
@@ -125,8 +149,10 @@ alias vim='nvim'
 
 <br/>
 
-    $ vi --version
-    NVIM v0.5.1
+```
+$ vi --version
+NVIM v0.5.1
+```
 
 <br/>
 
@@ -138,10 +164,12 @@ https://github.com/ryanoasis/vim-devicons
 
 <br/>
 
-    $ cd ~/tmp
-    $ git clone --depth 1 https://github.com/ryanoasis/nerd-fonts
-    $ cd nerd-fonts
-    $ ./install.sh
+```
+$ cd ~/tmp
+$ git clone --depth 1 https://github.com/ryanoasis/nerd-fonts
+$ cd nerd-fonts
+$ ./install.sh
+```
 
 <br/>
 
@@ -151,14 +179,18 @@ https://github.com/junegunn/vim-plug
 
 <br/>
 
-    $ mkdir -p ~/.config/nvim/ && cd ~/.config/nvim/
-    $ mkdir autoload && cd autoload
-    $ curl https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -o plug.vim
+```
+$ mkdir -p ~/.config/nvim/ && cd ~/.config/nvim/
+$ mkdir autoload && cd autoload
+$ curl https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -o plug.vim
+```
 
 <br/>
 
-    $ mkdir -p ~/.config/nvim/plugged
-    $ vi ~/.config/nvim/init.vim
+```
+$ mkdir -p ~/.config/nvim/plugged
+$ vi ~/.config/nvim/init.vim
+```
 
 <!--
 
@@ -192,11 +224,17 @@ set expandtab
 
 call plug#begin('~/.config/nvim/plugged')
 
+" Stable version of coc
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Keeping up to date with master
+Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+
+
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ryanoasis/vim-devicons'
 
@@ -424,6 +462,11 @@ vim-hexokinase needs updating. Run `make hexokinase` in project root. See `:h he
     $ pip3 install --upgrade neovim
 
     $ npm install -g neovim
+
+<br/>
+
+// coc-extensions
+https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
 
 <br/>
 
