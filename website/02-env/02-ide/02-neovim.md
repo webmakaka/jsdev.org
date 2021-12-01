@@ -10,19 +10,6 @@ permalink: /env/ide/neovim/
 
 <br/>
 
-**CheckIt:**
-
-**coc is not needed anymore**
-
-**How to set up Neovim 0.5 + Modern plugins (LSP, Treesitter, Fuzzy finder, etc)**  
-https://blog.inkdrop.app/how-to-set-up-neovim-0-5-modern-plugins-lsp-treesitter-etc-542c3d9c9887
-
-https://www.youtube.com/watch?v=FW2X1CXrU1w
-
-https://github.com/craftzdog/dotfiles-public
-
-<br/>
-
 **Official website:**  
 https://neovim.io/
 
@@ -142,6 +129,8 @@ $ source /etc/profile.d/nvim.sh
 $ sudo vi /etc/bash.bashrc
 ```
 
+<br/>
+
 ```
 alias vi='nvim'
 alias vim='nvim'
@@ -209,8 +198,11 @@ command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport
 <br/>
 
 ```js
+set encoding=utf-8
+set noswapfile
 set number
 set scrolloff=8
+set colorcolumn=79
 set list
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
 set wildignore+=*/tmp/*,*/dist/*,*/node_modules/*,*.so,*.swp,*.zip,package-lock.json
@@ -503,6 +495,19 @@ https://gist.github.com/benawad/e187dd887f256a6a002905ec7f22ad76
 
 <br/>
 
+### Additional Materials
+
+**[Snowfoundry Media] Command Line: Neovim Installation and Configuration [ENG, 2020]**  
+https://www.youtube.com/watch?v=ZEFXeRIFvN0
+
+<br/>
+
+### [Monsterlessons Academy] My Editor Setup for Web Development 2021 - Vim + Tmux
+
+https://www.youtube.com/watch?v=YrLiugDhCuk
+
+<br/>
+
 ### [Oleksandr Kocherhin] Neovim configs
 
 <br/>
@@ -529,12 +534,14 @@ https://gist.github.com/benawad/e187dd887f256a6a002905ec7f22ad76
 
 <br/>
 
-**Frontend Masters repo from course about vim**  
-https://theprimeagen.github.io/vim-fundamentals/
+**How to set up Neovim 0.5 + Modern plugins (LSP, Treesitter, Fuzzy finder, etc)**  
+https://blog.inkdrop.app/how-to-set-up-neovim-0-5-modern-plugins-lsp-treesitter-etc-542c3d9c9887
+
+https://www.youtube.com/watch?v=FW2X1CXrU1w
+
+https://github.com/craftzdog/dotfiles-public
 
 <br/>
 
-### Additional Materials
-
-**[Snowfoundry Media] Command Line: Neovim Installation and Configuration [ENG, 2020]**  
-https://www.youtube.com/watch?v=ZEFXeRIFvN0
+**Frontend Masters repo from course about vim**  
+https://theprimeagen.github.io/vim-fundamentals/
