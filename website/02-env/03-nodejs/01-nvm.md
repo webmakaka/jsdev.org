@@ -26,7 +26,7 @@ open new terminal window || logout / login
     // $ volta install node@12
 
     $ node --version
-    v16.13.0
+    v16.13.1
 
 <br/>
 

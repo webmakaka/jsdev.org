@@ -169,9 +169,8 @@ https://github.com/junegunn/vim-plug
 <br/>
 
 ```
-$ mkdir -p ~/.config/nvim/ && cd ~/.config/nvim/
-$ mkdir autoload && cd autoload
-$ curl https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -o plug.vim
+$ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 <br/>
@@ -341,6 +340,8 @@ inoremap <F3> <C-O>:set invnumber<CR>
 
 nmap <silent> gd <Plug>(coc-definition)
 
+inoremap jk <esc>
+
 " Use `:ORGANIZE` for organize import of current buffer
 command! -nargs=0 ORGANIZE :call CocAction('runCommand', 'tsserver.organizeImports')
 
@@ -353,7 +354,6 @@ command! -nargs=0 Format :call CocAction('format')
 " Pre Save
 autocmd BufWritePre *.js :ORGANIZE
 autocmd BufWritePre *.ts :ORGANIZE
-
 ```
 
 <br/>
