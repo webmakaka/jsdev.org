@@ -30,6 +30,8 @@ $ {
 
 ### [DataBases](/env/docker/db/)
 
+### [Awesome Compose](https://github.com/docker/awesome-compose)
+
 <br/>
 
 ### Complete intro to containers

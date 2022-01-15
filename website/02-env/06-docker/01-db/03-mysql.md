@@ -28,7 +28,7 @@ services:
       - ./mysql:/etc/mysql/conf.d
     environment:
       MYSQL_DATABASE: databasename
-      MYSQL_ROOT_PASSWORD: p@55w0rd1
+      MYSQL_ROOT_PASSWORD: pA55w0rd123
 ```
 
 <br/>
@@ -53,7 +53,7 @@ $ sudo apt install -y mysql-client
 <br/>
 
 ```
-$ mysql --user=root --password=p@55w0rd1 -h 127.0.0.1 databasename
+$ mysql --user=root --password=pA55w0rd123 -h 127.0.0.1 databasename
 ```
 
 <br/>

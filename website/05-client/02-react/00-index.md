@@ -40,6 +40,16 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 <br/>
 
+### Print state in the browser
+
+```
+<div className="mt-3">
+    <pre>{JSON.stringify(this.state, null, 3)}</pre>
+</div>
+```
+
+<br/>
+
 ### [React validation example](https://codesandbox.io/s/reactjs-form-validation-v30cl?file=/src/ValidationInReact.js:3656-3662)
 
 <br/>
