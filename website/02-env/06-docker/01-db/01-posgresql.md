@@ -11,6 +11,12 @@ permalink: /env/docker/db/postgresql/
 <br/>
 
 ```
+$ sudo apt install -y postgresql-client-common postgresql-client
+```
+
+<br/>
+
+```
 $ sudo vi /etc/hosts
 ```
 
@@ -74,8 +80,11 @@ https://github.com/webmakaka/Uber-Eats-Clone
 ```
 $ cd data/
 
-// pass pA55w0rd123
-$ psql -U user1 -h localhost -p 5432 -d go_movies < go_movies.sql
+// Connect
+$ PGPASSWORD=pA55w0rd123 psql -U user1 -h postgres -p 5432 -d postgres-db
+
+// Import data from sql
+// $ PGPASSWORD=pA55w0rd123 psql -U user1 -h postgres -p 5432 -d postgres-db < go_movies.sql
 ```
 
 <br/>
