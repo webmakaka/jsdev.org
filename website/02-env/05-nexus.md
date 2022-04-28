@@ -33,6 +33,8 @@ $ npm login --registry=https://192.168.1.9:8080/repository/npm-internal/
 <br/>
 
 ```
+// When
+// Unable to authenticate, need: BASIC realm="Sonatype Nexus Repository Manager"
 $ npm config set strict-ssl false
 ```
 
@@ -61,7 +63,7 @@ $ vi ~/.npmrc
 strict-ssl=false
 email=marley@example.com
 always-auth=true
-_auth=YWRtaW46YWRtaW4xMjM=
+_auth=YWRtaW46U29sbzROZXh0IQ==
 ```
 
 <br/>

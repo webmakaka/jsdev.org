@@ -32,9 +32,9 @@ $ sudo vi /etc/hosts
 
 ```
 DATABASE_HOST=postgres
-DATABASE_NAME=postgres-db
+DATABASE_NAME=postgresdb
 DATABASE_PORT=5432
-DATABASE_USER=user1
+DATABASE_USER=admin1
 DATABASE_PASSWORD=pA55w0rd123
 ```
 
@@ -81,22 +81,22 @@ https://github.com/webmakaka/Uber-Eats-Clone
 $ cd data/
 
 // Connect
-$ PGPASSWORD=pA55w0rd123 psql -U user1 -h postgres -p 5432 -d postgres-db
+$ PGPASSWORD=pA55w0rd123 psql -U admin1 -h postgres -p 5432 -d postgresdb
 
 // Import data from sql
-// $ PGPASSWORD=pA55w0rd123 psql -U user1 -h postgres -p 5432 -d postgres-db < go_movies.sql
+// $ PGPASSWORD=pA55w0rd123 psql -U admin1 -h postgres -p 5432 -d postgresdb < go_movies.sql
 ```
 
 <br/>
 
 ```
-$ PGPASSWORD=pA55w0rd123 psql --host=localhost --username=user1 --port=5432 --dbname=go_movies -c 'select id, title, description, year, release_date, rating, runtime, mpaa_rating, created_at, updated_at from movies where id = 1'
+$ PGPASSWORD=pA55w0rd123 psql --host=localhost --username=admin1 --port=5432 --dbname=go_movies -c 'select id, title, description, year, release_date, rating, runtime, mpaa_rating, created_at, updated_at from movies where id = 1'
 ```
 
 <br/>
 
 ```
-$ PGPASSWORD=pA55w0rd123 psql --host=localhost --username=user1 --port=5432 --dbname=go_movies -c "INSERT INTO movies_genres (movie_id, genre_id, created_at, updated_at) VALUES (1, 1, '2021-05-19', '2021-05-19');"
+$ PGPASSWORD=pA55w0rd123 psql --host=localhost --username=admin1 --port=5432 --dbname=go_movies -c "INSERT INTO movies_genres (movie_id, genre_id, created_at, updated_at) VALUES (1, 1, '2021-05-19', '2021-05-19');"
 ```
 
 <br/>
