@@ -22,7 +22,7 @@ https://github.com/mike-north/professional-ts-my-lib
 <br/>
 
 ```
-$ npm install --save-dev \
+$ yarn add --dev \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \
     eslint
@@ -39,7 +39,9 @@ $ npm install --save-dev \
 
 **.eslintrc.json**
 
-    $ vi .eslintrc.json
+```
+$ vi .eslintrc.json
+```
 
 <br/>
 
@@ -79,6 +81,10 @@ no-unused-vars, no-unused-params - are specified in tsconfig already
 
 **tsconfig.eslint.json**
 
+```
+$ vi tsconfig.eslint.json
+```
+
 <br/>
 
 ```json
@@ -94,6 +100,10 @@ no-unused-vars, no-unused-params - are specified in tsconfig already
 <br/>
 
 **.eslintignore**
+
+```
+$ vi .eslintignore
+```
 
 <br/>
 

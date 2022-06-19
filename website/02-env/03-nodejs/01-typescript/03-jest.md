@@ -12,7 +12,7 @@ permalink: /env/nodejs/typescript/jest/
 
 <br/>
 
-**Configuring Jest**
+**Configuring Jest**  
 https://jestjs.io/docs/configuration
 
 <br/>

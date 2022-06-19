@@ -26,7 +26,7 @@ permalink: /env/nodejs/nvm/
     // $ volta install node@12
 
     $ node --version
-    v16.13.2
+    v16.15.1
 
 <br/>
 

@@ -8,6 +8,14 @@ permalink: /env/nodejs/typescript/nodemon/
 
 # Nodemon
 
+<br/>
+
+```
+$ yarn add --dev nodemon
+```
+
+<br/>
+
 **nodemon.json**
 
 <br/>
@@ -16,7 +24,7 @@ permalink: /env/nodejs/typescript/nodemon/
 {
   "ignore": ["node_modules"],
   "watch": ["./src/**/*.ts"],
-  "exec": "npm start",
+  "exec": "npm run start",
   "ext": "ts"
 }
 ```
@@ -26,13 +34,16 @@ permalink: /env/nodejs/typescript/nodemon/
 **package.json**
 
 ```json
-{
-  "build": "NODE_PATH=./src tsc",
-  "start": "NODE_PATH=./src ts-node src/server.ts",
-  "dev": "NODE_PATH=./src nodemon"
-}
+"scripts": {
+    "start": "NODE_PATH=./src ts-node src/index.ts",
+    "build": "NODE_PATH=./src tsc",
+    "start:prod": "npm run build && NODE_PATH=./src node build/index.js",
+    "start:dev": "NODE_PATH=./src nodemon"
+  }
 ```
 
 <br/>
 
-    $ npm run dev
+```
+$ npm run dev
+```

@@ -10,9 +10,17 @@ permalink: /env/nodejs/typescript/
 
 <br/>
 
-    $ mkdir -p ~/projects/dev/ts/my-new-ts-project && cd ~/projects/dev/ts/my-new-ts-project
-    $ npm init -y
-    $ npm install --save-dev typescript ts-node
+```
+$ mkdir -p ~/projects/dev/ts/my-new-ts-project && cd ~/projects/dev/ts/my-new-ts-project
+```
+
+<br/>
+
+```
+$ npm init -y
+$ yarn add --dev typescript ts-node
+$ yarn add --dev @types/node
+```
 
 <br/>
 
@@ -54,7 +62,8 @@ permalink: /env/nodejs/typescript/
     "emitDecoratorMetadata": true,
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
   },
   "exclude": ["node_modules"],
   "include": ["./src/**/*.ts", "./test/**/*.ts"]
@@ -97,12 +106,7 @@ https://www.typescriptlang.org/docs/handbook/compiler-options.html
 
 <a href="/env/nodejs/typescript/eslint/">Eslint</a>
 <a href="/env/nodejs/typescript/jest/">Jest for TypeScript</a>
-
-<br/>
-
-### Webpack & TypeScript Setup
-
-https://www.youtube.com/watch?v=sOUhEJeJ-kI
+<a href="/env/nodejs/typescript/webpack/">WebPack for TypeScript</a>
 
 <br/>
 

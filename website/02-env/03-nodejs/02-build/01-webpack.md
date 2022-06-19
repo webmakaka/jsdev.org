@@ -14,11 +14,15 @@ https://webpack.js.org/api/node/
 
 <br/>
 
-    $ yarn add -D webpack webpack-cli
+```
+$ yarn add --dev webpack webpack-cli
+```
 
 <br/>
 
-    $ yarn add -D babel-core babel-loader babel-preset-env
+```
+$ yarn add --dev babel-core @babel/core babel-loader babel-preset-env @babel/preset-env
+```
 
 <br/>
 
@@ -41,7 +45,9 @@ https://stackoverflow.com/questions/59407534/can-i-use-as-es-modules-for-webpack
 
 <br/>
 
-    $ yarn webpack
+```
+$ yarn webpack
+```
 
 <br/>
 <br/>
@@ -49,8 +55,9 @@ https://stackoverflow.com/questions/59407534/can-i-use-as-es-modules-for-webpack
 <br/>
 <br/>
 
-babel-plugin-module-resolver
-@babel/plugin-transform-runtime
+```
+$ yarn add --dev babel-plugin-module-resolver @babel/plugin-transform-runtime
+```
 
 <br/>
 <br/>
@@ -58,15 +65,22 @@ babel-plugin-module-resolver
 <br/>
 <br/>
 
-    $ npm install webpack-node-externals --save-dev
+```
+$ yarn add --dev webpack-node-externals
+```
 
 <br/>
 
-    $ vi webpack.config.js
+```
+$ vi webpack.config.js
+```
+
+<br/>
 
 ```js
 import path from 'path';
 import nodeExternals from 'webpack-node-externals';
+
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 export default {
