@@ -1,14 +1,21 @@
 ---
 layout: page
-title: WebPack for TypeScript
-description: WebPack for TypeScript
-keywords: env, WebPack for TypeScript
+title: WebPack for TypeScript - make bundle without babel
+description: WebPack for TypeScript - make bundle without babel
+keywords: env, WebPack for TypeScript - make bundle without babel
 permalink: /env/nodejs/typescript/webpack/
 ---
 
 <br/>
 
-# WebPack for TypeScript
+# WebPack for TypeScript - make bundle without babel
+
+<br/>
+
+```
+$ yarn add --dev \
+    webpack-cli
+```
 
 <br/>
 
@@ -63,16 +70,13 @@ export default {
     }),
   ],
 };
-
 ```
-
 
 <br/>
 
 https://github.com/webmak1/rss-nodejs-2022-task3-crud-api
 
 <br/>
-
 
 ### Example 2
 
