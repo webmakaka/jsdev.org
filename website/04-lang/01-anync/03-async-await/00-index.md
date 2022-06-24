@@ -44,6 +44,42 @@ const go = async (animal) => {
   }
 };
 
+const result = async () => {
+  const res = await go('dog');
+  console.log(res);
+};
+
+result();
+```
+
+<br/>
+
+**Alternative**
+
+<br/>
+
+```js
+const sureThing = (promise) =>
+  promise
+    .then((result) => ({ ok: true, result }))
+    .catch((error) => Promise.resolve({ ok: false, error: error.message }));
+
+const maybeCow = (animal) =>
+  new Promise((success, failure) =>
+    animal === 'cat'
+      ? success('it is a cat')
+      : failure(new Error(`it's not a cat, it is a ${animal}`))
+  );
+
+const go = async (animal) => {
+  const { ok, error, result } = await sureThing(maybeCow(animal));
+  if (ok) {
+    return { ok, result };
+  } else {
+    return { ok, error };
+  }
+};
+
 const result = go('dog');
 
 const res = await result;
