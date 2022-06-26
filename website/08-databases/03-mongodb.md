@@ -23,7 +23,7 @@ permalink: /databases/mongodb/
 
 <br/>
 
-### Connect Example
+### MongoDB Connect Example
 
 ```js
 const express = require('express');

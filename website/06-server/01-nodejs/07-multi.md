@@ -2,7 +2,7 @@
 layout: page
 title: Node.JS MultiThreading
 description: Node.JS MultiThreading
-keywords: server, nodejs, Node.JS MultiThreading
+keywords: server, nodejs, multithreading
 permalink: /server/nodejs/multithreading/
 ---
 

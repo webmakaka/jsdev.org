@@ -241,3 +241,36 @@ fetchUsers();
 https://www.youtube.com/watch?v=LrGvvvmRkCE
 
 https://www.youtube.com/watch?v=IGoAdn-e5II
+
+<br/>
+
+### Another one sample with UUID check
+
+<br/>
+
+```js
+const isUUID = (id: any) => {
+  // UUID
+  const regexExp =
+    /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi;
+
+  return new Promise((resolve, _reject) => {
+    const res = regexExp.test(id);
+    resolve(res);
+  });
+};
+```
+
+<br/>
+
+```js
+const uuidCorrect = await Utils.isUUID(id);
+
+if (!uuidCorrect) {
+  throw new Error('[Error] Invalid UUID');
+}
+```
+
+<br/>
+
+https://github.com/webmak1/rss-nodejs-2022-task3-crud-api

@@ -2,8 +2,8 @@
 layout: page
 title: Node.JS Read Write Steams and Pipes
 description: Node.JS Read Write Steams and Pipes
-keywords: Node.JS Read Write Steams and Pipes
-permalink: /server/nodejs/read-write-stream/
+keywords: server, nodejs, streams, Read Write Steams and Pipes
+permalink: /server/nodejs/streams/
 ---
 
 # Node.JS Read Write Steams and Pipes
