@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Nodemon
-description: Nodemon
-keywords: env, nodejs, nodemon
+title: Typescript and Nodemon
+description: Typescript and Nodemon
+keywords: env, nodejs, typescript, nodemon
 permalink: /env/nodejs/typescript/nodemon/
 ---
 
-# Nodemon
+# Typescript and Nodemon
 
 <br/>
 

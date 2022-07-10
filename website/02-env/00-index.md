@@ -35,8 +35,14 @@ I'm working in ubuntu linux 20.04 LTS
 - <a href="/env/nodejs/typescript/">Node.js + TypeScript</a>
 - <a href="/env/nodejs/typescript/eslint/">Node.js + TypeScript + Eslint</a>
 - <a href="/env/react/">React</a>
-- <a href="/env/husky/">Husky (Test)</a>
+- <a href="/env/pre-commit/">Pre Commit</a>
 - <a href="/env/docker/db/">Docker DataBases</a>
+
+<br/>
+
+**Prepared projects:**
+
+- <a href="https://github.com/alexey-goloburdin/frontend-project-example">frontend-project-example</a>
 
 <br/>
 

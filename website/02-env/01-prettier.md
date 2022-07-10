@@ -15,6 +15,8 @@ $ yarn add -D eslint
 $ yarn add -D prettier eslint-config-prettier eslint-plugin-prettier
 ```
 
+<br/>
+
 **.prettierrc**
 
 ```js

@@ -12,7 +12,9 @@ permalink: /env/docker/db/mongodb/
 
 <br/>
 
-    $ vi docker-compose.yml
+```
+$ vi docker-compose.yml
+```
 
 <br/>
 
@@ -42,6 +44,14 @@ https://github.com/webmakaka/NestJS-Fundamentals-Course/blob/main/app/api-mongod
 <br/>
 
 ### Another version with authentication
+
+<br/>
+
+```
+$ vi docker-compose.yml
+```
+
+<br/>
 
 ```yaml
 version: '3'
@@ -76,7 +86,9 @@ MONGO_PORT=27017
 
 <br/>
 
-    $ docker-compose up mongodb
+```
+$ docker-compose up mongodb
+```
 
 <br/>
 
@@ -102,11 +114,15 @@ MONGO_PORT=27017
 
 ### Connect MongoDB from Ubuntu
 
-    $ sudo apt install mongodb-clients
+```
+$ sudo apt install mongodb-clients
+```
 
 <br/>
 
-    $ mongo "mongodb://localhost:27017/mongo-database"
+```
+$ mongo "mongodb://localhost:27017/mongo-database"
+```
 
 <br/>
 

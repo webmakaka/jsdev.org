@@ -39,29 +39,36 @@ https://golang.org/doc/install
 
 <br/>
 
-    $ cd ~/tmp/
-    $ wget --no-check-certificate https://golang.org/dl/go1.17.2.linux-amd64.tar.gz
-
-<br/>
-
-    $ tar -xvzpf go1.17.2.linux-amd64.tar.gz
-    $ sudo mkdir -p /opt/go.1.17
-    $ sudo mv go/* /opt/go.1.17/
-    $ sudo ln -s /opt/go.1.17/ /opt/go
-
-<br/>
-
-    $ sudo vi /etc/profile.d/golang.sh
+```
+$ mkdir ~/tmp
+$ cd ~/tmp/
+$ wget --no-check-certificate https://golang.org/dl/go1.18.3.linux-amd64.tar.gz
+```
 
 <br/>
 
 ```
-#### GO 1.17 ########################
+$ tar -xvzpf go1.18.3.linux-amd64.tar.gz
+$ sudo mkdir -p /opt/go.1.18
+$ sudo mv go/* /opt/go.1.18/
+$ sudo ln -s /opt/go.1.18/ /opt/go
+```
 
-    export GO_HOME=/opt/go
-    export PATH=${GO_HOME}/bin:$PATH
+<br/>
 
-#### GO 1.17 ########################
+```
+$ sudo vi /etc/profile.d/golang.sh
+```
+
+<br/>
+
+```
+#### GO 1.18 ########################
+
+export GO_HOME=/opt/go
+export PATH=${GO_HOME}/bin:$PATH
+
+#### GO 1.18 ########################
 ```
 
 <br/>
@@ -75,7 +82,7 @@ $ source /etc/profile.d/golang.sh
 
 ```
 $ go version
-go version go1.17.2 linux/amd64
+go version go1.18.3 linux/amd64
 ```
 
 <br/>
@@ -140,7 +147,7 @@ alias vim='nvim'
 
 ```
 $ vi --version
-NVIM v0.5.1
+NVIM v0.7.2
 ```
 
 <br/>
@@ -459,6 +466,18 @@ vim-hexokinase needs updating. Run `make hexokinase` in project root. See `:h he
 
 // coc-extensions
 https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
+
+<br/>
+
+**On message in vim console:**
+
+Error on execute :pyx command, ultisnips feature of coc-snippe ts requires pyx support on vim
+
+<br/>
+
+```
+$ pip install pynvim
+```
 
 <br/>
 

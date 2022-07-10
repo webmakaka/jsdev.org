@@ -35,8 +35,6 @@ $ yarn add --dev \
 
 <br/>
 
-<br/>
-
 **.eslintrc.json**
 
 ```
@@ -110,6 +108,13 @@ $ vi .eslintignore
 ```
 /node_modules/
 /build/
+```
+
+<br/>
+
+```
+// Check
+$ npx eslint src/
 ```
 
 <br/>

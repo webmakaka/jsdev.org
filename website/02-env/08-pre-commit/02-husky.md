@@ -3,7 +3,7 @@ layout: page
 title: Run checks before commit (lint-staged husky)
 description: Run checks before commit (lint-staged husky)
 keywords: husky
-permalink: /env/husky/
+permalink: /env/pre-commit/husky/
 ---
 
 <br/>

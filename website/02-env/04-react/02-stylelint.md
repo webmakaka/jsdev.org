@@ -8,10 +8,14 @@ permalink: /env/react/stylelint/
 
 # Stylelint
 
+**UPD:**
+
+https://github.com/alexey-goloburdin/frontend-project-example/blob/main/.stylelintrc.json
+
 <br/>
 
 ```
-$ yarn add -D stylelint stylelint-config-standard stylelint-order stylelint-order-config-standard
+$ yarn add --dev stylelint stylelint-config-standard stylelint-order stylelint-order-config-standard stylelint-config-prettier
 ```
 
 <br/>
@@ -22,12 +26,32 @@ $ yarn add -D stylelint stylelint-config-standard stylelint-order stylelint-orde
 
 ```json
 {
-  "extends": ["stylelint-config-standard", "stylelint-order-config-standard"],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-prettier",
+    "stylelint-order-config-standard"
+  ],
   "plugins": ["stylelint-order"],
   "rules": {
     "color-hex-case": "upper"
   }
 }
+```
+
+<br/>
+
+```
+$ vi .stylelintignore
+```
+
+<br/>
+
+```
+node_modules
+bin
+*.*
+!*.css
+!*.scss
 ```
 
 <br/>
@@ -40,4 +64,11 @@ $ yarn add -D stylelint stylelint-config-standard stylelint-order stylelint-orde
 ***
 "stylelint": "stylelint \"**/*.css\" --fix",
 ***
+```
+
+<br/>
+
+```
+// Check
+$ npm stylelint src
 ```

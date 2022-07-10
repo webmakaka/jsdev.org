@@ -104,6 +104,7 @@ https://www.typescriptlang.org/docs/handbook/compiler-options.html
 
 <br/>
 
+<a href="/env/nodejs/typescript/nodemon/">Nodemon</a>
 <a href="/env/nodejs/typescript/eslint/">Eslint</a>
 <a href="/env/nodejs/typescript/jest/">Jest for TypeScript</a>
 <a href="/env/nodejs/typescript/webpack/">WebPack for TypeScript</a>

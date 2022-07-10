@@ -76,6 +76,12 @@ https://github.com/nodejs/release
 
 <br/>
 
+### GraphQL
+
+[GraphQL](/server/nodejs/graphql/)
+
+<br/>
+
 ### Some commands:
 
     $ npm init -f
