@@ -28,7 +28,11 @@ $ sudo vi /etc/hosts
 
 <br/>
 
-**.env**
+```
+$ vi .env
+```
+
+<br/>
 
 ```
 DATABASE_HOST=postgres
