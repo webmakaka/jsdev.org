@@ -116,7 +116,7 @@ github actions | gitlab-ci | tekton | jenkins | travis-ci | bamboo ci | circleci
 
 ## Email Services
 
-[MailGun | SendGrid (commercial) | mailtrap.io | ethereal.email | postmarkapp.com | nodemailer](/server/nodejs/email/)
+[MailGun | ethereal.email | nodemailer](/server/nodejs/email/)
 
 <br/>
 

@@ -31,10 +31,13 @@ Developer Tools (Ctrl + Shift + I) > Menu icon (3 vertical dots) > Settings > Pr
 - Quick JavaScript Switcher
 - EditThisCookie
 - Nimbus Screenshoot & Screen Video Recorder
-- SponsorBlock for YouTube
 - SetupVPN
 - LanguageTool
 - grammarly
+
+- SponsorBlock for YouTube
+- Return YouTube Dislikes
+- I don't care about cookies
 
 <br/>
 
