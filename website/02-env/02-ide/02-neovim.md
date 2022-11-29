@@ -147,7 +147,7 @@ alias vim='nvim'
 
 ```
 $ vi --version
-NVIM v0.7.2
+NVIM v0.8.1
 ```
 
 <br/>
@@ -437,7 +437,35 @@ $ rm -rf ~/.cache/ctrlp/
 
 <br/>
 
-### Some issues on start
+## Some issues on start
+
+<br/>
+
+### E5248: Invalid character in group name
+
+<br/>
+
+(Error with plugin: vim-nerdtree-syntax-highlight)
+
+<br/>
+
+```
+$ vi ~/.config/nvim/plugged/vim-nerdtree-syntax-highlight/after/syntax/nerdtree.vim
+```
+
+replace on
+
+https://raw.githubusercontent.com/johnstef99/vim-nerdtree-syntax-highlight/master/after/syntax/nerdtree.vim
+
+<br/>
+
+### Error on execute :pyx command, ultisnips feature of coc-snippe ts requires pyx support on vim
+
+<br/>
+
+```
+$ pip install pynvim
+```
 
 <br/>
 
@@ -466,18 +494,6 @@ vim-hexokinase needs updating. Run `make hexokinase` in project root. See `:h he
 
 // coc-extensions
 https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
-
-<br/>
-
-**On message in vim console:**
-
-Error on execute :pyx command, ultisnips feature of coc-snippe ts requires pyx support on vim
-
-<br/>
-
-```
-$ pip install pynvim
-```
 
 <br/>
 
