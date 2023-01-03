@@ -79,22 +79,18 @@ minimal
 
 <!--
 
-    $ cd ~/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.19/
-    $ code /js/app.js
+    $ cd ~/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.2.0/
+    $ cp js/main.js js/main.js.orig
+    $ code /js/main.js
 
-    beatify
+https://beautifier.io/ 
+
 
 Find key: "isValidLicense",
 
 Change return statement
 
-Было в старых
 
-```
-return !(!e || !t) && t === (0, n.default)("" + a.default.APP.UUID + e).match(/.{1,5}/g).slice(0, 5).join("-")
-```
-
-Стало
 
 ```
             {
@@ -115,7 +111,6 @@ return !(!e || !t) && t === (0, n.default)("" + a.default.APP.UUID + e).match(/.
                 return t === n;
               },
             },
-
 ```
 
 to
@@ -130,9 +125,9 @@ return true
 
 **Visual Studio:**
 
-CTRL + P
+CTRL + SHIFT + P
 
-> Preferences: Open Settings (JSON)
+> Preferences: Open User Settings (JSON)
 
 ```js
 {
