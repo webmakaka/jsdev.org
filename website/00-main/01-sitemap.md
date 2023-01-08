@@ -18,7 +18,7 @@ permalink: /sitemap/
 
 ## HTML CSS Fonts etc...:
 
-<a href="/html/">HTML CSS Fonts etc...</a>
+<a href="/client/html/">HTML CSS Fonts etc...</a>
 
 <a href="http://getbem.com/" rel="nofollow">BEM (CSS)</a>
 

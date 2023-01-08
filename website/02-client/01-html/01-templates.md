@@ -3,7 +3,7 @@ layout: page
 title: HTML Templates
 description: HTML Templates
 keywords: HTML Templates, css, js
-permalink: /html/templates/
+permalink: /client/html/templates/
 ---
 
 <br/>
