@@ -165,3 +165,25 @@ import Person from './file1.js';
 console.log(name, nums);
 console.log(Person);
 ```
+
+<br/>
+
+### Remove single element from Array
+
+```js
+function findMissing(arr1, arr2) {
+  let arr = arr1;
+
+  for (let i = 0; i < arr2.length; i++) {
+    let index = arr.indexOf(arr2[i]);
+
+    if (index > -1) {
+      arr.splice(index, 1);
+    }
+  }
+
+  return arr[0];
+}
+```
+
+https://www.codewars.com/kata/5a5915b8d39ec5aa18000030/solutions/javascript

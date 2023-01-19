@@ -8,6 +8,12 @@ permalink: /lang/arrays/1/
 
 # Arrays
 
+<br/>
+
+![development-process](/img/basics/arrays.jpg 'javascript arrays'){: .center-image }
+
+<br/>
+
 Array.pop - not pure. Do not recommend to use.  
 Array.splice - not pure. Do not recommend to use.
 
