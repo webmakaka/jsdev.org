@@ -58,3 +58,9 @@ https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapil
 
 3. Enable the Force Dark Mode for Web Contents and relaunch Chrome.
 ```
+
+<br/>
+
+### Agular
+
+Angular DevTools (by Angular)

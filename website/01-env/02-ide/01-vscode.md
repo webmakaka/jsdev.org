@@ -83,7 +83,7 @@ minimal
     $ cp js/main.js js/main.js.orig
     $ code /js/main.js
 
-https://beautifier.io/ 
+https://beautifier.io/
 
 
 Find key: "isValidLicense",
@@ -158,6 +158,12 @@ CTRL + SHIFT + P
 - TypeScript Importer
 
 -->
+
+<br/>
+
+**Angular:**
+
+- Angular Language Service (From Angular Devs)
 
 <br/>
 

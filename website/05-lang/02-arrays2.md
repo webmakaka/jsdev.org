@@ -187,3 +187,11 @@ function findMissing(arr1, arr2) {
 ```
 
 https://www.codewars.com/kata/5a5915b8d39ec5aa18000030/solutions/javascript
+
+<br/>
+
+### Array to String
+
+```js
+myArray.join(' ');
+```

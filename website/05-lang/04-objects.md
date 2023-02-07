@@ -115,3 +115,45 @@ function colourAssociation(array) {
   return res;
 }
 ```
+
+<br/>
+
+### Real shitty sort objects by key
+
+```js
+function sentence(input) {
+  let arrayOfNums = [];
+
+  for (let k = 0; k < input.length; k++) {
+    for (let [key, value] of Object.entries(input[k])) {
+      arrayOfNums.push(key);
+    }
+  }
+
+  arrayOfNums.sort(function (a, b) {
+    return a - b;
+  });
+
+  let res = '';
+
+  for (let m = 0; m < arrayOfNums.length; m++) {
+    for (const [key, value] of Object.entries(input)) {
+      if (Object.keys(value) == arrayOfNums[m]) {
+        res = res + ' ' + value[arrayOfNums[m]];
+      }
+    }
+  }
+
+  return res.trim();
+}
+```
+
+same
+
+```js
+const sentence = (list) =>
+  list
+    .sort((a, b) => Object.keys(a)[0] - Object.keys(b)[0])
+    .map((item) => Object.values(item)[0])
+    .join(' ');
+```

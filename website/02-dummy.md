@@ -30,6 +30,7 @@ https://www.npmjs.com/package/faker
 
 ### Dummy Image Generator
 
+<a href="https://picsum.photos/" rel="nofollow">picsum</a>
 <a href="http://placecorgi.com/600/600" rel="nofollow">Corgi</a>
 <a href="http://lorempixel.com/400/400" rel="nofollow">Lorem Pixel</a>
 <a href="http://via.placeholder.com/100x100?text=avatar" rel="nofollow">placeholder</a>
