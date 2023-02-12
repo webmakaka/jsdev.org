@@ -14,8 +14,7 @@ permalink: /lang/
 
 ### Arrays
 
-<a href="/lang/arrays/1/">Arrays 1</a>  
-<a href="/lang/arrays/2/">Arrays 2</a>
+<a href="/lang/array/">Array</a>
 
 <br/>
 
