@@ -3,7 +3,7 @@ layout: page
 title: JS application examples
 description: JS application examples
 keywords: JS application examples
-permalink: /codes/
+permalink: /examples/
 ---
 
 # JS application examples
