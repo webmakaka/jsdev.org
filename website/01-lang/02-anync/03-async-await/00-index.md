@@ -273,4 +273,4 @@ if (!uuidCorrect) {
 
 <br/>
 
-https://github.com/webmak1/rss-nodejs-2022-task3-crud-api
+https://github.com/wildmakaka/rss-nodejs-2022-task3-crud-api

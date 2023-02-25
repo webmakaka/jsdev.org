@@ -10,7 +10,7 @@ permalink: /databases/postgresql/orm/sequelize/
 
 <br/>
 
-### [Sequelize App example 1](https://github.com/webmak1/Rolling-Scopes-School-Nodejs-Course-Task-3-broken-app)
+### [Sequelize App example 1](https://github.com/wildmakaka/Rolling-Scopes-School-Nodejs-Course-Task-3-broken-app)
 
 <br/>
 

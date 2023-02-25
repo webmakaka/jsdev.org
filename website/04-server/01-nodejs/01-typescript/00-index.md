@@ -8,7 +8,7 @@ permalink: /server/nodejs/typescript/
 
 # Node.JS TypeScript
 
-### [Application example](https://github.com/webmak1/Rolling-Scopes-School-Nodejs-Course-Task-4-Typescript-basics)
+### [Application example](https://github.com/wildmakaka/Rolling-Scopes-School-Nodejs-Course-Task-4-Typescript-basics)
 
 <br/>
 

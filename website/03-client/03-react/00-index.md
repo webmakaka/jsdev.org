@@ -54,7 +54,7 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 <br/>
 
-### [React + TypeScript working with API example](https://github.com/webmak1/react-2021-q3-api)
+### [React + TypeScript working with API example](https://github.com/wildmakaka/react-2021-q3-api)
 
 <br/>
 

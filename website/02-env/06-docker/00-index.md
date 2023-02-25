@@ -24,7 +24,7 @@ $ {
 
 <br/>
 
-### [Environment example for development JS Apps Inside Docker](https://github.com/webmak1/Rolling-Scopes-School-Nodejs-Course-Task-6-Docker-basics)
+### [Environment example for development JS Apps Inside Docker](https://github.com/wildmakaka/Rolling-Scopes-School-Nodejs-Course-Task-6-Docker-basics)
 
 ### [React](/env/docker/react/)
 

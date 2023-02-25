@@ -1,13 +1,14 @@
 ---
 layout: page
-title: RegEx
-description: RegEx
-keywords: RegEx
+title: Regular Expressions
+description: Regular Expressions
+keywords: Regular Expressions
 permalink: /regex/
 ---
 
 <br/>
 
-# RegEx
+# Regular Expressions
 
-regex101.com
+- regexr.com
+- regex101.com

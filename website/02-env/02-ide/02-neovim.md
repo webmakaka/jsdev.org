@@ -549,7 +549,7 @@ https://www.youtube.com/watch?v=YrLiugDhCuk
 
     $ cd ~/.config/nvim
     $ rm -rf *
-    $ git clone https://github.com/webmak1/nvim-config .
+    $ git clone https://github.com/wildmakaka/nvim-config .
 
 <br/>
 

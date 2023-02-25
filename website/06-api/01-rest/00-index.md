@@ -66,7 +66,7 @@ http://localhost:3000/entries/
 
 <br/>
 
-### [Application with a good example 1 - JS](https://github.com/webmak1/Rolling-Scopes-School-Nodejs-Course-Task-2-Express-Rest-Service)
+### [Application with a good example 1 - JS](https://github.com/wildmakaka/Rolling-Scopes-School-Nodejs-Course-Task-2-Express-Rest-Service)
 
 <br/>
 

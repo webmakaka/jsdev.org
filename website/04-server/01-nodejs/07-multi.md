@@ -14,9 +14,9 @@ permalink: /server/nodejs/multithreading/
 
 <br/>
 
-https://github.com/webmak1/NodeJS-CRUD-api
+https://github.com/wildmakaka/NodeJS-CRUD-api
 
-https://github.com/webmak1/node-nodejs-simple-crud-api
+https://github.com/wildmakaka/node-nodejs-simple-crud-api
 
 <br/>
 

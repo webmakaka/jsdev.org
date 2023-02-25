@@ -15,7 +15,7 @@ permalink: /databases/mongodb/
 
 <br/>
 
-### [Simple Project with MongoDB](https://github.com/webmak1/Rolling-Scopes-School-Nodejs-Course-Task-4-Database-MongoDB-2020)
+### [Simple Project with MongoDB](https://github.com/wildmakaka/Rolling-Scopes-School-Nodejs-Course-Task-4-Database-MongoDB-2020)
 
 ### [App example with MongoDB](https://github.com/webmakaka/TinyHouse-A-Fullstack-React-Masterclass-with-TypeScript-and-GraphQL)
 

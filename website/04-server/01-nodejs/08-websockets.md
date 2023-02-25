@@ -14,4 +14,4 @@ permalink: /server/nodejs/websockets/
 
 <br/>
 
-https://github.com/webmak1/rss-nodejs-2022-task4-remote-control
+https://github.com/wildmakaka/rss-nodejs-2022-task4-remote-control
