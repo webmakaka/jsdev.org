@@ -16,7 +16,13 @@ I think it is much convenient to work with [downloaded](https://github.com/webma
 
 <br/>
 
-All materials about video courses and books for study javascript we collect <a href="//labs.jsdev.org">here</a>.
+For now i am watching interesting for me video course [Zero to Mastery] Complete Angular Developer in 2023 [ENG, 2022]
+
+<a href="https://complete-angular-developer.jsdev.org/">Here is current deployed app</a>
+
+And here is <a href="https://github.com/webmakaka/Complete-Angular-Developer">Source codes</a>
+
+If you have some question, ask in the chat.
 
 <br/>
 

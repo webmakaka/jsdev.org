@@ -16,22 +16,26 @@ permalink: /env/nodejs/nvm/
 
 <br/>
 
-    $ curl https://get.volta.sh | bash
+```
+$ curl https://get.volta.sh | bash
 
-    $ exec -l $SHELL
+$ exec -l $SHELL
 
-    // Volta will choose the latest LTS
-    $ volta install node yarn npm
+// Volta will choose the latest LTS
+$ volta install node yarn npm
 
-    // $ volta install node@12
+// $ volta install node@12
 
-    $ node --version
-    v16.15.1
+$ node --version
+v18.14.0
+```
 
 <br/>
 
-    // Add current version info inside package.json
-    $ volta pin node yarn npm
+```
+// Add current version info inside package.json
+$ volta pin node yarn npm
+```
 
 <br/>
 
@@ -39,8 +43,8 @@ permalink: /env/nodejs/nvm/
 
 ```
   "volta": {
-    "node": "14.15.1",
-    "npm": "6.14.9"
+    "node": "v18.14.0",
+    "npm": "9.6.0"
   },
 ```
 
