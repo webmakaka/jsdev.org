@@ -32,7 +32,9 @@ https://www.npmjs.com/package/faker
 
 <a href="https://picsum.photos/" rel="nofollow">picsum</a>
 <a href="http://placecorgi.com/600/600" rel="nofollow">Corgi</a>
-<a href="http://lorempixel.com/400/400" rel="nofollow">Lorem Pixel</a>
+
+<!-- <a href="http://lorempixel.com/400/400" rel="nofollow">Lorem Pixel</a> -->
+
 <a href="http://via.placeholder.com/100x100?text=avatar" rel="nofollow">placeholder</a>
 <a href="https://robohash.org" rel="nofollow">robohash</a>
 <a href="https://pixabay.com/" rel="nofollow">Pixabay</a>
