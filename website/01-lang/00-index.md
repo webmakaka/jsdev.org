@@ -12,9 +12,11 @@ permalink: /lang/
 
 <br/>
 
-### Arrays
+### [Arrays](/lang/array/)
 
-<a href="/lang/array/">Array</a>
+<br/>
+
+### [Dates](/lang/array/dates/)
 
 <br/>
 

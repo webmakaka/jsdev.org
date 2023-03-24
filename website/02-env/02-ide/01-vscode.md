@@ -10,7 +10,7 @@ permalink: /env/ide/vscode/
 
 code.visualstudio.com
 
-**Add ESLint & Prettier to VS Code for a Create React App**  
+**Add ESLint & Prettier to VS Code for a Create React App**
 https://www.youtube.com/watch?v=bfyI9yl3qfE
 
 <br/>
@@ -63,6 +63,7 @@ minimal
 - Inline Parameters for VSCode
 - Color Highlight (Sergii Naumov)
 - Highlight Matching Tag
+<!-- - Trailing Spaces (Shardul Mahadik) -->
 
 **Snippets:**
 
@@ -146,6 +147,14 @@ CTRL + SHIFT + P
     "typescript.preferences.importModuleSpecifier": "non-relative",
     "javascript.preferences.importModuleSpecifier": "non-relative"
 }
+```
+
+<br/>
+
+**Also could be added:**
+
+```
+"trailing-spaces.trimOnSave": true
 ```
 
 <!--

@@ -10,12 +10,30 @@ permalink: /client/angular/
 
 <br/>
 
-### Angular (>= 2.x)
+### Angular cli
 
-[Angular](/client/angular/v2/)
+    $ npm init -y
+
+    -- without --save flag otherwise error
+    $ npm install @angular/cli
+    $ ng --version
+
+    $ ng new angular-hello-world
+    $ cd angular-hello-world
+    $ ng serve --host 0.0.0.0 --port 8080
 
 <br/>
 
-### Angular.js (1.x)
+### Making a Component
 
-[Angular](/client/angular/angularjs/)
+    $ ng generate component hello-world
+
+<br/>
+
+## Samples
+
+### [[Zero to Mastery] Complete Angular Developer in 2023 [ENG, 2022]](https://github.com/webmakaka/Complete-Angular-Developer)
+
+### [Simple angular 11 project](https://github.com/webmakaka/Angular-and-NgRx-Building-Real-Project-From-Scratch)
+
+### [[frontendmasters.com] Production-Grade Angular [2021, ENG]](https://github.com/onehungrymind/fem-production-angular)

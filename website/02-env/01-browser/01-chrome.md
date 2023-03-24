@@ -38,6 +38,7 @@ Developer Tools (Ctrl + Shift + I) > Menu icon (3 vertical dots) > Settings > Pr
 - SponsorBlock for YouTube
 - Return YouTube Dislikes
 - I don't care about cookies
+- Hide Youtube Shorts
 
 <br/>
 

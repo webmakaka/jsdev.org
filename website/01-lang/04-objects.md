@@ -148,7 +148,9 @@ function sentence(input) {
 }
 ```
 
-same
+<br/>
+
+### same ???
 
 ```js
 const sentence = (list) =>
@@ -156,4 +158,45 @@ const sentence = (list) =>
     .sort((a, b) => Object.keys(a)[0] - Object.keys(b)[0])
     .map((item) => Object.values(item)[0])
     .join(' ');
+```
+
+<br/>
+
+### Sort object by value
+
+```js
+const Test = require('@codewars/test-compat');
+
+describe('myLanguages', function () {
+  it('Fixed tests', function () {
+    Test.assertDeepEquals(myLanguages({ Java: 10, Ruby: 80, Python: 65 }), [
+      'Ruby',
+      'Python',
+    ]);
+    Test.assertDeepEquals(myLanguages({ Hindi: 60, Greek: 71, Dutch: 93 }), [
+      'Dutch',
+      'Greek',
+      'Hindi',
+    ]);
+    Test.assertDeepEquals(myLanguages({ 'C++': 50, ASM: 10, Haskell: 20 }), []);
+  });
+});
+```
+
+<br/>
+
+```js
+function myLanguages(results) {
+  let sortable = [];
+  for (var vehicle in results) {
+    sortable.push([vehicle, results[vehicle]]);
+  }
+
+  const res = sortable.sort(function (a, b) {
+    //return a[1] - b[1];
+    return b[1] - a[1];
+  });
+
+  return res;
+}
 ```

@@ -26,8 +26,11 @@ $ volta install node yarn npm
 
 // $ volta install node@12
 
-$ node --version
-v18.14.0
+$ node -v
+v18.15.0
+
+$ npm -v
+9.6.2
 ```
 
 <br/>
@@ -46,6 +49,13 @@ $ volta pin node yarn npm
     "node": "v18.14.0",
     "npm": "9.6.0"
   },
+```
+
+<br/>
+
+```
+// Disable asking for money
+$ npm config set fund false --location=global
 ```
 
 <br/>
