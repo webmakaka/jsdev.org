@@ -42,16 +42,16 @@ https://golang.org/doc/install
 ```
 $ mkdir ~/tmp
 $ cd ~/tmp/
-$ wget --no-check-certificate https://golang.org/dl/go1.18.3.linux-amd64.tar.gz
+$ wget --no-check-certificate https://golang.org/dl/go1.20.2.linux-amd64.tar.gz
 ```
 
 <br/>
 
 ```
-$ tar -xvzpf go1.18.3.linux-amd64.tar.gz
-$ sudo mkdir -p /opt/go.1.18
-$ sudo mv go/* /opt/go.1.18/
-$ sudo ln -s /opt/go.1.18/ /opt/go
+$ tar -xvzpf go1.20.2.linux-amd64.tar.gz
+$ sudo mkdir -p /opt/go.20.2
+$ sudo mv go/* /opt/go.20.2/
+$ sudo ln -s /opt/go.20.2/ /opt/go
 ```
 
 <br/>
@@ -63,12 +63,12 @@ $ sudo vi /etc/profile.d/golang.sh
 <br/>
 
 ```
-#### GO 1.18 ########################
+#### GO 20.2 ########################
 
 export GO_HOME=/opt/go
 export PATH=${GO_HOME}/bin:$PATH
 
-#### GO 1.18 ########################
+#### GO 20.2 ########################
 ```
 
 <br/>
@@ -82,7 +82,7 @@ $ source /etc/profile.d/golang.sh
 
 ```
 $ go version
-go version go1.18.3 linux/amd64
+go version go1.20.2 linux/amd64
 ```
 
 <br/>
@@ -147,7 +147,7 @@ alias vim='nvim'
 
 ```
 $ vi --version
-NVIM v0.8.1
+NVIM v0.8.3
 ```
 
 <br/>
@@ -537,35 +537,7 @@ https://www.youtube.com/watch?v=ZEFXeRIFvN0
 
 <br/>
 
-### [Monsterlessons Academy] My Editor Setup for Web Development 2021 - Vim + Tmux
-
-https://www.youtube.com/watch?v=YrLiugDhCuk
-
-<br/>
-
-### [Oleksandr Kocherhin] Neovim configs
-
-<br/>
-
-    $ cd ~/.config/nvim
-    $ rm -rf *
-    $ git clone https://github.com/wildmakaka/nvim-config .
-
-<br/>
-
-    $ mkdir autoload && cd autoload
-    $ curl https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -o plug.vim
-
-<br/>
-
-    $ mkdir -p ~/.config/nvim/plugged
-    $ nvim ~/.config/nvim/init.vim
-
-<br/>
-
-```
-:PlugInstall
-```
+### [[Oleksandr Kocherhin] Neovim configs](/env/ide/neovim/koncherghin/)
 
 <br/>
 

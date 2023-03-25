@@ -12,15 +12,17 @@ permalink: /client/angular/
 
 ### Angular cli
 
-    $ npm init -y
+```
+$ npm init -y
 
-    -- without --save flag otherwise error
-    $ npm install @angular/cli
-    $ ng --version
+-- without --save flag otherwise error
+$ npm install @angular/cli
+$ ng --version
 
-    $ ng new angular-hello-world
-    $ cd angular-hello-world
-    $ ng serve --host 0.0.0.0 --port 8080
+$ ng new angular-hello-world
+$ cd angular-hello-world
+$ ng serve --host 0.0.0.0 --port 8080
+```
 
 <br/>
 
