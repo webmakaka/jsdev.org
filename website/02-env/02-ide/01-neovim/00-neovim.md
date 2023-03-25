@@ -349,8 +349,12 @@ nmap <silent> gd <Plug>(coc-definition)
 
 inoremap jk <esc>
 
+" autocomplete on <ENTER> for Angular
+inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
+
 " Use `:ORGANIZE` for organize import of current buffer
-command! -nargs=0 ORGANIZE :call CocAction('runCommand', 'tsserver.organizeImports')
+" command! -nargs=0 ORGANIZE :call CocAction('runCommand', 'tsserver.organizeImports')
+command! -nargs=0 ORGANIZE :call CocAction('runCommand', 'editor.action.organizeImport')
 
 " Use `:Prettier` command for coc
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
@@ -371,29 +375,6 @@ autocmd BufWritePre *.ts :ORGANIZE
 
 <br/>
 
-**Emmet cheat sheet**  
-https://docs.emmet.io/cheat-sheet/
-
-<br/>
-
-**Commenter settings:**  
-https://vimawesome.com/plugin/the-nerd-commenter
-
-<br/>
-
-**Tailwind:**  
-https://github.com/iamcco/coc-tailwindcss
-
-<!--
-
-```
-:source ~/.config/nvim/init.vim
-:PlugInstall
-```
--->
-
-<br/>
-
 ### coc-settings.json:
 
 **configuration-options**  
@@ -401,7 +382,11 @@ https://github.com/neoclide/coc-tsserver#configuration-options
 
 <br/>
 
-    $ vi ~/.config/nvim/coc-settings.json
+```
+$ vi ~/.config/nvim/coc-settings.json
+```
+
+<br/>
 
 ```json
 {
@@ -437,7 +422,66 @@ $ rm -rf ~/.cache/ctrlp/
 
 <br/>
 
+### Additional Plugins
+
+<br/>
+
+**Emmet cheat sheet**  
+https://docs.emmet.io/cheat-sheet/
+
+<br/>
+
+**Commenter settings:**  
+https://vimawesome.com/plugin/the-nerd-commenter
+
+<br/>
+
+**Tailwind:**  
+https://github.com/iamcco/coc-tailwindcss
+
+<!--
+
+```
+:source ~/.config/nvim/init.vim
+:PlugInstall
+```
+-->
+
+<br/>
+
 ## Some issues on start
+
+<br/>
+
+On Message:
+
+```
+x Post-update hook for coc.nvim ... Exit status:
+```
+
+<br/>
+
+```
+$ cd ~/.config/nvim/plugged/coc.nvim/
+$ yarn install
+$ yarn build
+```
+
+<br/>
+
+On Message:
+
+```
+x Post-update hook for coc-tailwindcss ... Exit status:
+```
+
+<br/>
+
+```
+$ cd ~/.config/nvim/plugged/coc-tailwindcss/
+$ yarn install
+$ yarn build
+```
 
 <br/>
 
@@ -485,11 +529,6 @@ vim-hexokinase needs updating. Run `make hexokinase` in project root. See `:h he
 
     $ sudo apt install -y xclip
 
-    $ sudo apt install -y python3-pip
-    $ pip3 install --upgrade neovim
-
-    $ npm install -g neovim
-
 <br/>
 
 // coc-extensions
@@ -497,43 +536,7 @@ https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
 
 <br/>
 
-### Possible can be helpful
-
-**[Ben Awad] How to Configure Vim like VSCode [ENG, 2019]**  
-https://www.youtube.com/watch?v=gnupOrSEikQ
-
-<br/>
-
-**init.vim:**
-
-    $ vi ~/.config/nvim/init.vim
-
-<br/>
-
-https://gist.github.com/benawad/b768f5a5bbd92c8baabd363b7e79786f
-
-<br/>
-
-```
-:PlugInstall
-```
-
-<br/>
-
-**coc-settings.json:**
-
-    $ vi ~/.config/nvim/coc-settings.json
-
-<br/>
-
-https://gist.github.com/benawad/e187dd887f256a6a002905ec7f22ad76
-
-<br/>
-
 ### Additional Materials
-
-**[Snowfoundry Media] Command Line: Neovim Installation and Configuration [ENG, 2020]**  
-https://www.youtube.com/watch?v=ZEFXeRIFvN0
 
 <br/>
 
@@ -541,14 +544,11 @@ https://www.youtube.com/watch?v=ZEFXeRIFvN0
 
 <br/>
 
-**How to set up Neovim 0.5 + Modern plugins (LSP, Treesitter, Fuzzy finder, etc)**  
-https://blog.inkdrop.app/how-to-set-up-neovim-0-5-modern-plugins-lsp-treesitter-etc-542c3d9c9887
-
-https://www.youtube.com/watch?v=FW2X1CXrU1w
-
-https://github.com/craftzdog/dotfiles-public
+**Frontend Masters repo from course about vim**  
+https://theprimeagen.github.io/vim-fundamentals/
 
 <br/>
 
-**Frontend Masters repo from course about vim**  
-https://theprimeagen.github.io/vim-fundamentals/
+### coc-tsserver
+
+https://github.com/neoclide/coc-tsserver
