@@ -176,6 +176,14 @@ https://github.com/junegunn/vim-plug
 <br/>
 
 ```
+// To recreate
+// $ cd ~/.config/nvim
+// $ rm -rf *
+```
+
+<br/>
+
+```
 $ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
@@ -477,24 +485,6 @@ $ yarn build
 
 <br/>
 
-### TailWind
-
-On Message:
-
-```
-x Post-update hook for coc-tailwindcss ... Exit status:
-```
-
-<br/>
-
-```
-$ cd ~/.config/nvim/plugged/coc-tailwindcss/
-$ yarn install
-$ yarn build
-```
-
-<br/>
-
 ### Angular (Need Node.js 16 for compile)
 
 ```
@@ -502,6 +492,31 @@ $ cd ~/.config/nvim/plugged/coc-angular/
 $ git pull
 $ yarn install
 $ yarn build
+
+
+<br/>
+
+### TailWind
+
+On Message:
+
+```
+
+x Post-update hook for coc-tailwindcss ... Exit status:
+
+```
+
+<br/>
+
+```
+
+$ cd ~/.config/nvim/plugged/coc-tailwindcss/
+$ yarn install
+$ yarn build
+
+```
+
+
 ```
 
 <br/>
@@ -552,7 +567,7 @@ vim-hexokinase needs updating. Run `make hexokinase` in project root. See `:h he
 
 <br/>
 
-// coc-extensions
+// coc-extensions  
 https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
 
 <br/>
