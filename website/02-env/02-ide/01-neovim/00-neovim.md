@@ -180,13 +180,6 @@ $ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-<br/>
-
-```
-$ mkdir -p ~/.config/nvim/plugged
-$ vi ~/.config/nvim/init.vim
-```
-
 <!--
 
 :CocList
@@ -200,6 +193,13 @@ call CocAction('runCommand', 'tsserver.organizeImports')
 command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
 
 -->
+
+<br/>
+
+```
+$ mkdir -p ~/.config/nvim/plugged
+$ vi ~/.config/nvim/init.vim
+```
 
 <br/>
 
@@ -228,6 +228,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Keeping up to date with master
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
+" Trailing Whitespace - https://github.com/lukoshkin/trailing-whitespace
+Plug 'lukoshkin/trailing-whitespace', { 'branch': 'vimscript' }
 
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -264,7 +266,9 @@ Plug 'ianks/vim-tsx', { 'for': 'typescript.tsx' }
 " Syntax hightlight for Vue.js
 Plug 'posva/vim-vue'
 
-"Plug 'iamcco/coc-angular', {'branch': 'release'}
+" Syntax hightlight for Angular.js
+Plug 'iamcco/coc-angular', {'branch': 'release'}
+
 Plug 'airblade/vim-gitgutter'
 
 " Syntax hightlight for .jsx
@@ -349,7 +353,7 @@ nmap <silent> gd <Plug>(coc-definition)
 
 inoremap jk <esc>
 
-" autocomplete on <ENTER> for Angular
+" autocomplete on <ENTER>
 inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
 
 " Use `:ORGANIZE` for organize import of current buffer
@@ -453,6 +457,10 @@ https://github.com/iamcco/coc-tailwindcss
 
 <br/>
 
+### Coc
+
+<br/>
+
 On Message:
 
 ```
@@ -469,6 +477,8 @@ $ yarn build
 
 <br/>
 
+### TailWind
+
 On Message:
 
 ```
@@ -479,6 +489,17 @@ x Post-update hook for coc-tailwindcss ... Exit status:
 
 ```
 $ cd ~/.config/nvim/plugged/coc-tailwindcss/
+$ yarn install
+$ yarn build
+```
+
+<br/>
+
+### Angular (Need Node.js 16 for compile)
+
+```
+$ cd ~/.config/nvim/plugged/coc-angular/
+$ git pull
 $ yarn install
 $ yarn build
 ```

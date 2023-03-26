@@ -12,7 +12,7 @@ permalink: /env/nodejs/nvm/
 
 ## [Variatn 1]: Volta (Node Version Manager)
 
-( Mike North - Tech Head Guy from LinkedIn recommend it)
+(Mike North - Tech Head Guy from LinkedIn recommend it)
 
 <br/>
 
@@ -24,7 +24,7 @@ $ exec -l $SHELL
 // Volta will choose the latest LTS
 $ volta install node yarn npm
 
-// $ volta install node@12
+// $ volta install node@16
 
 $ node -v
 v18.15.0

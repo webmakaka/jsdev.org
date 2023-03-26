@@ -63,7 +63,7 @@ minimal
 - Inline Parameters for VSCode
 - Color Highlight (Sergii Naumov)
 - Highlight Matching Tag
-<!-- - Trailing Spaces (Shardul Mahadik) -->
+- Trailing Spaces (Shardul Mahadik)
 
 **Snippets:**
 

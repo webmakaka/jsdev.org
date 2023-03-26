@@ -13,9 +13,6 @@ permalink: /client/angular/
 ### Angular cli
 
 ```
-$ npm init -y
-
--- without --save flag otherwise error
 $ npm install @angular/cli
 $ ng --version
 
@@ -26,13 +23,11 @@ $ ng serve --host 0.0.0.0 --port 8080
 
 <br/>
 
-### Making a Component
-
-    $ ng generate component hello-world
+### [Airbnb eslint for Angular](/client/angular/airbnb/)
 
 <br/>
 
-## Samples
+## Angular code examples
 
 ### [[Zero to Mastery] Complete Angular Developer in 2023 [ENG, 2022]](https://github.com/webmakaka/Complete-Angular-Developer)
 
