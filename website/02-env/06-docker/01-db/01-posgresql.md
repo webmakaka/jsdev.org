@@ -55,7 +55,7 @@ version: '3'
 services:
   postgres:
     container_name: postgres
-    image: postgres:14.1-alpine3.15
+    image: postgres:15.2-alpine3.17
     restart: always
     hostname: ${DATABASE_HOST}
     ports:
