@@ -49,6 +49,7 @@ https://www.npmjs.com/package/faker
 
 ### Working REST service
 
+- <a href="https://rickandmortyapi.com/" rel="nofollow">rickandmortyapi</a>
 - <a href="https://www.themoviedb.org/" rel="nofollow">themoviedb</a> (registration needed)
 - <a href="https://github.com/public-apis/public-apis" rel="nofollow">Public Apis</a>
 - <a href="https://pokeapi.co/" rel="nofollow">Pokemons</a>

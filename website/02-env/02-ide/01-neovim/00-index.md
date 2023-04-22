@@ -87,7 +87,7 @@ go version go1.20.2 linux/amd64
 
 <br/>
 
-### Step 1. Setup
+### Setup
 
 ```
 $ mkdir ~/apps && cd ~/apps
@@ -176,8 +176,10 @@ https://github.com/junegunn/vim-plug
 <br/>
 
 ```
-// To recreate
+// To recreate everything
 // $ cd ~/.config/nvim
+// $ rm -rf *
+// $ cd ~/.config/coc
 // $ rm -rf *
 ```
 
@@ -192,7 +194,7 @@ $ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
 
 :CocList
 
-call CocAction('runCommand', 'tsserver.organizeImports')
+call CocAction('runCommand', 'angular.restartNgServer')
 
 -->
 
@@ -219,7 +221,7 @@ set scrolloff=8
 set colorcolumn=79
 set list
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
-set wildignore+=*/tmp/*,*/dist/*,*/node_modules/*,*.so,*.swp,*.zip,package-lock.json
+set wildignore+=*/tmp/*,*/dist/*,*/node_modules/*,~/.config/coc*,*.so,*.swp,*.zip,package-lock.json
 
 " show existing tab with 2 spaces width
 set tabstop=2
@@ -275,7 +277,8 @@ Plug 'ianks/vim-tsx', { 'for': 'typescript.tsx' }
 Plug 'posva/vim-vue'
 
 " Syntax hightlight for Angular.js
-Plug 'iamcco/coc-angular', {'branch': 'release'}
+" Plug 'iamcco/coc-angular', {'branch': 'release'}
+Plug 'iamcco/coc-angular'
 
 Plug 'airblade/vim-gitgutter'
 
@@ -387,7 +390,18 @@ autocmd BufWritePre *.ts :ORGANIZE
 
 <br/>
 
-### coc-settings.json:
+### cheks
+
+```
+:checkhealth
+:messages
+:CocInfo
+:CocOpenLog
+```
+
+<br/>
+
+### coc-settings.json
 
 **configuration-options**  
 https://github.com/neoclide/coc-tsserver#configuration-options
@@ -479,20 +493,59 @@ x Post-update hook for coc.nvim ... Exit status:
 
 ```
 $ cd ~/.config/nvim/plugged/coc.nvim/
-$ yarn install
-$ yarn build
+$ yarn install && yarn build
 ```
 
 <br/>
 
-### Angular (Need Node.js 16 for compile)
+```
+:CocInfo
+
+
+```
+
+<br/>
+
+### Angular (With Node 18 not worsk)
+
+```
+:CocInstall coc-angular
+```
+
+```
+:CocList extensions
+```
+
+```
+* coc-snippets 3.1.6 ~/.config/coc/extensions/node_modules/coc-snippets
+* coc-prettier 9.3.1 ~/.config/coc/extensions/node_modules/coc-prettier
+* coc-pairs 1.4.2 ~/.config/coc/extensions/node_modules/coc-pairs
+* coc-html 1.8.0 ~/.config/coc/extensions/node_modules/coc-html
+* coc-eslint 1.6.0 ~/.config/coc/extensions/node_modules/coc-eslint
++ coc-vetur 1.2.5 ~/.config/coc/extensions/node_modules/coc-vetur
++ coc-tsserver 2.1.3 ~/.config/coc/extensions/node_modules/coc-tsserver
++ coc-json 1.8.0 ~/.config/coc/extensions/node_modules/coc-json
++ coc-css 2.0.0 ~/.config/coc/extensions/node_modules/coc-css
++ coc-angular 13.3.6 ~/.config/coc/extensions/node_modules/coc-angular
+```
+
+<!--
+
+$ cd ~/.config/coc/extensions
+-->
 
 ```
 $ cd ~/.config/nvim/plugged/coc-angular/
 $ git pull
-$ yarn install
-$ yarn build
+```
 
+```
+@angular/language-server         13.3.4  →     15.2.0
+```
+
+```
+$ yarn install && yarn build
+```
 
 <br/>
 
@@ -501,22 +554,14 @@ $ yarn build
 On Message:
 
 ```
-
 x Post-update hook for coc-tailwindcss ... Exit status:
-
 ```
 
 <br/>
 
 ```
-
 $ cd ~/.config/nvim/plugged/coc-tailwindcss/
-$ yarn install
-$ yarn build
-
-```
-
-
+$ yarn install && yarn build
 ```
 
 <br/>

@@ -35,10 +35,11 @@ Developer Tools (Ctrl + Shift + I) > Menu icon (3 vertical dots) > Settings > Pr
 - LanguageTool
 - grammarly
 
+- I don't care about cookies
 - SponsorBlock for YouTube
 - Return YouTube Dislikes
-- I don't care about cookies
-- Hide Youtube Shorts
+- Hide Youtube Shorts (https://chrome.google.com/webstore/detail/hide-youtube-shorts/kkdaephjgnecgibipjnbppaibdidlgfk)
+- Youtube-shorts block (https://chrome.google.com/webstore/detail/youtube-shorts-block/jiaopdjbehhjgokpphdfgmapkobbnmjp)
 
 <br/>
 

@@ -60,6 +60,17 @@ $ npm config set fund false --location=global
 
 <br/>
 
+```
+// If yarn will not create node_modules folder create with next content
+$ vi .yarnrc.yml
+```
+
+```
+nodeLinker: node-modules
+```
+
+<br/>
+
 ## [Variatn 2]: Node Version Manager (NVM) installation in Ubuntu 20.04
 
 <br/>
