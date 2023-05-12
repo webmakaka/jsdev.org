@@ -16,10 +16,6 @@ permalink: /lang/
 
 <br/>
 
-### [Dates](/lang/array/dates/)
-
-<br/>
-
 ### Async
 
 <a href="/lang/async/">Async</a>
