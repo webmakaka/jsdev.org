@@ -67,3 +67,9 @@ https://www.npmjs.com/package/faker
 https://mockaroo.com/
 
 Generate realistic test data in CSV, JSON, SQL, and Excel formats.
+
+<br/>
+
+### Video
+
+https://techslides.com/demos/sample-videos/small.mp4

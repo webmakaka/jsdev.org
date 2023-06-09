@@ -20,7 +20,7 @@ const schools = [
 
 <br/>
 
-sample 1
+**sample 1**
 
 ```js
 const wSchools = schools.filter((school) => school[0] === 'W');
@@ -30,7 +30,7 @@ console.log(wSchools);
 
 <br/>
 
-sample 2
+**sample 2**
 
 ```js
 const cutSchool = (cut, list) => list.filter((school) => school !== cut);

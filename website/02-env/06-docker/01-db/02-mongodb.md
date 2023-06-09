@@ -138,3 +138,15 @@ $ docker exec -it mern-stack-front-to-back-api sh
 # apk add busybox-extras
 # telnet mongodb 27017
 ```
+
+<br/>
+
+### IDE Compass
+
+https://www.mongodb.com/try/download/compass
+
+<br/>
+
+```
+sudo dpkg -i mongodb-compass_1.36.4_amd64.deb
+```
