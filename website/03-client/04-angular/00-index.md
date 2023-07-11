@@ -10,12 +10,6 @@ permalink: /client/angular/
 
 <br/>
 
-**Libs:**  
-[Primeng](//primeng.org)
-[Primeflex](//primefaces.org/primeflex/)
-
-<br/>
-
 ### Angular cli
 
 <br/>
@@ -64,7 +58,7 @@ $ ng version
                 |___/
 
 
-Angular CLI: 16.0.1
+Angular CLI: 16.0.5
 Node: 18.16.0
 Package Manager: npm 9.6.6
 OS: linux x64
@@ -74,10 +68,10 @@ Angular:
 
 Package                      Version
 ------------------------------------------------------
-@angular-devkit/architect    0.1600.1 (cli-only)
-@angular-devkit/core         16.0.1 (cli-only)
-@angular-devkit/schematics   16.0.1 (cli-only)
-@schematics/angular          16.0.1 (cli-only)
+@angular-devkit/architect    0.1600.5 (cli-only)
+@angular-devkit/core         16.0.5 (cli-only)
+@angular-devkit/schematics   16.0.5 (cli-only)
+@schematics/angular          16.0.5 (cli-only)
 ```
 
 <br/>
@@ -94,14 +88,20 @@ $ ng serve --host 0.0.0.0 --port 8080
 
 <br/>
 
+**Libs:**  
+[Primeng](//primeng.org)
+[Primeflex](//primefaces.org/primeflex/)
+
+<br/>
+
 ## Angular code examples
+
+### [[YouTube] A Complete Angular Course from Scratch [ENG, 2023]](https://github.com/webmakaka/A-Complete-Angular-Course-from-Scratch)
 
 ### [[Zero to Mastery] Complete Angular Developer in 2023 [ENG, 2022]](https://github.com/webmakaka/Complete-Angular-Developer)
 
-### [Simple angular 11 project](https://github.com/webmakaka/Angular-and-NgRx-Building-Real-Project-From-Scratch)
+### [[Oleksandr Kocherhin] Angular и NgRx](https://github.com/webmakaka/Angular-and-NgRx-Building-Real-Project-From-Scratch)
 
 ### [[frontendmasters.com] Production-Grade Angular [2021, ENG]](https://github.com/onehungrymind/fem-production-angular)
 
 ### [Pockemons](https://github.com/nvkuznetsova/pokemons-fast-start-demo/tree/main)
-
-### [Figma](https://www.figma.com/file/7QkWME7G0KuGFbsSBjP4va/Angular?node-id=4-2056&t=mrbScyAzxubd89zX-0)
