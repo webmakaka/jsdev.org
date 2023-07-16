@@ -94,9 +94,17 @@ $ ng serve --host 0.0.0.0 --port 8080
 
 <br/>
 
-## Angular code examples
+## Angular courses
 
-### [[YouTube] A Complete Angular Course from Scratch [ENG, 2023]](https://github.com/webmakaka/A-Complete-Angular-Course-from-Scratch)
+### [[YouTube] [procademy] A Complete Angular Course from Scratch [ENG, 2023]](https://github.com/webmakaka/A-Complete-Angular-Course-from-Scratch)
+
+### [[YouTube] [Leela Web Dev] RxJS Complete Course Guide [ENG, 2021]](https://www.youtube.com/playlist?list=PL_euSNU_eLbc0HclFbirIaMXaXzQJ_K4n)
+
+### [[YouTube] [Leela Web Dev] Angular NGRX Complete Course Tutorial [ENG, 2021]](https://www.youtube.com/playlist?list=PL_euSNU_eLbdg0gKbR8zmVJb4xLgHR7BX)
+
+<br/>
+
+## Angular code examples
 
 ### [[Zero to Mastery] Complete Angular Developer in 2023 [ENG, 2022]](https://github.com/webmakaka/Complete-Angular-Developer)
 
