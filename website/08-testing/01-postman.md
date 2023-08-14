@@ -42,13 +42,16 @@ pm.sendRequest(authorization, function (err, response) {
 ### Tests
 
 ```js
-pm.test('Status is ok, respnse is json', () => {
+pm.test('Access Token is OK!', () => {
   const access_token = pm.globals.get('access_token');
+  pm.expect(access_token).to.not.be.null;
+});
+```
 
+```js
+pm.test('Response is json', () => {
   pm.response.to.have.status(200);
   pm.response.to.be.ok;
   pm.response.to.json;
-
-  pm.expect(access_token).to.not.be.null;
 });
 ```

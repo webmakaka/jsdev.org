@@ -80,7 +80,7 @@ minimal
 
 <!--
 
-    $ cd ~/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.2.0/
+    $ cd ~/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.2.1/
     $ cp js/main.js js/main.js.orig
     $ code /js/main.js
 

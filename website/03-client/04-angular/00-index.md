@@ -58,7 +58,7 @@ $ ng version
                 |___/
 
 
-Angular CLI: 16.0.5
+Angular CLI: 16.2.0
 Node: 18.16.0
 Package Manager: npm 9.6.6
 OS: linux x64
@@ -68,10 +68,10 @@ Angular:
 
 Package                      Version
 ------------------------------------------------------
-@angular-devkit/architect    0.1600.5 (cli-only)
-@angular-devkit/core         16.0.5 (cli-only)
-@angular-devkit/schematics   16.0.5 (cli-only)
-@schematics/angular          16.0.5 (cli-only)
+@angular-devkit/architect    0.1602.0 (cli-only)
+@angular-devkit/core         16.2.0 (cli-only)
+@angular-devkit/schematics   16.2.0 (cli-only)
+@schematics/angular          16.2.0 (cli-only)
 ```
 
 <br/>
@@ -98,17 +98,15 @@ $ ng serve --host 0.0.0.0 --port 8080
 
 ### [[YouTube] [procademy] A Complete Angular Course from Scratch [ENG, 2023]](https://github.com/webmakaka/A-Complete-Angular-Course-from-Scratch)
 
-### [[YouTube] [Leela Web Dev] RxJS Complete Course Guide [ENG, 2021]](https://www.youtube.com/playlist?list=PL_euSNU_eLbc0HclFbirIaMXaXzQJ_K4n)
-
-### [[YouTube] [Leela Web Dev] Angular NGRX Complete Course Tutorial [ENG, 2021]](https://www.youtube.com/playlist?list=PL_euSNU_eLbdg0gKbR8zmVJb4xLgHR7BX)
-
 <br/>
 
 ## Angular code examples
 
-### [[Zero to Mastery] Complete Angular Developer in 2023 [ENG, 2022]](https://github.com/webmakaka/Complete-Angular-Developer)
+### [RxJs](/client/angular/rxjs/)
 
-### [[Oleksandr Kocherhin] Angular и NgRx](https://github.com/webmakaka/Angular-and-NgRx-Building-Real-Project-From-Scratch)
+### [NgRx](/client/angular/ngrx/)
+
+### [[Zero to Mastery] Complete Angular Developer in 2023 [ENG, 2022]](https://github.com/webmakaka/Complete-Angular-Developer)
 
 ### [[frontendmasters.com] Production-Grade Angular [2021, ENG]](https://github.com/onehungrymind/fem-production-angular)
 
