@@ -10,15 +10,15 @@ permalink: /courses/angular/ngrx/angular-ngrx-complete-course-tutorial/
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic1.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic01.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic2.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic02.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic3.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic03.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -26,7 +26,7 @@ permalink: /courses/angular/ngrx/angular-ngrx-complete-course-tutorial/
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/pic4.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/angular/ngrx/pic04.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -97,3 +97,72 @@ $ ng g c posts/postsList
 ```
 
 https://github.com/wildmakaka/ngrx-counter/pull/5
+
+<br/>
+
+### 11. Install Redux Chrome Extension and ngrx store dev tools for debugging Angular Ngrx Application
+
+https://ngrx.io/guide/store-devtools
+
+- chmore extension
+
+```
+$ npm install @ngrx/store-devtools
+```
+
+<br/>
+
+### 12. Combining all the different modules of the state into a single AppState
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic05.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic06.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic07.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic08.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+### 13. Implement the AppState in the Angular NGRX Application by combining all the Feature states
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic09.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/6
+
+<br/>
+
+### 14. Get Async Data from ngrx store using createSelector and display it in the table
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic10.png 'Angular NgRx'){: .center-image }
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/7
+
+<br/>
+
+### 15. Create Reactive Form for adding Post and apply validations using child routing
+
+```
+$ ng g c posts/AddPost
+```
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic11.png 'Angular NgRx'){: .center-image }
+
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/8
