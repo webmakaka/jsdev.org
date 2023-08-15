@@ -104,7 +104,7 @@ $ ng serve --host 0.0.0.0 --port 8080
 
 ### [RxJs](/client/angular/rxjs/)
 
-### [NgRx](/client/angular/ngrx/)
+### [NgRx](/courses/angular/ngrx/)
 
 ### [[Zero to Mastery] Complete Angular Developer in 2023 [ENG, 2022]](https://github.com/webmakaka/Complete-Angular-Developer)
 
