@@ -94,9 +94,7 @@ $ ng serve --host 0.0.0.0 --port 8080
 
 <br/>
 
-## Angular courses
-
-### [[YouTube] [procademy] A Complete Angular Course from Scratch [ENG, 2023]](https://github.com/webmakaka/A-Complete-Angular-Course-from-Scratch)
+## [Angular courses](/courses/angular/)
 
 <br/>
 
@@ -105,8 +103,6 @@ $ ng serve --host 0.0.0.0 --port 8080
 ### [RxJs](/client/angular/rxjs/)
 
 ### [NgRx](/courses/angular/ngrx/)
-
-### [[Zero to Mastery] Complete Angular Developer in 2023 [ENG, 2022]](https://github.com/webmakaka/Complete-Angular-Developer)
 
 ### [[frontendmasters.com] Production-Grade Angular [2021, ENG]](https://github.com/onehungrymind/fem-production-angular)
 

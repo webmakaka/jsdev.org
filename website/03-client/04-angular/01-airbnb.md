@@ -2,7 +2,7 @@
 layout: page
 title: Airbnb eslint for Angular 16
 description: Airbnb eslint for Angular 16
-keywords: js, angualr, lint, airbnb
+keywords: js, angular, lint, airbnb
 permalink: /client/angular/airbnb/
 ---
 

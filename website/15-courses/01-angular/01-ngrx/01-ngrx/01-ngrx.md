@@ -2,11 +2,14 @@
 layout: page
 title: Angular NGRX Complete Course Tutorial
 description: Angular NGRX Complete Course Tutorial
-keywords: js, angualr, ngrx, youtube
+keywords: js, angular, ngrx, youtube
 permalink: /courses/angular/ngrx/angular-ngrx-complete-course-tutorial/
 ---
 
 # [[YouTube] [Leela Web Dev] Angular NGRX Complete Course Tutorial [ENG, 2021]](https://www.youtube.com/playlist?list=PL_euSNU_eLbdg0gKbR8zmVJb4xLgHR7BX)
+
+**Original src:**  
+https://github.com/leelanarasimha/ngrx-counter/tree/master
 
 <br/>
 
@@ -92,7 +95,7 @@ https://github.com/wildmakaka/ngrx-counter/pull/4
 
 ```
 $ ng g c Home
-$ ng g c shared/component/header
+$ ng g c shared/components/header
 $ ng g c posts/postsList
 ```
 
@@ -164,5 +167,298 @@ $ ng g c posts/AddPost
 
 ![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic11.png 'Angular NgRx'){: .center-image }
 
-
 https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/8
+
+<br/>
+
+### 16. Adding Posts into the ngrx state submitted by the Form
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic12.png 'Angular NgRx'){: .center-image }
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/9
+
+<br/>
+
+### 17. Props in Ngrx Selectors. Sending arguments to the state selectors for updating Post
+
+```
+$ ng g c posts/EditPost
+```
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic13.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+### 18. Update Post in Ngrx store immutable with actions
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic14.png 'Angular NgRx'){: .center-image }
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/10
+
+<br/>
+
+### 19. Delete Post in the Ngrx store state
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/11
+
+<br/>
+
+### 20. Implement Lazyloading for the routes
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/12
+
+<br/>
+
+### 21. Lazy load the ngrx state using for Feature store Module
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/13
+
+<br/>
+
+### 22. Design Auth Login Module in Ngrx
+
+```
+$ ng g c auth/login
+```
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic15.png 'Angular NgRx'){: .center-image }
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/14
+
+<br/>
+
+### 23. Ngrx Effects Library introduction. Manage HTTP calls with effects
+
+<br/>
+
+### 24. How to Define the Ngrx Effect file
+
+<br/>
+
+### 25. Adding Auth Feature State for the Auth Module
+
+<br/>
+
+### 26. Implement first Effects file
+
+```
+$ npm install @ngrx/fects
+```
+
+<br/>
+
+https://firebase.google.com/docs/reference/rest/auth#section-sign-in-email-password
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic16.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic17.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/15
+
+<br/>
+
+### 27. Save the User token data from Login in Ngrx State
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic18.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/16
+
+<br/>
+
+### 28. Implement Shared Loading Spinner Component in the Ngrx Shared State
+
+```
+$ ng g c shared/components/LoadingSpinner
+```
+
+https://loading.io/css/
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic19.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/17
+
+<br/>
+
+### 29. Implement Error handling in ngrx effects and show error message when API fails
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic20.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/18
+
+<br/>
+
+### 30. Navigating the page using routes with Effects after login success
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/19
+
+<br/>
+
+### 31. Create Signup Form and ngrx actions
+
+```
+$ ng g c auth/signup
+```
+
+<br/>
+
+### 32. Add Signup Effects to make API call and save the user token in the ngrx state
+
+<br/>
+
+https://firebase.google.com/docs/reference/rest/auth#section-create-email-password
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic21.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic22.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/20
+
+<br/>
+
+### 33. Implement auto Login Functionality
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic23.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+### 34. Implement Auto Logout Functionality
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/21
+
+<br/>
+
+### 35. Get Posts Data from backend HTTP API call using Posts Effects
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/22
+
+<br/>
+
+### 36. Adding Post Data by making Http Post API call by using Effects
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/23
+
+<br/>
+
+### 37. Update and Delete Posts Data with ngrx state management
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic24.png 'Angular NgRx'){: .center-image }
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/24
+
+<br/>
+
+### 38. Implement auth user token for http API Calls using HTTP Interceptors
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic25.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic26.png 'Angular NgRx'){: .center-image }
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/25
+
+<br/>
+
+### 39. Access ngrx state in CanActivate Route Guard for protecting routes
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/26
+
+<br/>
+
+### 40. Fixing the logout bug to prevent multiple HTTP API Calls
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/27
+
+<br/>
+
+### 41. Introduction to NGRX Router Store. Install Router Store for dispatching Route Actions
+
+```
+$ npm install @ngrx/router-store
+```
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic27.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+### 42. Implement Custom Serializer in Ngrx Router to store only minimal data in router state
+
+https://ngrx.io/guide/router-store/configuration
+
+<br/>
+
+### 43. Use Router State Params in the selectors to get single post Data
+
+<br/>
+
+### 44. Using Ngrx Router Store in the Effects to get the posts data
+
+```
+$ ng g c posts/SinglePost
+```
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic28.png 'Angular NgRx'){: .center-image }
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/28
+
+<br/>
+
+### 45. Introduction to Ngrx Entity, Entity Adapters and Entity State
+
+<br/>
+
+### 46. Implement CRUD operations for Posts with ngrx entity adapter methods
+
+```
+$ npm install @ngrx/entity
+```
+
+<br/>
+
+### 47. Ngrx Entity Selector Adapter Methods like selectAll, selectEntities in Ngrx Angular Application
+
+<br/>
+
+### 48. Remove unwanted Http Api Calls if data is already present in Ngrx store

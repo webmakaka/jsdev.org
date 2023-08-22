@@ -2,7 +2,7 @@
 layout: page
 title: Angular RxJs
 description: Angular RxJs
-keywords: js, angualr, lint, rxjs
+keywords: js, angular, lint, rxjs
 permalink: /client/angular/rxjs/
 ---
 

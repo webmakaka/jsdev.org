@@ -28,6 +28,8 @@ Developer Tools (Ctrl + Shift + I) > Menu icon (3 vertical dots) > Settings > Pr
 
 ### Chrome Extensions for Development
 
+- Angular DevTools (by Angular)
+- Redux DevTools
 - Quick JavaScript Switcher
 - EditThisCookie
 - Nimbus Screenshoot & Screen Video Recorder
@@ -38,7 +40,7 @@ Developer Tools (Ctrl + Shift + I) > Menu icon (3 vertical dots) > Settings > Pr
 - I don't care about cookies
 - SponsorBlock for YouTube
 - Return YouTube Dislikes
-- Hide Youtube Shorts (https://chrome.google.com/webstore/detail/hide-youtube-shorts/kkdaephjgnecgibipjnbppaibdidlgfk)
+<!-- - Hide Youtube Shorts (https://chrome.google.com/webstore/detail/hide-youtube-shorts/kkdaephjgnecgibipjnbppaibdidlgfk) -->
 - Youtube-shorts block (https://chrome.google.com/webstore/detail/youtube-shorts-block/jiaopdjbehhjgokpphdfgmapkobbnmjp)
 
 <br/>
@@ -60,9 +62,3 @@ https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapil
 
 3. Enable the Force Dark Mode for Web Contents and relaunch Chrome.
 ```
-
-<br/>
-
-### Agular
-
-Angular DevTools (by Angular)
