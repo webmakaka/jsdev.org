@@ -462,3 +462,92 @@ $ npm install @ngrx/entity
 <br/>
 
 ### 48. Remove unwanted Http Api Calls if data is already present in Ngrx store
+
+<br/>
+
+### 49. Ngrx Entity Configuration sort Comparer. Add extra store data in an entity
+
+https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/29
+
+<br/>
+
+### 50. Introduction to Ngrx data. Simplify entity store, effects & actions using Ngrx Data
+
+<br/>
+
+### 51. Setup new Project for Ngrx Data. Install all ngrx dependencies for ngrx data
+
+**original src**  
+https://github.com/leelanarasimha/ngrx-data/
+
+<br/>
+
+```
+$ ng g c posts/PostsList
+$ ng g c posts/SinglePost
+$ ng g c posts/EditPost
+$ ng g c posts/AddPost
+$ ng g c Home
+```
+
+<br/>
+
+```
+$ npm install @ngrx/data
+$ npm install @ngrx/store
+$ npm install @ngrx/effects
+$ npm install @ngrx/entity
+$ npm install @ngrx/store-devtools
+```
+
+<br/>
+
+### 52. Create a Service class for the ngrx data extending EntityCollectionServiceBase Class
+
+<br/>
+
+### 53. Create Default Data Service to override the methods to make custom HTTP Calls
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic29.png 'Angular NgRx'){: .center-image }
+
+https://github.com/wildmakaka/angular-ngrx-data-complete-course-tutorial/pull/1
+
+<br/>
+
+### 54. Get the data from the store using entities$ method with ngrx data without HTTP Call
+
+https://github.com/wildmakaka/angular-ngrx-data-complete-course-tutorial/pull/2
+
+<br/>
+
+### 55. Implement the add Post form
+
+https://github.com/wildmakaka/angular-ngrx-data-complete-course-tutorial/pull/3
+
+<br/>
+
+### 56. Update Post Details using Ngrx Data with custom Update service entity
+
+<br/>
+
+### 57. Delete Post Data using Ngrx Data. Understand Optimistic & pessimistic update & Delete
+
+https://github.com/wildmakaka/angular-ngrx-data-complete-course-tutorial/pull/4
+
+<br/>
+
+### 58. Show the Single Post Details using Ngrx Data
+
+https://github.com/wildmakaka/angular-ngrx-data-complete-course-tutorial/pull/5
+
+<br/>
+
+### 59. Use Ngrx Data in the Lazy Loaded Modules
+
+https://github.com/wildmakaka/angular-ngrx-data-complete-course-tutorial/pull/6
+
+<br/>
+
+### 60. Completing Angular Ngrx Course. Lets Review what we have learnt in this Ngrx Complete Course.
