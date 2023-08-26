@@ -2,7 +2,7 @@
 layout: page
 title: Declarative Reactive Programming using RxJS in Angular
 description: Declarative Reactive Programming using RxJS in Angular
-keywords: js, angular, rxjs, youtube
+keywords: courses, js, angular, rxjs, youtube, Leela Web Dev
 permalink: /courses/angular/rxjs/angular-declarative-reactive-programming-using-rxjs/
 ---
 
@@ -115,8 +115,10 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 ### 05. Get Categories using Higher Order Mapping Operators using mergeMap
 
-https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/3
-
 <br/>
 
 ![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic07.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/3

@@ -2,7 +2,7 @@
 layout: page
 title: Angular NGRX Complete Course Tutorial
 description: Angular NGRX Complete Course Tutorial
-keywords: js, angular, ngrx, youtube
+keywords: courses, js, angular, ngrx, youtube, Leela Web Dev
 permalink: /courses/angular/ngrx/angular-ngrx-complete-course-tutorial/
 ---
 

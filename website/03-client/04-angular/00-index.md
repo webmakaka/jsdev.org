@@ -179,7 +179,7 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 ## Angular code examples
 
-### [RxJs](/client/angular/rxjs/)
+### [RxJs](/courses/angular/rxjs/)
 
 ### [NgRx](/courses/angular/ngrx/)
 

@@ -2,7 +2,7 @@
 layout: page
 title: Angular NgRx
 description: Angular NgRx
-keywords: js, courses, angular, ngrx
+keywords: courses, js, angular, ngrx
 permalink: /courses/angular/ngrx/
 ---
 
