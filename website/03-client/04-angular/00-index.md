@@ -84,6 +84,85 @@ $ ng serve --host 0.0.0.0 --port 8080
 
 <br/>
 
+**.prettierrc**
+
+```
+{
+  "tabWidth": 2,
+  "printWidth": 80,
+  "semi": true,
+  "singleQuote": true,
+  "bracketSpacing": true
+}
+
+```
+
+<br/>
+
+**.prettierignore**
+
+```
+node_modules
+# *.test.js
+# *.spec.js
+```
+
+<br/>
+
+**tsconfig.json**
+
+```
+    "strictPropertyInitialization": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+```
+
+<br/>
+
+**angular.json**
+
+```
+  "projects": {
+    "app": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "skipTests": true
+        }
+      },
+***
+```
+
+<br/>
+
+**.gitignore**
+
+```
+*.~
+*.*~
+*.log
+*.swp
+
+node_modules/
+logs/
+
+.vscode
+.angular/
+
+.pnp.cjs
+.pnp.loader.mjs
+
+.yarn
+```
+
+<br/>
+
+**Sample:**
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/1/files
+
+<br/>
+
 ### [Airbnb eslint for Angular](/client/angular/airbnb/)
 
 <br/>
