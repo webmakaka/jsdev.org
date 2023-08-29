@@ -122,3 +122,82 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 <br/>
 
 https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/3
+
+<br/>
+
+### 06. Understand Change Detection Strategy onPush and Default
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/4
+
+<br/>
+
+### 07. Advantage of unsubscribing the http observable in ngOnDestroy
+
+<br/>
+
+```
+$ ng g c pages/Home
+```
+
+<br/>
+
+### 08. Get Posts using Declarative Programming in Angular with async & without subscribe for observable
+
+<br/>
+
+```
+$ ng g c pages/DeclarativePosts
+```
+
+<br/>
+
+### 09. Combine Categories & Posts Observables using CombineLatest & ForkJoin Operators
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/5
+
+<br/>
+
+### 10. Filter Posts by the user selected category and display in the UI
+
+<br/>
+
+### 11. Data Stream vs Action Stream. Difference between the two Observable Streams in Angular RxJS
+
+<br/>
+
+### 12. Create Action Stream using BehaviorSubject & filter posts with selected Category
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/6
+
+<br/>
+
+### 13. Create the Posts UI to share the Action Stream between the components in Angular RxJS
+
+<br/>
+
+```
+$ ng g c pages/AltPosts
+$ ng g c components/SinglePost
+```
+
+<br/>
+
+### 14. Create Action Stream using Subject for getting Post Details between components
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic08.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/7
+
+<br/>
+
+### 15. Show Error Messages using the catchError Operator and assign to the error Subject
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic09.png 'Angular NgRx'){: .center-image }
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/8
