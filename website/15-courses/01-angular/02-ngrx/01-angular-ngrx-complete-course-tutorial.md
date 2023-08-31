@@ -29,7 +29,7 @@ https://github.com/leelanarasimha/ngrx-counter/tree/master
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/pic04.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic04.png 'Angular NgRx'){: .center-image }
 
 <br/>
 

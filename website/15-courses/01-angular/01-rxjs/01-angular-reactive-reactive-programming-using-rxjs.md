@@ -200,4 +200,110 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 ![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic09.png 'Angular NgRx'){: .center-image }
 
+<br/>
+
 https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/8
+
+<br/>
+
+### 16. Caching the Observables http data using Share and shareReplay Operators
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic10.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/9
+
+<br/>
+
+### 17. Add Loading Spinner Component with Declarative Reactive Programming & Subject
+
+<br/>
+
+```
+$ ng g c components/loading
+```
+
+<br/>
+
+https://loading.io/css/
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic11.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/10
+
+<br/>
+
+### 18. How to Avoid multiple async for observables in template to increase performance
+
+<br/>
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/11
+
+<br/>
+
+### 18. How to Avoid multiple async for observables in template to increase performance
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/11
+
+<br/>
+
+### 19. Create Add Post button and Add Post UI in the Posts UI
+
+<br/>
+
+```
+$ ng g c components/AddPost
+```
+
+<br/>
+
+### 20. Design Add Post Form using Reactive Forms Module
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic12.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+### 21. Add the Post Details submitted using Merge and scan operator
+
+<br/>
+
+### 22. Send Post Request to save Post Details in the database using concatMap operator
+
+<br/>
+
+### 23. Completing Add Post Feature and fixing small issues while adding Post
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic13.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/12
+
+<br/>
+
+### 24. Create Edit Post Form Component for updating the existing Post Details
+
+<br/>
+
+```
+$ ng g c components/UpdatePost
+```
+
+<br/>
+
+### 25. Populate the Post Details in the update post form using Reactive Forms Module
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic14.png 'Angular NgRx'){: .center-image }
