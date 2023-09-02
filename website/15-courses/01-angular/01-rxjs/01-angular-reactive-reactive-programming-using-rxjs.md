@@ -307,3 +307,73 @@ $ ng g c components/UpdatePost
 <br/>
 
 ![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic14.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+### 26. Completing Update Post Details with Http Put Request in the backend
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/13
+
+<br/>
+
+### 27. Implement Delete Post from the Post Details List using HTTP Delete Request in Angular RxJS
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/14
+
+<br/>
+
+### 28. Create Routing for the Posts Adding and Updating through route Params in Angular RxJS
+
+<br/>
+
+```
+$ ng g c components/PostForm
+```
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic15.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic16.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+### 29. Add Reactive Forms Module to Posts Form to populate post Details while Update
+
+<br/>
+
+### 30. Completing Add and Update Post details with routing using Post Form Component
+
+<br/>
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/15
+
+<br/>
+
+### 31. Create Common Global Success & Error Notification Service across all components
+
+<br/>
+
+### 32. Display Success Message on Adding & Updating Posts using Notification Service
+
+<br/>
+
+![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic17.png 'Angular NgRx'){: .center-image }
+
+<br/>
+
+### 33. Navigate Page back using router after adding Posts Successfully in the Posts Form
+
+<br/>
+
+### 34. Display Error Messages when any error occurs while adding or updating Posts
+
+<br/>
+
+https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJS/pull/16
+
+<br/>
+
+### 35. Completing Declarative Reactive Programming. Lets See what we did in this Course
