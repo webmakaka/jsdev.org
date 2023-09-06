@@ -59,7 +59,7 @@ minimal
 - Auto Rename Tag
 - CSS Peek
 - Code Spell Checker
-- Visual Studio IntelliCode
+- IntelliCode (Microsoft) (ext install VisualStudioExptTeam.vscodeintellicode)
 - Inline Parameters for VSCode
 - Color Highlight (Sergii Naumov)
 - Highlight Matching Tag
