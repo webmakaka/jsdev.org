@@ -40,19 +40,19 @@ Realtime Database
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic01.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic01.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic02.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic02.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic03.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic03.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic04.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic04.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -93,7 +93,7 @@ https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic05.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic05.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -105,7 +105,7 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic06.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic06.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -117,7 +117,7 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic07.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic07.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -186,7 +186,7 @@ $ ng g c components/SinglePost
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic08.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic08.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -198,7 +198,7 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic09.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic09.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -210,7 +210,7 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic10.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic10.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -232,7 +232,7 @@ https://loading.io/css/
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic11.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic11.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -268,7 +268,7 @@ $ ng g c components/AddPost
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic12.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic12.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -284,7 +284,7 @@ $ ng g c components/AddPost
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic13.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic13.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -306,7 +306,7 @@ $ ng g c components/UpdatePost
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic14.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic14.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -332,11 +332,11 @@ $ ng g c components/PostForm
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic15.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic15.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic16.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic16.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -360,7 +360,7 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic17.png 'Angular NgRx'){: .center-image }
+![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic17.png 'Angular RxJS'){: .center-image }
 
 <br/>
 

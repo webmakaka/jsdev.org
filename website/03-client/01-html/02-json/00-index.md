@@ -8,13 +8,25 @@ permalink: /json/
 
 # JSON
 
+<br/>
+
+### JSON Diff
+
+https://www.jsondiff.com/
+
+### JSON Valid check
+
+https://jsonlint.com/
+
+<br/>
+
 ### JSON Editor Online
 
 http://jsoneditoronline.org/
 
 <br/>
 
-### Check json schema
+### Generate JSON Schema from JSON
 
 jsonschema.net
 
