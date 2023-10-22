@@ -32,7 +32,7 @@ Developer Tools (Ctrl + Shift + I) > Menu icon (3 vertical dots) > Settings > Pr
 - Redux DevTools
 - Quick JavaScript Switcher
 - EditThisCookie
-- Nimbus Screenshoot & Screen Video Recorder
+- Nimbus Screenshot & Screen Video Recorder
 - SetupVPN
 - LanguageTool
 - grammarly

@@ -33,7 +33,7 @@ $ npm install --save-dev eslint-config-airbnb-base eslint-plugin-import eslint-c
 <br/>
 
 ```
-$ vi angular.json
+$ .eslintrc.json
 ```
 
 <br/>

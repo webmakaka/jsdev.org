@@ -145,7 +145,10 @@ CTRL + SHIFT + P
     "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "typescript.preferences.importModuleSpecifier": "non-relative",
-    "javascript.preferences.importModuleSpecifier": "non-relative"
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
 }
 ```
 
@@ -170,6 +173,12 @@ CTRL + SHIFT + P
 
 <br/>
 
+**TypeScript:**
+
+- JavaScript and TypeScript Nightly (microsoft)
+
+<br/>
+
 **Angular:**
 
 - Angular Language Service (From Angular Devs)
@@ -178,22 +187,19 @@ CTRL + SHIFT + P
 
 **React:**
 
-- Reactjs code snippets (publisher:"charalampos karypidis" (My Favourite))
-
-or
-
-- Simple React Snippets
-
-or
-
 - ES7 React/Redux/GraphQL/React-Native snippets
+
+<br/>
+
+**Prisma**
+
+- Prisma (prisma.io)
 
 <br/>
 
 **Tailwind**
 
 - Tailwind CSS IntelliSense
-- Headwind (Ryan Heybourn)
 
 <br/>
 

@@ -17,6 +17,13 @@ $ sudo apt install -y postgresql-client-common postgresql-client
 <br/>
 
 ```
+$ mkdir -p /home/marley/projects/dev/db/postgres
+$ cd /home/marley/projects/dev/db/postgres
+```
+
+<br/>
+
+```
 $ sudo vi /etc/hosts
 ```
 
@@ -70,7 +77,9 @@ services:
 
 <br/>
 
-    $ docker-compose up
+```
+$ docker-compose up
+```
 
 <br/>
 

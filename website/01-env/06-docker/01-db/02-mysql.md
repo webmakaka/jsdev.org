@@ -12,7 +12,9 @@ permalink: /env/docker/db/mysql/
 
 <br/>
 
-    $ vi docker-compose.yml
+```
+$ vi docker-compose.yml
+```
 
 <br/>
 
@@ -21,7 +23,7 @@ version: '3'
 services:
   mysql-dev:
     restart: always
-    image: mysql:8.0
+    image: mysql:8.1
     ports:
       - '3306:3306'
     volumes:
