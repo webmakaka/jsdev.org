@@ -42,7 +42,6 @@ permalink: /api/graphql/
     "codegen:generate": "npx apollo client:codegen --localSchemaFile=schema.json --includes=src/**/*.tsx --target=typescript",
 
     }
-
 }
 ```
 

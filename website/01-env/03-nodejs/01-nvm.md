@@ -25,8 +25,15 @@ $ exec -l $SHELL
 <br/>
 
 ```
+$ volta --version
+1.1.1
+```
+
+<br/>
+
+```
 // Volta will choose the latest LTS
-$ volta install node yarn npm
+$ volta install node yarn npm pnpm
 
 // $ volta install node@18 npm@9 yarn@3
 
@@ -35,31 +42,30 @@ $ volta install node yarn npm
 <br/>
 
 ```
-$ volta --version
-1.1.1
-```
-
-<br/>
-
-```
 $ node -v
-v18.18.0
+v20.10.0
 ```
 
 <br/>
 
 ```
 $ npm -v
-10.1.0
+10.2.5
 ```
 
 <br/>
 
 ```
-$  yarn -v
-4.0.0-rc.52
+$ yarn -v
+4.0.2
 ```
 
+<br/>
+
+```
+$ pnpm -v
+8.12.0
+```
 
 <br/>
 

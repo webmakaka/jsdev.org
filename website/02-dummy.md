@@ -73,3 +73,9 @@ Generate realistic test data in CSV, JSON, SQL, and Excel formats.
 ### Video
 
 https://techslides.com/demos/sample-videos/small.mp4
+
+<br/>
+
+### Instantly generate TypeScript interfaces from JSON
+
+https://quicktype.io/typescript

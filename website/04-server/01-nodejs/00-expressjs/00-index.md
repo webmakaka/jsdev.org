@@ -18,22 +18,26 @@ permalink: /server/nodejs/expressjs/
 
 <br/>
 
-    # npm install -g nodemon
-    # npm install -g express
-    # npm install -g express-generator
+```
+# npm install -g nodemon
+# npm install -g express
+# npm install -g express-generator
 
-    $ su - developer
-    $ cd /project/
-    $ express .
-    $ npm install
-    $ nodemon start
+$ su - developer
+$ cd /project/
+$ express .
+$ npm install
+$ nodemon start
+```
 
 <br/>
 
 **Options**:
 
-    --css less|stylus Adds a CSS preprocessor to your project, either Less or Stylus, depending on which you type in the command.
+```
+--css less|stylus Adds a CSS preprocessor to your project, either Less or Stylus, depending on which you type in the command.
 
-    --ejs Changes the HTML template engine from Jade to EJS.
-    --jshtml Changes the HTML template engine from Jade to JsHtml.
-    --hogan Changes the HTML template engine from Jade to Hogan.
+--ejs Changes the HTML template engine from Jade to EJS.
+--jshtml Changes the HTML template engine from Jade to JsHtml.
+--hogan Changes the HTML template engine from Jade to Hogan.
+```
