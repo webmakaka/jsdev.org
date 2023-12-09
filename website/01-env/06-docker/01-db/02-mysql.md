@@ -13,6 +13,13 @@ permalink: /env/docker/db/mysql/
 <br/>
 
 ```
+$ mkdir -p ~/projects/dev/db/mysql/
+$ cd ~/projects/dev/db/mysql/
+```
+
+<br/>
+
+```
 $ vi docker-compose.yml
 ```
 
@@ -57,6 +64,8 @@ $ sudo apt install -y mysql-client
 ```
 $ mysql --user=root --password=pA55w0rd123 -h 127.0.0.1 db
 ```
+
+<br/>
 
 ```
 mysql> SELECT DATABASE();

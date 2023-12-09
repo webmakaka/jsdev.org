@@ -11,14 +11,14 @@ permalink: /env/docker/db/postgresql/
 <br/>
 
 ```
-$ sudo apt install -y postgresql-client-common postgresql-client
+$ mkdir -p ~/projects/dev/db/postgres/
+$ cd ~/projects/dev/db/postgres/
 ```
 
 <br/>
 
 ```
-$ mkdir -p /home/marley/projects/dev/db/postgres
-$ cd /home/marley/projects/dev/db/postgres
+$ sudo apt install -y postgresql-client-common postgresql-client
 ```
 
 <br/>

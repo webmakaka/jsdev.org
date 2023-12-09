@@ -13,6 +13,13 @@ permalink: /env/docker/db/mongodb/
 <br/>
 
 ```
+$ mkdir -p ~/projects/dev/db/mongo/
+$ cd ~/projects/dev/db/mongo/
+```
+
+<br/>
+
+```
 $ vi docker-compose.yml
 ```
 

@@ -10,7 +10,7 @@ permalink: /server/nodejs/email/
 
 <br/>
 
-### [React Email + Resend](https://github.com/webmakaka/Mastering-Next.js-13-with-TypeScript/pull/5)
+### [React Email + Resend](https://github.com/wildmakaka/Mastering-Next.js-13-with-TypeScript)
 
 ### [[MailGun]](https://github.com/webmakaka/Test-Driven-Development-with-Nodejs)
 
