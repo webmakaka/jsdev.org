@@ -43,14 +43,14 @@ $ volta install node yarn npm pnpm
 
 ```
 $ node -v
-v20.10.0
+v20.11.0
 ```
 
 <br/>
 
 ```
 $ npm -v
-10.2.5
+10.3.0
 ```
 
 <br/>
@@ -64,7 +64,7 @@ $ yarn -v
 
 ```
 $ pnpm -v
-8.12.1
+8.14.1
 ```
 
 <br/>
