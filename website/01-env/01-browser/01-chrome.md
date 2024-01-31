@@ -32,7 +32,7 @@ Developer Tools (Ctrl + Shift + I) > Menu icon (3 vertical dots) > Settings > Pr
 - Redux DevTools
 - Quick JavaScript Switcher
 - EditThisCookie
-- GoFullPageGoFullPage
+- GoFullPage
 - SetupVPN
 - LanguageTool
 - grammarly
