@@ -36,7 +36,6 @@ $ volta --version
 $ volta install node yarn npm pnpm
 
 // $ volta install node@18 npm@9 yarn@3
-
 ```
 
 <br/>
@@ -90,6 +89,25 @@ $ volta pin node yarn npm
 ```
 // Disable asking for money
 $ npm config set fund false --location=global
+```
+
+<br/>
+
+```
+// Specify registry
+$ npm config set registry https://registry.npmjs.org/
+
+$ npm get registry
+
+$ npm config list
+```
+
+<br/>
+
+```
+$ vi .npmrc
+
+registry=http://repolib-main.ru:8081/repository/npm-public-repo/
 ```
 
 <br/>
