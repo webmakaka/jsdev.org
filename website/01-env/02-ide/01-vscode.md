@@ -137,7 +137,7 @@ CTRL + SHIFT + P
     "files.autoSave": "afterDelay",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        "source.organizeImports": true
+        "source.organizeImports": "explicit"
     },
     "prettier.requireConfig": true,
     "editor.tabSize": 2,
@@ -149,6 +149,12 @@ CTRL + SHIFT + P
     "[prisma]": {
         "editor.defaultFormatter": "Prisma.prisma"
     },
+    "[go]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "golang.go"
+    },
+    "editor.stickyScroll.enabled": false,
 }
 ```
 
