@@ -137,6 +137,15 @@ https://stackoverflow.com/questions/34559557/how-to-enable-authentication-on-mon
 
 <br/>
 
+### Execute from docker-compose
+
+```
+// OK!
+$ docker-compose exec mongo mongo "mongodb://admin:password@localhost:27017/logs?authSource=admin&readPreference=primary&directConnection=true&ssl=false" --quiet --eval "db.logs.find().pretty()"
+```
+
+<br/>
+
 ### Alpine add telnet package
 
 ```
