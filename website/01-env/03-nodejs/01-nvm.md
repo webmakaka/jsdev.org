@@ -12,8 +12,6 @@ permalink: /env/nodejs/nvm/
 
 ## [Variatn 1]: Volta (Node Version Manager)
 
-(Mike North - Tech Head Guy from LinkedIn recommend it)
-
 <br/>
 
 ```
@@ -31,9 +29,13 @@ $ volta --version
 
 <br/>
 
+<!--
+pnpm
+-->
+
 ```
 // Volta will choose the latest LTS
-$ volta install node yarn npm pnpm
+$ volta install node yarn npm
 
 // $ volta install node@18 npm@9 yarn@3
 ```
@@ -42,29 +44,29 @@ $ volta install node yarn npm pnpm
 
 ```
 $ node -v
-v20.11.0
+v20.14.0
 ```
 
 <br/>
 
 ```
 $ npm -v
-10.3.0
+10.8.1
 ```
 
 <br/>
 
 ```
 $ yarn -v
-4.0.2
+4.3.0
 ```
 
-<br/>
+<!--
 
 ```
 $ pnpm -v
 8.14.1
-```
+``` -->
 
 <br/>
 
@@ -129,80 +131,100 @@ nodeLinker: node-modules
 
 ### Install latest Node Version Manager (NVM)
 
-    -- current version
-    https://github.com/creationix/nvm/releases
+```
+// current version
+https://github.com/creationix/nvm/releases
+```
 
 <br/>
 
-    -- installation
+```
 
-    $ LATEST_VERSION=$(curl --silent "https://api.github.com/repos/nvm-sh/nvm/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/')
+// installation
+$ LATEST_VERSION=$(curl --silent "https://api.github.com/repos/nvm-sh/nvm/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/')
 
-    $ curl -o- https://raw.githubusercontent.com/creationix/nvm/${LATEST_VERSION}/install.sh | bash
+$ echo $LATEST_VERSION
 
-<br/>
-
-    $ export NVM_DIR="$HOME/.nvm"
-    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+$ curl -o- https://raw.githubusercontent.com/creationix/nvm/${LATEST_VERSION}/install.sh | bash
+```
 
 <br/>
 
-    $ nvm --version
-    0.36.0
+```
+$ export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+```
+
+<br/>
+
+```
+$ nvm --version
+0.39.7
+```
 
 <br/>
 
 ### Install latest Node.js LTS
 
-    // install latest LTS
-    $ nvm install --lts
+```
+// install latest LTS
+$ nvm install --lts
 
-    $ node --version
-    v12.19.0
+$ node --version
+v12.19.0
+```
 
 or
 
-    -- show possible
-    $ nvm ls-remote
+```
+-- show possible
+$ nvm ls-remote
 
-    // (Latest LTS: Erbium)
-    $ nvm install v12.19.0
+// (Latest LTS: Erbium)
+$ nvm install v12.19.0
 
-    $ nvm use v12.19.0
+$ nvm use v12.19.0
 
-    -- set default
-    $ nvm alias default v12.19.0
+-- set default
+$ nvm alias default v12.19.0
 
-    $ node --version
-    v12.19.0
+$ node --version
+v12.19.0
+```
 
 <br/>
 
 ### For fast switching
 
-    $ {
-      nvm install v12.19.0
-      nvm use v12.19.0
-      nvm alias default v12.19.0
-    }
+```
+$ {
+  nvm install v12.19.0
+  nvm use v12.19.0
+  nvm alias default v12.19.0
+}
+```
 
 <br/>
 
-    $ {
-      nvm install v8.17.0
-      nvm use v8.17.0
-      nvm alias default v8.17.0
-    }
+```
+$ {
+  nvm install v8.17.0
+  nvm use v8.17.0
+  nvm alias default v8.17.0
+}
+```
 
 <br/>
 
 ### Install latest NPM
 
-    $ nvm install-latest-npm
+```
+$ nvm install-latest-npm
 
-    $ npm --version
-    6.14.8
+$ npm --version
+6.14.8
+```
 
 <br/>
 
