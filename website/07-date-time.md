@@ -14,7 +14,9 @@ permalink: /date-time/
 
 ### date-fns
 
-    $ yarn add date-fns
+```
+$ yarn add date-fns
+```
 
 <br/>
 

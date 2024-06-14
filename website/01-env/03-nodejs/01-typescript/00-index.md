@@ -28,12 +28,16 @@ $ yarn add --dev @types/node
 
 <br/>
 
-    // You can generate default tsconfig.json
-    // $ ./node_modules/.bin/tsc --init
+```
+// You can generate default tsconfig.json
+// $ ./node_modules/.bin/tsc --init
+```
 
 <br/>
 
-    $ vi tsconfig.json
+```
+$ vi tsconfig.json
+```
 
 <br/>
 
