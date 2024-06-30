@@ -18,15 +18,19 @@ permalink: /env/nodejs/
 
 ### Global node_modules path
 
-    $ npm root -g
+```
+$ npm root -g
+```
 
 <br/>
 
 ### Check updates for node packages
 
-    $ npm install -g npm-check-updates
-    $ ncu -u
-    $ npm install
+```
+$ npm install -g npm-check-updates
+$ ncu -u
+$ npm install
+```
 
 <br/>
 
