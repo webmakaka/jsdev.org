@@ -10,6 +10,10 @@ permalink: /env/docker/db/sqlite/
 
 # SQLite
 
+<!--
+См. на gitops.ru
+-->
+
 Docker will add later
 
 https://github.com/webmakaka/Test-Driven-Development-with-Nodejs/blob/main/Development.md

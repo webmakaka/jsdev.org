@@ -10,6 +10,10 @@ permalink: /env/docker/db/mysql/
 
 # Docker MySQL DataBase
 
+<!--
+См. на gitops.ru
+-->
+
 <br/>
 
 ```

@@ -8,6 +8,10 @@ permalink: /env/docker/db/postgresql/
 
 # Docker PostgreSQL DataBase
 
+<!--
+См. на gitops.ru
+-->
+
 <br/>
 
 ```
