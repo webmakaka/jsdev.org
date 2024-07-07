@@ -3,7 +3,7 @@ layout: page
 title: Declarative Reactive Programming using RxJS in Angular
 description: Declarative Reactive Programming using RxJS in Angular
 keywords: courses, js, angular, rxjs, youtube, Leela Web Dev
-permalink: /courses/angular/rxjs/angular-declarative-reactive-programming-using-rxjs/
+permalink: /courses/frontend/angular/rxjs/angular-declarative-reactive-programming-using-rxjs/
 ---
 
 # [[YouTube] [Leela Web Dev] Declarative Reactive Programming using RxJS in Angular [ENG, 2021][6 hours, 23 minutes, 54 seconds]](https://www.youtube.com/playlist?list=PL_euSNU_eLberdNLX5idpheqHLjdZltJy)
@@ -40,19 +40,19 @@ Realtime Database
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic01.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic01.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic02.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic02.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic03.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic03.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic04.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic04.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -93,7 +93,7 @@ https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic05.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic05.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -105,7 +105,7 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic06.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic06.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -117,7 +117,7 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic07.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic07.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -186,7 +186,7 @@ $ ng g c components/SinglePost
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic08.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic08.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -198,7 +198,7 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic09.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic09.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -210,7 +210,7 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic10.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic10.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -232,7 +232,7 @@ https://loading.io/css/
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic11.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic11.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -268,7 +268,7 @@ $ ng g c components/AddPost
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic12.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic12.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -284,7 +284,7 @@ $ ng g c components/AddPost
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic13.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic13.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -306,7 +306,7 @@ $ ng g c components/UpdatePost
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic14.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic14.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -332,11 +332,11 @@ $ ng g c components/PostForm
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic15.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic15.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic16.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic16.png 'Angular RxJS'){: .center-image }
 
 <br/>
 
@@ -360,7 +360,7 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 <br/>
 
-![Angular RxJS](/img/courses/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic17.png 'Angular RxJS'){: .center-image }
+![Angular RxJS](/img/courses/frontend/angular/rxjs/angular-reactive-reactive-programming-using-rxjs/pic17.png 'Angular RxJS'){: .center-image }
 
 <br/>
 

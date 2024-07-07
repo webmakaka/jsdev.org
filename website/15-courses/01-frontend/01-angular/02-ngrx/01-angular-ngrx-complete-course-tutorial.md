@@ -3,7 +3,7 @@ layout: page
 title: Angular NGRX Complete Course Tutorial
 description: Angular NGRX Complete Course Tutorial
 keywords: courses, js, angular, ngrx, youtube, Leela Web Dev
-permalink: /courses/angular/ngrx/angular-ngrx-complete-course-tutorial/
+permalink: /courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/
 ---
 
 # [[YouTube] [Leela Web Dev] Angular NGRX Complete Course Tutorial [ENG, 2021]](https://www.youtube.com/playlist?list=PL_euSNU_eLbdg0gKbR8zmVJb4xLgHR7BX)
@@ -13,15 +13,15 @@ https://github.com/leelanarasimha/ngrx-counter/tree/master
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic01.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic01.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic02.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic02.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic03.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic03.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -29,7 +29,7 @@ https://github.com/leelanarasimha/ngrx-counter/tree/master
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic04.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic04.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -119,19 +119,19 @@ $ npm install @ngrx/store-devtools
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic05.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic05.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic06.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic06.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic07.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic07.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic08.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic08.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -139,7 +139,7 @@ $ npm install @ngrx/store-devtools
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic09.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic09.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -151,7 +151,7 @@ https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/6
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic10.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic10.png 'Angular NgRx'){: .center-image }
 
 https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/7
 
@@ -165,7 +165,7 @@ $ ng g c posts/AddPost
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic11.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic11.png 'Angular NgRx'){: .center-image }
 
 https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/8
 
@@ -175,7 +175,7 @@ https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/8
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic12.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic12.png 'Angular NgRx'){: .center-image }
 
 https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/9
 
@@ -189,7 +189,7 @@ $ ng g c posts/EditPost
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic13.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic13.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -197,7 +197,7 @@ $ ng g c posts/EditPost
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic14.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic14.png 'Angular NgRx'){: .center-image }
 
 https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/10
 
@@ -229,7 +229,7 @@ $ ng g c auth/login
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic15.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic15.png 'Angular NgRx'){: .center-image }
 
 https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/14
 
@@ -259,11 +259,11 @@ https://firebase.google.com/docs/reference/rest/auth#section-sign-in-email-passw
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic16.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic16.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic17.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic17.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -275,7 +275,7 @@ https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/15
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic18.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic18.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -293,7 +293,7 @@ https://loading.io/css/
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic19.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic19.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -305,7 +305,7 @@ https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/17
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic20.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic20.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -335,11 +335,11 @@ https://firebase.google.com/docs/reference/rest/auth#section-create-email-passwo
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic21.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic21.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic22.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic22.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -351,7 +351,7 @@ https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/20
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic23.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic23.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -377,7 +377,7 @@ https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/23
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic24.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic24.png 'Angular NgRx'){: .center-image }
 
 https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/24
 
@@ -387,11 +387,11 @@ https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/24
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic25.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic25.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic26.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic26.png 'Angular NgRx'){: .center-image }
 
 https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/25
 
@@ -417,7 +417,7 @@ $ npm install @ngrx/router-store
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic27.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic27.png 'Angular NgRx'){: .center-image }
 
 <br/>
 
@@ -439,7 +439,7 @@ $ ng g c posts/SinglePost
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic28.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic28.png 'Angular NgRx'){: .center-image }
 
 https://github.com/wildmakaka/angular-ngrx-complete-course-tutorial/pull/28
 
@@ -510,7 +510,7 @@ $ npm install @ngrx/store-devtools
 
 <br/>
 
-![Angular NgRx](/img/courses/angular/ngrx/angular-ngrx-complete-course-tutorial/pic29.png 'Angular NgRx'){: .center-image }
+![Angular NgRx](/img/courses/frontend/angular/ngrx/angular-ngrx-complete-course-tutorial/pic29.png 'Angular NgRx'){: .center-image }
 
 https://github.com/wildmakaka/angular-ngrx-data-complete-course-tutorial/pull/1
 

@@ -12,27 +12,27 @@ permalink: /client/angular/
 
 ### Angular cli
 
-<br/>
+<!-- <br/>
 
 ```
 $ volta install node@18 npm@9 yarn@3
-```
+``` -->
 
 <br/>
 
 ```
 $ node -v
-v18.16.0
+v20.15.0
 ```
 
 <br/>
 
 ```
 $ npm -v
-9.6.6
+10.8.1
 ```
 
-<br/>
+<!-- <br/>
 
 ```
 $ yarn -v
@@ -43,6 +43,12 @@ $ yarn -v
 
 ```
 $ volta install @angular/cli
+``` -->
+
+<br/>
+
+```
+$ npm install -g @angular/cli
 ```
 
 <br/>
@@ -57,10 +63,9 @@ $ ng version
  /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
                 |___/
 
-
-Angular CLI: 16.2.0
-Node: 18.16.0
-Package Manager: npm 9.6.6
+Angular CLI: 18.0.7
+Node: 20.15.0
+Package Manager: npm 10.8.1
 OS: linux x64
 
 Angular:
@@ -68,10 +73,10 @@ Angular:
 
 Package                      Version
 ------------------------------------------------------
-@angular-devkit/architect    0.1602.0 (cli-only)
-@angular-devkit/core         16.2.0 (cli-only)
-@angular-devkit/schematics   16.2.0 (cli-only)
-@schematics/angular          16.2.0 (cli-only)
+@angular-devkit/architect    0.1800.7 (cli-only)
+@angular-devkit/core         18.0.7 (cli-only)
+@angular-devkit/schematics   18.0.7 (cli-only)
+@schematics/angular          18.0.7 (cli-only)
 ```
 
 <br/>
@@ -173,15 +178,15 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 
 <br/>
 
-## [Angular courses](/courses/angular/)
+## [Angular courses](/courses/frontend/angular/)
 
 <br/>
 
 ## Angular code examples
 
-### [RxJs](/courses/angular/rxjs/)
+### [RxJs](/courses/frontend/angular/rxjs/)
 
-### [NgRx](/courses/angular/ngrx/)
+### [NgRx](/courses/frontend/angular/ngrx/)
 
 ### [[frontendmasters.com] Production-Grade Angular [2021, ENG]](https://github.com/onehungrymind/fem-production-angular)
 
