@@ -48,7 +48,7 @@ $ volta install @angular/cli
 <br/>
 
 ```
-$ npm install -g @angular/cli
+$ npm install -g @angular/cli@latest
 ```
 
 <br/>
@@ -63,20 +63,22 @@ $ ng version
  /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
                 |___/
 
-Angular CLI: 18.0.7
-Node: 20.15.0
-Package Manager: npm 10.8.1
+
+Angular CLI: 18.1.1
+Node: 20.15.1
+Package Manager: npm 10.7.0
 OS: linux x64
 
-Angular:
+Angular: undefined
 ...
 
 Package                      Version
 ------------------------------------------------------
-@angular-devkit/architect    0.1800.7 (cli-only)
-@angular-devkit/core         18.0.7 (cli-only)
-@angular-devkit/schematics   18.0.7 (cli-only)
-@schematics/angular          18.0.7 (cli-only)
+@angular-devkit/architect    0.1801.1 (cli-only)
+@angular-devkit/core         18.1.1 (cli-only)
+@angular-devkit/schematics   18.1.1 (cli-only)
+@schematics/angular          18.1.1 (cli-only)
+
 ```
 
 <br/>
@@ -91,7 +93,7 @@ $ ng serve --host 0.0.0.0 --port 8080
 
 **.prettierrc**
 
-```
+```json
 {
   "tabWidth": 2,
   "printWidth": 80,
@@ -99,7 +101,6 @@ $ ng serve --host 0.0.0.0 --port 8080
   "singleQuote": true,
   "bracketSpacing": true
 }
-
 ```
 
 <br/>

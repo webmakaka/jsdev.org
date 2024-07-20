@@ -84,9 +84,9 @@ v12.19.0
 
 ```
 $ {
-  nvm install v12.19.0
-  nvm use v12.19.0
-  nvm alias default v12.19.0
+  nvm install v20.15.0
+  nvm use v20.15.0
+  nvm alias default v20.15.0
 }
 ```
 
