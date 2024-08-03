@@ -12,7 +12,7 @@ permalink: /sitemap/
 
 ## Environment:
 
-<a href="/env/">Environment</a>
+<a href="/setup/">Environment</a>
 
 <br/>
 
