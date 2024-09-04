@@ -2,7 +2,7 @@
 layout: page
 title: Node Jest
 description: Node Jest
-keywords: node.js, jest
+keywords: setup, node.js, jest
 permalink: /setup/nodejs/jest/
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: Absolute path imports for Node.js projects
 description: Absolute path imports for Node.js projects
-keywords: env, node.js, Absolute path imports
+keywords: setup, node.js, Absolute path imports
 permalink: /setup/nodejs/absolute-path-imports/
 ---
 

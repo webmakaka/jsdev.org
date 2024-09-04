@@ -15,9 +15,7 @@ permalink: /client/html/templates/
 <br/>
 
 ```
-https://html5boilerplate.com/
 https://html5up.net/
-http://bootstrapious.com/portfolio-themes
 http://templated.co
 http://themes.3rdwavemedia.com/
 http://mdbootstrap.com/

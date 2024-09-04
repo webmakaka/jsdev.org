@@ -2,7 +2,7 @@
 layout: page
 title: Node.js
 description: Node.js
-keywords: node.js
+keywords: setup, node.js
 permalink: /setup/nodejs/
 ---
 

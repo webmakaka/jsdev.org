@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Angular
-description: Angular
-keywords: Angular
+title: Angular 18
+description: Angular 18
+keywords: setup, Angular 18
 permalink: /setup/angular/
 ---
 
-# Angular
+# Angular 18
 
 <br/>
 
@@ -64,9 +64,9 @@ $ ng version
                 |___/
 
 
-Angular CLI: 18.1.3
-Node: 20.16.0
-Package Manager: npm 10.8.2
+Angular CLI: 18.1.4
+Node: 20.15.0
+Package Manager: npm 10.8.1
 OS: linux x64
 
 Angular: undefined
@@ -74,10 +74,10 @@ Angular: undefined
 
 Package                      Version
 ------------------------------------------------------
-@angular-devkit/architect    0.1801.3 (cli-only)
-@angular-devkit/core         18.1.3 (cli-only)
-@angular-devkit/schematics   18.1.3 (cli-only)
-@schematics/angular          18.1.3 (cli-only)
+@angular-devkit/architect    0.1801.4 (cli-only)
+@angular-devkit/core         18.1.4 (cli-only)
+@angular-devkit/schematics   18.1.4 (cli-only)
+@schematics/angular          18.1.4 (cli-only)
 ```
 
 <br/>
@@ -126,7 +126,7 @@ node_modules
 
 **angular.json**
 
-```
+```json
   "projects": {
     "app": {
       "projectType": "application",
@@ -135,6 +135,16 @@ node_modules
           "skipTests": true
         }
       },
+***
+```
+
+<br/>
+
+**package.json**
+
+```json
+***
+      "start": "ng serve --host 0.0.0.0 --port 8080",
 ***
 ```
 
