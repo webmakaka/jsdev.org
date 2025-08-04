@@ -3,7 +3,7 @@ layout: page
 title: Kubernetes
 description: Kubernetes
 keywords: kubernetes, postgres
-permalink: /setup/kubernetes/db/postgres/
+permalink: /tools/containers/kubernetes/setup/db/postgres/
 ---
 
 # Kubernetes

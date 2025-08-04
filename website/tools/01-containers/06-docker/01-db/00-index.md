@@ -3,20 +3,20 @@ layout: page
 title: Docker DataBases
 description: Docker DataBases
 keywords: env, docker, db
-permalink: /setup/docker/db/
+permalink: /tools/containers/docker/setup/db/
 ---
 
 <br/>
 
 # Docker DataBases
 
-### [PostgreSQL](/setup/docker/db/postgresql/)
+### [PostgreSQL](/tools/containers/docker/setup/db/postgresql/)
 
-### [MongoDB](/setup/docker/db/mongodb/)
+### [MongoDB](/tools/containers/docker/setup/db/mongodb/)
 
-### [MySQL](/setup/docker/db/mysql/)
+### [MySQL](/tools/containers/docker/setup/db/mysql/)
 
-### [SQLite](/setup/docker/db/sqlite/)
+### [SQLite](/tools/containers/docker/setup/db/sqlite/)
 
 <br/>
 

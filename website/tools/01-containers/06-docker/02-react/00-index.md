@@ -3,7 +3,7 @@ layout: page
 title: Dockerfiles for React.js apps
 description: Dockerfiles for React.js apps
 keywords: docker, react, dockerfiles
-permalink: /setup/docker/react/
+permalink: /tools/containers/docker/setup/react/
 ---
 
 # Dockerfiles for React.js apps

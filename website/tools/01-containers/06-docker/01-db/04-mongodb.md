@@ -3,7 +3,7 @@ layout: page
 title: Docker MongoDB DataBase
 description: Docker MongoDB DataBase
 keywords: env, docker, database, mongodb
-permalink: /setup/docker/db/mongodb/
+permalink: /tools/containers/docker/setup/db/mongodb/
 ---
 
 <br/>

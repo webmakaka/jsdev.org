@@ -3,7 +3,7 @@ layout: page
 title: Docker MySQL DataBase
 description: Docker MySQL DataBase
 keywords: env, docker, database, mysql
-permalink: /setup/docker/db/mysql/
+permalink: /tools/containers/docker/setup/db/mysql/
 ---
 
 <br/>

@@ -3,7 +3,7 @@ layout: page
 title: Docker
 description: Docker
 keywords: docker, containers
-permalink: /setup/docker/
+permalink: /tools/containers/docker/setup/
 ---
 
 # Docker
@@ -26,9 +26,9 @@ $ {
 
 ### [Environment example for development JS Apps Inside Docker](https://github.com/wildmakaka/Rolling-Scopes-School-Nodejs-Course-Task-6-Docker-basics)
 
-### [React](/setup/docker/react/)
+### [React](/tools/containers/docker/setup/react/)
 
-### [DataBases](/setup/docker/db/)
+### [DataBases](/tools/containers/docker/setup/db/)
 
 ### [Awesome Compose](https://github.com/docker/awesome-compose)
 

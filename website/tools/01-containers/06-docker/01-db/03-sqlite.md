@@ -3,7 +3,7 @@ layout: page
 title: Docker SQLite DataBase
 description: Docker SQLite DataBase
 keywords: env, docker, database, SQLite
-permalink: /setup/docker/db/sqlite/
+permalink: /tools/containers/docker/setup/db/sqlite/
 ---
 
 <br/>

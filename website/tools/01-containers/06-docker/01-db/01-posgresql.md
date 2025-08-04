@@ -3,7 +3,7 @@ layout: page
 title: Docker PostgreSQL DataBase
 description: Docker PostgreSQL DataBase
 keywords: env, docker, database, postgresql
-permalink: /setup/docker/db/postgresql/
+permalink: /tools/containers/docker/setup/db/postgresql/
 ---
 
 # Docker PostgreSQL DataBase
