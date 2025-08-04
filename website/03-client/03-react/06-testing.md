@@ -3,7 +3,7 @@ layout: page
 title: React.js testing
 description: React.js testing
 keywords: React.js testing
-permalink: /client/react/testing/
+permalink: /client/react/tools/testing/
 ---
 
 # React.js testing

@@ -3,7 +3,7 @@ layout: page
 title: Jest
 description: Jest
 keywords: Jest
-permalink: /server/nodejs/testing/jest/
+permalink: /server/nodejs/tools/testing/jest/
 ---
 
 # Jest

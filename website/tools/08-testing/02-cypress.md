@@ -3,7 +3,7 @@ layout: page
 title: Cypress
 description: Cypress
 keywords: js, testing, cypress
-permalink: /testing/cypress/
+permalink: /tools/testing/cypress/
 ---
 
 # Cypress

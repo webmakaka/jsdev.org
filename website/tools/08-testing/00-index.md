@@ -3,18 +3,18 @@ layout: page
 title: Testing
 description: Testing
 keywords: Testing, jest, cypress, Mocha, Expect, Should, Supertest, Chai, Sinon, Karma, Jasmine
-permalink: /testing/
+permalink: /tools/testing/
 ---
 
 # Testing (unit or functional)
 
 <br/>
 
-### [Jest for Nodejs](/server/nodejs/testing/jest/)
+### [Jest for Nodejs](/server/nodejs/tools/testing/jest/)
 
 <br/>
 
-### cypress.io
+### [Cypress](/tools/testing/cypress/)
 
 <br/>
 

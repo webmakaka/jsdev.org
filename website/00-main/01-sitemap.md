@@ -60,7 +60,7 @@ Ionic | React Native
 
 ## Testing
 
-<a href="/testing/">Testing</a>
+<a href="/tools/testing/">Testing</a>
 
 <br/>
 

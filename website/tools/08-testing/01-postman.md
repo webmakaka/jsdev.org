@@ -3,7 +3,7 @@ layout: page
 title: Postma
 description: Postma
 keywords: Postman
-permalink: /testing/postman/
+permalink: /tools/testing/postman/
 ---
 
 # Postman

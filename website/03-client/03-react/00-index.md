@@ -66,7 +66,7 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 ### [Create simple react project manually](/client/react/create-simple-react-project-manually/)
 
-### [React.js testing](/client/react/testing/)
+### [React.js testing](/client/react/tools/testing/)
 
 ### [React.js And Bootstrap](https://www.youtube.com/watch?v=DyNADv8RZPs&list=PL_edDyMvX8wUK6BEeFPXdvfEgWl8RJnR_)
 
