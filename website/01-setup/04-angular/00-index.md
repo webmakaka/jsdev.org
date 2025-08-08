@@ -22,14 +22,14 @@ $ volta install node@18 npm@9 yarn@3
 
 ```
 $ node -v
-v20.15.0
+v22.18.0
 ```
 
 <br/>
 
 ```
 $ npm -v
-10.8.1
+11.5.2
 ```
 
 <!-- <br/>
@@ -48,7 +48,14 @@ $ volta install @angular/cli
 <br/>
 
 ```
-$ npm install -g @angular/cli
+// show available versions
+$ npm view @angular/cli versions
+```
+
+```
+// install latest
+$ npm install -g @angular/cli@latest
+$ npm cache clean --force
 ```
 
 <br/>
@@ -63,21 +70,26 @@ $ ng version
  /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
                 |___/
 
-
-Angular CLI: 18.1.4
-Node: 20.15.0
-Package Manager: npm 10.8.1
+Angular CLI: 20.1.5
+Node: 22.18.0
+Package Manager: npm 11.5.2
 OS: linux x64
 
-Angular: undefined
-...
+Angular: 20.1.6
+... common, compiler, compiler-cli, core, forms
+... platform-browser, router
 
 Package                      Version
 ------------------------------------------------------
-@angular-devkit/architect    0.1801.4 (cli-only)
-@angular-devkit/core         18.1.4 (cli-only)
-@angular-devkit/schematics   18.1.4 (cli-only)
-@schematics/angular          18.1.4 (cli-only)
+@angular-devkit/architect    0.2001.5
+@angular-devkit/core         20.1.5
+@angular-devkit/schematics   20.1.5
+@angular/build               20.1.5
+@angular/cli                 20.1.5
+@schematics/angular          20.1.5
+rxjs                         7.8.2
+typescript                   5.8.3
+zone.js                      0.15.1
 ```
 
 <br/>

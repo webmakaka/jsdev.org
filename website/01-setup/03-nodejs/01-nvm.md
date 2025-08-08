@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Node Version Management (NVM) installation in Ubuntu 20.04
+title: Node Version Management (NVM) installation in Ubuntu 22.04
 description: Node Version Management installation and usage
 keywords: setup, node.js, volta, Node Version Management, nvm, install
 permalink: /setup/nodejs/nvm/
@@ -10,7 +10,7 @@ permalink: /setup/nodejs/nvm/
 
 <br/>
 
-## [Variatn 1]: Node Version Manager (NVM) installation in Ubuntu 20.04
+## [Variatn 1]: Node Version Manager (NVM) installation in Ubuntu 22.04
 
 <br/>
 
@@ -36,16 +36,14 @@ $ curl -o- https://raw.githubusercontent.com/creationix/nvm/${LATEST_VERSION}/in
 <br/>
 
 ```
-$ export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+CTRL^D, New Terminal
 ```
 
 <br/>
 
 ```
 $ nvm --version
-0.39.7
+0.40.3
 ```
 
 <br/>
@@ -56,8 +54,10 @@ $ nvm --version
 // install latest LTS
 $ nvm install --lts
 
+$ nvm use --lts
+
 $ node --version
-v20.16.0
+v22.18.0
 ```
 
 or
@@ -108,7 +108,15 @@ $ {
 $ nvm install-latest-npm
 
 $ npm --version
-10.8.2
+11.5.2
+```
+
+<br/>
+
+### Yarn
+
+```
+$ npm install --global yarn
 ```
 
 <br/>
@@ -150,7 +158,7 @@ $ exec -l $SHELL
 
 ```
 $ volta --version
-1.1.1
+2.0.2
 ```
 
 <br/>
@@ -170,21 +178,21 @@ $ volta install node yarn npm
 
 ```
 $ node -v
-v20.14.0
+v22.18.0
 ```
 
 <br/>
 
 ```
 $ npm -v
-10.8.1
+11.5.2
 ```
 
 <br/>
 
 ```
 $ yarn -v
-4.3.0
+4.9.2
 ```
 
 <!--
@@ -233,9 +241,10 @@ $ npm config list
 <br/>
 
 ```
+// example how to add your repo
 $ vi .npmrc
 
-registry=http://repolib-main.ru:8081/repository/npm-public-repo/
+registry=http://mylib.ru:8081/repository/npm-public-repo/
 ```
 
 <br/>

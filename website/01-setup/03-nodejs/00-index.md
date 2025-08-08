@@ -19,6 +19,7 @@ permalink: /setup/nodejs/
 ### Global node_modules path
 
 ```
+// show global packages location
 $ npm root -g
 ```
 
