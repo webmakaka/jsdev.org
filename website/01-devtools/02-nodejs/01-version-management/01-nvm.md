@@ -10,7 +10,7 @@ permalink: /devtools/nodejs/version-management/nvm/
 
 <br/>
 
-## [Variatn 1]: Node Version Manager (NVM) installation in Ubuntu 22.04
+## Node Version Manager (NVM) installation in Ubuntu 22.04
 
 <br/>
 
@@ -24,7 +24,6 @@ https://github.com/creationix/nvm/releases
 <br/>
 
 ```
-
 // installation
 $ LATEST_VERSION=$(curl --silent "https://api.github.com/repos/nvm-sh/nvm/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/')
 
@@ -48,9 +47,24 @@ $ nvm --version
 0.40.3
 ```
 
+
 <br/>
 
-### Install latest Node.js LTS
+### Install latest Node.js
+
+```
+$ nvm install node
+$ nvm use node
+
+$ nvm install-latest-npm
+
+$ npx node -v
+```
+
+
+<br/>
+
+### Install latest LTS Node.js 
 
 ```
 // install latest LTS
@@ -82,8 +96,6 @@ v22.18.0
 $ /home/marley/.nvm/versions/node/v22.18.0/bin/npx node -v
 v22.5.1
 
-
-
 $ which node
 /home/marley/.nvm/versions/node/v22.18.0/bin/node
 
@@ -92,6 +104,10 @@ $ which npx
 
 
 $ rm -rf ~/.npm/_npx
+
+
+$ ls -l $(which node)
+$ ls -l $(which npx)
 
 ```
 

@@ -3,7 +3,7 @@ layout: page
 title: NeoVim [Oleksandr Kocherhin] Neovim configs
 description: NeoVim [Oleksandr Kocherhin] Neovim configs
 keywords: env, ide, neovim, installation, plugins, kocherghin
-permalink: /setup/ide/neovim/koncherghin/
+permalink: /devtools/ide/neovim/koncherghin/
 ---
 
 # NeoVim [Oleksandr Kocherhin] Neovim configs

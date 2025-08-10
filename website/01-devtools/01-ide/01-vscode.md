@@ -3,7 +3,7 @@ layout: page
 title: JavaScript IDE - Visual Studio Code, VSCODE (Microsoft)
 description: JavaScript IDE - Visual Studio Code (Microsoft)
 keywords: env, ide, vscode, Microsoft, JavaScript
-permalink: /setup/ide/vscode/
+permalink: /devtools/ide/vscode/
 ---
 
 # Visual Studio Code (Microsoft)
@@ -132,20 +132,25 @@ CTRL + SHIFT + P
 
 ```js
 {
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     "explorer.compactFolders": false,
     "editor.fontSize": 22,
-    "files.autoSave": "afterDelay",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
         "source.organizeImports": "explicit"
     },
-    "prettier.requireConfig": true,
     "editor.tabSize": 2,
-    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.autoSave": "afterDelay",
+    "prettier.requireConfig": true,
+
     "typescript.preferences.importModuleSpecifier": "non-relative",
     "javascript.preferences.importModuleSpecifier": "non-relative",
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[prisma]": {
         "editor.defaultFormatter": "Prisma.prisma"
     },
@@ -155,6 +160,26 @@ CTRL + SHIFT + P
         "editor.defaultFormatter": "golang.go"
     },
     "editor.stickyScroll.enabled": false,
+    "rust-analyzer.check.command": "clippy",
+    "prisma.showPrismaDataPlatformNotification": false,
+    "docker.extension.enableComposeLanguageServer": false,
+}
+```
+
+<br/>
+
+**ProxySettings if needed**
+
+```js
+{
+    "http.proxySupport": "on",
+    "http.proxy": "http://proxy.my-proxy-host.ru:3128",
+    "http.proxyStrictSSL": false,
+    "http.noProxy": [
+        "*.my-proxy-host.ru",
+        "10.*"
+    ],
+    "http.proxyAuthorization": "Negotiate"
 }
 ```
 

@@ -11,7 +11,7 @@ permalink: /devtools/nodejs/version-management/volta/
 
 <br/>
 
-## [Variatn 2]: Volta (Node Version Manager)
+## Volta (Node Version Manager)
 
 <br/>
 

@@ -3,7 +3,7 @@ layout: page
 title: JavaScript IDE - NeoVim - Installation in Ubunu 20
 description: JavaScript IDE - NeoVim - Installation in Ubunu 20
 keywords: env, ide, neovim, installation, plugins
-permalink: /setup/ide/neovim/
+permalink: /devtools/ide/neovim/
 ---
 
 # JavaScript IDE - NeoVim
@@ -621,7 +621,7 @@ https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
 
 <br/>
 
-### [[Oleksandr Kocherhin] Neovim configs](/setup/ide/neovim/koncherghin/)
+### [[Oleksandr Kocherhin] Neovim configs](/devtools/ide/neovim/koncherghin/)
 
 <br/>
 

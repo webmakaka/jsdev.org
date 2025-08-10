@@ -24,8 +24,8 @@ I'm working in ubuntu linux 20.04 LTS
 
 **IDE:**
 
-<a href="/setup/ide/vscode/">VSCode</a>
-<a href="/setup/ide/neovim/">NeoVim</a>
+<a href="/devtools/ide/vscode/">VSCode</a>
+<a href="/devtools/ide/neovim/">NeoVim</a>
 
 <br/>
 
