@@ -213,3 +213,55 @@ https://github.com/wildmakaka/Angular-Declarative-Reactive-Programming-using-RxJ
 ### [[frontendmasters.com] Production-Grade Angular [2021, ENG]](https://github.com/onehungrymind/fem-production-angular)
 
 ### [Pockemons](https://github.com/nvkuznetsova/pokemons-fast-start-demo/tree/main)
+
+
+
+
+<br/>
+
+### The Angular CLI requires a minimum Node.js version of
+
+
+```
+$ npm start
+
+> techline.ru@0.0.0 start
+> ng serve
+
+Node.js version v22.5.1 detected.
+The Angular CLI requires a minimum Node.js version of v20.19 or v22.12.
+
+Please update your Node.js version or visit https://nodejs.org/ for additional instructions.
+```
+
+<br/>
+
+```
+$ node -v
+v22.18.0
+```
+
+
+<br/>
+
+```
+$ npx node -v
+v22.5.1
+```
+
+<br/>
+
+```
+$ which npx
+/home/marley/.volta/bin/npx
+```
+
+<br/>
+
+```
+$ npx clear-npx-cache
+```
+
+
+
+npm install -g npm@latest --force

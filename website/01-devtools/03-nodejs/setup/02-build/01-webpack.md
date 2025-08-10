@@ -3,7 +3,7 @@ layout: page
 title: WebPack - Babel
 description: WebPack - Babel
 keywords: WebPack - Babel
-permalink: /setup/nodejs/build/webpack/
+permalink: /devtools/nodejs/setup/build/webpack/
 ---
 
 # Nodejs - WebPack - Babel

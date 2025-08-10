@@ -3,7 +3,7 @@ layout: page
 title: ESlint for TypeScript
 description: ESlint for TypeScript
 keywords: env, eslint, typescipt, ESlint for TypeScript
-permalink: /setup/nodejs/typescript/eslint/
+permalink: /devtools/nodejs/setup/typescript/eslint/
 ---
 
 <br/>

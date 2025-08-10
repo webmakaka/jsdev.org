@@ -3,7 +3,7 @@ layout: page
 title: Jest
 description: Jest
 keywords: env, jest
-permalink: /setup/nodejs/typescript/jest/
+permalink: /devtools/nodejs/setup/typescript/jest/
 ---
 
 <br/>

@@ -3,7 +3,7 @@ layout: page
 title: Typescipt environment for development
 description: Prepare environment for development typescript applications
 keywords: typescript, ts, environment, development
-permalink: /setup/nodejs/typescript/
+permalink: /devtools/nodejs/setup/typescript/
 ---
 
 # Typescipt environment for development
@@ -108,10 +108,10 @@ https://www.typescriptlang.org/docs/handbook/compiler-options.html
 
 <br/>
 
-<a href="/setup/nodejs/typescript/nodemon/">Nodemon</a>
-<a href="/setup/nodejs/typescript/eslint/">Eslint</a>
-<a href="/setup/nodejs/typescript/jest/">Jest for TypeScript</a>
-<a href="/setup/nodejs/typescript/webpack/">WebPack for TypeScript</a>
+<a href="/devtools/nodejs/setup/typescript/nodemon/">Nodemon</a>
+<a href="/devtools/nodejs/setup/typescript/eslint/">Eslint</a>
+<a href="/devtools/nodejs/setup/typescript/jest/">Jest for TypeScript</a>
+<a href="/devtools/nodejs/setup/typescript/webpack/">WebPack for TypeScript</a>
 
 <br/>
 

@@ -3,7 +3,7 @@ layout: page
 title: Typescript and Nodemon
 description: Typescript and Nodemon
 keywords: env, nodejs, typescript, nodemon
-permalink: /setup/nodejs/typescript/nodemon/
+permalink: /devtools/nodejs/setup/typescript/nodemon/
 ---
 
 # Typescript and Nodemon

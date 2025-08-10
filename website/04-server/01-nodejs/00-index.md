@@ -18,7 +18,7 @@ https://github.com/nodejs/release
 
 ### Node.JS installation
 
-<a href="/setup/nodejs/">Volta and NVM (Node Version Manager)</a>
+<a href="/devtools/nodejs/setup/">Volta and NVM (Node Version Manager)</a>
 
 <br/>
 

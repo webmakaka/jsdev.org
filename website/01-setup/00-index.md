@@ -31,9 +31,9 @@ I'm working in ubuntu linux 20.04 LTS
 
 **Code:**
 
-- <a href="/setup/nodejs/">Node.js</a>
-- <a href="/setup/nodejs/typescript/">Node.js + TypeScript</a>
-- <a href="/setup/nodejs/typescript/eslint/">Node.js + TypeScript + Eslint</a>
+- <a href="/devtools/nodejs/setup/">Node.js</a>
+- <a href="/devtools/nodejs/setup/typescript/">Node.js + TypeScript</a>
+- <a href="/devtools/nodejs/setup/typescript/eslint/">Node.js + TypeScript + Eslint</a>
 - <a href="/setup/react/">React</a>
 - <a href="/setup/pre-commit/">Pre Commit</a>
 - <a href="/tools/containers/docker/setup/db/">Docker DataBases</a>

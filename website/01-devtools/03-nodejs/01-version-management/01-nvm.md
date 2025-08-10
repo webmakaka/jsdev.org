@@ -3,7 +3,7 @@ layout: page
 title: Node Version Management (NVM) installation in Ubuntu 22.04
 description: Node Version Management installation and usage
 keywords: setup, node.js, volta, Node Version Management, nvm, install
-permalink: /setup/nodejs/nvm/
+permalink: /devtools/nodejs/version-management/nvm/
 ---
 
 # Node Version Management
@@ -28,6 +28,8 @@ https://github.com/creationix/nvm/releases
 // installation
 $ LATEST_VERSION=$(curl --silent "https://api.github.com/repos/nvm-sh/nvm/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/')
 
+
+// v0.40.3
 $ echo $LATEST_VERSION
 
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/${LATEST_VERSION}/install.sh | bash
@@ -36,7 +38,7 @@ $ curl -o- https://raw.githubusercontent.com/creationix/nvm/${LATEST_VERSION}/in
 <br/>
 
 ```
-CTRL^D, New Terminal
+CTRL^D, CTRL+ALT+T
 ```
 
 <br/>
@@ -59,6 +61,40 @@ $ nvm use --lts
 $ node --version
 v22.18.0
 ```
+
+<br/>
+
+```
+// WTF ???
+$ npx node -v
+v22.5.1
+
+
+$ nvm alias default 22.18.0
+
+
+$ rm /home/marley/.nvm/versions/node/v22.18.0/bin/npx
+$ npm install -g npx
+
+$ node -v
+v22.18.0
+
+$ /home/marley/.nvm/versions/node/v22.18.0/bin/npx node -v
+v22.5.1
+
+
+
+$ which node
+/home/marley/.nvm/versions/node/v22.18.0/bin/node
+
+$ which npx
+/home/marley/.nvm/versions/node/v22.18.0/bin/npx
+
+
+$ rm -rf ~/.npm/_npx
+
+```
+
 
 or
 
@@ -142,83 +178,7 @@ $ npm install --global yarn
 engine-strict=true
 ```
 
-<br/>
 
-## [Variatn 2]: Volta (Node Version Manager)
-
-<br/>
-
-```
-$ curl https://get.volta.sh | bash
-
-$ exec -l $SHELL
-```
-
-<br/>
-
-```
-$ volta --version
-2.0.2
-```
-
-<br/>
-
-<!--
-pnpm
--->
-
-```
-// Volta will choose the latest LTS
-$ volta install node yarn npm
-
-// $ volta install node@18 npm@9 yarn@3
-```
-
-<br/>
-
-```
-$ node -v
-v22.18.0
-```
-
-<br/>
-
-```
-$ npm -v
-11.5.2
-```
-
-<br/>
-
-```
-$ yarn -v
-4.9.2
-```
-
-<!--
-
-```
-$ pnpm -v
-8.14.1
-``` -->
-
-<br/>
-
-```
-// Add current version info inside package.json
-$ volta pin node yarn npm
-```
-
-<br/>
-
-**package.json**
-
-```
-  "volta": {
-    "node": "v18.14.0",
-    "npm": "9.6.0"
-  },
-```
 
 <br/>
 
@@ -257,3 +217,5 @@ $ vi .yarnrc.yml
 ```
 nodeLinker: node-modules
 ```
+
+

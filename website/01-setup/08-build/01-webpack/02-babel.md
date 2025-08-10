@@ -77,4 +77,4 @@ module.exports = config;
 
 <br/>
 
-[Config for node.js project](/setup/nodejs/absolute-path-imports/)
+[Config for node.js project](/devtools/nodejs/setup/absolute-path-imports/)

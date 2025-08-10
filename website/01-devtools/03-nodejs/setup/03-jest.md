@@ -3,7 +3,7 @@ layout: page
 title: Node Jest
 description: Node Jest
 keywords: setup, node.js, jest
-permalink: /setup/nodejs/jest/
+permalink: /devtools/nodejs/setup/jest/
 ---
 
 # Jest in nodejs project with absolute path
@@ -16,7 +16,7 @@ $ yarn add -D jest supertest
 
 <br/>
 
-[Config same as here](/setup/nodejs/absolute-path-imports/)
+[Config same as here](/devtools/nodejs/setup/absolute-path-imports/)
 
 <br/>
 

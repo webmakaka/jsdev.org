@@ -3,7 +3,7 @@ layout: page
 title: WebPack for TypeScript - make bundle without babel
 description: WebPack for TypeScript - make bundle without babel
 keywords: env, WebPack for TypeScript - make bundle without babel
-permalink: /setup/nodejs/typescript/webpack/
+permalink: /devtools/nodejs/setup/typescript/webpack/
 ---
 
 <br/>

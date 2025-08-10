@@ -30,7 +30,7 @@ vimawesome.com
 
 **Install NodeJS**
 
-**<a href="/setup/nodejs/">Nodejs should be installed</a>**
+**<a href="/devtools/nodejs/setup/">Nodejs should be installed</a>**
 
 <br/>
 
