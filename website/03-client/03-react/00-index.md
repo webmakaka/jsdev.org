@@ -62,7 +62,7 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 <br/>
 
-### [React.js environment for development](/setup/react/)
+### [React.js environment for development](/devtools/react/setup/)
 
 ### [Create simple react project manually](/client/react/create-simple-react-project-manually/)
 

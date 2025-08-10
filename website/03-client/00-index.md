@@ -24,7 +24,7 @@ permalink: /client/
 
 ### Angular
 
-[Angular](/setup/angular/)
+[Angular](/devtools/angular/setup/)
 
 <br/>
 

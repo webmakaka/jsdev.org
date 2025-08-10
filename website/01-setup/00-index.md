@@ -18,7 +18,7 @@ I'm working in ubuntu linux 20.04 LTS
 
 **Browser:**
 
-<a href="/setup/browser/chrome/">Chrome</a>
+<a href="/tools/browser/chrome/setup/">Chrome</a>
 
 <br/>
 
@@ -34,7 +34,7 @@ I'm working in ubuntu linux 20.04 LTS
 - <a href="/devtools/nodejs/setup/">Node.js</a>
 - <a href="/devtools/nodejs/setup/typescript/">Node.js + TypeScript</a>
 - <a href="/devtools/nodejs/setup/typescript/eslint/">Node.js + TypeScript + Eslint</a>
-- <a href="/setup/react/">React</a>
+- <a href="/devtools/react/setup/">React</a>
 - <a href="/setup/pre-commit/">Pre Commit</a>
 - <a href="/tools/containers/docker/setup/db/">Docker DataBases</a>
 
