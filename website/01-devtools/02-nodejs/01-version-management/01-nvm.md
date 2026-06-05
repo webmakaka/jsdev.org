@@ -28,7 +28,7 @@ https://github.com/creationix/nvm/releases
 $ LATEST_VERSION=$(curl --silent "https://api.github.com/repos/nvm-sh/nvm/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/')
 
 
-// v0.40.3
+// v0.40.5
 $ echo $LATEST_VERSION
 
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/${LATEST_VERSION}/install.sh | bash
@@ -44,9 +44,28 @@ CTRL^D, CTRL+ALT+T
 
 ```
 $ nvm --version
-0.40.3
+0.40.5
 ```
 
+
+
+<br/>
+
+### Install latest LTS Node.js 
+
+```
+// install latest LTS
+$ nvm install --lts
+
+$ nvm use --lts
+
+$ node --version
+v24.16.0
+
+$ nvm install-latest-npm
+```
+
+<!-- 
 
 <br/>
 
@@ -61,20 +80,6 @@ $ nvm install-latest-npm
 $ npx node -v
 ```
 
-
-<br/>
-
-### Install latest LTS Node.js 
-
-```
-// install latest LTS
-$ nvm install --lts
-
-$ nvm use --lts
-
-$ node --version
-v22.18.0
-```
 
 <br/>
 
@@ -111,6 +116,7 @@ $ ls -l $(which npx)
 
 ```
 
+-->
 
 or
 
@@ -152,16 +158,6 @@ $ {
 }
 ```
 
-<br/>
-
-### Install latest NPM
-
-```
-$ nvm install-latest-npm
-
-$ npm --version
-11.5.2
-```
 
 <br/>
 
